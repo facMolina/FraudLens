@@ -1,0 +1,13 @@
+# Salida del propio Graphify
+graphify-out/
+
+# Material original de las clases (pesado; vive en Teams/SharePoint)
+material/
+*.pdf
+*.pptx
+*.xlsx
+
+# Datos - nunca versionamos datos de transacciones
+data/
+*.csv
+*.parquet

@@ -1,0 +1,57 @@
+# Historial de aportes
+
+Quién hizo qué a lo largo del cuatrimestre.
+
+## Por qué existe este archivo
+
+El docente evalúa **participación individual** ("aportes en clase, conocimiento y dedicación
+demostrada en el proyecto") y **participación grupal**. Este registro es la evidencia.
+
+Existe además del historial de Git porque **buena parte del trabajo del TIF no pasa por el
+repositorio**: presentar en clase, hacer entrevistas, contactar gente del rubro, armar el pitch,
+coordinar al equipo. Nada de eso aparece en un `git log`, y todo eso es trabajo del proyecto.
+
+| Registro | Qué captura | Cómo se consulta |
+|---|---|---|
+| **Git** | Cambios en archivos. Automático, no se puede falsear | `git log --author="Nombre" --oneline` |
+| **Este archivo** | Todo lo demás | Se lee directo |
+
+## Cómo se carga
+
+Una fila por aporte, en la sesión en que se hizo. **No dejarlo para el final del cuatrimestre**:
+nadie se acuerda después, y se nota.
+
+Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Desarrollo` · `Gestión` · `Presentación`
+
+---
+
+## Registro
+
+| Fecha | Quién | Tipo | Aporte | Evidencia |
+|---|---|---|---|---|
+| *(previo)* | MDV | Gestión | Carga de la planilla de relevamiento inicial de propuestas TIF 2C 2026 | `TIF_2C2026_Clase1597_Britez.xlsx` |
+| 2026-09-01 | FM | Gestión | Armado de la estructura base del repositorio como centro de cómputos | [Bitácora](../bitacora/2026-09-01-armado-de-la-base.md) |
+| 2026-09-01 | FM | Documentación | Procesamiento y carga de la Clase 1 (51 diapositivas) con bajada de conceptos a FraudLens | [Clase 01](../docs/01-clases/clase-01-mvp-y-problema.md) |
+| 2026-09-01 | FM | Documentación | Glosario, ficha de proyecto, materia, entregables y 10 preguntas abiertas | [`docs/00-proyecto/`](../docs/00-proyecto/) |
+
+---
+
+## Resumen por integrante
+
+> Se actualiza antes de cada entrega. Sirve para detectar desbalances a tiempo, no para competir.
+
+| Integrante | Aportes registrados | Última participación |
+|---|---|---|
+| Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
+| Guerrero Rojas, Francisco Daniel (FGR) | 0 | — |
+| Lewinzon, Mateo (ML) | 0 | — |
+| Molina, Facundo Roman (FM) | 3 | 2026-09-01 |
+
+## Presentaciones en clase
+
+> La Clase 1 exige que **los presentadores de las Sprint Reviews roten semana a semana**.
+> Acá queda el registro de quién presentó qué.
+
+| Fecha | Instancia | Presentó |
+|---|---|---|
+| ⬜ | ⬜ | ⬜ |

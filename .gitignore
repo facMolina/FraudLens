@@ -1,0 +1,25 @@
+# Graphify
+graphify-out/
+
+# Material pesado de clases (vive en Teams/SharePoint)
+material/
+
+# Datos - los datasets NO se versionan
+data/
+*.csv
+*.parquet
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Entornos
+.venv/
+venv/
+__pycache__/
+.env
