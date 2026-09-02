@@ -181,6 +181,26 @@ agrupar variables continuas en clases y outliers en *"otros"*.
 
 ---
 
+## Método de trabajo exigido por el docente
+
+### 6 Sombreros para Pensar ✅ *(consigna del docente)*
+Método de **Edward de Bono** para analizar un problema desde seis perspectivas separadas, evitando
+que se mezclen en una sola discusión. **No pienses como una persona; pensá como un equipo.**
+
+| Sombrero | Rol | Qué aporta |
+|---|---|---|
+| ⚪ **Blanco** | Analista racional | Sólo hechos verificables **y qué datos faltan** |
+| 🔴 **Rojo** | Mente emocional | Emociones, miedos, intuiciones — **sin justificar** |
+| ⚫ **Negro** | Crítico estratégico | Riesgos y escenarios donde la decisión **fracasa** |
+| 🟡 **Amarillo** | Optimista estratégico | Oportunidades y valor si funciona |
+| 🟢 **Verde** | Pensamiento creativo | Ideas nuevas **sin filtrar** |
+| 🔵 **Azul** | Director estratégico | Integra todo y **propone la decisión** |
+
+Método completo y prompt del docente: [`docs/04-metodologia/seis-sombreros.md`](../04-metodologia/seis-sombreros.md).
+Decisión de adopción: [0003](../03-decisiones/0003-metodo-seis-sombreros.md).
+
+---
+
 ## Metodología ágil
 
 ### Sprint 🔜 *(Bloque 3)*

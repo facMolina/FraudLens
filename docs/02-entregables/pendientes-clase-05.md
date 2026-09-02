@@ -38,6 +38,10 @@ El [documento de FGR](../05-producto/requerimientos-funcionales-mvp.md) propone 
 
 ### 🎯 Bloque A — Definición previa *(hay que hacerlo primero)*
 
+> 🎩 **Todas las tarjetas de decisión llevan análisis de [6 Sombreros](../04-metodologia/seis-sombreros.md)** —
+> consigna del docente. El de A1 ya está hecho:
+> [`analisis/6-sombreros-usuario-objetivo.md`](../05-producto/analisis/6-sombreros-usuario-objetivo.md)
+
 #### A1 · Decidir los 3 perfiles de usuario a investigar
 - **Etiqueta:** 🟢 Producto · ⚫ Gestión
 - **Qué hay que hacer:** reunión corta de equipo para elegir los 3 posibles usuarios sobre los que se harán User Persona, Mapa de Empatía y Escenario Actual.

@@ -124,6 +124,8 @@ mediante un modelo de IA entrenado con datos históricos, para asistir en la dec
 | Saber qué se entrega y cuándo | [`docs/02-entregables/`](docs/02-entregables/) |
 | Saber por qué se decidió algo | [`docs/03-decisiones/`](docs/03-decisiones/) |
 | Saber cómo trabajamos | [`docs/04-metodologia/flujo-de-trabajo.md`](docs/04-metodologia/flujo-de-trabajo.md) |
+| **Analizar una decisión (6 Sombreros)** | [`docs/04-metodologia/seis-sombreros.md`](docs/04-metodologia/seis-sombreros.md) |
+| Ver los análisis ya hechos | [`docs/05-producto/analisis/`](docs/05-producto/analisis/) |
 | Cómo usamos Trello | [`docs/04-metodologia/trello.md`](docs/04-metodologia/trello.md) |
 | El problema, usuarios y producto | [`docs/05-producto/`](docs/05-producto/) |
 | Ver qué hizo cada uno | [`registro/historial-aportes.md`](registro/historial-aportes.md) |

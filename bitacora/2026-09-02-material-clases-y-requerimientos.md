@@ -218,3 +218,59 @@ montos, IDs y puntajes en columna.
 El conector de Trello **no permite asignar miembros a tarjetas** desde el asistente. Los
 responsables quedan escritos en la descripción de cada tarjeta; hay que asignarlos a mano cuando los
 integrantes entren al tablero.
+
+---
+
+## Quinta parte — Método de los 6 Sombreros
+
+El docente pidió aplicar el **método de los 6 Sombreros para Pensar** (Edward de Bono) a los temas
+del proyecto, y entregó un prompt específico para hacerlo con asistencia de IA.
+
+### Qué se hizo
+
+- [`docs/04-metodologia/seis-sombreros.md`](../docs/04-metodologia/seis-sombreros.md) — el método,
+  las reglas de aplicación y **el prompt del docente guardado textual**.
+- [Decisión 0003](../docs/03-decisiones/0003-metodo-seis-sombreros.md) — adopción del método.
+- [`docs/05-producto/analisis/`](../docs/05-producto/analisis/) — carpeta nueva, con plantilla e índice.
+- Término sumado al glosario. Regla 9 sumada a `CLAUDE.md`.
+- Tarjeta de referencia en Trello con el método.
+
+### Criterio de alcance
+
+FM dijo *"para todos los tickets"*. Se aplicó con un criterio explícito, porque un análisis de 6
+sombreros sobre *"invitar gente al tablero"* es ruido y el ruido tapa lo que sí importa:
+
+| Tipo de tarjeta | ¿Análisis? |
+|---|---|
+| Decisión entre opciones | ✅ Sí |
+| Entregable de la materia | ✅ Sí |
+| Tarea operativa | ❌ No |
+
+Criterio: **"¿esto se puede hacer mal de más de una manera?"**
+
+### Primer análisis: ¿quién es el usuario de FraudLens?
+
+[`6-sombreros-usuario-objetivo.md`](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md)
+
+Es la decisión que bloquea los entregables del 2/9. Lo que salió:
+
+- **El sombrero negro** encontró el problema central: el analista de fraude es el usuario más obvio
+  y **el menos accesible del mundo** — trabaja en bancos y no habla de sus controles antifraude.
+  Apostar todo a él es apostar a un punto único de falla.
+- **El sombrero rojo** nombró el sesgo activo: **elegir el usuario que le queda cómodo al prototipo
+  que ya existe**, en vez del que conviene al proyecto.
+- **El verde** aportó la idea que resuelve: **los tres niveles del dolor** — quien lo *sufre*
+  (consumidor), quien lo *decide* (analista), quien lo *paga* (comercio). Tres perfiles
+  estructuralmente distintos, con mapas de empatía que no se van a parecer.
+- **El azul** propuso esos tres perfiles con la **accesibilidad como filtro duro**, descartó
+  "administrador" (es un rol de configuración, no una persona con dolor propio) y dejó un plan B.
+
+**La contradicción que quedó abierta:** el negro dice que el analista es inaccesible, el amarillo
+dice que ML tiene contactos en el rubro. No es diferencia de opinión: **es una pregunta con
+respuesta, y la tiene ML**. Es la bisagra de la decisión y hay que preguntárselo antes de la clase.
+
+### Pendientes del análisis
+
+- ⬜ **El equipo tiene que reescribir el sombrero rojo.** El que está es un borrador visto desde
+  afuera; las emociones son del equipo, no de un modelo.
+- ⬜ **ML tiene que confirmar o descartar el acceso a expertos.**

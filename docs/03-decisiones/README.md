@@ -16,6 +16,7 @@ y eso se defiende mostrando el razonamiento.
 |---|---|---|---|
 | [0001](0001-repo-como-centro-de-computos.md) | Usar este repositorio como centro de cómputos del TIF | 2026-09-01 | ✅ Aceptada |
 | [0002](0002-graphify-como-capa-de-lectura.md) | Usar Graphify como capa de lectura del repositorio | 2026-09-01 | ✅ Aceptada |
+| [0003](0003-metodo-seis-sombreros.md) | Adoptar el método de los 6 Sombreros para las decisiones | 2026-09-02 | ✅ Aceptada |
 
 ## Reglas
 

@@ -65,6 +65,7 @@ tarjeta movida en Trello · commit con **su propio usuario de Git**.
 | Saber qué se entrega y cuándo | `docs/02-entregables/README.md` |
 | Saber por qué se decidió algo | `docs/03-decisiones/` |
 | Saber cómo trabajamos | `docs/04-metodologia/flujo-de-trabajo.md` |
+| **Analizar una decisión** | `docs/04-metodologia/seis-sombreros.md` (consigna del docente) |
 | Ver qué hizo cada uno | `registro/historial-aportes.md` + `git log --author` |
 | El prototipo que ya existe | `docs/05-producto/prototipo.md` |
 | Ver qué se hizo un día | `bitacora/` |
@@ -96,6 +97,17 @@ tarjeta movida en Trello · commit con **su propio usuario de Git**.
 
 8. **Borrador ≠ definición.** Un documento que un integrante pasó "para revisar" se guarda marcado
    como borrador y no se usa como fuente de verdad hasta que el equipo lo apruebe.
+
+9. **Toda decisión se analiza con los 6 Sombreros.** Es consigna del docente
+   (`docs/04-metodologia/seis-sombreros.md`, decisión 0003). Aplica a decisiones y entregables de la
+   materia, **no** a tareas operativas. Criterio: *"¿esto se puede hacer mal de más de una manera?"*.
+
+   Al aplicarlo:
+   - El sombrero **blanco** sólo usa hechos que aportó el equipo. **Nunca rellenes datos que no
+     tenés** — listalos como faltantes. Es la regla 7 aplicada a este método.
+   - El sombrero **rojo** lo escribe **el equipo**, no vos. Podés dejar un borrador marcado como tal.
+   - El análisis va en `docs/05-producto/analisis/6-sombreros-<tema>.md` y se linkea desde la
+     tarjeta de Trello.
 
 ## Cuando llega una clase nueva
 
