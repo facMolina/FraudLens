@@ -156,6 +156,21 @@ muy desbalanceados, así que *accuracy* no sirve.
 ## P-07
 ### ¿Quién es el usuario objetivo?
 
+> 📌 **Hipótesis de trabajo aportada por FM (2026-09-02)** — **no es una decisión del equipo ni
+> surge de User Research:**
+>
+> *"FraudLens es un producto **B2B para empresas fintech** que manejan tráfico de transacciones y
+> necesitan integrar nuestro sistema como **complemento** de su sistema antifraude existente,
+> aportando un filtro más específico y eficaz gracias a la IA, más un **dashboard de revisión** para
+> que su equipo tome decisiones."*
+>
+> Si esto se confirma, el **cliente** es la fintech y los **usuarios** son su equipo de fraude.
+> La [identidad visual](../05-producto/identidad-visual.md) se está construyendo sobre esta
+> hipótesis, declarándolo. **Si el research la contradice, se revisa.**
+>
+> Falta: validarla con el equipo y con datos reales.
+
+
 FraudLens "asiste en la decisión de aprobar, rechazar o revisar". ¿Quién toma esa decisión?
 
 - ¿Un **analista de fraude** que revisa una cola de casos? → el producto es un panel de revisión.

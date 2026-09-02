@@ -19,4 +19,5 @@ es lo único que tenemos definido.
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
 | [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
 | `metricas.md` | OKRs y KPIs | 4/11 | 🔲 Pendiente |
-| `identidad-visual.md` | Colorimetría, logo, tipografía y tono de marca | — | 🔨 En curso (FM) |
+| [`identidad-visual.md`](identidad-visual.md) | Brief de marca: tono, referencias, paleta y tipografía | — | 🔨 En curso (FM) |
+| [`prompts-nano-banana.md`](prompts-nano-banana.md) | Prompts listos para generar isotipos, paletas, mockup y tipografía | — | ✅ Listos para usar |

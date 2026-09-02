@@ -31,6 +31,20 @@ Desarrollar un prototipo capaz de analizar transacciones **en tiempo real** y es
 riesgo de fraude mediante un modelo de IA entrenado con datos históricos, permitiendo identificar
 comportamientos anómalos y **asistir en la decisión de aprobar, rechazar o revisar** una operación.
 
+## Hipótesis de trabajo sobre el usuario
+
+> 📌 **Aportada por FM el 2026-09-02. No está validada ni decidida en equipo.**
+
+FraudLens sería un producto **B2B para empresas fintech** que manejan tráfico de transacciones:
+integran nuestro sistema como **complemento** de su antifraude actual, sumando un filtro más
+específico gracias a la IA, más un **dashboard de revisión** para su equipo.
+
+Si se confirma: el **cliente** que paga es la fintech; los **usuarios** que lo usan todos los días
+son los analistas de su equipo de fraude.
+
+Queda registrada acá para que sea explícita y contrastable contra el research, no para darla por
+cierta. Ver [P-07](../00-proyecto/preguntas-abiertas.md#p-07).
+
 ## Lo que todavía no sabemos
 
 El enunciado describe una **oportunidad tecnológica**, no todavía un problema con dueño. Para que

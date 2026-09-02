@@ -48,6 +48,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | 2026-09-02 | FM | Documentación | Incorporación del método de los **6 Sombreros** (consigna del docente): método, plantilla, decisión 0003 y regla de alcance | [`seis-sombreros.md`](../docs/04-metodologia/seis-sombreros.md) |
 | 2026-09-02 | FM | Producto | Análisis de 6 Sombreros sobre **quién es el usuario de FraudLens** — la decisión que bloquea los entregables del 2/9 | [Análisis](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md) |
 | 2026-09-02 | FM | Gestión | Rutina de inicio de sesión con Trello obligatorio y auto-asignación de tickets, en README y CLAUDE.md | [README](../README.md) |
+| 2026-09-02 | FM | Gestión | Convención de tickets: taxonomía de 7 etiquetas, formato de tarjeta y comentario de resolución obligatorio | [Convención](../docs/04-metodologia/convencion-de-tickets.md) |
+| 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
 
 ---
 
@@ -60,7 +62,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
 | Lewinzon, Mateo (ML) | 2 | Clase 4 |
-| Molina, Facundo Roman (FM) | 13 | 2026-09-02 |
+| Molina, Facundo Roman (FM) | 15 | 2026-09-02 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
