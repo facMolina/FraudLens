@@ -23,6 +23,9 @@ respuesta, y si la respuesta cambia el rumbo del proyecto se registra además co
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
 | [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | 🔲 Abierta |
 | [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de FGR? | 🟡 | Equipo | 🔲 Abierta |
+| [P-16](#p-16) | ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto? | 🟢 | Docente | 🔲 Abierta |
+| [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🔴 | Docente | 🔲 Abierta |
+| [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente | 🔲 Abierta |
 
 ---
 
@@ -181,18 +184,23 @@ Cuando esté la respuesta, se documenta en `docs/05-producto/datos.md`.
 ## P-12
 ### ¿En qué estado está el User Research?
 
-La Clase 4 pide, para la clase siguiente:
+**🔲 Abierta** — FM pidió avanzar esto **después** de tener el repo listo y Trello conectado.
+
+La Clase 4 pide, para la **Clase 5 (que es la próxima)**:
 
 - Armar y realizar la difusión de **encuestas, entrevistas y observaciones — 400 respuestas en total**
 - **Design Thinking de al menos 3 posibles usuarios**: User Persona · Mapa de Empatía · Escenario Actual
 
-Falta saber:
+Lo que sí sabemos *(FM, 2026-09-02)*: en la Clase 4 el equipo trabajó en el **documento de
+requerimientos funcionales del MVP** y definió el nombre **FraudLens**. Es decir, **las herramientas
+de Design Thinking todavía no se aplicaron a FraudLens**.
+
+Falta confirmar:
 
 - ¿Ya se armó la encuesta? ¿Está difundida? ¿Cuántas respuestas hay hoy?
 - ¿Se hicieron entrevistas? ¿A quiénes?
-- ¿Están hechos los User Persona / Mapa de Empatía / Escenario Actual?
 
-**Es el pendiente más pesado del proyecto:** 400 respuestas no se juntan en dos días.
+🔴 **Es el pendiente más pesado del proyecto: 400 respuestas no se juntan en dos días.**
 
 ---
 
@@ -207,24 +215,29 @@ Del material de esas clases surgen entregables concretos. Falta saber cuáles ya
 | Clase 2 / 3 | Selección definitiva de la problemática | ✅ *(el docente aprobó — [P-02](#p-02))* |
 | Clase 3 | Árbol de Problemas | ⬜ |
 | Clase 3 | Análisis de causa raíz (**5 Por Qué**) | ⬜ |
-| Clase 4 | User Persona (× 3 usuarios) | ⬜ |
-| Clase 4 | Mapa de Empatía (× 3 usuarios) | ⬜ |
-| Clase 4 | Escenario Actual / AS-IS | ⬜ |
-| Clase 4 | User Journey Map | ⬜ |
-| Clase 4 | Encuestas / entrevistas / observaciones (400 respuestas) | ⬜ → [P-12](#p-12) |
+| Clase 4 | User Persona (× 3 usuarios) | ❌ **No** |
+| Clase 4 | Mapa de Empatía (× 3 usuarios) | ❌ **No** |
+| Clase 4 | Escenario Actual / AS-IS | ❌ **No** |
+| Clase 4 | User Journey Map | ❌ **No** |
+| Clase 4 | Encuestas / entrevistas / observaciones (400 respuestas) | ❌ **No** → [P-12](#p-12) |
+| *(fuera de consigna)* | Requerimientos funcionales del MVP | ✅ Hecho por FGR en la Clase 4 — [borrador](../05-producto/requerimientos-funcionales-mvp.md) |
+| *(fuera de consigna)* | Definición del nombre **FraudLens** | ✅ Hecho en la Clase 4 |
 
 ---
 
 ## P-14
 ### ¿Cuándo es la Clase 5 y qué pide?
 
-FM indicó que el equipo "ya va por la clase 5". Falta precisar:
+**🟡 Parcialmente resuelta** *(FM, 2026-09-02)*
 
-- ¿La Clase 5 **ya se dio** o **es la próxima**?
-- ¿Cuál es su fecha?
-- ¿Qué pide el docente para esa clase?
+> **La Clase 5 es la próxima** — todavía no se dio.
 
-Sin esto no se pueden armar bien los tickets de Trello de lo pendiente.
+Por lo tanto, lo que hay que llevar preparado es **lo que pidió la Clase 4**:
+
+1. Encuestas, entrevistas y observaciones difundidas — **400 respuestas en total**
+2. **User Persona · Mapa de Empatía · Escenario Actual** de al menos 3 posibles usuarios
+
+**Falta:** la **fecha** de la Clase 5 (depende del cronograma real → [P-04](#p-04)).
 
 ---
 
@@ -241,3 +254,52 @@ El equipo tiene que decidir:
 3. **Se posterga** hasta tener el User Research, porque define el usuario por adelantado.
 
 Los puntos a discutir están listados al final del propio documento.
+
+
+---
+
+## P-16
+### ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto?
+
+El deck de la Clase 3 trae un ejercicio de evaluación de problemas con cuatro ejes (áreas afectadas ·
+gravedad · duración · número de problemas simultáneos), pero está **redactado en primera persona y
+en clave personal/emocional** ("mi vida", "salud emocional").
+
+No queda claro del material si el docente lo usa tal cual, o como analogía para evaluar la
+**relevancia y persistencia** de un problema de producto.
+
+**Impacto:** bajo. Es una herramienta de apoyo, no un entregable. Pero si hay que aplicarla a
+FraudLens conviene saberlo antes del documento final.
+
+---
+
+## P-17
+### Las 400 respuestas, ¿son sólo de la encuesta o del total?
+
+La consigna dice: *"Armar y realizar la difusión de encuestas, entrevistas y observaciones
+(400 respuestas en total)"*.
+
+- **Lectura A:** 400 respuestas **de encuesta**, más entrevistas y observaciones aparte.
+- **Lectura B:** 400 en total sumando las tres técnicas.
+
+**Impacto: alto.** Cambia por completo el esfuerzo de difusión y a cuánta gente hay que llegar.
+Con 4 integrantes son **100 respuestas por persona** en el peor caso.
+
+---
+
+## P-18
+### Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles?
+
+La consigna dice: *"Design Thinking de al menos 3 posibles usuarios: User Persona, Mapa de empatía,
+Escenario actual"*.
+
+- **Lectura A:** 3 **perfiles/segmentos distintos** (por ejemplo: analista de fraude, administrador,
+  dueño de comercio) — cada uno con su Persona, Mapa y Escenario.
+- **Lectura B:** 3 **personas reales entrevistadas** del mismo perfil.
+
+**Impacto: alto.** Si es la lectura A, hay que definir **cuáles son nuestros 3 perfiles candidatos**
+antes de arrancar — y eso conecta directo con [P-07](#p-07).
+
+> El documento de FGR ya nombra tres actores humanos posibles (**sistema cliente**,
+> **analista de fraude**, **administrador**). Podrían ser el punto de partida, pero **eso hay que
+> decidirlo en equipo**, no darlo por hecho.

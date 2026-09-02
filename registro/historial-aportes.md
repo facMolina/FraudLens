@@ -36,6 +36,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | *(previo)* | FGR | Producto | Redacción de los requerimientos funcionales del MVP: 7 casos de uso, flujo, criterios de aceptación, no funcionales y definición de "MVP terminado" | [Requerimientos (borrador)](../docs/05-producto/requerimientos-funcionales-mvp.md) |
 | 2026-09-02 | FM | Gestión | Carga del material crudo de las Clases 2, 3 y 4; regla de formato Markdown para material de clase | [`docs/01-clases/material/`](../docs/01-clases/material/) |
 | 2026-09-02 | FM | Documentación | Incorporación del documento de FGR al repo y resolución de las preguntas P-01, P-02 y P-03 | [Bitácora](../bitacora/2026-09-02-material-clases-y-requerimientos.md) |
+| 2026-09-02 | FM | Documentación | Notas trabajadas de las Clases 2, 3 y 4 con bajada a FraudLens, y 15 términos nuevos al glosario | [`docs/01-clases/`](../docs/01-clases/) |
+| 2026-09-02 | FM | Gestión | Redacción de los 17 tickets pendientes para la Clase 5 | [Pendientes Clase 5](../docs/02-entregables/pendientes-clase-05.md) |
 
 ---
 
@@ -48,7 +50,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 1 | *(previo)* |
 | Lewinzon, Mateo (ML) | 0 | — |
-| Molina, Facundo Roman (FM) | 5 | 2026-09-02 |
+| Molina, Facundo Roman (FM) | 7 | 2026-09-02 |
 
 > ⚠️ **ML todavía no tiene aportes registrados.** No significa que no haya trabajado — significa que
 > no está cargado. Hay que completar los aportes previos de todos los integrantes.

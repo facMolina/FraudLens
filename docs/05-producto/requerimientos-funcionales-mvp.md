@@ -6,6 +6,7 @@
 > |---|---|
 > | **Autor** | Francisco Daniel Guerrero Rojas (FGR) |
 > | **Origen** | `FraudLens - Requerimientos funcionales del MVP.docx` |
+| **Cuándo se hizo** | En la **Clase 4**, junto con la definición del nombre FraudLens |
 > | **Estado** | 🟡 **Borrador para revisión del equipo** |
 > | **Incorporado al repo** | 2026-09-02 por FM |
 >
@@ -267,7 +268,7 @@ El MVP estará completo cuando pueda demostrarse este recorrido:
 | 3 | Autenticación + roles (admin vs analista) están **dentro** del alcance | ¿Es necesario para demostrar valor, o es NO MVP? |
 | 4 | No hay **métricas de evaluación del modelo** | En fraude los datos están desbalanceados; hay que decidir cómo se mide que el modelo sirve |
 | 5 | Los umbrales de ejemplo (60 / 85) y los rangos de la tabla de clasificación **no coinciden entre sí** | La tabla marca "medio" hasta 59 y "alto" desde 60; conviene unificar el criterio |
-| 6 | Está escrito **antes del User Research** | La materia exige que el producto salga de la evidencia. Habrá que poder explicar cómo esto se valida (o se corrige) con los datos |
+| 6 | Está escrito **antes del User Research** | La Clase 4 dice que Design Thinking sirve para resolver el problema *"antes de escribir la primera línea de código"*, y que el 90% de las startups fallan por construir algo que nadie necesita. Si el research contradice lo asumido acá, **el research gana** |
 
 **Ninguno de estos puntos dice que el documento esté mal.** Está muy completo y sirve como base.
 Son los temas a cerrar antes de convertirlo en definición.

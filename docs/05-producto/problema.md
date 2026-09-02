@@ -3,6 +3,18 @@
 > Estado: 🟡 **Iniciado.** Lo que está acá viene de la planilla del docente y de la Clase 1.
 > Falta todo el User Research, que es lo que le da sustento real.
 
+## Cómo llegamos acá
+
+| Clase | Qué pasó |
+|---|---|
+| **Clase 2** | El equipo expuso las ideas de problema que tenía. Todavía se evaluaban varios proyectos |
+| **Clase 3** | Se decidió por este sistema. **El docente lo aprobó** |
+| **Clase 4** | Se escribieron los [requerimientos funcionales del MVP](requerimientos-funcionales-mvp.md) y se definió el nombre **FraudLens** |
+
+> ⚠️ El **User Research todavía no se hizo**. Las herramientas de la Clase 4 (User Persona, Mapa de
+> Empatía, Escenario Actual) están pendientes, y son la consigna para la Clase 5.
+> Ver [P-12](../00-proyecto/preguntas-abiertas.md#p-12).
+
 ## Enunciado (planilla del docente)
 
 Los sistemas tradicionales de detección de fraude suelen apoyarse en **reglas predefinidas**, que
@@ -32,6 +44,20 @@ sea un problema del TIF hace falta responder:
 | **¿Por qué no está resuelto?** | Si fuera fácil ya existiría. La respuesta es parte de la diferenciación |
 
 Estas se responden con **User Research con datos reales** — exigencia explícita del docente.
+
+## Reformular como "¿Cómo podríamos nosotros…?" *(Clase 4)*
+
+El docente enseñó una fórmula para pasar de una descripción vaga a un problema específico:
+
+| ❌ En lugar de | ✅ Definí |
+|---|---|
+| "Hacer una app de dietas" | "¿Cómo podríamos ayudar a **estudiantes universitarios sin tiempo** a planificar comidas saludables **con presupuesto limitado**?" |
+
+Nuestro enunciado actual describe una **oportunidad tecnológica**, no un usuario con una restricción.
+Falta reescribirlo con esta fórmula — pero **no se puede hacer bien sin saber quién es el usuario**
+([P-07](../00-proyecto/preguntas-abiertas.md#p-07)), y eso sale del User Research.
+
+🔲 **Pendiente.** No lo completamos a ojo.
 
 ## El ángulo del proyecto
 

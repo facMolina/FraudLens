@@ -92,9 +92,11 @@ activarlo.
 
 ### Importante sobre la cuenta
 
-El conector opera **con los permisos del usuario que autorizó**. Si el tablero es de otro
-integrante, esa cuenta tiene que tener acceso al tablero — o hay que sumar al usuario que conecta
-como miembro del tablero.
+El conector opera **con los permisos del usuario que autorizó**.
+
+> ✅ **En nuestro caso:** el tablero lo creó **Francisco (FGR)**, pero **Facundo (FM) es admin**.
+> Con eso alcanza: FM puede conectar desde su propia cuenta y el asistente va a ver el tablero
+> con permisos de administrador.
 
 ### Qué va a poder hacer una vez conectado
 

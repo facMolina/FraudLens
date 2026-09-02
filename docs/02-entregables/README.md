@@ -60,6 +60,11 @@ la sumatoria de lo que vamos produciendo clase a clase:
 | Producto | MVP funcionando + demo | ⬜ | 🔲 |
 | Retrospectivas | Las 4 retros + Big Retro | ⬜ | 🔲 |
 
+## Pendientes inmediatos
+
+👉 **[Pendientes para la Clase 5](pendientes-clase-05.md)** — 17 tickets redactados y listos para
+cargar en Trello, con lo que pidió la Clase 4 más la deuda de clases anteriores.
+
 ## Checklist previo a cada entrega
 
 - [ ] Todas las notas de clase cargadas en [`docs/01-clases/`](../01-clases/)

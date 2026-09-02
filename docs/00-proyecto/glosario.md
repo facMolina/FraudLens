@@ -79,6 +79,108 @@ de vidrio hay en Seattle?"*).
 
 ---
 
+## Segmentación y problema *(Clases 2 y 3)*
+
+### Segmentación demográfica ✅ *(Clase 2)*
+Responde a la pregunta **¿quién es nuestro cliente?** Se basa en variables como **edad, género,
+tamaño de familia, ingresos, ocupación, religión, raza y nacionalidad**.
+
+> El docente muestra que **no alcanza sola**, con el contraste **Príncipe Carlos vs. Ozzy Osbourne**:
+> mismos datos demográficos, personas completamente distintas.
+
+### Segmentación por comportamiento ✅ *(Clase 2)*
+Divide a la población según su **comportamiento, uso y hábitos**.
+
+> 🎯 **Aplicado a FraudLens:** es la segmentación que nos sirve. Nuestro usuario no se define por
+> edad ni ingresos, sino por **qué hace** con las transacciones.
+
+### Segmentación geográfica ✅ *(Clase 2)*
+Divide según ubicación. Ejemplo del deck: las ediciones locales de **Vogue**.
+
+### Árbol de Problemas ✅ *(Clases 2 y 3)*
+Herramienta que separa **causas** → **problema central** → **efectos/consecuencias**.
+
+Ejemplo del deck: *Frecuentes accidentes de ómnibus* como problema central, con causas
+(conductores imprudentes, vehículos en malas condiciones, calles en mal estado) y efectos
+(pérdida de confianza, pasajeros heridos, pasajeros que llegan tarde).
+
+### Fuentes de un problema ✅ *(Clases 2 y 3)*
+Necesidades insatisfechas · Debilidades de la competencia · Feedback de usuarios · Innovación/Tecnología.
+
+### 5 Por Qué (5 Why) ✅ *(Clases 2 y 3)*
+Análisis de causa raíz proveniente de **Lean**: preguntar "¿por qué?" repetidamente hasta llegar a
+la causa de fondo.
+
+> *"No debemos dejarnos engañar por lo que a primera vista parece la causa de un problema.
+> Nuestra solución sería ineficaz."*
+
+### Criterios de evaluación de un problema ✅ *(Clase 3)*
+Cuatro ejes: **áreas a las que afecta** · **gravedad** · **duración** · **número de problemas
+simultáneos**. Ver [nota de la Clase 3](../01-clases/clase-03-seleccion-problema.md#ejercicio-identifica-tu-problema).
+
+---
+
+## Design Thinking y User Research *(Clase 4)*
+
+### Design Thinking ✅ *(Clase 4)*
+Metodología **centrada en el usuario** para la resolución de problemas complejos, que busca generar
+soluciones innovadoras mediante un enfoque **iterativo y no lineal**. Se basa en la **empatía**, la
+**creatividad** y la **experimentación**.
+
+**Las 5 etapas:** Empatizar (Entender) → Definir (Enfocar) → Idear (Explorar) → Prototipar
+(Construir) → Testear (Aprender). **No es una línea recta.**
+
+> *"Design Thinking asegura que estás construyendo el producto correcto; Agile asegura que lo estás
+> construyendo correctamente."*
+
+### La Trinidad del Desarrollo de Software ✅ *(Clase 4)*
+La intersección de tres ejes es la **innovación / tu MVP**:
+
+| Eje | Pregunta |
+|---|---|
+| **Deseabilidad** (Humanos) | ¿Lo quieren? |
+| **Factibilidad** (Tecnología) | ¿Podemos programarlo? |
+| **Viabilidad** (Negocio) | ¿Tiene sentido financiero? |
+
+### User Persona ✅ *(Clase 4)*
+Representación del usuario tipo. El formato del docente tiene tres bloques:
+**Características** (edad, familia, ocupación, intereses, localización) · **Momento/Escenario** ·
+**Motivaciones**.
+
+### Mapa de Empatía ✅ *(Clase 4)*
+Herramienta para **"ponernos en los zapatos"** del usuario. Cuadrantes: **¿Qué piensa y siente?** ·
+**¿Qué oye?** · **¿Qué ve?** · **¿Qué dice y hace?** · **Esfuerzos** (miedos, frustraciones,
+obstáculos) · **Resultados** (deseos, medida del éxito).
+
+### Escenario Actual / AS-IS ✅ *(Clase 4)*
+Cómo se comporta la persona con el proceso **hoy**, para identificar sus **puntos de dolor**.
+
+> *"¡La solución que seleccionemos debe pasar por estos puntos de dolor!"*
+
+### User Journey Map / Customer Journey Map ✅ *(Clase 4)*
+Mapa con **todas las etapas** por las que pasa el usuario durante un ciclo de compra o potencial
+compra. Objetivo: **determinar cómo se sienten los clientes** e identificar puntos de dolor.
+
+### "¿Cómo podríamos nosotros…?" ✅ *(Clase 4)*
+Fórmula para redactar el problema en la etapa **Definir**. Obliga a nombrar al usuario y su
+restricción concreta.
+
+| ❌ | ✅ |
+|---|---|
+| "Hacer una app de dietas" | "¿Cómo podríamos ayudar a **estudiantes universitarios sin tiempo** a planificar comidas saludables **con presupuesto limitado**?" |
+
+### NS/NC ✅ *(Clase 4)*
+**"No Sabe / No Contesta"**. Opción de respuesta para cuando el encuestado desconoce la información
+(NS) o prefiere no responder (NC). Evita forzar una opinión y **mejora la calidad de los datos**.
+
+### Buenas prácticas de encuesta ✅ *(Clase 4)*
+Evitar preguntas de **"respuesta ideal"** (que inducen la respuesta) · limitar las preguntas
+abiertas y hacerlas opcionales · usar **rangos impares** (3, 5 o 7 opciones) con punto medio neutro ·
+**ordenar** las respuestas y mantener el orden · agregar *"Otros"* y *"NS/NC"* · **anonimizar** ·
+agrupar variables continuas en clases y outliers en *"otros"*.
+
+---
+
 ## Metodología ágil
 
 ### Sprint 🔜 *(Bloque 3)*
@@ -102,14 +204,11 @@ Se dictan en el bloque de planificación. Definiciones a completar cuando se vea
 
 ## Diseño y experiencia
 
-### Design Thinking 🔜 *(Bloque 1)*
-Metodología de diseño centrada en el usuario. Etapas del temario: **Research · Ideación · Prototipo**.
-
 ### UX / UI · Heurísticas 🔜 *(Bloque 2)*
 Experiencia de usuario e interfaz. Hay un **Taller de Diseño UX/UI** en el Sprint 2.
 
-### Segmentación de usuarios / Target 🔜 *(Clase 2)*
-Definir a quién le hablamos.
+### Segmentación de usuarios / Target ✅ *(Clase 2)*
+Definir a quién le hablamos. Ver la sección [Segmentación y problema](#segmentación-y-problema-clases-2-y-3).
 
 ---
 
