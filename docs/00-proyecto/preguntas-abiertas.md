@@ -203,8 +203,11 @@ cargaron las tarjetas reales del proyecto.
 
 Detalle en [`docs/04-metodologia/trello.md`](../04-metodologia/trello.md).
 
-⚠️ **Queda pendiente lo más importante:** el tablero tiene **un solo miembro (FGR)**. Hasta que
-entren los otros tres, ninguna tarjeta puede tener dueño.
+✅ *(2026-09-02)* **Los 4 integrantes ya están en el tablero** (MDV · FGR · ML · FM), así que las
+tarjetas ya pueden tener dueño.
+
+⚠️ La asignación hay que hacerla **a mano**: el conector de Trello no puede asignar miembros a
+tarjetas. El responsable queda escrito en la descripción y cada persona se suma con "Unirme".
 
 ---
 

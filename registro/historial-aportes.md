@@ -41,6 +41,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Diseño | Identidad visual: paleta de marca y escala de riesgo con contrastes WCAG medidos nivel por nivel | [`identidad/paleta.md`](../docs/05-producto/identidad/paleta.md) |
 | 2026-09-02 | FM | Diseño | Exploración de 27 símbolos con IA, filtrado a 3 finalistas con criterios de legibilidad y lectura no deseada | [Análisis de generación](../docs/05-producto/identidad/analisis-generacion-01.md) |
 | 2026-09-02 | FM | Presentación | Presentación de identidad visual para el equipo: 14 páginas en Canva, con el logo montado sobre la tipografía y las tres propuestas finales | [Propuesta](../docs/05-producto/identidad/propuesta-canva.md) · [Canva](https://www.canva.com/design/DAHUDsuQPB8) |
+| 2026-09-02 | FM | Gestión | Incorporación de los 4 integrantes al tablero de Trello — habilita la evidencia de participación individual, que es ítem de evaluación | [Tarjeta](https://trello.com/c/dsRjKzeR) |
 | 2026-09-02 | FM | Documentación | Incorporación del documento de FGR al repo y resolución de las preguntas P-01, P-02 y P-03 | [Bitácora](../bitacora/2026-09-02-material-clases-y-requerimientos.md) |
 | 2026-09-02 | FM | Documentación | Notas trabajadas de las Clases 2, 3 y 4 con bajada a FraudLens, y 15 términos nuevos al glosario | [`docs/01-clases/`](../docs/01-clases/) |
 | 2026-09-02 | FM | Gestión | Redacción de los 17 tickets pendientes para la Clase 5 | [Pendientes Clase 5](../docs/02-entregables/pendientes-clase-05.md) |
@@ -65,7 +66,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
 | Lewinzon, Mateo (ML) | 2 | Clase 4 |
-| Molina, Facundo Roman (FM) | 18 | 2026-09-02 |
+| Molina, Facundo Roman (FM) | 19 | 2026-09-02 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

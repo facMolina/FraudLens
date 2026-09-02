@@ -368,3 +368,24 @@ lo mismo.
 | Corregir el rojo CRITICAL en modo oscuro | FM | Antes de que entre al código |
 | Elegir entre Inter e IBM Plex Sans | Equipo | Próxima reunión |
 | Regenerar las láminas en violeta (prompts 5-7) si se quieren usar | FM | Opcional |
+
+---
+
+## Octava parte — el tablero ya tiene a los cuatro
+
+FM confirmó que **los 4 integrantes están en el tablero de Trello** (MDV · FGR · ML · FM). La
+tarjeta [Sumar a los 4 integrantes](https://trello.com/c/dsRjKzeR) pasó a **✅ Hecho** con su
+comentario de resolución.
+
+**Por qué era el pendiente más caro:** el tablero es ítem de evaluación y el docente evalúa
+participación individual además de grupal. Con un solo miembro no había forma de demostrar quién
+hizo qué. Era un bloqueante blando de todas las asignaciones.
+
+**Lo que queda habilitado:** ahora cada tarjeta fuera del Backlog puede tener dueño. La regla sigue
+siendo una persona por tarjeta y máximo 1-2 en 🔨 En curso.
+
+> ⚠️ La asignación es **manual**. El conector de Trello no puede asignar miembros a tarjetas: el
+> responsable queda escrito en la descripción y cada uno se suma con "Unirme".
+
+Actualizado también [`preguntas-abiertas.md`](../docs/00-proyecto/preguntas-abiertas.md) (P-09), que
+seguía diciendo que el tablero tenía un solo miembro.
