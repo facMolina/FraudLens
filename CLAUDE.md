@@ -23,13 +23,42 @@ el docente (MVP, Sprint Review, User Research, BMC, P&L, OKR, KPI, The Pitch).
 | Lewinzon, Mateo | 1151641 | ML |
 | Molina, Facundo Roman | 1115862 | FM |
 
-Docente: **Daniel Britez**. Tablero: https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude
+Docente: **Lic. Daniel Britez**.
+Tablero: https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude
+
+**Quién hizo qué** (importa para no atribuir mal):
+- **ML** propuso el tema y escribió los requerimientos funcionales del MVP.
+- **FGR** creó el tablero de Trello y armó el prototipo (backend con Claude, frontend con Codex).
+- **MDV** cargó la planilla de relevamiento inicial del docente.
+- **FM** armó este repositorio.
+
+## ⚠️ No corras `/init` en este repo
+
+Este `CLAUDE.md` está escrito a mano con las reglas del proyecto. `/init` lo pisaría con un resumen
+automático de peor calidad. Si el usuario lo pide, avisale antes de sobrescribir.
+
+## Cómo arranca una sesión de trabajo
+
+**Regla del equipo: toda sesión arranca desde un ticket de Trello.**
+
+Cuando alguien abre una sesión, antes de escribir código o documentos:
+
+1. Preguntá **de qué ticket viene** y **quién es** (alias: MDV / FGR / ML / FM), si no lo dijo.
+2. Leé el ticket en Trello si el conector está disponible.
+3. Leé `docs/00-proyecto/cronograma.md` para saber qué se viene y con qué urgencia.
+4. Revisá `docs/00-proyecto/preguntas-abiertas.md` — puede que lo que va a hacer dependa de algo
+   sin definir.
+5. Decile qué entendiste y qué te falta saber **antes** de empezar.
+
+Al cerrar la sesión, recordale el checklist: `.md` actualizado · bitácora · historial de aportes ·
+tarjeta movida en Trello · commit con **su propio usuario de Git**.
 
 ## Dónde está cada cosa
 
 | Necesito… | Voy a… |
 |---|---|
 | Saber qué es el proyecto | `docs/00-proyecto/ficha-proyecto.md` |
+| **Fechas, parciales, entregas** | `docs/00-proyecto/cronograma.md` ← el deck de la Clase 1 NO sirve para esto |
 | Una definición | `docs/00-proyecto/glosario.md` |
 | Saber qué falta definir | `docs/00-proyecto/preguntas-abiertas.md` |
 | Ver qué se dio en una clase | `docs/01-clases/` (nota trabajada) · `docs/01-clases/material/` (deck crudo) |
@@ -37,6 +66,7 @@ Docente: **Daniel Britez**. Tablero: https://trello.com/b/iUaTi33p/fraudlens-ana
 | Saber por qué se decidió algo | `docs/03-decisiones/` |
 | Saber cómo trabajamos | `docs/04-metodologia/flujo-de-trabajo.md` |
 | Ver qué hizo cada uno | `registro/historial-aportes.md` + `git log --author` |
+| El prototipo que ya existe | `docs/05-producto/prototipo.md` |
 | Ver qué se hizo un día | `bitacora/` |
 
 ## Reglas al trabajar en este repo
@@ -101,7 +131,14 @@ extraer. `*.pdf`, `*.pptx` y `*.xlsx` están en `.gitignore`.
 
 ## Contexto de la materia que conviene tener presente
 
+- **Cursada:** miércoles 18:45 a 22:15. **1° Parcial 16/9 · 2° Parcial 11/11.**
+  Hay una **clase remota sincrónica el sábado 5/9 de 9 a 13 hs**.
 - El docente exige **datos reales** para el User Research. No se puede inventar evidencia.
+  *(Las "400 respuestas" que pidió la Clase 4 son una guía, no una obligación — pero el número que
+  elijamos hay que justificarlo.)*
+- **Honestidad académica:** el cronograma advierte que se sanciona. El prototipo parte de un
+  notebook público de Kaggle y de código generado con IA: eso está bien **siempre que esté citado**
+  y que el equipo pueda explicar lo que muestra. Ver `docs/05-producto/prototipo.md`.
 - Los **tableros de trabajo (Trello/Jira) son un ítem de evaluación**.
 - El **MVP tiene que ser chico**. El error clásico es irse de alcance. Cuando el equipo agregue
   funcionalidades, contrastar contra la lista de "NO MVP" en `docs/05-producto/problema.md`.

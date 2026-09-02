@@ -33,11 +33,16 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | 2026-09-01 | FM | Gestión | Armado de la estructura base del repositorio como centro de cómputos | [Bitácora](../bitacora/2026-09-01-armado-de-la-base.md) |
 | 2026-09-01 | FM | Documentación | Procesamiento y carga de la Clase 1 (51 diapositivas) con bajada de conceptos a FraudLens | [Clase 01](../docs/01-clases/clase-01-mvp-y-problema.md) |
 | 2026-09-01 | FM | Documentación | Glosario, ficha de proyecto, materia, entregables y 10 preguntas abiertas | [`docs/00-proyecto/`](../docs/00-proyecto/) |
-| *(previo)* | FGR | Producto | Redacción de los requerimientos funcionales del MVP: 7 casos de uso, flujo, criterios de aceptación, no funcionales y definición de "MVP terminado" | [Requerimientos (borrador)](../docs/05-producto/requerimientos-funcionales-mvp.md) |
+| *(previo)* | ML | Producto | **Propuso el tema del proyecto.** Es el referente del rubro del equipo y tiene acceso a información de otros expertos | — |
+| Clase 4 | ML | Producto | Redacción de los requerimientos funcionales del MVP: 7 casos de uso, flujo, criterios de aceptación, no funcionales y definición de "MVP terminado" | [Requerimientos (borrador)](../docs/05-producto/requerimientos-funcionales-mvp.md) |
+| *(previo)* | FGR | Desarrollo | **Prototipo de FraudLens**: backend generado con Claude, frontend con Codex y ajustado al backend, sobre la base de un notebook de Kaggle y del documento de requerimientos | [Prototipo](../docs/05-producto/prototipo.md) |
+| *(previo)* | FGR | Gestión | Creación del tablero de Trello | [Tablero](https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude) |
 | 2026-09-02 | FM | Gestión | Carga del material crudo de las Clases 2, 3 y 4; regla de formato Markdown para material de clase | [`docs/01-clases/material/`](../docs/01-clases/material/) |
 | 2026-09-02 | FM | Documentación | Incorporación del documento de FGR al repo y resolución de las preguntas P-01, P-02 y P-03 | [Bitácora](../bitacora/2026-09-02-material-clases-y-requerimientos.md) |
 | 2026-09-02 | FM | Documentación | Notas trabajadas de las Clases 2, 3 y 4 con bajada a FraudLens, y 15 términos nuevos al glosario | [`docs/01-clases/`](../docs/01-clases/) |
 | 2026-09-02 | FM | Gestión | Redacción de los 17 tickets pendientes para la Clase 5 | [Pendientes Clase 5](../docs/02-entregables/pendientes-clase-05.md) |
+| 2026-09-02 | FM | Gestión | Carga del cronograma oficial 2C 2026 y corrección de todas las fechas del proyecto | [Cronograma](../docs/00-proyecto/cronograma.md) |
+| 2026-09-02 | FM | Gestión | Limpieza y rearmado del tablero de Trello: archivado de 14 tarjetas de plantilla, listas en español y 15 tarjetas reales | [Tablero](https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude) |
 
 ---
 
@@ -48,12 +53,15 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 1 | *(previo)* |
-| Lewinzon, Mateo (ML) | 0 | — |
-| Molina, Facundo Roman (FM) | 7 | 2026-09-02 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
+| Lewinzon, Mateo (ML) | 2 | Clase 4 |
+| Molina, Facundo Roman (FM) | 9 | 2026-09-02 |
 
-> ⚠️ **ML todavía no tiene aportes registrados.** No significa que no haya trabajado — significa que
-> no está cargado. Hay que completar los aportes previos de todos los integrantes.
+> ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
+> como *(previo)*.
+
+> 📝 **Corrección (2026-09-02):** en una primera carga se atribuyó el documento de requerimientos
+> funcionales a FGR. **Lo escribió ML.** FGR aportó el prototipo y el tablero de Trello.
 
 ## Presentaciones en clase
 

@@ -49,43 +49,11 @@ funcionalidades que aporten valor a una empresa o a una necesidad general, como 
 
 ## Plan de trabajo
 
-> ⚠️ El deck de Clase 1 (v1.2) trae el cronograma del **primer cuatrimestre** (09/03 a 20/07).
-> Nuestro período es **2C 2026**. Las fechas de abajo son la **estructura** del cursado, no las
-> fechas reales. Hay que reemplazarlas por el calendario 2C 2026.
-> Ver [P-04](preguntas-abiertas.md#p-04).
-
-### Bloque 1 — Definición
-
-| Clase | Contenido |
-|---|---|
-| 1 | Presentación de la materia · Problema · MVP · Equipos |
-| 2 | Segmentación de usuarios / Target · **Selección de Problema** |
-| 3 | Encuesta · Entrevista · Observación · Design Thinking |
-| 4 | Ideación · Solución · Roadmap · Océano Azul · Benchmarking |
-
-### Bloque 2 — Planificación
-
-| Clase | Contenido |
-|---|---|
-| 5 | Business Model Canvas · Estimación de Costos P&L |
-| 6 | SCRUM · KANBAN · Sprints · Estimación de tareas · Historias de Usuario |
-| 7 | Taller de Oratoria · Taller de Escritura · Sesión de Coaching de Equipos |
-
-### Bloque 3 — Ejecución (4 Sprints)
-
-| Sprint | Hitos |
-|---|---|
-| **Sprint 1** | 🚨 **Primera Entrega** · Taller de Retrospectivas · Comienzo de desarrollo MVP · Retrospectiva Grupal 1 |
-| **Sprint 2** | Sprint Review 1 · Desarrollo MVP · **Taller de Diseño UX/UI** · Retrospectiva Grupal 2 |
-| **Sprint 3** | 🚨 **Segunda Entrega** · Sprint Review 2 · Desarrollo MVP · Retrospectiva Grupal 3 |
-| **Sprint 4** | Sprint Review 3 · Desarrollo MVP · Retrospectiva Grupal 4 · OKRs/KPIs |
-
-### Bloque 4 — Cierre
-
-| Instancia | Contenido |
-|---|---|
-| Anteúltima | Sprint Review 4 · **Simulacro The Pitch** · 🚨 **Entrega de documentación Final** · Big Retro |
-| Últimas | **The Pitch** · **Presentación Final** |
+> ⛔ **El plan de trabajo del deck de la Clase 1 NO aplica.** Correspondía al primer cuatrimestre
+> (09/03 → 20/07) y su estructura (4 sprints, 2 "entregas") **no coincide** con la cursada real.
+>
+> 📅 **El cronograma vigente es** [`cronograma.md`](cronograma.md): 18 clases de agosto a diciembre,
+> **2 parciales** (16/9 y 11/11), y una **clase remota sincrónica el sábado 5/9 de 9 a 13 hs**.
 
 ## Evaluación
 
@@ -102,7 +70,8 @@ funcionalidades que aporten valor a una empresa o a una necesidad general, como 
 ### Para aprobar la cursada
 
 - **75%** de asistencia a las clases
-- Aprobar las **2 instancias** de evaluación previa (Primera y Segunda Entrega)
+- Aprobar las **2 instancias** de evaluación previa → según el cronograma oficial son
+  **1° Parcial (16/9)** y **2° Parcial (11/11)**
 - Entrega del **documento final y producto digital**
 - **The Pitch**: presentación, defensa y demo **con todos los integrantes del equipo**
 

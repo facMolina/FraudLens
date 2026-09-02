@@ -11,8 +11,8 @@ respuesta, y si la respuesta cambia el rumbo del proyecto se registra además co
 | [P-01](#p-01) | ¿Cuál es el título oficial del proyecto? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-02](#p-02) | ¿El problema ya está aprobado por los docentes? | 🔴 | Docente | ✅ **Resuelta** |
 | [P-03](#p-03) | ¿El equipo queda con 4 integrantes? | 🔴 | Docente | ✅ **Resuelta** |
-| [P-04](#p-04) | ¿Cuál es el calendario real de 2C 2026? | 🔴 | Docente | 🔲 Abierta |
-| [P-05](#p-05) | ¿Dónde vive el código del MVP? | 🟡 | Equipo | 🔲 Abierta |
+| [P-04](#p-04) | ¿Cuál es el calendario real de 2C 2026? | 🔴 | Docente | ✅ **Resuelta** |
+| [P-05](#p-05) | ¿Dónde vive el código del MVP? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-06](#p-06) | ¿Qué datos reales vamos a usar? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🔲 Abierta |
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | 🔲 Abierta |
@@ -24,7 +24,9 @@ respuesta, y si la respuesta cambia el rumbo del proyecto se registra además co
 | [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | 🔲 Abierta |
 | [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de FGR? | 🟡 | Equipo | 🔲 Abierta |
 | [P-16](#p-16) | ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto? | 🟢 | Docente | 🔲 Abierta |
-| [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🔴 | Docente | 🔲 Abierta |
+| [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🟢 | Docente | ✅ **Resuelta** |
+| [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente | 🔲 Abierta |
+| [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente | 🔲 Abierta |
 | [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente | 🔲 Abierta |
 
 ---
@@ -71,31 +73,44 @@ cada uno carga más. Es un motivo más para llevar la documentación al día en 
 ## P-04
 ### ¿Cuál es el calendario real de 2C 2026?
 
-**🔲 Abierta** — FM confirmó que **el cronograma del deck de Clase 1 hay que ignorarlo** (es del 1C)
-y que va a pasar el cronograma real.
+**✅ Resuelta** *(FM, 2026-09-02)* — FM adjuntó el cronograma oficial de la cátedra.
 
-Hace falta:
-- Fecha de cada clase
-- Fecha de la **Primera Entrega** y de la **Segunda Entrega**
-- Fechas de inicio/fin de cada uno de los **4 Sprints**
-- Fecha de **entrega de documentación final**, **Simulacro The Pitch** y **The Pitch**
-- Fecha del **recuperatorio** (última clase del cuatrimestre)
+📅 **Cargado completo en [`cronograma.md`](cronograma.md).**
 
-**Impacto:** sin esto no se puede planificar nada. Es lo primero a completar en
-[`docs/02-entregables/README.md`](../02-entregables/README.md).
+Lo esencial:
+
+| | |
+|---|---|
+| Cursada | **Miércoles 18:45 a 22:15** |
+| 1° Parcial | **16/9** |
+| 2° Parcial | **11/11** |
+| Entrega documentación final | **18/11** y **2/12** |
+| Recuperatorio / Final adelantado | **25/11** |
+| Final regular | **9/12** |
+| ⚠️ Clase remota sincrónica | **sábado 5/9, 9 a 13 hs** |
+
+El plan de trabajo del deck de la Clase 1 **queda descartado**: era del primer cuatrimestre.
 
 ---
 
 ## P-05
 ### ¿Dónde vive el código del MVP?
 
-Este repo es el centro de cómputos, no el producto. El MVP (API + modelo + web) necesita su lugar.
+**🟡 Parcialmente resuelta** *(FM, 2026-09-02)*
 
-Opciones:
-1. **Repositorio aparte** — más prolijo, separa documentación de código. *(sugerido)*
-2. **Carpeta dentro de este repo** — todo junto, más simple de encontrar.
+**Ya existe un prototipo**, hecho por FGR: backend generado con Claude, frontend con Codex, sobre la
+base de un notebook de Kaggle y del documento de requerimientos de ML.
+Registrado en [`docs/05-producto/prototipo.md`](../05-producto/prototipo.md).
 
-Sea cual sea, hay que dejar el link acá y en el README.
+**Falta lo importante:**
+
+- ❓ **¿Dónde está el código?** ¿Repo de GitHub, carpeta local de FGR, otra cosa?
+- ❓ Link al repositorio
+- ❓ Cómo se levanta y se prueba
+- ❓ Qué stack usa
+
+⚠️ Si el prototipo vive sólo en la máquina de Francisco, es un **riesgo del proyecto**: nadie más
+puede trabajarlo ni demostrarlo.
 
 ---
 
@@ -276,14 +291,16 @@ FraudLens conviene saberlo antes del documento final.
 ## P-17
 ### Las 400 respuestas, ¿son sólo de la encuesta o del total?
 
-La consigna dice: *"Armar y realizar la difusión de encuestas, entrevistas y observaciones
-(400 respuestas en total)"*.
+**✅ Resuelta** *(FM, 2026-09-02)* — se habló con el docente.
 
-- **Lectura A:** 400 respuestas **de encuesta**, más entrevistas y observaciones aparte.
-- **Lectura B:** 400 en total sumando las tres técnicas.
+> **Las 400 respuestas son una GUÍA, no una obligación.** Depende del caso de uso, y en el nuestro
+> el número exacto no es lo determinante.
 
-**Impacto: alto.** Cambia por completo el esfuerzo de difusión y a cuánta gente hay que llegar.
-Con 4 integrantes son **100 respuestas por persona** en el peor caso.
+**Lo que esto NO significa:** que no haya que hacer research. La exigencia de **datos reales** sigue
+en pie. Lo que cambia es que **nosotros elegimos el número y lo justificamos** en el plan de research.
+
+Es decir: el plan tiene que decir a cuántas personas vamos a llegar **y por qué eso alcanza** para
+nuestro caso de uso.
 
 ---
 
@@ -303,3 +320,40 @@ antes de arrancar — y eso conecta directo con [P-07](#p-07).
 > El documento de FGR ya nombra tres actores humanos posibles (**sistema cliente**,
 > **analista de fraude**, **administrador**). Podrían ser el punto de partida, pero **eso hay que
 > decidirlo en equipo**, no darlo por hecho.
+
+
+---
+
+## P-19
+### Huecos del cronograma oficial
+
+El cronograma de la cátedra tiene tres inconsistencias que conviene aclarar con el docente:
+
+| Hueco | Detalle |
+|---|---|
+| **Retrospectiva grupal 2** | Figuran la 1 (14/10) y la 3 (4/11). La 2 no aparece |
+| **Sprint Review 1 repetido** | Aparece el 14/10 y otra vez el 21/10. ¿Es error o son dos instancias? |
+| **The Pitch** | El cronograma sólo lista **Simulacro The Pitch** (2/12) y **Final Regular** (9/12). El deck hablaba de The Pitch como presentación final con todos los integrantes. ¿The Pitch es el 9/12? |
+
+**Impacto:** medio. No bloquea el trabajo de esta semana, pero afecta la planificación de octubre
+y noviembre, y hay que saber cuándo tenemos que estar todos presentes.
+
+---
+
+## P-20
+### ¿Cómo se mapea la numeración de los decks con la del cronograma?
+
+Los decks del docente y el cronograma **numeran las clases distinto**:
+
+| Deck | Tema | Clase del cronograma que parece corresponder |
+|---|---|---|
+| `Clase 01` | MVP, problema, equipos | Clase 1 — 5/8 ✅ |
+| `Clase 02` | Segmentación, target | ❓ Clase 4 — 26/8 |
+| `Clase 03` | Complemento selección de problema | ❓ sin correspondencia clara |
+| `Clase 04` | Design Thinking, User Research | ❓ Clase 5 — 2/9 |
+
+**Impacto:** bajo, pero genera confusión al hablar con el docente ("la clase 4" significa cosas
+distintas). Conviene aclararlo y usar **fechas** en vez de números cuando haya duda.
+
+En este repositorio: las **notas de clase** usan la numeración de los decks; las **fechas y
+entregables** salen del cronograma oficial.

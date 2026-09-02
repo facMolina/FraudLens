@@ -10,31 +10,43 @@ evidencia de gestión.
 
 ## Estado
 
-> ⚠️ Esta página describe una **propuesta** de organización. Falta contrastarla contra cómo está
-> armado hoy el tablero y ajustarla. Ver [P-09](../00-proyecto/preguntas-abiertas.md#p-09).
+✅ **Tablero limpiado y rearmado el 2026-09-02.** Venía siendo la plantilla Kanban de Trello sin
+tocar: 6 listas en inglés y 14 tarjetas de ejemplo (*"Feature ABC"*, *"Task 123"*, las tarjetas
+`💬 Move a card to this stage…`).
 
-## Propuesta de listas
+Se archivaron las 14 tarjetas de plantilla (archivar es reversible), se renombraron las listas al
+español y se cargaron las tarjetas reales del proyecto.
+
+## Listas
 
 | Lista | Qué contiene | Regla |
 |---|---|---|
 | **📥 Backlog** | Todo lo que hay que hacer en algún momento | Sin fecha ni dueño obligatorios |
-| **🎯 Sprint actual** | Comprometido para el sprint en curso | **Toda tarjeta tiene dueño y fecha** |
+| **🎯 Esta semana** | Comprometido para la clase de esta semana | **Toda tarjeta tiene dueño y fecha** |
 | **🔨 En curso** | Se está trabajando ahora | Máximo 1-2 tarjetas por persona |
 | **👀 En revisión** | Terminado, esperando que otro lo mire | Se asigna al revisor |
-| **✅ Hecho** | Terminado y revisado | Se archiva al cerrar cada sprint |
 | **🚧 Bloqueado** | No se puede avanzar | La tarjeta dice **qué** lo bloquea y **quién** lo destraba |
+| **✅ Hecho** | Terminado y revisado | |
 
 ## Etiquetas
 
-| Etiqueta | Para qué |
+El tablero tiene dos etiquetas con nombre, que usamos como prioridad:
+
+| Etiqueta | Cuándo |
 |---|---|
-| 🔴 `Entrega` | Tarea que forma parte de una instancia evaluable |
-| 🟠 `Documentación` | Escribir o actualizar documentos del TIF |
-| 🟡 `User Research` | Encuestas, entrevistas, observación, análisis |
-| 🟢 `Producto` | Definición de producto, UX/UI, prototipos |
-| 🔵 `Desarrollo` | Código del MVP (API, modelo, web) |
-| 🟣 `Clase` | Preparar algo puntual para la próxima clase |
-| ⚫ `Gestión` | Coordinación, reuniones, tablero, repositorio |
+| 🔴 **Prioridad Alta** | Entregable de clase, parcial, o algo que bloquea a otros |
+| 🟠 **Prioridad Media** | Importante pero no bloqueante |
+
+Hay 4 etiquetas más sin nombre (verde, violeta, azul, amarilla) disponibles si el equipo quiere
+sumar categorías por tipo de trabajo.
+
+## ⚠️ Miembros del tablero
+
+**Hoy el tablero tiene un solo miembro: Francisco Guerrero.**
+
+Los tableros son ítem de evaluación, y con un solo miembro **no se puede demostrar la participación
+individual de nadie más**. Hay que sumar a MDV, ML y FM, y asignar dueño a cada tarjeta que esté
+fuera del Backlog.
 
 ## Convención de tarjetas
 

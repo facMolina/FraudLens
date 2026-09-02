@@ -103,3 +103,66 @@ Las más urgentes son **P-17** (¿400 respuestas de encuesta o en total?) y **P-
 - `docs/00-proyecto/glosario.md` — 15 términos nuevos de las Clases 2, 3 y 4
 - `docs/05-producto/problema.md` — historia del proyecto y fórmula "¿Cómo podríamos…?"
 - `registro/historial-aportes.md` — aporte de FGR registrado
+
+---
+
+## Tercera parte de la sesión — cronograma real y Trello
+
+### 🔴 Hallazgo crítico: el cronograma del deck no servía
+
+FM adjuntó el **cronograma oficial de la cátedra**. Cambia cosas importantes:
+
+| El deck decía | La realidad |
+|---|---|
+| 2 "instancias de evaluación previa" | **2 PARCIALES**: 16/9 y 11/11 |
+| 4 sprints con 4 Sprint Reviews | 2 Sprint Reviews, en fechas concretas |
+| Marzo a julio | **Agosto a diciembre**, miércoles 18:45-22:15 |
+| Sólo clases presenciales | Hay **clase remota sincrónica el sábado 5/9 de 9 a 13 hs** |
+
+Y sobre todo: **la Clase 5 es el miércoles 2/9**, con entregables concretos —
+*Plan de research · Insight + Definición · User Persona · Mapa de Empatía · Problem Statement validado*.
+
+Cargado en [`docs/00-proyecto/cronograma.md`](../docs/00-proyecto/cronograma.md) y propagado a
+entregables, materia y README.
+
+### Corrección de autoría
+
+En la primera carga se atribuyó el documento de requerimientos funcionales a **FGR**. **Lo escribió
+Mateo Lewinzon (ML)**, que además es quien propuso el tema y es el referente del rubro del equipo.
+
+**FGR** aportó: la creación del tablero de Trello y el **prototipo** (backend con Claude, frontend
+con Codex, sobre la base de un notebook de Kaggle y del documento de ML).
+
+Corregido en el historial de aportes y en el documento de requerimientos.
+
+### Prototipo documentado
+
+Nuevo: [`docs/05-producto/prototipo.md`](../docs/05-producto/prototipo.md), con lo que hay, lo que
+falta, y una sección sobre **honestidad académica** — el cronograma advierte explícitamente que se
+sanciona, y hay que dejar citado el notebook de Kaggle y el uso de IA.
+
+### Tablero de Trello limpiado y rearmado
+
+Estaba la plantilla Kanban sin tocar. Se hizo:
+
+- **14 tarjetas de plantilla archivadas** (*"Feature ABC"*, *"Task 123"*, las `💬 Move a card…`)
+- **6 listas renombradas** al español: 📥 Backlog · 🎯 Esta semana · 🔨 En curso · 👀 En revisión · 🚧 Bloqueado · ✅ Hecho
+- **6 tarjetas cargadas en "🎯 Esta semana"** con vencimiento el 2/9 18:45, una por entregable de la Clase 5
+- **9 tarjetas en Backlog**: clase remota del sábado, sumar integrantes al tablero, dataset, revisión de requerimientos, prototipo, roles, Árbol de Problemas + 5 Por Qué, Clase 6, 1° Parcial
+- Las 2 tarjetas reales que ya existían: la de requerimientos pasó a ✅ Hecho, la del repo a 🔨 En curso
+
+⚠️ **El tablero tiene un solo miembro (Francisco).** Quedó una tarjeta para sumar a los otros tres:
+sin eso no se puede demostrar participación individual, que es ítem de evaluación.
+
+### README reescrito para onboarding
+
+Ahora arranca con una sección **"¿Sos del equipo y es tu primera vez acá?"**: qué es el repo, los
+5 pasos para arrancar una sesión con Claude Code o Codex desde un ticket de Trello, el prompt de
+arranque listo para copiar, el checklist de cierre, y el aviso de **no correr `/init`** (pisaría el
+`CLAUDE.md` escrito a mano).
+
+### Preguntas
+
+- ✅ Resueltas: **P-04** (cronograma), **P-17** (las 400 respuestas son una guía)
+- 🟡 Parcial: **P-05** (hay prototipo, pero no se sabe dónde vive el código)
+- 🔲 Nuevas: **P-19** (huecos del cronograma), **P-20** (numeración decks vs. cronograma)

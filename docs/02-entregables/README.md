@@ -1,44 +1,48 @@
 # Entregables y calendario
 
-> ⚠️ **Las fechas están vacías a propósito.** El deck de Clase 1 (v1.2) trae el cronograma del
-> primer cuatrimestre (09/03 → 20/07) y nuestro período es **2C 2026**. Hay que completar con el
-> calendario real. Ver [P-04](../00-proyecto/preguntas-abiertas.md#p-04).
+> ✅ **Fechas cargadas** desde el cronograma oficial 2C 2026.
+> Fuente completa: [`docs/00-proyecto/cronograma.md`](../00-proyecto/cronograma.md)
 
 ## Instancias evaluables
 
-| # | Instancia | Fecha | Estado | Notas |
-|---|---|---|---|---|
-| 1 | 🚨 **Primera Entrega** | ⬜ | 🔲 | Instancia de evaluación previa 1 de 2 |
-| 2 | Sprint Review 1 | ⬜ | 🔲 | Presenta: ⬜ |
-| 3 | Sprint Review 2 | ⬜ | 🔲 | Presenta: ⬜ |
-| 4 | 🚨 **Segunda Entrega** | ⬜ | 🔲 | Instancia de evaluación previa 2 de 2 |
-| 5 | Sprint Review 3 | ⬜ | 🔲 | Presenta: ⬜ |
-| 6 | Sprint Review 4 | ⬜ | 🔲 | Presenta: ⬜ |
-| 7 | Simulacro The Pitch | ⬜ | 🔲 | |
-| 8 | 🚨 **Entrega de documentación final** | ⬜ | 🔲 | Documento final + producto digital |
-| 9 | **The Pitch / Presentación Final** | ⬜ | 🔲 | **Todos** los integrantes presentes |
-| 10 | Recuperatorio | ⬜ | 🔲 | Última clase. Sólo se recupera **una** de las dos entregas |
+| Instancia | Fecha | Estado | Notas |
+|---|---|---|---|
+| 🔴 **1° PARCIAL** | **miércoles 16/9** | 🔲 | Instancia de evaluación 1 de 2 |
+| Entregable: Solución elegida + narrativa | miércoles 23/9 | 🔲 | Clase de Taller de Oratoria |
+| Entregable: Product Backlog | miércoles 14/10 | 🔲 | Sprint Review 1 · Retrospectiva grupal 1 |
+| Entregable: Prototipo clickeable (Figma \| Código) | miércoles 21/10 | 🔲 | Taller UX/UI · Sprint Review 1 |
+| 🚨 **2da. Entrega: Prototipo v1** | **miércoles 28/10** | 🔲 | Sprint Review 2 |
+| 🔴 **2° PARCIAL** | **miércoles 11/11** | 🔲 | Instancia de evaluación 2 de 2 |
+| 🚨 **Entrega documentación final** | **miércoles 18/11** | 🔲 | Presentación Story Telling |
+| **RECUPERATORIO / FINAL ADELANTADO** | miércoles 25/11 | 🔲 | Sólo se recupera **una** de las dos instancias |
+| **Simulacro The Pitch** + entrega documentación final | miércoles 2/12 | 🔲 | |
+| **FINAL REGULAR** | miércoles 9/12 | 🔲 | |
 
 Estados: 🔲 pendiente · 🟡 en curso · ✅ entregada · ⚠️ con observaciones
 
-## Sprints
+## Entregables ya pasados
 
-| Sprint | Inicio | Fin | Objetivo | Hitos de la materia |
-|---|---|---|---|---|
-| Sprint 1 | ⬜ | ⬜ | ⬜ | Primera Entrega · Taller de Retrospectivas · Comienzo desarrollo MVP · Retro 1 |
-| Sprint 2 | ⬜ | ⬜ | ⬜ | Sprint Review 1 · Taller de Diseño UX/UI · Retro 2 |
-| Sprint 3 | ⬜ | ⬜ | ⬜ | Segunda Entrega · Sprint Review 2 · Retro 3 |
-| Sprint 4 | ⬜ | ⬜ | ⬜ | Sprint Review 3 · OKRs/KPIs · Retro 4 |
+| Instancia | Fecha | Estado |
+|---|---|---|
+| Lista de ideas por equipo | 12/8 y 19/8 | ✅ |
+| Problema elegido + Justificación | 19/8 | ✅ Aprobado por el docente |
+| Plan de research · Insight + Definición · User Persona · Mapa de Empatía · **Problem Statement validado** | **2/9** | 🔴 **En curso — es la clase de hoy** |
+
+## Fechas fuera del horario habitual
+
+| Fecha | Qué |
+|---|---|
+| ⚠️ **sábado 5/9, 9 a 13 hs** | **CLASE REMOTA SINCRÓNICA** — Ideación · Océano Azul · Brainstorming |
 
 ## Talleres
 
-| Taller | Cuándo | Estado |
+| Taller | Fecha | Estado |
 |---|---|---|
-| Taller de Oratoria | Bloque de planificación | 🔲 |
-| Taller de Escritura | Bloque de planificación | 🔲 |
-| Sesión de Coaching de Equipos | Bloque de planificación | 🔲 |
-| Taller de Retrospectivas | Sprint 1 | 🔲 |
-| Taller de Diseño UX/UI | Sprint 2 | 🔲 |
+| Taller de Oratoria | 23/9 | 🔲 |
+| Taller de Escritura | 30/9 | 🔲 |
+| Taller Liderazgo de Equipos (Coaching) | 30/9 | 🔲 |
+| Taller de Retrospectivas | 7/10 | 🔲 |
+| Taller UX/UI | 21/10 | 🔲 |
 
 ## Contenido del documento entregable
 

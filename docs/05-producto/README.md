@@ -15,6 +15,7 @@ es lo único que tenemos definido.
 | `benchmarking.md` | Competencia, diferenciación, Océano Azul | Clase 4 | 🔲 Pendiente |
 | `roadmap.md` | Evolución prevista del producto | Clase 4 | 🔲 Pendiente |
 | `modelo-negocio.md` | BMC y P&L | Bloque 2 | 🔲 Pendiente |
+| [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
 | `datos.md` | Dataset de casos de prueba: origen, contenido y métricas | — | 🔲 Pendiente ([P-11](../00-proyecto/preguntas-abiertas.md#p-11)) |
 | `metricas.md` | OKRs y KPIs | Sprint 4 | 🔲 Pendiente |

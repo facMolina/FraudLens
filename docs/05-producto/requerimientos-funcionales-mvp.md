@@ -4,17 +4,20 @@
 >
 > | | |
 > |---|---|
-> | **Autor** | Francisco Daniel Guerrero Rojas (FGR) |
+> | **Autor** | **Mateo Lewinzon (ML)** |
 > | **Origen** | `FraudLens - Requerimientos funcionales del MVP.docx` |
 | **Cuándo se hizo** | En la **Clase 4**, junto con la definición del nombre FraudLens |
 > | **Estado** | 🟡 **Borrador para revisión del equipo** |
 > | **Incorporado al repo** | 2026-09-02 por FM |
 >
-> Francisco lo pasó **para que el equipo lo revise**, no como definición cerrada. Nada de lo que
+> Se pasó **para que el equipo lo revise**, no como definición cerrada. Nada de lo que
 > está acá debe tomarse como decidido hasta que el equipo lo valide y quede registrado como
 > [decisión](../03-decisiones/).
 >
 > Se transcribe completo y sin cambios de contenido para poder discutirlo sobre algo concreto.
+>
+> 📌 **ML es quien propuso el tema del proyecto** y tiene acceso a información de otros expertos
+> del rubro. Eso da peso al documento — y hace más importante que el User Research lo confirme.
 
 ---
 
@@ -269,6 +272,10 @@ El MVP estará completo cuando pueda demostrarse este recorrido:
 | 4 | No hay **métricas de evaluación del modelo** | En fraude los datos están desbalanceados; hay que decidir cómo se mide que el modelo sirve |
 | 5 | Los umbrales de ejemplo (60 / 85) y los rangos de la tabla de clasificación **no coinciden entre sí** | La tabla marca "medio" hasta 59 y "alto" desde 60; conviene unificar el criterio |
 | 6 | Está escrito **antes del User Research** | La Clase 4 dice que Design Thinking sirve para resolver el problema *"antes de escribir la primera línea de código"*, y que el 90% de las startups fallan por construir algo que nadie necesita. Si el research contradice lo asumido acá, **el research gana** |
+
+> ℹ️ **Este documento ya se usó**: Francisco (FGR) lo tomó como insumo para generar un prototipo
+> (backend con Claude, frontend con Codex) junto con un notebook de Kaggle.
+> Ver [`prototipo.md`](prototipo.md).
 
 **Ninguno de estos puntos dice que el documento esté mal.** Está muy completo y sirve como base.
 Son los temas a cerrar antes de convertirlo en definición.

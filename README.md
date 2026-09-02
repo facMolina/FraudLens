@@ -1,21 +1,93 @@
 # FraudLens — Centro de Cómputos
 
 > Repositorio de trabajo, documentación y trazabilidad del Trabajo Integrador Final (TIF/SIP)
-> de la materia **Seminario de Gestión Tecnológica** — UADE, Licenciatura en Sistemas — 2C 2026.
+> **Seminario de Gestión Tecnológica** — UADE, Lic. en Sistemas — **2C 2026** — Lic. Daniel Britez
 
-## ¿Qué es este repositorio?
+---
 
-Este repositorio **no es el producto final**. Es el **centro de cómputos** del equipo: el lugar
-donde queda registrado todo lo que definimos, todo lo que hacemos y todo lo que decidimos.
+# 👋 ¿Sos del equipo y es tu primera vez acá? Leé esto
+
+## Qué es este repositorio
+
+Es el **centro de cómputos** del TIF: el lugar donde queda registrado **todo** lo que definimos,
+hacemos y decidimos.
+
+**No es el producto final.** El código del MVP (API + modelo + web) vive en otro lado.
 
 Sirve para tres cosas:
 
-1. **Dejar registro** — bitácora de sesiones de trabajo e historial de aportes por integrante.
-2. **Consultar definiciones** — glosario, conceptos de cada clase y decisiones ya tomadas.
-3. **Guiar el armado** — plantillas, flujo de trabajo y checklist de entregables.
+| | |
+|---|---|
+| 📌 **Dejar registro** | Bitácora de sesiones e historial de aportes por integrante |
+| 📖 **Consultar** | Glosario, notas de clase, decisiones ya tomadas, cronograma |
+| 🧭 **Guiar** | Plantillas, flujo de trabajo y checklist de entregables |
 
-El código del MVP (API + modelo de detección de fraude + interfaz web) vivirá en un
-repositorio aparte. Ver [`docs/00-proyecto/preguntas-abiertas.md`](docs/00-proyecto/preguntas-abiertas.md).
+## Arrancar una sesión de trabajo con Claude Code o Codex
+
+**Regla del equipo: toda sesión de trabajo arranca desde un ticket de Trello.**
+
+🗂️ **Tablero:** https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude
+
+### Los 5 pasos
+
+```bash
+# 1. Traer lo último
+git pull
+
+# 2. Abrir el asistente en la raíz del repo
+claude          # o: codex
+```
+
+**3. Pegale este arranque al asistente**, reemplazando lo que está entre `<>`:
+
+```
+Leé README.md y CLAUDE.md para tomar contexto.
+Después leé docs/00-proyecto/preguntas-abiertas.md y docs/00-proyecto/cronograma.md.
+
+Voy a trabajar en el ticket de Trello: <título o link de la tarjeta>
+Soy <tu nombre> (<tu alias: MDV / FGR / ML / FM>).
+
+Antes de escribir nada, decime qué entendiste que hay que hacer y qué te falta saber.
+```
+
+**4. Trabajá.** El asistente ya sabe las reglas del repo porque están en `CLAUDE.md`.
+
+**5. Al terminar, cerrá la sesión:**
+
+- [ ] Lo que definiste quedó escrito en un `.md`
+- [ ] Creaste o actualizaste tu archivo del día en [`bitacora/`](bitacora/)
+- [ ] Sumaste tu fila en [`registro/historial-aportes.md`](registro/historial-aportes.md)
+- [ ] Moviste la tarjeta en Trello
+- [ ] Commiteaste **con tu propio usuario de Git** y pusheaste
+
+> ⚠️ **Commiteá siempre con tu usuario.** El historial por autor (`git log --author="Tu Nombre"`)
+> es evidencia de participación individual, y **el docente la evalúa**.
+>
+> ```bash
+> git config user.name "Tu Nombre"
+> git config user.email "tu-email@ejemplo.com"
+> ```
+
+> 💡 **Sobre `/init`:** no hace falta. Este repo ya tiene un `CLAUDE.md` escrito a mano con las
+> reglas del proyecto. Si corrés `/init` lo vas a **pisar** con un resumen automático y peor.
+> Si el asistente te propone correrlo, decile que no.
+
+---
+
+## 🔴 Lo que hay que saber ya
+
+| | |
+|---|---|
+| **Cursada** | Miércoles 18:45 a 22:15 |
+| **Próxima clase** | Ver [`cronograma.md`](docs/00-proyecto/cronograma.md) |
+| **Clase remota sincrónica** | **Sábado 5/9, 9 a 13 hs** ⚠️ fuera del horario habitual |
+| **1° Parcial** | Miércoles **16/9** |
+| **2° Parcial** | Miércoles **11/11** |
+| **Entrega documentación final** | **18/11** y **2/12** |
+
+📅 Cronograma completo: [`docs/00-proyecto/cronograma.md`](docs/00-proyecto/cronograma.md)
+
+---
 
 ## El proyecto en una línea
 
@@ -23,56 +95,76 @@ Prototipo capaz de analizar transacciones en tiempo real y estimar su nivel de r
 mediante un modelo de IA entrenado con datos históricos, para asistir en la decisión de
 **aprobar, rechazar o revisar** una operación.
 
+**FraudLens** es el nombre de producto. El título académico de la planilla es
+*"Sistema inteligente de detección de fraude en transacciones en tiempo real"*.
+
 📋 Ficha completa: [`docs/00-proyecto/ficha-proyecto.md`](docs/00-proyecto/ficha-proyecto.md)
-🗂️ Tablero Trello: https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude
+
+## El equipo
+
+| Integrante | Legajo | Alias |
+|---|---|---|
+| Diaz Valdez, Mateo | 1192969 | `MDV` |
+| Guerrero Rojas, Francisco Daniel | 1042529 | `FGR` |
+| Lewinzon, Mateo | 1151641 | `ML` |
+| Molina, Facundo Roman | 1115862 | `FM` |
+
+---
 
 ## Mapa del repositorio
 
-| Carpeta | Qué contiene | Cuándo la usás |
-|---|---|---|
-| [`docs/00-proyecto/`](docs/00-proyecto/) | Ficha, equipo, materia, glosario y preguntas abiertas | Para saber "qué es esto" y "quién es quién" |
-| [`docs/01-clases/`](docs/01-clases/) | Una nota por clase: resumen, conceptos y cómo se aplican a FraudLens | Cada vez que hay clase nueva |
-| [`docs/01-clases/material/`](docs/01-clases/material/) | El deck del docente convertido a Markdown, tal cual | Para chequear la fuente original |
-| [`docs/02-entregables/`](docs/02-entregables/) | Qué se entrega, cuándo y en qué estado está | Antes de cada entrega o Sprint Review |
-| [`docs/03-decisiones/`](docs/03-decisiones/) | Decisiones del equipo, numeradas y con contexto | Cuando discutimos algo y hay que fijarlo |
-| [`docs/04-metodologia/`](docs/04-metodologia/) | Cómo trabajamos: flujo, Trello, Graphify | Para arrancar o si tenés dudas de proceso |
-| [`docs/05-producto/`](docs/05-producto/) | Definición del problema, usuarios, solución y producto | A medida que avanzamos con el MVP |
-| [`bitacora/`](bitacora/) | Un archivo por sesión de trabajo | Cada vez que trabajamos |
-| [`registro/`](registro/) | Historial de aportes por integrante | Se actualiza junto con la bitácora |
+| Necesito… | Voy a… |
+|---|---|
+| Saber qué es el proyecto | [`docs/00-proyecto/ficha-proyecto.md`](docs/00-proyecto/ficha-proyecto.md) |
+| **Fechas, parciales, entregas** | [`docs/00-proyecto/cronograma.md`](docs/00-proyecto/cronograma.md) |
+| Una definición | [`docs/00-proyecto/glosario.md`](docs/00-proyecto/glosario.md) |
+| **Saber qué falta definir** | [`docs/00-proyecto/preguntas-abiertas.md`](docs/00-proyecto/preguntas-abiertas.md) |
+| Ver qué se dio en una clase | [`docs/01-clases/`](docs/01-clases/) |
+| Ver el deck original del docente | [`docs/01-clases/material/`](docs/01-clases/material/) |
+| Saber qué se entrega y cuándo | [`docs/02-entregables/`](docs/02-entregables/) |
+| Saber por qué se decidió algo | [`docs/03-decisiones/`](docs/03-decisiones/) |
+| Saber cómo trabajamos | [`docs/04-metodologia/flujo-de-trabajo.md`](docs/04-metodologia/flujo-de-trabajo.md) |
+| Cómo usamos Trello | [`docs/04-metodologia/trello.md`](docs/04-metodologia/trello.md) |
+| El problema, usuarios y producto | [`docs/05-producto/`](docs/05-producto/) |
+| Ver qué hizo cada uno | [`registro/historial-aportes.md`](registro/historial-aportes.md) |
+| Ver qué se hizo un día | [`bitacora/`](bitacora/) |
 
-## Cómo arrancar (primera vez)
+---
 
-```bash
-git clone <url-del-repo>
-cd FraudLens
-```
+## Reglas de oro
 
-1. Leé este README.
-2. Leé [`docs/04-metodologia/flujo-de-trabajo.md`](docs/04-metodologia/flujo-de-trabajo.md) — son 5 minutos y evita pisarnos.
-3. Mirá [`docs/00-proyecto/preguntas-abiertas.md`](docs/00-proyecto/preguntas-abiertas.md) para ver qué falta definir.
+1. **Si no está en un `.md`, no existe.** Lo que se habló en clase, en un audio o en un mensaje
+   suelto tiene que terminar escrito acá.
+2. **Cada sesión deja rastro:** bitácora + historial de aportes, en la misma sesión.
+3. **Las decisiones se numeran y no se editan.** Para cambiar una vieja, se escribe una nueva que
+   la supersede.
+4. **No se deduce.** Si falta un dato se pregunta y se deja el hueco marcado `⬜ A definir`.
+   Un documento con huecos es útil; uno con datos inventados es un riesgo en una entrega evaluada.
+5. **Borrador ≠ definición.** Lo que alguien pasó "para revisar" se guarda marcado como borrador
+   hasta que el equipo lo apruebe.
+6. **Español** para toda la documentación.
 
-Opcional pero recomendado — grafo de navegación con Graphify:
+## 🚨 Material de clase: Markdown, nunca PDF
+
+**No subas PDFs.** Son pesados, no tienen diff útil en Git y muchas veces no se les puede extraer
+el texto.
+
+👉 Convertí el deck en **https://cloudconvert.com/pdf-to-md** y subí el `.md` a
+[`docs/01-clases/material/`](docs/01-clases/material/) como `clase-NN-tema.md`.
+
+---
+
+## Graphify (opcional)
+
+Capa de lectura del repo — [decisión 0002](docs/03-decisiones/0002-graphify-como-capa-de-lectura.md).
+**El repo se lee perfectamente sin esto.**
 
 ```bash
 uv tool install graphifyy   # o: pipx install graphifyy
 graphify install
 ```
 
-Después se construye el grafo desde el asistente con `/graphify .`
-(desde la terminal hace falta una API key, porque este repo es sólo documentación).
+Después, desde el asistente: `/graphify .`
+(desde la terminal pide API key, porque este repo es sólo documentación).
 
-Detalle en [`docs/04-metodologia/graphify.md`](docs/04-metodologia/graphify.md).
-
-## Reglas de oro
-
-- **Todo lo que definimos, se documenta acá.** Si se habló en clase, en Discord o en un audio y no quedó en un `.md`, no existe.
-- **Un archivo de bitácora por sesión de trabajo**, y actualizar el historial de aportes en la misma sesión.
-- **Las decisiones se numeran** (`docs/03-decisiones/`). No se editan las viejas: se supersede con una nueva.
-- **Español** para toda la documentación.
-- **No se deduce.** Si falta un dato se pregunta y se deja el hueco marcado. Un documento con
-  `⬜ A definir` es útil; uno con datos inventados es un riesgo en una entrega evaluada.
-
-## 🚨 Material de clase: Markdown, no PDF
-
-**No subas PDFs.** Convertí el deck acá 👉 **https://cloudconvert.com/pdf-to-md** y subí el `.md`
-a [`docs/01-clases/material/`](docs/01-clases/material/) como `clase-NN-tema.md`.
+Detalle: [`docs/04-metodologia/graphify.md`](docs/04-metodologia/graphify.md)
