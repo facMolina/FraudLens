@@ -303,3 +303,68 @@ esta semana, 3 de deuda a blanquear y 2 operativas.
 - **P-09** (estructura del tablero) → ✅ resuelta: el tablero está rearmado
 - **P-14** (cuándo es la Clase 5) → ✅ resuelta: miércoles 2/9, 18:45
 - **P-15** → corregida la autoría: los requerimientos los escribió **ML**, no FGR
+
+---
+
+## Séptima parte — identidad visual: presentación para el equipo
+
+Se trabajó el ticket [Identidad visual](https://trello.com/c/ncNYKzbF) (FM) hasta dejarlo listo
+para que el equipo decida. Quedó en **👀 En revisión**, no en Hecho: la elección es del equipo.
+
+**Entregable:** [presentación en Canva](https://www.canva.com/design/DAHUDsuQPB8), 14 páginas, en
+español. Documentada en
+[`docs/05-producto/identidad/propuesta-canva.md`](../docs/05-producto/identidad/propuesta-canva.md).
+
+### Lo que se decidió con datos, no con gusto
+
+- **Color de marca violeta** — `#9333EA` claro (5.16:1) / `#A855F7` oscuro (4.90:1). El criterio no
+  fue estético: el color de marca **no puede vivir dentro de la escala de riesgo**. Verde, ámbar,
+  naranja y rojo ya están tomados por LOW→CRITICAL.
+- **Escala de riesgo medida** con la fórmula WCAG de luminancia relativa, nivel por nivel, en los
+  dos modos. Ver [`paleta.md`](../docs/05-producto/identidad/paleta.md).
+- **Cyan descartado**: 2.33:1 sobre fondo claro. **Ámbar en claro descartado**: 1.60:1.
+- **Tres finalistas** de 27 símbolos generados: Embudo · Anomalía en grilla · Prisma. Se
+  descartaron los círculos concéntricos (se leen como **diana**) y el círculo con barra (se lee
+  como **prohibido**).
+
+### 🔴 Hallazgo: el rojo CRITICAL no pasa AA
+
+`#DC2626` sobre fondo oscuro mide **4.02:1**, por debajo del mínimo de 4.5. Es el único valor de la
+paleta que falla y hay que corregirlo antes de que entre al código.
+
+### Decisión de método: vectores en vez de imágenes generadas
+
+Las 8 láminas generadas con IA que se subieron a Canva son **anteriores a la decisión del violeta**:
+están en azul, sobre fondo claro, y chocaban con el deck oscuro. En vez de usarlas, los tres
+símbolos y todos los swatches se **dibujaron como vectores nativos** en Canva, en el violeta
+aprobado.
+
+Ventaja lateral: son editables, escalan sin pérdida, y los paths quedaron documentados en el repo.
+
+### Lo que se le agregó al board
+
+El deck original mostraba grillas de exploración pero **nunca un logo armado**. Se sumaron dos
+páginas:
+
+- **Pág. 13 — El logo completo:** cada símbolo al lado de la palabra *FraudLens*, que es como se
+  va a usar de verdad.
+- **Pág. 14 — Las tres propuestas:** las versiones finales, al cierre.
+
+Y se llenaron tres páginas que estaban casi vacías (contexto de producto, color de marca,
+tipografía) con los datos medidos.
+
+### Incidencia de herramientas
+
+El conector de Canva **se desconectó tres veces** durante la sesión, y cada corte destruye la
+transacción de edición abierta. Se perdió trabajo dos veces. Se pasó a **commitear página por
+página**, que es más lento pero no pierde nada. Queda anotado por si a alguien del equipo le pasa
+lo mismo.
+
+### Qué falta
+
+| Tarea | Quién | Cuándo |
+|---|---|---|
+| **Elegir uno de los tres símbolos** | Equipo | Próxima reunión |
+| Corregir el rojo CRITICAL en modo oscuro | FM | Antes de que entre al código |
+| Elegir entre Inter e IBM Plex Sans | Equipo | Próxima reunión |
+| Regenerar las láminas en violeta (prompts 5-7) si se quieren usar | FM | Opcional |

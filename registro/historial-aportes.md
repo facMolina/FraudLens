@@ -21,7 +21,7 @@ coordinar al equipo. Nada de eso aparece en un `git log`, y todo eso es trabajo 
 Una fila por aporte, en la sesión en que se hizo. **No dejarlo para el final del cuatrimestre**:
 nadie se acuerda después, y se nota.
 
-Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Desarrollo` · `Gestión` · `Presentación`
+Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Diseño` · `Desarrollo` · `Gestión` · `Presentación`
 
 ---
 
@@ -38,6 +38,9 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | *(previo)* | FGR | Desarrollo | **Prototipo de FraudLens**: backend generado con Claude, frontend con Codex y ajustado al backend, sobre la base de un notebook de Kaggle y del documento de requerimientos | [Prototipo](../docs/05-producto/prototipo.md) |
 | *(previo)* | FGR | Gestión | Creación del tablero de Trello | [Tablero](https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude) |
 | 2026-09-02 | FM | Gestión | Carga del material crudo de las Clases 2, 3 y 4; regla de formato Markdown para material de clase | [`docs/01-clases/material/`](../docs/01-clases/material/) |
+| 2026-09-02 | FM | Diseño | Identidad visual: paleta de marca y escala de riesgo con contrastes WCAG medidos nivel por nivel | [`identidad/paleta.md`](../docs/05-producto/identidad/paleta.md) |
+| 2026-09-02 | FM | Diseño | Exploración de 27 símbolos con IA, filtrado a 3 finalistas con criterios de legibilidad y lectura no deseada | [Análisis de generación](../docs/05-producto/identidad/analisis-generacion-01.md) |
+| 2026-09-02 | FM | Presentación | Presentación de identidad visual para el equipo: 14 páginas en Canva, con el logo montado sobre la tipografía y las tres propuestas finales | [Propuesta](../docs/05-producto/identidad/propuesta-canva.md) · [Canva](https://www.canva.com/design/DAHUDsuQPB8) |
 | 2026-09-02 | FM | Documentación | Incorporación del documento de FGR al repo y resolución de las preguntas P-01, P-02 y P-03 | [Bitácora](../bitacora/2026-09-02-material-clases-y-requerimientos.md) |
 | 2026-09-02 | FM | Documentación | Notas trabajadas de las Clases 2, 3 y 4 con bajada a FraudLens, y 15 términos nuevos al glosario | [`docs/01-clases/`](../docs/01-clases/) |
 | 2026-09-02 | FM | Gestión | Redacción de los 17 tickets pendientes para la Clase 5 | [Pendientes Clase 5](../docs/02-entregables/pendientes-clase-05.md) |
@@ -62,7 +65,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
 | Lewinzon, Mateo (ML) | 2 | Clase 4 |
-| Molina, Facundo Roman (FM) | 15 | 2026-09-02 |
+| Molina, Facundo Roman (FM) | 18 | 2026-09-02 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
