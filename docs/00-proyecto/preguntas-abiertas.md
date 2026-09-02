@@ -42,6 +42,7 @@ de Trello con esa fecha de vencimiento.
 | [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente 📅 7/10 y 25/11 | 🔲 Abierta |
 | [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
+| [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
 
 ---
 
@@ -416,3 +417,24 @@ recién arranca? ¿Alcanza con la lógica del Design Thinking y las User Persona
 evidencia de campo?
 
 **Impacto: alto.** Define si el entregable de esa clase está completo o no.
+
+
+---
+
+## P-22
+### ¿Se aprueba la taxonomía de etiquetas propuesta?
+
+Propuesta en [`convencion-de-tickets.md`](../04-metodologia/convencion-de-tickets.md#1-etiquetas-de-qué-se-trata-el-ticket):
+**7 etiquetas de categoría** —🟣 Negocio · 🟢 Research · 🔵 Diseño · 🟡 Datos & Modelo · 🟠 Código ·
+🔴 Entrega · ⚫ Gestión— y **la prioridad deja de ser etiqueta**: se lee de la lista y de la fecha.
+
+**Lo que hay que decidir:**
+
+1. ¿Se aprueban esas 7 categorías, o falta/sobra alguna?
+2. ¿Se acepta sacar la prioridad de las etiquetas? Hoy el tablero tiene *Prioridad Alta* (roja) en
+   10 tarjetas y *Prioridad Media* (naranja) en 2. La alternativa es mantener ambas cosas, pero eso
+   son 9 etiquetas y el tablero se vuelve ruidoso.
+
+⚠️ **El asistente no puede crear ni renombrar etiquetas** (limitación del conector). Sea cual sea la
+decisión, **alguien tiene que crearlas a mano** en Trello. Una vez creadas, el asistente sí puede
+aplicarlas a las tarjetas.

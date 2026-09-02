@@ -28,47 +28,18 @@ español y se cargaron las tarjetas reales del proyecto.
 | **🚧 Bloqueado** | No se puede avanzar | La tarjeta dice **qué** lo bloquea y **quién** lo destraba |
 | **✅ Hecho** | Terminado y revisado | |
 
-## Etiquetas
+## Etiquetas, formato de tarjeta y cierre
 
-El tablero tiene dos etiquetas con nombre, que usamos como prioridad:
+👉 Todo eso vive en **[`convencion-de-tickets.md`](convencion-de-tickets.md)**:
 
-| Etiqueta | Cuándo |
-|---|---|
-| 🔴 **Prioridad Alta** | Entregable de clase, parcial, o algo que bloquea a otros |
-| 🟠 **Prioridad Media** | Importante pero no bloqueante |
+- Las **7 etiquetas de categoría** (Negocio · Research · Diseño · Datos & Modelo · Código · Entrega · Gestión)
+- El **formato de título y descripción** de una tarjeta
+- Cuándo lleva **análisis de 6 Sombreros**
+- El **comentario de resolución obligatorio** al cerrar
 
-Hay 4 etiquetas más sin nombre (verde, violeta, azul, amarilla) disponibles si el equipo quiere
-sumar categorías por tipo de trabajo.
-
-## ⚠️ Miembros del tablero
-
-**Hoy el tablero tiene un solo miembro: Francisco Guerrero.**
-
-Los tableros son ítem de evaluación, y con un solo miembro **no se puede demostrar la participación
-individual de nadie más**. Hay que sumar a MDV, ML y FM, y asignar dueño a cada tarjeta que esté
-fuera del Backlog.
-
-## Convención de tarjetas
-
-**Título:** verbo + objeto concreto.
-
-✅ `Entrevistar a analista de fraude de fintech`
-❌ `User Research`
-
-**Descripción** — cada tarjeta debería tener:
-
-```
-## Qué hay que hacer
-...
-
-## Cómo sabemos que está listo
-- [ ] ...
-
-## Links
-- Documento en el repo: docs/...
-```
-
-**Dueño:** toda tarjeta fuera del Backlog tiene **una** persona asignada. "El equipo" no es un dueño.
+> 🔴 **Regla clave:** ningún ticket pasa a ✅ Hecho sin un **comentario de resolución** en Trello que
+> explique qué se decidió, qué se descartó y por qué. No alcanza con documentarlo en el repo:
+> tiene que estar **en los dos lugares**.
 
 ## Relación con este repositorio
 
@@ -117,8 +88,13 @@ tarjetas, poner vencimientos y etiquetas.
 
 ### ⚠️ Lo que NO puede hacer
 
-**El conector no puede asignar miembros a las tarjetas.** Cuando una tarjeta tiene responsable,
-queda escrito en su descripción — pero **la persona tiene que entrar y darle "Unirme" a mano**.
+Tres cosas que el conector **no** permite y que hay que hacer a mano en Trello:
+
+| No puede | Consecuencia |
+|---|---|
+| **Asignar miembros a tarjetas** | El responsable queda escrito en la descripción; la persona tiene que darle **"Unirme"** |
+| **Crear o renombrar etiquetas** | Las 7 etiquetas de categoría hay que crearlas a mano una vez |
+| **Editar la descripción del tablero** | Hoy sigue con el texto de la plantilla *"Amazing Kanban"* en inglés — hay que reemplazarlo a mano |
 
 ### 🔴 Es requisito para trabajar, no una comodidad
 

@@ -58,7 +58,15 @@ Cuando alguien abre una sesión, antes de escribir código o documentos:
 7. Decile qué entendiste y qué te falta saber **antes** de empezar.
 
 Al cerrar la sesión, recordale el checklist: `.md` actualizado · bitácora · historial de aportes ·
-**tarjeta movida en Trello** · commit con **su propio usuario de Git**.
+**comentario de resolución en la tarjeta de Trello** · tarjeta movida · commit con **su propio
+usuario de Git**.
+
+> 🔴 **Ningún ticket pasa a ✅ Hecho sin comentario de resolución en Trello** — qué se decidió, qué
+> se descartó y por qué. No alcanza con documentarlo en el repo: va en **los dos lugares**.
+> Plantilla del comentario en `docs/04-metodologia/convencion-de-tickets.md`.
+>
+> Cuando el usuario cierre un ticket, **escribile vos el comentario** con `trelloWriteCard`
+> (`action: "add_comment"`) a partir de lo que se hizo en la sesión.
 
 > ⚠️ **Limitación conocida:** el conector de Trello **no puede asignar miembros a tarjetas**.
 > Cuando haya un responsable, escribilo en la descripción de la tarjeta y avisale a la persona que
@@ -76,6 +84,7 @@ Al cerrar la sesión, recordale el checklist: `.md` actualizado · bitácora · 
 | Saber qué se entrega y cuándo | `docs/02-entregables/README.md` |
 | Saber por qué se decidió algo | `docs/03-decisiones/` |
 | Saber cómo trabajamos | `docs/04-metodologia/flujo-de-trabajo.md` |
+| **Crear o cerrar un ticket** | `docs/04-metodologia/convencion-de-tickets.md` |
 | **Analizar una decisión** | `docs/04-metodologia/seis-sombreros.md` (consigna del docente) |
 | Ver qué hizo cada uno | `registro/historial-aportes.md` + `git log --author` |
 | El prototipo que ya existe | `docs/05-producto/prototipo.md` |
@@ -167,6 +176,14 @@ extraer. `*.pdf`, `*.pptx` y `*.xlsx` están en `.gitignore`.
   funcionalidades, contrastar contra la lista de "NO MVP" en `docs/05-producto/problema.md`.
 - Las **Sprint Reviews rotan de presentador** semana a semana.
 - El documento final es la **sumatoria de pequeñas tareas iteradas** — por eso este repo existe.
+
+## Etiquetas de los tickets
+
+Cada ticket lleva **una** etiqueta de categoría: 🟣 Negocio · 🟢 Research · 🔵 Diseño ·
+🟡 Datos & Modelo · 🟠 Código · 🔴 Entrega · ⚫ Gestión.
+La **prioridad no va en etiquetas**: se lee de la lista y de la fecha de vencimiento.
+
+Detalle y formato completo en `docs/04-metodologia/convencion-de-tickets.md`.
 
 ## Convención de commits
 

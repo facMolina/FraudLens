@@ -167,6 +167,7 @@ mediante un modelo de IA entrenado con datos históricos, para asistir en la dec
 | **Analizar una decisión (6 Sombreros)** | [`docs/04-metodologia/seis-sombreros.md`](docs/04-metodologia/seis-sombreros.md) |
 | Ver los análisis ya hechos | [`docs/05-producto/analisis/`](docs/05-producto/analisis/) |
 | Cómo usamos Trello | [`docs/04-metodologia/trello.md`](docs/04-metodologia/trello.md) |
+| **Cómo se crea y se cierra un ticket** | [`docs/04-metodologia/convencion-de-tickets.md`](docs/04-metodologia/convencion-de-tickets.md) |
 | El problema, usuarios y producto | [`docs/05-producto/`](docs/05-producto/) |
 | Ver qué hizo cada uno | [`registro/historial-aportes.md`](registro/historial-aportes.md) |
 | Ver qué se hizo un día | [`bitacora/`](bitacora/) |
