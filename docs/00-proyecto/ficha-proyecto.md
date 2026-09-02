@@ -7,18 +7,17 @@
 
 | Campo | Valor |
 |---|---|
-| **Nombre de trabajo** | FraudLens |
-| **Título tentativo (planilla)** | Sistema inteligente de detección de fraude en transacciones en tiempo real |
+| **Nombre de producto (marca)** | **FraudLens** |
+| **Título académico (planilla)** | Sistema inteligente de detección de fraude en transacciones en tiempo real |
 | **Materia** | Seminario de Gestión Tecnológica |
 | **N.º de clase** | 1597 |
 | **Docente** | Daniel Britez |
 | **Período** | 2C 2026 |
 | **Tipo de entregable previsto** | Prototipo funcional de software |
 
-> ⚠️ **Discrepancia de nombre a resolver:** la planilla dice *"Sistema inteligente de detección de
-> fraude en transacciones en tiempo real"*, el tablero de Trello dice *"FraudLens - Analizador
-> probabilidad de fraude"*. Hay que unificar el título oficial.
-> Ver [`preguntas-abiertas.md`](preguntas-abiertas.md#p-01).
+> ✅ **Nombre resuelto** *(FM, 2026-09-02)*: **FraudLens** es el nombre "marketinero" que el equipo
+> le puso al sistema. Convive con el título académico de la planilla: FraudLens es la marca (tablero,
+> pitch, producto) y la frase larga es la descripción formal. Ver [P-01](preguntas-abiertas.md#p-01).
 
 ## Problema / necesidad / oportunidad
 
@@ -55,8 +54,10 @@ Prototipo funcional de software compuesto por:
 | Ítem | Estado |
 |---|---|
 | Problema cargado en la planilla del docente | ✅ Hecho |
-| Problema aprobado/seleccionado por los docentes | ❓ A confirmar — ver [P-02](preguntas-abiertas.md#p-02) |
-| User Research sobre el problema | ⬜ Pendiente |
+| Problema aprobado/seleccionado por los docentes | ✅ **Aprobado por el docente** |
+| User Research sobre el problema | ❓ Estado a confirmar — [P-12](preguntas-abiertas.md#p-12) |
+| Dataset de casos de prueba | ✅ El equipo lo tiene — falta documentarlo ([P-11](preguntas-abiertas.md#p-11)) |
+| Requerimientos funcionales del MVP | 🟡 Borrador de FGR en revisión |
 | Definición de la solución | ⬜ Pendiente |
 | Desarrollo del MVP | ⬜ Pendiente |
 

@@ -13,9 +13,12 @@
 
 **Tamaño del equipo: 4 integrantes.**
 
-> ⚠️ La Clase 1 indica equipos de **seis/ocho integrantes**. El equipo actual tiene 4.
-> Hay que confirmar con el docente si el equipo queda así o se fusiona con otro.
-> Ver [P-03](preguntas-abiertas.md#p-03).
+> ✅ **Confirmado** *(FM, 2026-09-02)*: el equipo **queda con 4 integrantes**, porque este
+> cuatrimestre hay menos gente cursando. La indicación de "seis/ocho integrantes" de la Clase 1
+> no aplica a esta cursada. Ver [P-03](preguntas-abiertas.md#p-03).
+>
+> Como el trabajo de la materia está dimensionado para equipos de 6-8, con 4 personas cada uno
+> carga más. Razón de más para no acumular documentación.
 
 ## Roles a repartir
 

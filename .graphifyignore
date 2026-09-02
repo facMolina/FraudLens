@@ -1,13 +1,16 @@
 # Salida del propio Graphify
 graphify-out/
 
-# Material original de las clases (pesado; vive en Teams/SharePoint)
-material/
+# Material crudo de las clases: es texto OCR desordenado y ensucia el grafo.
+# La versión trabajada está en las notas de docs/01-clases/
+docs/01-clases/material/
+
+# Binarios
 *.pdf
 *.pptx
 *.xlsx
 
-# Datos - nunca versionamos datos de transacciones
+# Datos
 data/
 *.csv
 *.parquet

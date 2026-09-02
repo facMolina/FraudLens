@@ -32,6 +32,7 @@ mediante un modelo de IA entrenado con datos históricos, para asistir en la dec
 |---|---|---|
 | [`docs/00-proyecto/`](docs/00-proyecto/) | Ficha, equipo, materia, glosario y preguntas abiertas | Para saber "qué es esto" y "quién es quién" |
 | [`docs/01-clases/`](docs/01-clases/) | Una nota por clase: resumen, conceptos y cómo se aplican a FraudLens | Cada vez que hay clase nueva |
+| [`docs/01-clases/material/`](docs/01-clases/material/) | El deck del docente convertido a Markdown, tal cual | Para chequear la fuente original |
 | [`docs/02-entregables/`](docs/02-entregables/) | Qué se entrega, cuándo y en qué estado está | Antes de cada entrega o Sprint Review |
 | [`docs/03-decisiones/`](docs/03-decisiones/) | Decisiones del equipo, numeradas y con contexto | Cuando discutimos algo y hay que fijarlo |
 | [`docs/04-metodologia/`](docs/04-metodologia/) | Cómo trabajamos: flujo, Trello, Graphify | Para arrancar o si tenés dudas de proceso |
@@ -68,3 +69,10 @@ Detalle en [`docs/04-metodologia/graphify.md`](docs/04-metodologia/graphify.md).
 - **Un archivo de bitácora por sesión de trabajo**, y actualizar el historial de aportes en la misma sesión.
 - **Las decisiones se numeran** (`docs/03-decisiones/`). No se editan las viejas: se supersede con una nueva.
 - **Español** para toda la documentación.
+- **No se deduce.** Si falta un dato se pregunta y se deja el hueco marcado. Un documento con
+  `⬜ A definir` es útil; uno con datos inventados es un riesgo en una entrega evaluada.
+
+## 🚨 Material de clase: Markdown, no PDF
+
+**No subas PDFs.** Convertí el deck acá 👉 **https://cloudconvert.com/pdf-to-md** y subí el `.md`
+a [`docs/01-clases/material/`](docs/01-clases/material/) como `clase-NN-tema.md`.

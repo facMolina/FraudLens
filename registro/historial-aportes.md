@@ -33,6 +33,9 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | 2026-09-01 | FM | Gestión | Armado de la estructura base del repositorio como centro de cómputos | [Bitácora](../bitacora/2026-09-01-armado-de-la-base.md) |
 | 2026-09-01 | FM | Documentación | Procesamiento y carga de la Clase 1 (51 diapositivas) con bajada de conceptos a FraudLens | [Clase 01](../docs/01-clases/clase-01-mvp-y-problema.md) |
 | 2026-09-01 | FM | Documentación | Glosario, ficha de proyecto, materia, entregables y 10 preguntas abiertas | [`docs/00-proyecto/`](../docs/00-proyecto/) |
+| *(previo)* | FGR | Producto | Redacción de los requerimientos funcionales del MVP: 7 casos de uso, flujo, criterios de aceptación, no funcionales y definición de "MVP terminado" | [Requerimientos (borrador)](../docs/05-producto/requerimientos-funcionales-mvp.md) |
+| 2026-09-02 | FM | Gestión | Carga del material crudo de las Clases 2, 3 y 4; regla de formato Markdown para material de clase | [`docs/01-clases/material/`](../docs/01-clases/material/) |
+| 2026-09-02 | FM | Documentación | Incorporación del documento de FGR al repo y resolución de las preguntas P-01, P-02 y P-03 | [Bitácora](../bitacora/2026-09-02-material-clases-y-requerimientos.md) |
 
 ---
 
@@ -43,9 +46,12 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 0 | — |
+| Guerrero Rojas, Francisco Daniel (FGR) | 1 | *(previo)* |
 | Lewinzon, Mateo (ML) | 0 | — |
-| Molina, Facundo Roman (FM) | 3 | 2026-09-01 |
+| Molina, Facundo Roman (FM) | 5 | 2026-09-02 |
+
+> ⚠️ **ML todavía no tiene aportes registrados.** No significa que no haya trabajado — significa que
+> no está cargado. Hay que completar los aportes previos de todos los integrantes.
 
 ## Presentaciones en clase
 

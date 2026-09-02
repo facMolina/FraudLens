@@ -1,8 +1,13 @@
 # Graphify
 graphify-out/
 
-# Material pesado de clases (vive en Teams/SharePoint)
-material/
+# Material pesado: los PDF/PPT NO se versionan.
+# El material de clase va en Markdown en docs/01-clases/material/
+# (convertir en https://cloudconvert.com/pdf-to-md)
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
 
 # Datos - los datasets NO se versionan
 data/

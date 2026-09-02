@@ -71,10 +71,38 @@ Las dos herramientas se complementan y **se linkean entre sí**:
 **Regla:** cuando una tarjeta produce una definición, la definición va al repositorio y la tarjeta
 linkea al archivo. Cuando un documento genera trabajo, se abre la tarjeta y el documento la linkea.
 
-## Acceso desde Claude
+## Cómo conectar Trello a Claude
 
-Para que el asistente pueda leer, crear, actualizar y mover tarjetas hace falta habilitar el
-**conector de Trello** en claude.ai (Configuración → Conectores) y activarlo en la conversación.
-Sin eso, el asistente puede ver el tablero sólo si alguien le pega el contenido.
+Para que el asistente pueda **leer, crear, actualizar y mover tarjetas**, hay que conectar Trello
+a la cuenta de claude.ai. El conector existe en el directorio oficial de Anthropic; sólo falta
+activarlo.
+
+### Pasos
+
+1. Entrá a **https://claude.ai/settings/connectors** *(o: claude.ai → tu avatar → Settings → Connectors)*.
+2. Buscá **Trello** en el directorio de conectores y tocá **Connect**.
+3. Se abre la ventana de autorización de Atlassian/Trello. Iniciá sesión con la cuenta que tiene
+   acceso al tablero y **aceptá los permisos**.
+4. Volvé a la conversación con Claude y **activá Trello para ese chat**: en el selector de
+   herramientas/conectores del chat, tildá Trello.
+5. Avisale al asistente que ya está conectado, para que lo verifique.
+
+> ⚠️ Los pasos 4 y 5 importan: un conector puede estar **autorizado a nivel cuenta** pero
+> **apagado en el chat**. Si está apagado, el asistente no ve ninguna herramienta de Trello.
+
+### Importante sobre la cuenta
+
+El conector opera **con los permisos del usuario que autorizó**. Si el tablero es de otro
+integrante, esa cuenta tiene que tener acceso al tablero — o hay que sumar al usuario que conecta
+como miembro del tablero.
+
+### Qué va a poder hacer una vez conectado
+
+Leer tableros, listas, tarjetas, checklists y miembros; y crear, actualizar y mover tarjetas.
+
+### Mientras tanto
+
+Sin el conector, el asistente **no puede ver el tablero**. Las opciones son pegarle el contenido en
+el chat, o dejar los tickets redactados en Markdown para cargarlos a mano.
 
 Ver [P-09](../00-proyecto/preguntas-abiertas.md#p-09).

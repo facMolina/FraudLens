@@ -32,7 +32,7 @@ Docente: **Daniel Britez**. Tablero: https://trello.com/b/iUaTi33p/fraudlens-ana
 | Saber qué es el proyecto | `docs/00-proyecto/ficha-proyecto.md` |
 | Una definición | `docs/00-proyecto/glosario.md` |
 | Saber qué falta definir | `docs/00-proyecto/preguntas-abiertas.md` |
-| Ver qué se dio en una clase | `docs/01-clases/` |
+| Ver qué se dio en una clase | `docs/01-clases/` (nota trabajada) · `docs/01-clases/material/` (deck crudo) |
 | Saber qué se entrega y cuándo | `docs/02-entregables/README.md` |
 | Saber por qué se decidió algo | `docs/03-decisiones/` |
 | Saber cómo trabajamos | `docs/04-metodologia/flujo-de-trabajo.md` |
@@ -60,13 +60,32 @@ Docente: **Daniel Britez**. Tablero: https://trello.com/b/iUaTi33p/fraudlens-ana
 6. **Distinguir fuentes.** Marcar siempre si algo viene del docente, de la planilla, de una decisión
    del equipo o de una sugerencia tuya. En un trabajo académico esa distinción importa.
 
+7. **No deducir.** Este es el punto más importante para este equipo. Si falta un dato, se pregunta;
+   no se completa con lo que "tendría sentido". Un documento con huecos explícitos es útil; uno con
+   datos inventados es un riesgo en una entrega evaluada.
+
+8. **Borrador ≠ definición.** Un documento que un integrante pasó "para revisar" se guarda marcado
+   como borrador y no se usa como fuente de verdad hasta que el equipo lo apruebe.
+
 ## Cuando llega una clase nueva
 
-Es el flujo más frecuente de este repositorio. Pasos:
+Es el flujo más frecuente de este repositorio.
 
-1. Leer el material completo (suelen ser PDFs de diapositivas, a veces sin texto extraíble → leer
-   como imágenes).
-2. Copiar `docs/01-clases/_plantilla-clase.md` → `clase-NN-tema.md`.
+### 🚨 REGLA DE FORMATO — hacer cumplir siempre
+
+**El material de clase se carga en Markdown, NUNCA en PDF.**
+
+Si el usuario intenta pasar material en PDF (o PPT), **no lo aceptes**: pedile que lo convierta
+primero en 👉 **https://cloudconvert.com/pdf-to-md** y que suba el `.md` resultante.
+
+Motivo: los PDFs son pesados, no tienen diff útil en Git, y su texto muchas veces no se puede
+extraer. `*.pdf`, `*.pptx` y `*.xlsx` están en `.gitignore`.
+
+### Pasos
+
+1. Guardar el `.md` crudo en `docs/01-clases/material/` como `clase-NN-tema.md` y sumarlo al índice
+   de `docs/01-clases/material/README.md`.
+2. Copiar `docs/01-clases/_plantilla-clase.md` → `docs/01-clases/clase-NN-tema.md`.
 3. Completar resumen y conceptos, **con las definiciones tal como las dio el docente**.
 4. **Completar "Aplicación a FraudLens"** — sección obligatoria. Una clase sin bajada al proyecto
    no sirve. Acá es donde aportás valor real.
@@ -76,7 +95,9 @@ Es el flujo más frecuente de este repositorio. Pasos:
 8. Revisar `preguntas-abiertas.md`: ¿la clase respondió alguna? ¿abrió alguna nueva?
 9. Actualizar bitácora e historial de aportes.
 
-> Los PDFs originales **no se versionan** (son pesados y viven en Teams/SharePoint).
+> ⚠️ La conversión de PDF a Markdown de estos decks es **imperfecta**: son muy visuales, y el
+> texto llega desordenado y con palabras mezcladas. **No completes a ojo lo que no se entiende.**
+> Marcá el hueco y preguntá al equipo o al docente.
 
 ## Contexto de la materia que conviene tener presente
 
