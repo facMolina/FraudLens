@@ -274,3 +274,32 @@ respuesta, y la tiene ML**. Es la bisagra de la decisión y hay que preguntárse
 - ⬜ **El equipo tiene que reescribir el sombrero rojo.** El que está es un borrador visto desde
   afuera; las emociones son del equipo, no de un modelo.
 - ⬜ **ML tiene que confirmar o descartar el acceso a expertos.**
+
+---
+
+## Sexta parte — Trello obligatorio al arrancar y ticket de debate
+
+### Trello pasa a ser requisito de sesión
+
+El README y `CLAUDE.md` ahora exigen **tener el conector de Trello activo antes de empezar a
+trabajar**. Los pasos de conexión quedaron en el propio README, y el asistente tiene instrucción de
+**frenar y pedirlo** si no está.
+
+El flujo de arranque pasó de 5 a 6 pasos: ahora entre "abrir el asistente" y "trabajar" hay un paso
+explícito de **leer el tablero y asignarse un ticket**, con las reglas del tablero (una persona por
+tarjeta, máximo 1-2 en curso, mover a Bloqueado con el motivo escrito).
+
+> ⚠️ **Limitación registrada:** el conector **no puede asignar miembros a tarjetas**. El responsable
+> queda escrito en la descripción y la persona tiene que darle "Unirme" a mano.
+
+### Tarjeta 8 — Temas a debatir en equipo
+
+Nueva tarjeta con **12 puntos**, separando lo que decide el equipo de lo que se le pregunta al
+docente (que ya estaba en la tarjeta 7): 3 decisiones que bloquean los entregables de hoy, 4 de
+esta semana, 3 de deuda a blanquear y 2 operativas.
+
+### Limpieza de preguntas abiertas
+
+- **P-09** (estructura del tablero) → ✅ resuelta: el tablero está rearmado
+- **P-14** (cuándo es la Clase 5) → ✅ resuelta: miércoles 2/9, 18:45
+- **P-15** → corregida la autoría: los requerimientos los escribió **ML**, no FGR

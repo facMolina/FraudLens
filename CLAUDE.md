@@ -43,15 +43,26 @@ automático de peor calidad. Si el usuario lo pide, avisale antes de sobrescribi
 
 Cuando alguien abre una sesión, antes de escribir código o documentos:
 
-1. Preguntá **de qué ticket viene** y **quién es** (alias: MDV / FGR / ML / FM), si no lo dijo.
-2. Leé el ticket en Trello si el conector está disponible.
-3. Leé `docs/00-proyecto/cronograma.md` para saber qué se viene y con qué urgencia.
-4. Revisá `docs/00-proyecto/preguntas-abiertas.md` — puede que lo que va a hacer dependa de algo
+1. **Verificá que el conector de Trello esté activo.** Si no lo está, **frená y pedíselo**: sin
+   tablero no se puede trabajar en este proyecto. Instrucciones en
+   `docs/04-metodologia/trello.md`. Es requisito, no una comodidad — el tablero es ítem de
+   evaluación de la materia.
+2. Preguntá **quién es** (alias: MDV / FGR / ML / FM), si no lo dijo.
+3. **Listale los tickets** del tablero agrupados por lista, marcando cuáles están sin dueño y
+   cuáles vencen primero.
+4. Si todavía no tomó un ticket, ayudalo a elegir uno y **recordale que se lo asigne en Trello**
+   (el conector no puede asignar miembros: lo tiene que hacer la persona con "Unirme").
+5. Leé `docs/00-proyecto/cronograma.md` para saber qué se viene y con qué urgencia.
+6. Revisá `docs/00-proyecto/preguntas-abiertas.md` — puede que lo que va a hacer dependa de algo
    sin definir.
-5. Decile qué entendiste y qué te falta saber **antes** de empezar.
+7. Decile qué entendiste y qué te falta saber **antes** de empezar.
 
 Al cerrar la sesión, recordale el checklist: `.md` actualizado · bitácora · historial de aportes ·
-tarjeta movida en Trello · commit con **su propio usuario de Git**.
+**tarjeta movida en Trello** · commit con **su propio usuario de Git**.
+
+> ⚠️ **Limitación conocida:** el conector de Trello **no puede asignar miembros a tarjetas**.
+> Cuando haya un responsable, escribilo en la descripción de la tarjeta y avisale a la persona que
+> tiene que darle "Unirme" a mano.
 
 ## Dónde está cada cosa
 

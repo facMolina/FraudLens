@@ -29,19 +29,19 @@ de Trello con esa fecha de vencimiento.
 | [P-06](#p-06) | ¿Qué datos reales vamos a usar? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🔲 Abierta |
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | 🔲 Abierta |
-| [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | 🔲 Abierta |
+| [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta |
 | [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | 🔲 Abierta |
 | [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🔲 Abierta |
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
-| [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | 🔲 Abierta |
-| [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de FGR? | 🟡 | Equipo | 🔲 Abierta |
+| [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | ✅ **Resuelta** |
+| [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de ML? | 🟡 | Equipo | 🔲 Abierta |
 | [P-16](#p-16) | ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto? | 🟢 | Docente | 🔲 Abierta |
 | [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🟢 | Docente | ✅ **Resuelta** |
+| [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente 📅 7/10 y 25/11 | 🔲 Abierta |
 | [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
-| [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 
 ---
 
@@ -177,11 +177,18 @@ También hay que armar la rotación de presentadores de Sprint Reviews.
 ## P-09
 ### ¿Cómo se estructura el tablero de Trello?
 
-El tablero **forma parte de la evaluación** ("Tableros de trabajo (Trello/Jira)"), así que no puede
-estar desprolijo. Hay que definir listas, etiquetas y convención de tarjetas.
+**✅ Resuelta** *(2026-09-02)* — tablero limpiado y rearmado.
 
-Propuesta inicial en [`docs/04-metodologia/trello.md`](../04-metodologia/trello.md) — falta validarla
-contra el estado actual del tablero.
+Se archivaron las 14 tarjetas de la plantilla Kanban, se renombraron las listas al español y se
+cargaron las tarjetas reales del proyecto.
+
+**Listas:** 📥 Backlog · 🎯 Esta semana · 🔨 En curso · 👀 En revisión · 🚧 Bloqueado · ✅ Hecho
+**Etiquetas:** 🔴 Prioridad Alta · 🟠 Prioridad Media
+
+Detalle en [`docs/04-metodologia/trello.md`](../04-metodologia/trello.md).
+
+⚠️ **Queda pendiente lo más importante:** el tablero tiene **un solo miembro (FGR)**. Hasta que
+entren los otros tres, ninguna tarjeta puede tener dueño.
 
 ---
 
@@ -260,9 +267,13 @@ Del material de esas clases surgen entregables concretos. Falta saber cuáles ya
 ## P-14
 ### ¿Cuándo es la Clase 5 y qué pide?
 
-**🟡 Parcialmente resuelta** *(FM, 2026-09-02)*
+**✅ Resuelta** *(2026-09-02, con el cronograma oficial)*
 
-> **La Clase 5 es la próxima** — todavía no se dio.
+> **La Clase 5 es el miércoles 2/9, de 18:45 a 22:15.**
+>
+> Tema: *Design Thinking. Redefinir el problema.*
+> Entregables: **Plan de research · Insight + Definición · User Persona · Mapa de Empatía ·
+> Problem Statement validado.**
 
 Por lo tanto, lo que hay que llevar preparado es **lo que pidió la Clase 4**:
 
@@ -274,10 +285,10 @@ Por lo tanto, lo que hay que llevar preparado es **lo que pidió la Clase 4**:
 ---
 
 ## P-15
-### ¿Qué se hace con el documento de requerimientos de FGR?
+### ¿Qué se hace con el documento de requerimientos de ML?
 
-Francisco escribió [`docs/05-producto/requerimientos-funcionales-mvp.md`](../05-producto/requerimientos-funcionales-mvp.md)
-y lo pasó **para revisión, no como definición**.
+**Mateo Lewinzon** escribió [`docs/05-producto/requerimientos-funcionales-mvp.md`](../05-producto/requerimientos-funcionales-mvp.md)
+y se pasó **para revisión, no como definición**.
 
 El equipo tiene que decidir:
 

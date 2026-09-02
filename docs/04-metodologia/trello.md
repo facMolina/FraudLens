@@ -112,7 +112,19 @@ El conector opera **con los permisos del usuario que autorizó**.
 
 ### Qué va a poder hacer una vez conectado
 
-Leer tableros, listas, tarjetas, checklists y miembros; y crear, actualizar y mover tarjetas.
+Leer tableros, listas, tarjetas, checklists y miembros; y crear, actualizar, mover y archivar
+tarjetas, poner vencimientos y etiquetas.
+
+### ⚠️ Lo que NO puede hacer
+
+**El conector no puede asignar miembros a las tarjetas.** Cuando una tarjeta tiene responsable,
+queda escrito en su descripción — pero **la persona tiene que entrar y darle "Unirme" a mano**.
+
+### 🔴 Es requisito para trabajar, no una comodidad
+
+**Ninguna sesión de trabajo arranca sin el conector activo.** Sin él el asistente no ve los tickets,
+no puede mover tarjetas y no queda registro de lo que hiciste. Y el tablero es **ítem de
+evaluación**.
 
 ### Mientras tanto
 

@@ -28,7 +28,27 @@ Sirve para tres cosas:
 
 🗂️ **Tablero:** https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude
 
-### Los 5 pasos
+### ⚠️ Requisito obligatorio: conectá Trello antes de empezar
+
+**No arranques una sesión sin el conector de Trello activo.** Sin él, el asistente no puede leer los
+tickets, no puede mover tarjetas y no puede dejar registro de lo que hiciste — y el tablero es
+**ítem de evaluación de la materia**.
+
+| Paso | Qué hacer |
+|---|---|
+| 1 | Entrá a **https://claude.ai/settings/connectors** *(o: claude.ai → avatar → Settings → Connectors)* |
+| 2 | Buscá **Trello** y tocá **Connect** |
+| 3 | Autorizá con la cuenta de Trello que tenga acceso al tablero |
+| 4 | **Activá Trello en el chat**, en el selector de conectores de la conversación |
+| 5 | Pedile al asistente que liste los tickets, para confirmar que lo ve |
+
+> 🔑 El paso 4 es el que más se saltea: un conector puede estar **autorizado en la cuenta** pero
+> **apagado en el chat**. Si está apagado, el asistente no ve ninguna herramienta de Trello.
+>
+> Si no sos miembro del tablero todavía, pedile a **FGR** que te invite: sin eso no vas a ver nada
+> aunque conectes.
+
+### Los 6 pasos
 
 ```bash
 # 1. Traer lo último
@@ -38,26 +58,46 @@ git pull
 claude          # o: codex
 ```
 
-**3. Pegale este arranque al asistente**, reemplazando lo que está entre `<>`:
+**3. Leé el tablero y tomá un ticket.** Pegale este arranque al asistente:
 
 ```
 Leé README.md y CLAUDE.md para tomar contexto.
-Después leé docs/00-proyecto/preguntas-abiertas.md y docs/00-proyecto/cronograma.md.
+Después leé docs/00-proyecto/cronograma.md y docs/00-proyecto/preguntas-abiertas.md.
 
-Voy a trabajar en el ticket de Trello: <título o link de la tarjeta>
-Soy <tu nombre> (<tu alias: MDV / FGR / ML / FM>).
+Soy <tu nombre> (<alias: MDV / FGR / ML / FM>).
 
-Antes de escribir nada, decime qué entendiste que hay que hacer y qué te falta saber.
+Listame los tickets del tablero de Trello agrupados por lista, marcando
+cuáles están sin dueño y cuáles vencen primero.
 ```
 
-**4. Trabajá.** El asistente ya sabe las reglas del repo porque están en `CLAUDE.md`.
+**4. Asignate el ticket.** Elegí uno de **🎯 Esta semana** o **📥 Backlog**, entrá a la tarjeta en
+Trello y dale **Unirme**.
 
-**5. Al terminar, cerrá la sesión:**
+> ⚠️ **Asignarse la tarjeta es obligatorio, no opcional.** El docente evalúa **participación
+> individual**, y un tablero donde nadie es dueño de nada no demuestra nada. Además evita que dos
+> trabajen lo mismo.
+>
+> Reglas del tablero:
+> - Toda tarjeta fuera del Backlog tiene **una** persona asignada. *"El equipo"* no es un dueño.
+> - Máximo **1 o 2 tarjetas por persona** en 🔨 En curso. Si tenés más, no estás trabajando: estás
+>   acumulando.
+> - Movela a **🔨 En curso** cuando arranques y a **✅ Hecho** cuando termine.
+> - Si te trabás, movela a **🚧 Bloqueado** y escribí en la tarjeta **qué** te bloquea y **quién**
+>   lo destraba.
+
+**5. Trabajá.** Decile al asistente en qué ticket estás. Ya sabe las reglas del repo porque están
+en `CLAUDE.md`.
+
+> 🎩 Si el ticket es una **decisión** (elegir entre opciones, definir alcance), lleva análisis de
+> **[6 Sombreros](docs/04-metodologia/seis-sombreros.md)** — es consigna del docente.
+> Criterio: *"¿esto se puede hacer mal de más de una manera?"*
+
+**6. Cerrá la sesión:**
 
 - [ ] Lo que definiste quedó escrito en un `.md`
 - [ ] Creaste o actualizaste tu archivo del día en [`bitacora/`](bitacora/)
 - [ ] Sumaste tu fila en [`registro/historial-aportes.md`](registro/historial-aportes.md)
-- [ ] Moviste la tarjeta en Trello
+- [ ] **Moviste la tarjeta en Trello** al estado que corresponde
 - [ ] Commiteaste **con tu propio usuario de Git** y pusheaste
 
 > ⚠️ **Commiteá siempre con tu usuario.** El historial por autor (`git log --author="Tu Nombre"`)
