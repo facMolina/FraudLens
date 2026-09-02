@@ -6,6 +6,19 @@ respuesta, y si la respuesta cambia el rumbo del proyecto se registra además co
 
 **Prioridad:** 🔴 bloqueante · 🟡 importante · 🟢 puede esperar
 
+## 📅 Regla del equipo: cuándo se pregunta
+
+Las preguntas al docente **no se acumulan ni se adelantan**. Cada una tiene su momento:
+
+| Tipo de duda | Cuándo se pregunta |
+|---|---|
+| Afecta lo que entregamos **ahora** | En la clase más próxima |
+| Es sobre un tema que **se va a dar** | En la clase donde se trata el tema, o **en la anterior** |
+| Es sobre algo lejano (dentro de muchas clases) | Se agenda para la clase anterior a ese tema — **no se pregunta ahora** |
+
+Por eso cada pregunta dirigida al docente lleva un campo **"Cuándo preguntar"**, y tiene su tarjeta
+de Trello con esa fecha de vencimiento.
+
 | ID | Pregunta | Prioridad | Para quién | Estado |
 |---|---|---|---|---|
 | [P-01](#p-01) | ¿Cuál es el título oficial del proyecto? | 🟡 | Equipo | ✅ **Resuelta** |
@@ -25,9 +38,10 @@ respuesta, y si la respuesta cambia el rumbo del proyecto se registra además co
 | [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de FGR? | 🟡 | Equipo | 🔲 Abierta |
 | [P-16](#p-16) | ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto? | 🟢 | Docente | 🔲 Abierta |
 | [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🟢 | Docente | ✅ **Resuelta** |
-| [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente | 🔲 Abierta |
-| [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente | 🔲 Abierta |
-| [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente | 🔲 Abierta |
+| [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente 📅 7/10 y 25/11 | 🔲 Abierta |
+| [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente 📅 2/9 | 🔲 Abierta |
+| [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
+| [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 
 ---
 
@@ -96,21 +110,26 @@ El plan de trabajo del deck de la Clase 1 **queda descartado**: era del primer c
 ## P-05
 ### ¿Dónde vive el código del MVP?
 
-**🟡 Parcialmente resuelta** *(FM, 2026-09-02)*
+**🔲 Abierta** *(actualizada 2026-09-02)*
 
-**Ya existe un prototipo**, hecho por FGR: backend generado con Claude, frontend con Codex, sobre la
-base de un notebook de Kaggle y del documento de requerimientos de ML.
-Registrado en [`docs/05-producto/prototipo.md`](../05-producto/prototipo.md).
+> **El código del MVP todavía NO está empezado.** *(FM)*
 
-**Falta lo importante:**
+Hay que distinguir dos cosas:
 
-- ❓ **¿Dónde está el código?** ¿Repo de GitHub, carpeta local de FGR, otra cosa?
-- ❓ Link al repositorio
-- ❓ Cómo se levanta y se prueba
-- ❓ Qué stack usa
+| | Qué es | Estado |
+|---|---|---|
+| **Prototipo de FGR** | Prueba: backend con Claude, frontend con Codex, sobre un notebook de Kaggle y el documento de requerimientos de ML | ✅ Existe. Ver [`prototipo.md`](../05-producto/prototipo.md) |
+| **Código del MVP** | El producto que se entrega en la materia | ❌ **No empezado** |
 
-⚠️ Si el prototipo vive sólo en la máquina de Francisco, es un **riesgo del proyecto**: nadie más
-puede trabajarlo ni demostrarlo.
+**Asignado a:** Mateo Lewinzon (ML) — tarjeta creada en el Backlog de Trello.
+
+**A definir:**
+- ¿Repositorio aparte o carpeta dentro de este repo? *(sugerido: repositorio aparte)*
+- Stack → [P-10](#p-10)
+- Acceso para los 4 integrantes
+
+⚠️ **El alcance del MVP se define después del User Research y del Problem Statement.** Tener el
+repositorio listo antes no cuesta nada, pero empezar a construir sobre supuestos sí.
 
 ---
 
@@ -181,18 +200,16 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 ## P-11
 ### ¿Cuál es el dataset de casos de prueba del MVP?
 
-FM confirmó que el equipo **tiene un dataset de casos de prueba para el MVP**. Falta registrarlo:
+**🟡 Parcialmente resuelta** *(FM, 2026-09-02)* — hay **3 candidatos pre-seleccionados**,
+cargados en [`docs/05-producto/datos.md`](../05-producto/datos.md).
 
-- ¿Cuál es? ¿Nombre, origen, link?
-- ¿Es un dataset público, uno provisto por el docente, o generado por el equipo?
-- ¿Cuántos registros tiene y qué columnas?
-- ¿Trae la etiqueta de fraude (`is_fraud`) o hay que construirla?
-- ¿Alcanza para **entrenar** el modelo o sólo para **probar** el MVP? *(no es lo mismo)*
+⚠️ **Los tres links son notebooks de Kaggle (`/code/`), no datasets (`/datasets/`).** Falta
+identificar **qué dataset usa cada uno**, que es el dato que realmente necesitamos.
 
-Cuando esté la respuesta, se documenta en `docs/05-producto/datos.md`.
+Falta además, para cada candidato: cantidad de registros, columnas, si trae la etiqueta de fraude,
+el % de desbalanceo, la licencia, y si alcanza para **entrenar** o sólo para **probar**.
 
-> **Recordatorio:** los datasets **no se versionan** en este repo (`data/` y `*.csv` están en
-> `.gitignore`). Se documenta de dónde bajarlo, no el archivo.
+Y una decisión de producto: **con qué métricas se evalúa el modelo**. En fraude, *accuracy* no sirve.
 
 ---
 
@@ -327,6 +344,15 @@ antes de arrancar — y eso conecta directo con [P-07](#p-07).
 ## P-19
 ### Huecos del cronograma oficial
 
+**📅 Preguntar en dos momentos distintos:**
+
+| Qué | Cuándo | Por qué |
+|---|---|---|
+| Retrospectiva grupal 2 · Sprint Review repetido | **clase del 7/10** | Es la clase de Taller de Retrospectivas y la anterior al 14/10, cuando arrancan |
+| Cómo es The Pitch y cuándo | **clase del 25/11** | Es la anterior al Simulacro The Pitch (2/12) |
+
+Las dos tienen su tarjeta en Trello con esa fecha de vencimiento.
+
 El cronograma de la cátedra tiene tres inconsistencias que conviene aclarar con el docente:
 
 | Hueco | Detalle |
@@ -343,6 +369,9 @@ y noviembre, y hay que saber cuándo tenemos que estar todos presentes.
 ## P-20
 ### ¿Cómo se mapea la numeración de los decks con la del cronograma?
 
+**📅 Preguntar: clase del 2/9** — es una confusión que ya está molestando ahora, y se responde en
+diez segundos.
+
 Los decks del docente y el cronograma **numeran las clases distinto**:
 
 | Deck | Tema | Clase del cronograma que parece corresponder |
@@ -357,3 +386,22 @@ distintas). Conviene aclararlo y usar **fechas** en vez de números cuando haya 
 
 En este repositorio: las **notas de clase** usan la numeración de los decks; las **fechas y
 entregables** salen del cronograma oficial.
+
+
+---
+
+## P-21
+### ¿Qué significa "Problem Statement validado"?
+
+**📅 Preguntar: clase del 2/9** *(es un entregable de esa misma clase)*
+
+El cronograma oficial pide, para la clase del 2/9: *"Entregable: **Problem Statement validado**"*.
+
+La palabra **validado** implica contrastado con evidencia — no "acordado entre nosotros". Pero el
+User Research todavía no está hecho.
+
+**La pregunta concreta al docente:** ¿qué espera por "validado" en esta instancia, si el research
+recién arranca? ¿Alcanza con la lógica del Design Thinking y las User Persona, o hace falta
+evidencia de campo?
+
+**Impacto: alto.** Define si el entregable de esa clase está completo o no.

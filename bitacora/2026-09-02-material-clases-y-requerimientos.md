@@ -166,3 +166,55 @@ arranque listo para copiar, el checklist de cierre, y el aviso de **no correr `/
 - ✅ Resueltas: **P-04** (cronograma), **P-17** (las 400 respuestas son una guía)
 - 🟡 Parcial: **P-05** (hay prototipo, pero no se sabe dónde vive el código)
 - 🔲 Nuevas: **P-19** (huecos del cronograma), **P-20** (numeración decks vs. cronograma)
+
+---
+
+## Cuarta parte — datasets, identidad visual y agenda de preguntas
+
+### Correcciones de FM
+
+| Antes se entendía | La realidad |
+|---|---|
+| El prototipo de FGR era "el código del MVP" y faltaba saber dónde vivía | **El código del MVP no está empezado.** El prototipo de FGR es una prueba aparte. Arrancar el repo del MVP queda **asignado a ML** |
+| Había "un dataset de casos de prueba" | Hay **3 candidatos pre-seleccionados**, todavía sin elegir |
+
+### Datasets candidatos
+
+Cargados en [`docs/05-producto/datos.md`](../docs/05-producto/datos.md) con criterios de elección.
+
+⚠️ **Detalle que hay que mirar:** los tres links son **notebooks** de Kaggle (`/code/`), no
+**datasets** (`/datasets/`). Lo que necesitamos es el dataset que cada notebook usa por debajo.
+Quedó anotado en la tarjeta y en el documento.
+
+### Nueva regla del equipo: cuándo se le pregunta al docente
+
+> Las preguntas no se acumulan ni se adelantan. Se preguntan en la clase donde se trata el tema, o
+> en la anterior. Preguntar en septiembre algo de noviembre no sirve.
+
+Documentada en [`flujo-de-trabajo.md`](../docs/04-metodologia/flujo-de-trabajo.md) y en el
+encabezado de [`preguntas-abiertas.md`](../docs/00-proyecto/preguntas-abiertas.md). Cada pregunta al
+docente lleva ahora un campo **📅 Cuándo preguntar** y su tarjeta de Trello con esa fecha.
+
+Agenda resultante:
+
+| Pregunta | Cuándo |
+|---|---|
+| P-18 (3 perfiles o 3 personas), P-20 (numeración), P-21 (qué es "validado") | **2/9** |
+| P-19 — retros y Sprint Reviews | **7/10** |
+| P-19 — cómo es The Pitch | **25/11** |
+
+### Identidad visual
+
+FM toma a cargo colorimetría, logo, tipografía e imagen de FraudLens. Tarjeta creada en
+**🔨 En curso**.
+
+Se sumaron dos consideraciones que salen del propio producto: la **paleta de riesgo**
+(bajo/medio/alto/crítico) no puede depender sólo del color —hay que poder distinguir "alto" de
+"crítico" sin ver color— y la tipografía necesita **números tabulares**, porque el dashboard muestra
+montos, IDs y puntajes en columna.
+
+### Nota sobre asignaciones en Trello
+
+El conector de Trello **no permite asignar miembros a tarjetas** desde el asistente. Los
+responsables quedan escritos en la descripción de cada tarjeta; hay que asignarlos a mano cuando los
+integrantes entren al tablero.

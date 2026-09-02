@@ -100,6 +100,27 @@ Va a [`preguntas-abiertas.md`](../00-proyecto/preguntas-abiertas.md) con un ID (
 prioridad y a quién hay que preguntarle. Cuando se responde: se marca resuelta y se escribe la
 respuesta. Si la respuesta cambia el rumbo, además se registra como decisión.
 
+### 📅 Cuándo se le pregunta al docente
+
+Las preguntas **no se acumulan ni se adelantan**. Cada una tiene su momento:
+
+| Tipo de duda | Cuándo se pregunta |
+|---|---|
+| Afecta lo que entregamos **ahora** | En la clase más próxima |
+| Es sobre un tema **que se va a dar** | En la clase donde se trata el tema, o **en la anterior** |
+| Es sobre algo lejano | Se **agenda** para la clase anterior a ese tema — no se pregunta ahora |
+
+Preguntar en septiembre algo de noviembre no sirve: el docente responde en abstracto y para cuando
+llega el momento nadie se acuerda.
+
+Por eso cada pregunta al docente lleva un campo **"📅 Cuándo preguntar"** y **su propia tarjeta de
+Trello con esa fecha de vencimiento**.
+
+### Cuando aparece una tarea con dueño
+
+Si la duda o la tarea es de alguien en particular, se crea la tarjeta en Trello **con el responsable
+escrito en la descripción**. Cuando esa persona esté en el tablero, se le asigna la tarjeta.
+
 ## Antes de cada entrega
 
 Checklist completo en [`docs/02-entregables/README.md`](../02-entregables/README.md#checklist-previo-a-cada-entrega).

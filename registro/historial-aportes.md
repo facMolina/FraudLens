@@ -43,6 +43,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | 2026-09-02 | FM | Gestión | Redacción de los 17 tickets pendientes para la Clase 5 | [Pendientes Clase 5](../docs/02-entregables/pendientes-clase-05.md) |
 | 2026-09-02 | FM | Gestión | Carga del cronograma oficial 2C 2026 y corrección de todas las fechas del proyecto | [Cronograma](../docs/00-proyecto/cronograma.md) |
 | 2026-09-02 | FM | Gestión | Limpieza y rearmado del tablero de Trello: archivado de 14 tarjetas de plantilla, listas en español y 15 tarjetas reales | [Tablero](https://trello.com/b/iUaTi33p/fraudlens-analizador-probabilidad-de-fraude) |
+| 2026-09-02 | FM | Producto | Toma a cargo la **identidad visual** de FraudLens: colorimetría, logo, tipografía e imagen de marca | [Tarjeta](https://trello.com/c/ncNYKzbF) |
+| 2026-09-02 | Equipo | Producto | Pre-selección de 3 datasets/notebooks de Kaggle candidatos para el modelo | [`datos.md`](../docs/05-producto/datos.md) |
 
 ---
 
@@ -55,7 +57,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Des
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
 | Lewinzon, Mateo (ML) | 2 | Clase 4 |
-| Molina, Facundo Roman (FM) | 9 | 2026-09-02 |
+| Molina, Facundo Roman (FM) | 10 | 2026-09-02 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

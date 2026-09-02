@@ -17,5 +17,6 @@ es lo único que tenemos definido.
 | `modelo-negocio.md` | BMC y P&L | Bloque 2 | 🔲 Pendiente |
 | [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
-| `datos.md` | Dataset de casos de prueba: origen, contenido y métricas | — | 🔲 Pendiente ([P-11](../00-proyecto/preguntas-abiertas.md#p-11)) |
-| `metricas.md` | OKRs y KPIs | Sprint 4 | 🔲 Pendiente |
+| [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
+| `metricas.md` | OKRs y KPIs | 4/11 | 🔲 Pendiente |
+| `identidad-visual.md` | Colorimetría, logo, tipografía y tono de marca | — | 🔨 En curso (FM) |
