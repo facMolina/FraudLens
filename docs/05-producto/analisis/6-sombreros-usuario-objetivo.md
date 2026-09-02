@@ -56,7 +56,9 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 
 ## 🔴 Sombrero Rojo — Mente emocional
 
-> Sin justificar. **Borrador — el equipo lo corrige.**
+> Sin justificar. **Borrador escrito desde afuera — ⬜ el equipo todavía tiene que reescribirlo.**
+> Las emociones son del equipo, no de un modelo. Los puntos a debatir están
+> [al final de esta sección](#-pendiente-el-equipo-tiene-que-escribir-el-sombrero-rojo).
 
 - **Ansiedad por la fecha.** La clase es hoy y no hay una sola entrevista hecha.
 - **Incomodidad de fondo:** se escribieron los requerimientos y se armó un prototipo antes de saber
@@ -69,6 +71,28 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 - **Cansancio de ser cuatro** en un trabajo pensado para seis u ocho.
 - **Tentación de elegir el usuario que le queda cómodo al prototipo** en vez del que conviene al
   proyecto. Es el sesgo más peligroso de esta decisión y hay que nombrarlo.
+
+### ⬜ PENDIENTE: el equipo tiene que escribir el sombrero rojo
+
+Lo de arriba es un borrador escrito desde afuera. Para reemplazarlo, el equipo tiene que hablar
+**estas seis cosas**. No hay respuestas correctas: el sombrero rojo no se justifica, se dice.
+
+1. **El prototipo.** ¿Cuánto nos costaría emocionalmente que el research diga que hay que tirarlo o
+   rehacerlo? ¿Alguien lo defendería aunque los datos digan otra cosa?
+2. **El orden invertido.** Escribimos requerimientos y armamos un prototipo antes de saber para
+   quién. ¿Alguien lo sintió raro en el momento y no lo dijo? ¿Por qué no lo dijo?
+3. **Ser cuatro.** ¿Cómo se siente encarar un TIF pensado para seis u ocho? ¿Estamos repartiendo
+   bien o hay alguien tapado?
+4. **El miedo concreto.** Si el docente pregunta *"¿a quién entrevistaron?"*, ¿qué sentimos hoy?
+5. **Las entrevistas de ML.** Ahora que hay acceso confirmado, ¿aparece presión de no
+   desaprovecharlo? ¿Quién se siente cómodo entrevistando y quién no?
+6. **El perfil C.** Salir a buscar respuestas de consumidores es trabajo de campo real y aburrido.
+   ¿Hay ganas o hay resistencia?
+
+> Cuando lo hablen, **reemplacen el borrador de arriba** con lo que salga, y firmen abajo quiénes
+> participaron. Es la única sección de este documento que no puede escribir una IA.
+
+**Validado por:** ⬜ *(pendiente)* · **Fecha:** ⬜
 
 ---
 
@@ -153,10 +177,12 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 **El negro dice que el analista de fraude es inaccesible; el amarillo dice que ML tiene acceso.**
 
 No es una contradicción de opinión: es **una pregunta con respuesta**, y la respuesta la tiene ML.
-No se resuelve discutiendo, se resuelve preguntándole hoy: *¿podés conseguir una o dos entrevistas
-reales con analistas de fraude en las próximas dos semanas, sí o no?*
 
-Es la bisagra de toda la decisión.
+> ✅ **RESUELTA (2026-09-02): ML confirmó que hay acceso.** Consigue entrevistas con analistas de
+> fraude en las próximas dos semanas. El perfil A queda como estaba y **no se activa el plan B**.
+>
+> Consecuencia: el activo más escaso del research es ese acceso. Son pocas entrevistas y no se
+> repiten, así que la guía de entrevista del perfil A hay que prepararla bien **antes** de usarla.
 
 ### Decisión propuesta
 
@@ -190,8 +216,9 @@ Es la bisagra de toda la decisión.
 
 - Que ML confirme que **no** hay acceso a analistas de fraude → se activa el plan B.
 - Que los datasets no permitan modelar nada útil para el perfil elegido → se revisa el alcance.
-- Que el docente responda [P-18](../../00-proyecto/preguntas-abiertas.md#p-18) diciendo que son
-  **3 personas del mismo perfil** y no 3 perfiles → cambia toda la estructura.
+- ~~Que el docente responda [P-18](../../00-proyecto/preguntas-abiertas.md#p-18) diciendo que son
+  **3 personas del mismo perfil** y no 3 perfiles~~ → ✅ **Descartado: el docente confirmó que son
+  3 perfiles distintos.** La estructura se sostiene.
 - Que el research diga que el dolor real está en un lugar donde no lo estamos buscando.
 
 ### Lo primero que hay que hacer

@@ -170,6 +170,12 @@ muy desbalanceados, así que *accuracy* no sirve.
 >
 > Falta: validarla con el equipo y con datos reales.
 
+> 🟡 **Avance (2026-09-02):** el equipo decidió **a quién investigar** —
+> [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) — y la hipótesis de FM coincide con
+> el **perfil A (analista de fraude)**. Pero **esta pregunta sigue abierta**: quién es *el* usuario
+> objetivo del MVP es una conclusión que sale del research, no de antes. **ML confirmó acceso a
+> analistas de fraude para entrevistar**, así que se puede responder con datos.
+
 
 FraudLens "asiste en la decisión de aprobar, rechazar o revisar". ¿Quién toma esa decisión?
 
@@ -367,6 +373,15 @@ antes de arrancar — y eso conecta directo con [P-07](#p-07).
 > El documento de FGR ya nombra tres actores humanos posibles (**sistema cliente**,
 > **analista de fraude**, **administrador**). Podrían ser el punto de partida, pero **eso hay que
 > decidirlo en equipo**, no darlo por hecho.
+
+**✅ Resuelta** *(2026-09-02)* — **el docente confirmó la lectura A: son 3 perfiles distintos**,
+cada uno con su User Persona, Mapa de Empatía y Escenario Actual.
+
+Los tres perfiles quedaron decididos en [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md):
+**analista de fraude** (decide) · **dueño de comercio** (paga) · **consumidor** (sufre).
+
+De los tres actores que nombraba el documento de FGR, se descartaron dos: el *sistema cliente* no es
+una persona, y el *administrador* es un rol de configuración sin dolor propio.
 
 
 ---

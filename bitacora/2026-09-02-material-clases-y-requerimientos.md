@@ -389,3 +389,56 @@ siendo una persona por tarjeta y máximo 1-2 en 🔨 En curso.
 
 Actualizado también [`preguntas-abiertas.md`](../docs/00-proyecto/preguntas-abiertas.md) (P-09), que
 seguía diciendo que el tablero tenía un solo miembro.
+
+---
+
+## Novena parte — ticket 1: los 3 perfiles de usuario
+
+Se encaró el [ticket 1](https://trello.com/c/IYegyoM6), que bloqueaba a los cinco entregables
+restantes de la Clase 5. Quedó en **👀 En revisión**.
+
+### Las dos respuestas que destrabaron todo
+
+| Pregunta | Respuesta |
+|---|---|
+| **¿ML tiene acceso a analistas de fraude?** *(la bisagra del análisis)* | ✅ **Sí.** Consigue entrevistas en las próximas 2 semanas. **No se activa el plan B** del proxy |
+| **P-18 al docente: ¿3 perfiles o 3 personas?** | ✅ **3 perfiles distintos**, cada uno con su Persona, Mapa y Escenario |
+
+El sombrero negro decía que el analista era inaccesible y el amarillo que ML tenía contactos. El
+análisis lo había marcado como *"no es una contradicción de opinión, es una pregunta con
+respuesta"*. Se preguntó y se cerró.
+
+### La decisión
+
+Tres perfiles en **tres niveles distintos del mismo problema**, escritos en
+[`docs/05-producto/usuarios.md`](../docs/05-producto/usuarios.md):
+
+| | Perfil | Rol | Método |
+|---|---|---|---|
+| **A** | Analista de fraude | El que **decide** | Entrevistas vía ML |
+| **B** | Dueño de comercio chico | El que **paga** | Entrevistas |
+| **C** | Consumidor con fraude o rechazo indebido | El que lo **sufre** | Encuesta |
+
+Descartados: **administrador** (rol de configuración, no persona con dolor propio — su Persona y su
+Mapa saldrían vacíos) y **sistema cliente** (no es una persona).
+
+### Consecuencia operativa del acceso confirmado
+
+Las entrevistas de ML pasan a ser **el activo más escaso del research**: son pocas y no se repiten.
+La guía de entrevista del perfil A hay que prepararla bien **antes** de usarla — no se puede
+improvisar y volver a llamar.
+
+### Lo que NO se cerró
+
+**P-07 sigue abierta.** Acá se decidió **a quién investigar**, no quién es el usuario objetivo del
+MVP. Eso es una conclusión del research. La hipótesis de FM coincide con el perfil A, y ahora hay
+cómo confirmarla o tirarla abajo con datos.
+
+### Pendiente: el sombrero rojo
+
+Es la única sección que no puede escribir una IA. Se dejaron **6 puntos concretos a debatir** al
+final de esa sección del
+[análisis](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md): el apego al prototipo,
+el orden invertido del trabajo, ser cuatro, el miedo a que pregunten a quién entrevistaron, la
+presión de no desaprovechar las entrevistas de ML, y las ganas o resistencia al trabajo de campo
+del perfil C.
