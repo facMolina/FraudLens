@@ -4,6 +4,9 @@
 > [Google AI Studio](https://aistudio.google.com) o en la app de Gemini.
 >
 > Brief completo: [`identidad-visual.md`](identidad-visual.md)
+>
+> **Decisiones que ya están tomadas y se reflejan en estos prompts:** el nombre se escribe
+> **FraudLens** · la **UI va en inglés** · tipografías de **Google Fonts** · **sin colores vetados**.
 
 ## Cómo usar esto
 
@@ -106,14 +109,14 @@ For each palette row, show a horizontal strip of color swatches as flat rectangl
 - 1 darker and 1 lighter variant of it
 - 4 neutral grays from near-white to near-black
 - then, separated by a small gap, a RISK SCALE of exactly four swatches
-  labeled BAJO, MEDIO, ALTO, CRITICO going from calm green through amber and
+  labeled LOW, MEDIUM, HIGH, CRITICAL going from calm green through amber and
   orange to deep red
 
 Critical requirement: the brand color must be clearly distinguishable from every color
 in the risk scale, so it never reads as a status.
 
 Include the hex code under each swatch in a small monospaced font.
-Keep all text minimal and precise — only hex codes and the four Spanish risk labels.
+Keep all text minimal and precise — only hex codes and the four risk labels.
 
 Style reference: Stripe's design system documentation, Linear's brand guidelines.
 Clean, technical, premium. Landscape 16:9 image.
@@ -138,19 +141,18 @@ clearly legible against the dark background.
 A realistic UI mockup of a professional B2B fintech fraud-detection dashboard, shown as
 a flat screenshot with no browser chrome, no device frame, no perspective, no shadow.
 
-The interface is in SPANISH. Dark mode: very dark charcoal background (#0D0D10), panels
+The interface is in ENGLISH. Dark mode: very dark charcoal background (#0D0D10), panels
 in slightly lighter charcoal, deep electric blue as the single accent color.
 
 Layout:
 - A slim left sidebar with small icon-only navigation items
-- A top bar with the page title "Transacciones" and a set of filter chips
-- A row of four compact metric cards showing large numbers with small Spanish labels
-  underneath
+- A top bar with the page title "Transactions" and a set of filter chips
+- A row of four compact metric cards showing large numbers with small labels underneath
 - Below, a dense data table filling most of the screen. Table columns titled:
-  FECHA, ID, USUARIO, MONTO, RIESGO, DECISION.
-  About twelve rows of transaction data. Amounts are Argentine pesos.
-  The RIESGO column shows a small horizontal score bar plus a numeric value.
-  The DECISION column shows compact status pills reading APROBAR, REVISAR or BLOQUEAR.
+  DATE, TRANSACTION ID, USER, AMOUNT, RISK, DECISION.
+  About twelve rows of transaction data.
+  The RISK column shows a small horizontal score bar plus a numeric value out of 100.
+  The DECISION column shows compact status pills reading APPROVE, REVIEW or BLOCK.
 
 Critical: each risk state is communicated by BOTH color AND a distinct small icon shape,
 so the table stays readable in grayscale. Risk colors run from calm green through amber
@@ -168,7 +170,7 @@ of Datadog and Grafana. Premium, sober, engineered. Landscape 16:9 image.
 Mismo prompt, cambiando el párrafo de color por:
 
 ```
-The interface is in SPANISH. Light mode: near-white background (#FAFAFA), panels in pure
+The interface is in ENGLISH. Light mode: near-white background (#FAFAFA), panels in pure
 white with very subtle 1px borders, deep electric blue as the single accent color.
 ```
 
@@ -192,7 +194,7 @@ show a right-aligned column of monetary amounts with thousands separators, perfe
 aligned using tabular figures. Beside it, show the characters 0 O 1 l I 5 S 8 B enlarged
 side by side to demonstrate that they are clearly distinguishable from one another.
 
-All sample text is in Spanish. Label each section with a small monospaced caption.
+All sample text is in English. Label each section with a small monospaced caption.
 No decoration, no color other than black, gray and one blue accent.
 Portrait 4:5 image.
 ```
