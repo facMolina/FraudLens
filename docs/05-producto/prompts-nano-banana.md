@@ -213,3 +213,116 @@ Portrait 4:5 image.
 
 > ⚠️ **Honestidad académica:** si se usan imágenes generadas por IA en el documento final o el
 > pitch, **se cita la herramienta**. Ver [`prototipo.md`](prototipo.md).
+
+---
+
+# Segunda ronda — con violeta decidido
+
+> Decisiones de FM (2026-09-02): **color de marca violeta** · **3 isotipos finalistas** ·
+> **regenerar los dos mockups** · el board presenta **variaciones**.
+>
+> Valores verificados en [`identidad/paleta.md`](identidad/paleta.md).
+
+## Prompt 5 — Variaciones de los 3 isotipos finalistas
+
+```
+A logo mark exploration sheet on a neutral light gray background (#F5F5F7).
+Icons only — absolutely NO text, NO letters, NO words anywhere in the image.
+
+Show a 3x4 grid: three ROWS, one per concept, each row containing four variations
+of the SAME concept.
+
+ROW 1 — FUNNEL: a set of parallel lines converging downward into a single point or
+narrow channel, representing filtering a stream down to what matters.
+ROW 2 — GRID ANOMALY: a regular grid of cells or dots where exactly one cell stands
+out, representing one irregular transaction inside a normal flow.
+ROW 3 — PRISM: a triangular prism splitting one incoming beam into several separate
+outgoing rays, representing one stream separated into distinct risk levels.
+
+Within each row, vary only the execution: thin outline, thicker outline, partially
+filled, and a version built from separated segments. Keep the concept identical
+across the four variations in a row.
+
+Style: minimal geometric vector marks in the spirit of Stripe, Linear and Vercel.
+Flat, no gradients, no shadows, no 3D. Simple geometric primitives, strong negative
+space. Every mark must read clearly at 24 pixels.
+
+Color: violet #9333EA on the light gray background. Single color only.
+
+The aesthetic is a premium B2B fintech infrastructure product. Sober, precise,
+engineered. Square 1:1 image.
+```
+
+## Prompt 6 — Dashboard modo oscuro, corregido
+
+> ⚠️ La versión anterior salió con métricas sin sentido y con los scores contradiciendo las
+> decisiones. Este prompt **fija los datos exactos** para que eso no pase.
+
+```
+A realistic UI mockup of a professional B2B fintech fraud-detection dashboard, shown as
+a flat screenshot with no browser chrome, no device frame, no perspective, no shadow.
+
+Interface in ENGLISH. Dark mode: page background #0D0D10, panels #16161A,
+violet #A855F7 as the single brand accent color.
+
+Layout:
+- A slim left sidebar with small icon-only navigation items, the active one in violet
+- A top bar with the page title "Transactions" and four filter controls labeled exactly:
+  "Date Range", "Risk Level", "Status", "Search transactions"
+- A row of exactly four metric cards, each with a large number and a small label below.
+  Use exactly these, in this order:
+    "14,250" / Total Transactions
+    "312"    / Flagged for Review
+    "85"     / Blocked
+    "42"     / Avg. Risk Score
+- Below, a dense data table. Column headers exactly:
+  DATE, TRANSACTION ID, USER, AMOUNT, RISK, DECISION
+  Use exactly these eight rows, and keep every value consistent:
+    Oct 27, 2023 | TXN-901234 | j.smith@company.com  | $1,250.00  | 15 | APPROVE
+    Oct 27, 2023 | TXN-901235 | m.jones@provider.net | $5,800.00  | 48 | REVIEW
+    Oct 27, 2023 | TXN-901236 | l.lee@innovate.io    | $750.00    | 72 | REVIEW
+    Oct 27, 2023 | TXN-901237 | r.brown@corp.org     | $12,900.00 | 94 | BLOCK
+    Oct 26, 2023 | TXN-901238 | a.diaz@fintech.co    | $320.00    | 8  | APPROVE
+    Oct 26, 2023 | TXN-901239 | k.patel@shop.com     | $2,400.00  | 55 | REVIEW
+    Oct 26, 2023 | TXN-901240 | s.moore@store.net    | $8,100.00  | 88 | BLOCK
+    Oct 26, 2023 | TXN-901241 | t.nguyen@pay.io      | $610.00    | 21 | APPROVE
+
+Critical rules, follow exactly:
+- The RISK column shows a small horizontal bar whose fill length matches the number,
+  plus the numeric value.
+- Risk color follows the score: 0-39 green #16A34A, 40-59 amber #FBBF24,
+  60-84 orange #F97316, 85-100 red #DC2626.
+- Each risk level ALSO carries a distinct small icon shape so it is readable in
+  grayscale: check circle for green, triangle for amber, diamond for orange,
+  filled circle for red.
+- The DECISION column shows compact pills reading APPROVE, REVIEW or BLOCK, matching
+  the score bands above.
+- The violet brand accent is used ONLY for navigation and interactive elements,
+  never for a risk state.
+
+Typography: a clean geometric sans-serif. All numeric columns tabular and right-aligned.
+Small text sizes, high information density.
+
+Style: the visual precision of Linear and Stripe with the data density of Datadog.
+Premium, sober, engineered. Landscape 16:9 image.
+```
+
+## Prompt 7 — Dashboard modo claro, en violeta
+
+Mismo prompt 6, cambiando **sólo** estos dos bloques:
+
+```
+Interface in ENGLISH. Light mode: page background #FAFAFA, panels pure white with
+very subtle 1px light gray borders, violet #9333EA as the single brand accent color.
+```
+
+y la regla de colores de riesgo:
+
+```
+- Risk color follows the score, using these DARKER values chosen for contrast on a
+  light background: 0-39 green #15803D, 40-59 amber #B45309, 60-84 orange #C2410C,
+  85-100 red #B91C1C.
+```
+
+> ⚠️ **No uses los colores vivos en modo claro.** `#FBBF24` sobre blanco da un contraste de
+> **1.60** — es prácticamente invisible. Ver [`identidad/paleta.md`](identidad/paleta.md).

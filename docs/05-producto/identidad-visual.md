@@ -44,7 +44,7 @@ dependencia sea explícita y no una sorpresa en octubre.
 | **Referencias** | Stripe / Nubank · Datadog / Grafana · Linear / Vercel | FM |
 | **Concepto de logo** | Generar varias direcciones y comparar sobre imagen | FM |
 | **Modo** | **Claro y oscuro**, los dos | FM |
-| **Color de marca** | Generar opciones en varias familias y comparar | FM |
+| **Color de marca** | 🟣 **Violeta** — `#9333EA` claro / `#A855F7` oscuro | FM |
 | **Formato del logo** | **Sólo isotipo** generado por IA; el nombre se monta con tipografía real | FM |
 | **Escritura del nombre** | **FraudLens** — una palabra, L mayúscula intercalada | FM |
 | **Idioma de la UI** | **Inglés** | FM |
@@ -108,12 +108,15 @@ etiqueta, un patrón. Si alguien ve el dashboard en escala de grises, tiene que 
 
 | # | Entregable | Estado |
 |---|---|---|
-| 1 | Propuestas de isotipo (3 direcciones) | 🔲 |
-| 2 | Paletas de color, claro y oscuro | 🔲 |
-| 3 | Mockup del dashboard con la identidad aplicada | 🔲 |
-| 4 | Lámina de tipografía | 🔲 |
-| 5 | Elección del equipo | 🔲 |
-| 6 | Board de presentación en Canva | 🔲 |
+| 1 | Primera generación (27 isotipos, 2 paletas, 2 mockups, tipografía) | ✅ [Análisis](identidad/analisis-generacion-01.md) |
+| 2 | Paleta verificada con contraste WCAG | ✅ [`identidad/paleta.md`](identidad/paleta.md) |
+| 3 | Color de marca elegido | ✅ Violeta |
+| 4 | Shortlist de 3 isotipos | ✅ Embudo · Grilla con anomalía · Prisma |
+| 5 | Variaciones de los 3 isotipos en violeta | 🔲 Prompt 5 |
+| 6 | Mockups regenerados en violeta (claro y oscuro) | 🔲 Prompts 6 y 7 |
+| 7 | Tipografía real elegida y verificada | 🔲 |
+| 8 | Board de presentación | 🔲 |
+| 9 | Elección del equipo + docente | 🔲 |
 
 **Prompts para generar 1 a 4:** [`prompts-nano-banana.md`](prompts-nano-banana.md)
 

@@ -20,4 +20,6 @@ es lo único que tenemos definido.
 | [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
 | `metricas.md` | OKRs y KPIs | 4/11 | 🔲 Pendiente |
 | [`identidad-visual.md`](identidad-visual.md) | Brief de marca: tono, referencias, paleta y tipografía | — | 🔨 En curso (FM) |
-| [`prompts-nano-banana.md`](prompts-nano-banana.md) | Prompts listos para generar isotipos, paletas, mockup y tipografía | — | ✅ Listos para usar |
+| [`prompts-nano-banana.md`](prompts-nano-banana.md) | Prompts para generar isotipos, paletas, mockups y tipografía | — | ✅ Listos para usar |
+| [`identidad/paleta.md`](identidad/paleta.md) | Paleta violeta con contrastes WCAG verificados | — | 🟡 A aprobar |
+| [`identidad/analisis-generacion-01.md`](identidad/analisis-generacion-01.md) | Análisis de la primera generación y shortlist | — | ✅ |
