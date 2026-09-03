@@ -68,10 +68,46 @@ El docente enseñó una fórmula para pasar de una descripción vaga a un proble
 | "Hacer una app de dietas" | "¿Cómo podríamos ayudar a **estudiantes universitarios sin tiempo** a planificar comidas saludables **con presupuesto limitado**?" |
 
 Nuestro enunciado actual describe una **oportunidad tecnológica**, no un usuario con una restricción.
-Falta reescribirlo con esta fórmula — pero **no se puede hacer bien sin saber quién es el usuario**
-([P-07](../00-proyecto/preguntas-abiertas.md#p-07)), y eso sale del User Research.
 
-🔲 **Pendiente.** No lo completamos a ojo.
+> ⚠️ **Por qué son 3 versiones y no una.** Esta fórmula normalmente se escribe **después** de
+> Empatizar, como síntesis de entrevistas reales. Nosotros todavía tenemos **0 entrevistas hechas**,
+> así que lo de abajo **no es un insight validado — es una hipótesis de trabajo**, construida sólo
+> con lo que ya sabemos con certeza (la planilla del docente y la decisión de
+> [los 3 perfiles](usuarios.md)), sin inventar dolores que todavía no confirmamos. Además,
+> [P-07](../00-proyecto/preguntas-abiertas.md#p-07) —quién es *el* usuario objetivo del MVP— sigue
+> abierta: elegir una sola reformulación hoy sería adelantar esa respuesta sin evidencia, que es
+> justo el sesgo que nombró el
+> [sombrero rojo](analisis/6-sombreros-usuario-objetivo.md#-sombrero-rojo--mente-emocional).
+> Por eso hay una reformulación **por perfil**, igual que va a haber un User Persona por perfil.
+>
+> **Se corrige** en cuanto haya entrevistas reales — sobre todo la del perfil A, que depende de los
+> contactos de ML.
+
+### A — Analista de fraude *(el que decide)*
+
+> **¿Cómo podríamos ayudar a analistas de fraude que deciden aprobar, rechazar o revisar
+> transacciones a detectar los casos que las reglas predefinidas no contemplan?**
+
+Fuente: planilla del docente (*"reglas predefinidas... insuficientes para identificar
+comportamientos anómalos"*) + rol descripto en [usuarios.md](usuarios.md#perfil-a--analista-de-fraude).
+
+### B — Dueño de comercio / e-commerce chico *(el que paga)*
+
+> **¿Cómo podríamos ayudar a un dueño de comercio o e-commerce chico, sin equipo ni presupuesto
+> para prevención de fraude, a reducir lo que pierde en contracargos y ventas fraudulentas?**
+
+Fuente: [usuarios.md](usuarios.md#perfil-b--dueño-de-comercio--e-commerce-chico).
+
+### C — Consumidor *(el que lo sufre)*
+
+> **¿Cómo podríamos evitar que a un consumidor le rechacen una compra legítima o le aprueben una
+> fraudulenta, sin que tenga forma de intervenir en esa decisión?**
+
+Fuente: [usuarios.md](usuarios.md#perfil-c--consumidor-con-fraude-o-rechazo-indebido).
+
+### Estado
+
+✅ Reformuladas las 3 — pendiente de corregirse con entrevistas reales. No cierra P-07.
 
 ## El ángulo del proyecto
 

@@ -56,6 +56,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Gestión | Rutina de inicio de sesión con Trello obligatorio y auto-asignación de tickets, en README y CLAUDE.md | [README](../README.md) |
 | 2026-09-02 | FM | Gestión | Convención de tickets: taxonomía de 7 etiquetas, formato de tarjeta y comentario de resolución obligatorio | [Convención](../docs/04-metodologia/convencion-de-tickets.md) |
 | 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
+| 2026-09-02 | FGR | Research | Reformulación del problema con la fórmula "¿Cómo podríamos nosotros...?" — 3 versiones (una por perfil), marcadas como hipótesis pre-research para no adelantar P-07 | [Bitácora](../bitacora/2026-09-02-reformulacion-problema.md) |
 
 ---
 
@@ -66,7 +67,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 2 | *(previo)* |
+| Guerrero Rojas, Francisco Daniel (FGR) | 3 | 2026-09-02 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
 | Molina, Facundo Roman (FM) | 20 | 2026-09-02 |
 

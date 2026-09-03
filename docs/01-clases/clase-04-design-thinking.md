@@ -267,7 +267,7 @@ no hay texto de definición recuperable.
 | Qué | Por qué | Estado |
 |---|---|---|
 | **Entrevistar a 5 personas reales que sufran el problema** | Es la consigna literal del deck para la etapa Empatizar | 🔲 |
-| Reformular el problema como **"¿Cómo podríamos nosotros…?"** | Obliga a nombrar al usuario y su restricción concreta. Hoy nuestro enunciado describe una oportunidad tecnológica, no un usuario con un dolor | 🔲 |
+| Reformular el problema como **"¿Cómo podríamos nosotros…?"** | Obliga a nombrar al usuario y su restricción concreta. Hoy nuestro enunciado describe una oportunidad tecnológica, no un usuario con un dolor | ✅ *(3 versiones, una por perfil — ver [problema.md](../05-producto/problema.md#reformular-como-cómo-podríamos-nosotros-clase-4))* |
 | **User Persona** de al menos 3 posibles usuarios | Consigna para la Clase 5 | 🔲 |
 | **Mapa de Empatía** de esos 3 usuarios | Consigna para la Clase 5 | 🔲 |
 | **Escenario Actual / AS-IS** | *"La solución que seleccionemos debe pasar por estos puntos de dolor"* — es el puente entre el research y el producto | 🔲 |

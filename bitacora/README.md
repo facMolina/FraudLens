@@ -25,5 +25,6 @@ es la evidencia de que el trabajo fue sostenido y no de la última semana.
 |---|---|---|
 | 2026-09-01 | [Armado de la base del repositorio](2026-09-01-armado-de-la-base.md) | FM |
 | 2026-09-02 | [Material de clases 2-4, requerimientos de FGR y estructura de carpetas](2026-09-02-material-clases-y-requerimientos.md) | FM |
+| 2026-09-02 | [Reformulación del problema ("¿Cómo podríamos nosotros...?")](2026-09-02-reformulacion-problema.md) | FGR |
 
 Plantilla: [`_plantilla-sesion.md`](_plantilla-sesion.md)
