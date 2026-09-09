@@ -168,3 +168,44 @@ entregar hoy y quedó primero en la lista.
 - `docs/00-proyecto/glosario.md` — 11 términos nuevos
 - `docs/00-proyecto/preguntas-abiertas.md` — P-20 con lo aprendido
 - `docs/01-clases/README.md` y `material/README.md` — índices
+
+---
+
+## Tercera parte — decisión final de identidad visual
+
+FM cerró el [ticket de identidad visual](https://trello.com/c/ncNYKzbF): el equipo revisó el
+board de Canva y aprobó avanzar.
+
+### La decisión
+
+**Opción B · Anomalía en grilla** — una grilla de puntos violeta con una anomalía resaltada.
+Se descartaron la Opción A (Embudo) y la Opción C (Prisma), que quedan documentadas como
+alternativas exploradas.
+
+### Cierre del board para presentarlo
+
+Se agregaron tres páginas finales al [board de Canva](https://www.canva.com/design/DAHUDsuQPB8)
+(pasó de 14 a 17 páginas):
+
+- **Logo Final** — el isotipo elegido junto al wordmark, más su aplicación como favicon/ícono de app.
+- **La marca en el mercado** — un cartel/billboard mostrando la marca ya posicionada, para dar el
+  cierre visual de "la marca lista para el mercado fintech".
+- **Gracias** — cierre con el crédito del equipo (Diaz Valdez · Guerrero Rojas · Lewinzon · Molina).
+
+### Registro en los dos lugares
+
+Siguiendo la regla del proyecto (ningún ticket pasa a Hecho sin comentario de resolución en Trello
+**y** documentación en el repo):
+
+- Comentario de resolución cargado en la tarjeta de Trello, con la decisión, lo descartado y lo
+  pendiente.
+- Tarjeta movida a **✅ Hecho**.
+- [`docs/05-producto/identidad/propuesta-canva.md`](../docs/05-producto/identidad/propuesta-canva.md)
+  actualizado: pasa de "propuesta para decidir" a "decisión final", con la estructura de las 3
+  páginas nuevas.
+
+### Lo que queda pendiente, fuera de este ticket
+
+- Corregir el rojo CRITICAL en modo oscuro (`#DC2626`, 4.02:1 — no llega al mínimo AA de 4.5).
+- Elegir entre Inter e IBM Plex Sans para la tipografía de UI del producto — distinto del wordmark
+  del logo, que ya quedó resuelto.

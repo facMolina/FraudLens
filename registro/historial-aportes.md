@@ -44,6 +44,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Gestión | Incorporación de los 4 integrantes al tablero de Trello — habilita la evidencia de participación individual, que es ítem de evaluación | [Tarjeta](https://trello.com/c/dsRjKzeR) |
 | 2026-09-02 | FM | Research | Decisión de los 3 perfiles de usuario a investigar (decide / paga / sufre), con los descartes justificados. Desbloquea los 5 entregables restantes de la Clase 5 | [`usuarios.md`](../docs/05-producto/usuarios.md) |
 | 2026-09-02 | ML | Research | **Confirmó acceso a analistas de fraude para entrevistar** — resuelve la contradicción central del análisis de 6 sombreros y evita el plan B del perfil proxy | [Análisis](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md) |
+| 2026-09-09 | Equipo | Diseño | **Decisión final de identidad visual**: Opción B · Anomalía en grilla, con el equipo aprobando el board. Cierre del ticket con comentario de resolución y 3 páginas nuevas en Canva (Logo Final, La marca en el mercado, Gracias) | [Tarjeta](https://trello.com/c/ncNYKzbF) · [Board](https://www.canva.com/design/DAHUDsuQPB8) |
 | 2026-09-09 | FM | Gestión | Puesta al día del repo y del tablero tras una semana: cierre de las tarjetas de la clase del 2/9, deuda de los 4 entregables no hechos marcada, e índice de clases actualizado | [Bitácora](../bitacora/2026-09-09-puesta-al-dia.md) |
 | 2026-09-09 | FM | Documentación | Carga de las clases del **2/9** (Oratoria + Storytelling con Datos) y del **5/9** (Ideación · Océano Azul · Benchmarking), con bajada a FraudLens y 11 términos al glosario | [Clase 05](../docs/01-clases/clase-05-oratoria-y-storytelling.md) · [Clase 06](../docs/01-clases/clase-06-oceano-azul.md) |
 | 2026-09-09 | FM | Gestión | Detección de **4 entregables pedidos para el 9/9** que nadie había visto porque el material no estaba cargado; cargados como tarjetas | [Tablero](https://trello.com/b/iUaTi33p) |
@@ -72,7 +73,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 3 | 2026-09-02 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 23 | 2026-09-09 |
+| Molina, Facundo Roman (FM) | 24 | 2026-09-09 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

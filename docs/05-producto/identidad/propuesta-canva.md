@@ -1,17 +1,37 @@
-# Propuesta de identidad visual — presentación para el equipo
+# Identidad visual — decisión final
 
 | | |
 |---|---|
-| **Estado** | 🟡 Propuesta — **falta que el equipo elija** |
+| **Estado** | ✅ **Decidido** — el equipo aprobó |
 | **Responsable** | Facundo Molina (FM) |
-| **Fecha** | 2026-09-02 |
-| **Ticket** | [Identidad visual](https://trello.com/c/ncNYKzbF) — 👀 En revisión |
-| **Entregable** | [Presentación en Canva](https://www.canva.com/design/DAHUDsuQPB8) — 14 páginas, español |
+| **Fecha de decisión** | 2026-09-09 *(propuesta original: 2026-09-02)* |
+| **Ticket** | [Identidad visual](https://trello.com/c/ncNYKzbF) — ✅ Hecho |
+| **Entregable** | [Presentación en Canva](https://www.canva.com/design/DAHUDsuQPB8) — 17 páginas, español |
 
-## Qué es esto
+## Decisión final
 
-El board que se lleva al equipo para cerrar las tres decisiones de identidad: **símbolo, color y
-tipografía**. No es una decisión tomada: es el material para tomarla.
+El equipo eligió la **Opción B · Anomalía en grilla**: una grilla de puntos violeta con una
+anomalía resaltada — la irregularidad dentro de un patrón regular, metáfora directa de lo que
+detecta el fraude.
+
+- **Isotipo:** Anomalía en grilla (path y colores en la tabla de abajo).
+- **Color de marca:** violeta — `#9333EA` (modo claro) / `#A855F7` (modo oscuro), fuera de la
+  escala de riesgo LOW→CRITICAL.
+- **Descartados:** Opción A (Embudo) y Opción C (Prisma), documentados abajo como alternativas
+  exploradas.
+
+El board de Canva cierra con tres páginas agregadas para presentarlo formalmente:
+
+| Pág. | Contenido |
+|---|---|
+| **15** | **Logo Final** — isotipo + wordmark, y su aplicación como favicon/ícono de app |
+| **16** | **La marca en el mercado** — un cartel/billboard mostrando la marca ya posicionada |
+| **17** | **Gracias** — cierre con crédito del equipo |
+
+## Qué es el resto del board
+
+Las primeras 14 páginas son el material con el que se llegó a la decisión: **símbolo, color y
+tipografía** comparados y medidos. Queda como historial de cómo se decidió, no sólo el resultado.
 
 ## Estructura de la presentación
 
@@ -53,12 +73,12 @@ así que son editables y escalan sin pérdida. Los paths quedan acá para poder 
 | **Círculos concéntricos** | Se leen como una **diana** |
 | **Círculo con barra** | Se lee como **prohibido** |
 
-## 🔴 Lo que falta decidir
+## 🔴 Lo que queda pendiente (fuera de este ticket)
 
-- ⬜ **Elegir uno de los tres símbolos.** Decide el equipo (regla del ticket).
 - ⬜ **Corregir el rojo CRITICAL en modo oscuro:** `#DC2626` mide **4.02:1** y no llega al mínimo
   AA de 4.5. Ver [`paleta.md`](paleta.md).
-- ⬜ **Elegir entre Inter e IBM Plex Sans.**
+- ⬜ **Elegir entre Inter e IBM Plex Sans** para la tipografía de UI del producto — es una decisión
+  distinta del wordmark del logo, que ya está resuelto en el board.
 
 ## ⚠️ Deuda técnica del material
 
