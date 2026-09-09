@@ -93,3 +93,78 @@ si el research corrige el problema, lo ideado el 5/9 puede quedar desalineado.
 Las 4 tarjetas vencidas **no se movieron ni se maquillaron**: quedaron donde estaban, con la deuda
 escrita en cada una. El tablero es ítem de evaluación y sirve más mostrando el atraso real que
 ordenado a último momento.
+
+---
+
+## Segunda parte — carga de las clases del 2/9 y del 5/9
+
+FM pasó el material de las dos clases pendientes. Se cargaron las dos, con nota trabajada y bajada
+a FraudLens.
+
+### 🔴 Hallazgo 1: el deck del 5/9 pide 4 entregables **para hoy**
+
+La lámina *"Para la próxima clase…"* del deck de Océano Azul pide, textual:
+
+1. **Ideación y Grilla de Priorización**
+2. **Narrativa de la propuesta de solución**
+3. **Benchmarking con curva de valor**
+4. **Encuesta difundida con respuestas y su análisis**
+
+Ninguno estaba en el tablero — nadie los había visto porque el material no estaba cargado. Se
+crearon las 4 tarjetas. La 12 (encuesta) fue directo a **🚧 Bloqueado**: pide la encuesta
+*difundida, con respuestas y con análisis*, y el Plan de research ni siquiera está escrito.
+
+**Es la tercera clase seguida que pide evidencia de usuarios** (26/8, 2/9 y 5/9) y la tercera vez
+que la respuesta es cero.
+
+### 🔎 Hallazgo 2: el cronograma no sirve para anticipar el tema de la clase
+
+El deck del 2/9 es **Taller de Oratoria**, no *"Design Thinking. Redefinir el problema"* como decía
+el cronograma. El del 5/9 sí coincide (Océano Azul).
+
+Se resolvió parcialmente [P-20](../docs/00-proyecto/preguntas-abiertas.md#p-20): el desfase es de un
+número (deck `NN` = clase `NN-1` del cronograma), pero lo importante es otra cosa — **el cronograma
+sirve para fechas y entregables, no para saber qué se va a dictar.**
+
+Dato que encaja: el punto 02 de la agenda del 2/9 era *"presentaciones: Design Thinking de al menos
+3 posibles usuarios"*. Los entregables se presentaban esa clase aunque el tema dictado fuera otro.
+
+### 🎯 Hallazgo 3: Storytelling con Datos es el pliego del dashboard
+
+El cruce más útil de las dos clases con el producto. Los 10 principios de storytelling con datos se
+leen como requisitos de UI, y **coinciden uno a uno con lo que ya se había decidido** en la
+propuesta de identidad visual: eliminar el desorden, jerarquía y contraste, uso estratégico del
+color, accesibilidad del texto.
+
+O sea: el trabajo de identidad no era decorativo — respondía a esta clase antes de que se diera.
+Conviene decirlo así en la defensa.
+
+Y abre algo que **no** está resuelto: el principio *"contar una historia"* aplicado a **una sola
+transacción**. Hoy el dashboard muestra un puntaje; la pregunta es si además debería contar **por
+qué**. Eso es explicabilidad, y es material para el Problem Statement y para el alcance del MVP.
+
+### 🔴 Hallazgo 4: dos trampas que apuntan a FraudLens
+
+**La trampa 3 del océano rojo** es *"confundir innovación de valor con tecnología"*. Hoy FraudLens
+se define como *"un filtro más eficaz gracias a la IA"* — que es exactamente eso. Del propio
+material: *"la tecnología abre mercados cuando el comprador percibe el valor"*, y *"NetJets y Curves
+crearon océanos sin tecnología disruptiva"*.
+
+**La Clave 2 de Robbins** dice lo mismo desde la oratoria: *no digas "plataforma de automatización",
+decí "ahorramos 12 horas por semana"*. Nuestro enunciado actual es la versión "plataforma de
+automatización": **le falta el número, y ese número sale del research.**
+
+### Lo bueno: el benchmarking no está bloqueado
+
+De los 4 entregables nuevos, el **benchmarking con curva de valor** es el único que no depende de
+conseguir entrevistas: se hace mirando la oferta pública de los competidores. Es lo más barato de
+entregar hoy y quedó primero en la lista.
+
+### Archivos
+
+- `docs/01-clases/clase-05-oratoria-y-storytelling.md` *(nuevo)*
+- `docs/01-clases/clase-06-oceano-azul.md` *(nuevo)*
+- `docs/01-clases/material/` — 4 decks crudos nuevos
+- `docs/00-proyecto/glosario.md` — 11 términos nuevos
+- `docs/00-proyecto/preguntas-abiertas.md` — P-20 con lo aprendido
+- `docs/01-clases/README.md` y `material/README.md` — índices

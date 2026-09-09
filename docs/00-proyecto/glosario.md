@@ -278,6 +278,56 @@ Hay **Taller de Oratoria** y **Taller de Escritura** en el bloque de planificaci
 
 ---
 
+## Comunicación y estrategia (Clases 05 y 06)
+
+### Elevator Pitch
+Presentación de una idea en **20 segundos** — lo que dura un viaje en ascensor. ✅ *Clase 05 (2/9)*
+
+### Storytelling con datos
+Convertir datos en una historia con inicio, desarrollo y conclusión, para que informen **y**
+persuadan. *"Los datos informan, pero las historias transforman."* ✅ *Clase 05 (2/9)*
+
+### Análisis exploratorio vs. explicativo
+**Exploratorio:** buscar hallazgos entre cientos de variables. **Explicativo:** mostrar únicamente
+lo relevante. El error clásico es obligar a la audiencia a *"reabrir ostras"* — hacerle recorrer la
+exploración en vez de mostrarle la conclusión. ✅ *Clase 05 (2/9)*
+
+### La Gran Idea
+Destilar todo un análisis en **una oración completa**, con un punto de vista único y específico.
+✅ *Clase 05 (2/9)*
+
+### Storyboard inverso
+Técnica de revisión: leer **sólo los títulos** de las diapositivas como si fueran un párrafo. Si la
+historia no se entiende así, la estructura falla. ✅ *Clase 05 (2/9)*
+
+### Océano Rojo / Océano Azul
+**Rojo:** competir en un mercado existente, batir rivales, elegir entre valor *o* costo.
+**Azul:** crear espacio de mercado nuevo, hacer irrelevante a la competencia, alcanzar valor *y*
+bajo costo. Kim y Mauborgne (INSEAD). ✅ *Clase 06 (5/9)*
+
+### Innovación de valor
+La piedra angular del océano azul: una estrategia de **«y-y», no de «o-o»**, que rompe el
+intercambio convencional entre valor y costo. **No es lo mismo que innovación tecnológica.**
+✅ *Clase 06 (5/9)*
+
+### Las cuatro acciones (Eliminar · Reducir · Incrementar · Crear)
+Herramienta para construir un océano azul. *Eliminar* y *reducir* bajan costos; *incrementar* y
+*crear* elevan el valor. ✅ *Clase 06 (5/9)*
+
+### Curva de valor / Lienzo estratégico
+Gráfico donde el eje X son los factores competitivos, el eje Y el nivel de oferta, y cada curva un
+competidor. Se busca el **espacio blanco**. Curvas convergentes delatan un océano rojo.
+✅ *Clase 06 (5/9)*
+
+### Benchmarking
+Estudio de los competidores para entender cómo se mueven en el mercado y cómo diferenciarse.
+**Es continuo, no sólo al inicio.** ✅ *Clase 06 (5/9)*
+
+### No clientes (tres niveles)
+**Nivel 1:** a punto de entrar al mercado. **Nivel 2:** lo rechazan conscientemente. **Nivel 3:**
+nunca fueron considerados. *"Los no clientes revelan más que los clientes satisfechos."*
+✅ *Clase 06 (5/9)*
+
 ## Términos del dominio (FraudLens)
 
 > Estos **no** salen de las clases: son del dominio del problema. Se irán refinando con el

@@ -10,12 +10,13 @@ Una nota por clase. Cada nota tiene la misma estructura para poder compararlas y
 | 02 | Segmentación de usuarios · Target · Selección de problema | ⬜ | ✅ [clase-02-segmentacion-y-problema.md](clase-02-segmentacion-y-problema.md) | [📄](material/clase-02-segmentacion.md) | Segmentación demográfica / por comportamiento / geográfica |
 | 03 | Complemento: Selección de Problema | ⬜ | ✅ [clase-03-seleccion-problema.md](clase-03-seleccion-problema.md) | [📄](material/clase-03-seleccion-problema.md) | Árbol de Problemas, 5 Por Qué, criterios de evaluación de un problema |
 | 04 | Design Thinking · User Research | ⬜ | ✅ [clase-04-design-thinking.md](clase-04-design-thinking.md) | [📄](material/clase-04-design-thinking.md) | Design Thinking, User Persona, Mapa de Empatía, Escenario Actual, User Journey Map, encuestas/entrevistas/observación |
-| 05 | Design Thinking · Redefinir el problema | **2/9** | ⬜ **sin cargar** | ⬜ | ⬜ |
-| — | 🖥️ **Clase remota sincrónica** · Ideación · Océano Azul · Brainstorming | **5/9** | ⬜ **sin cargar** | ⬜ FM tiene el material | Ideación, Océano Azul, brainstorming |
-| 06 | Roadmap · Modelo de negocio · Business Model Canvas | **9/9** | ⬜ *(es hoy)* | ⬜ | ⬜ |
+| 05 | Taller de Oratoria · Storytelling con Datos | **2/9** | ✅ [clase-05-oratoria-y-storytelling.md](clase-05-oratoria-y-storytelling.md) | [📄](material/clase-05-taller-de-oratoria.md) [📄](material/clase-05-storytelling-con-datos.md) | Elevator pitch, 5 claves de Robbins, storytelling con datos, la Gran Idea, storyboard inverso |
+| 06 | 🖥️ **Remota** · Ideación · Océano Azul · Benchmarking | **5/9** | ✅ [clase-06-oceano-azul.md](clase-06-oceano-azul.md) | [📄](material/clase-06-oceano-azul.md) [📄](material/clase-06-oceano-azul-presentacion.md) | Océano rojo/azul, innovación de valor, 4 acciones, curva de valor, no clientes |
+| 07 | Roadmap · Modelo de negocio · Business Model Canvas | **9/9** | ⬜ *(es hoy)* | ⬜ | ⬜ |
 
-> ⚠️ **Deuda al 9/9:** las clases del **2/9** y del **5/9** ya se dieron y **no están cargadas**.
-> El material del 5/9 lo tiene FM. Tarjeta: https://trello.com/c/yiJGkjGS
+> ⚠️ **Ojo con la numeración ([P-20](../00-proyecto/preguntas-abiertas.md#p-20)):** el **#** de esta
+> tabla es el del **deck del docente**, no el del cronograma. El cronograma llama "Clase 5" al 2/9
+> y "Clase 6" al 9/9, sin numerar la remota del 5/9. **Para evitar confusiones, hablar por FECHAS.**
 
 **Dos niveles por clase:**
 

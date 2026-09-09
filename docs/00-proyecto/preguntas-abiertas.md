@@ -433,10 +433,27 @@ Los decks del docente y el cronograma **numeran las clases distinto**:
 | `Clase 01` | MVP, problema, equipos | Clase 1 — 5/8 ✅ |
 | `Clase 02` | Segmentación, target | ❓ Clase 4 — 26/8 |
 | `Clase 03` | Complemento selección de problema | ❓ sin correspondencia clara |
-| `Clase 04` | Design Thinking, User Research | ❓ Clase 5 — 2/9 |
+| `Clase 04` | Design Thinking, User Research | ❓ Clase 4 — 26/8 |
+| `Clase 05` | **Taller de Oratoria** + Storytelling con Datos | **2/9** *(el cronograma decía "Design Thinking, redefinir el problema")* ⚠️ |
+| `Clase 06` | **Ideación · Océano Azul · Benchmarking** | **5/9 remota** ✅ coincide |
 
 **Impacto:** bajo, pero genera confusión al hablar con el docente ("la clase 4" significa cosas
 distintas). Conviene aclararlo y usar **fechas** en vez de números cuando haya duda.
+
+### 🔎 Lo que se aprendió al cargar el material del 2/9 y del 5/9 *(2026-09-09)*
+
+**El desfase es de un número: el deck `NN` corresponde a la clase `NN-1` del cronograma**, salvo la
+remota del 5/9, que el cronograma no numera y el docente sí (deck 06).
+
+Y hay algo más importante que la numeración: **el tema dictado el 2/9 no fue el que anunciaba el
+cronograma.** El cronograma decía *"Design Thinking. Redefinir el problema"* y el deck fue
+**Taller de Oratoria**. Lo que sí encaja es que el punto 02 de esa agenda era
+*"presentaciones: Design Thinking de al menos 3 posibles usuarios"* — o sea, **los entregables se
+presentaban en esa clase aunque el tema dictado fuera otro**.
+
+> ⚠️ **Consecuencia:** el cronograma sirve para **fechas y entregables**, pero **no** para anticipar
+> el tema que se va a dictar. Conviene no planificar el contenido de una clase leyendo sólo el
+> cronograma.
 
 En este repositorio: las **notas de clase** usan la numeración de los decks; las **fechas y
 entregables** salen del cronograma oficial.

@@ -8,6 +8,10 @@ Acá se guarda el **material crudo** de cada clase, tal como lo dio el docente, 
 | [`clase-02-segmentacion.md`](clase-02-segmentacion.md) | 02 — Segmentación de usuarios y target | `002__PPT_Clase__02Vp_Segmento.pdf` |
 | [`clase-03-seleccion-problema.md`](clase-03-seleccion-problema.md) | 03 — Complemento: Selección de Problema | `Clase_03__Complemento_Seleccio_n_Problema.pdf` |
 | [`clase-04-design-thinking.md`](clase-04-design-thinking.md) | 04 — Design Thinking y User Research | `004__Clase_04_SIPI_Design_Thinking.pdf` |
+| [`clase-05-taller-de-oratoria.md`](clase-05-taller-de-oratoria.md) | 05 — Taller de Oratoria *(2/9)* | `005__Clase_05__Taller_de_Oratoria` |
+| [`clase-05-storytelling-con-datos.md`](clase-05-storytelling-con-datos.md) | 05 — Storytelling con Datos *(complemento)* | `Storytelling_con_Datos__Strategic_Data_Storytelling` |
+| [`clase-06-oceano-azul.md`](clase-06-oceano-azul.md) | 06 — Ideación · Océano Azul · Benchmarking *(remota 5/9)* | `Clase_06_SIPI_Oceano_Azul` |
+| [`clase-06-oceano-azul-presentacion.md`](clase-06-oceano-azul-presentacion.md) | 06 — La Estrategia del Océano Azul *(complemento)* | `La_Estrategia_del_Oceano_Azul__Presentacion` |
 
 ---
 
