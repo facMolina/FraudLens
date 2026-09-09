@@ -248,9 +248,18 @@ Y una decisión de producto: **con qué métricas se evalúa el modelo**. En fra
 ## P-12
 ### ¿En qué estado está el User Research?
 
-**🔲 Abierta** — FM pidió avanzar esto **después** de tener el repo listo y Trello conectado.
+**🔴 Abierta y ATRASADA** *(revisado el 9/9)* — **el User Research sigue en CERO.**
 
-La Clase 4 pide, para la **Clase 5 (que es la próxima)**:
+La Clase 5 ya se dio (2/9) y pasó también la clase remota del 5/9. El
+[Plan de research](https://trello.com/c/EkjU3QyB) nunca se escribió: `docs/05-producto/user-research.md`
+no existe. **0 encuestas, 0 entrevistas.**
+
+Dos relojes corriendo:
+- **1° Parcial el 16/9.** El docente exige datos reales.
+- **La ventana de ML.** El 2/9 confirmó acceso a analistas de fraude "en las próximas 2 semanas";
+  esa ventana vence alrededor del 16/9.
+
+La Clase 4 pidió, para la **Clase 5 (2/9)**:
 
 - Armar y realizar la difusión de **encuestas, entrevistas y observaciones — 400 respuestas en total**
 - **Design Thinking de al menos 3 posibles usuarios**: User Persona · Mapa de Empatía · Escenario Actual

@@ -1,10 +1,12 @@
 # Pendientes para la Clase 5 — tickets listos para cargar en Trello
 
-> **Estado:** 🟡 redactados, **sin cargar** — falta conectar el conector de Trello.
-> Ver [`docs/04-metodologia/trello.md`](../04-metodologia/trello.md#cómo-conectar-trello-a-claude).
+> **Estado al 9/9:** ✅ los tickets están **cargados en Trello**. La Clase 5 **ya se dio (2/9)**.
+>
+> 🔴 **Pero 4 de los 6 entregables NO se hicieron** y siguen vencidos desde el 2/9:
+> Plan de research · User Persona ×3 · Mapa de Empatía ×3 · Problem Statement.
+> Sí se hicieron: los 3 perfiles de usuario (FM) y la reformulación del problema (FGR).
 >
 > **Fuente:** lámina *"Para la próxima clase…"* de la [Clase 4](../01-clases/clase-04-design-thinking.md#4-qué-pidió-para-la-próxima-clase).
-> La Clase 5 **es la próxima** — todavía no se dio.
 
 ## Lo que pidió el docente, textual
 

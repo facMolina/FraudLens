@@ -10,7 +10,12 @@ Una nota por clase. Cada nota tiene la misma estructura para poder compararlas y
 | 02 | Segmentación de usuarios · Target · Selección de problema | ⬜ | ✅ [clase-02-segmentacion-y-problema.md](clase-02-segmentacion-y-problema.md) | [📄](material/clase-02-segmentacion.md) | Segmentación demográfica / por comportamiento / geográfica |
 | 03 | Complemento: Selección de Problema | ⬜ | ✅ [clase-03-seleccion-problema.md](clase-03-seleccion-problema.md) | [📄](material/clase-03-seleccion-problema.md) | Árbol de Problemas, 5 Por Qué, criterios de evaluación de un problema |
 | 04 | Design Thinking · User Research | ⬜ | ✅ [clase-04-design-thinking.md](clase-04-design-thinking.md) | [📄](material/clase-04-design-thinking.md) | Design Thinking, User Persona, Mapa de Empatía, Escenario Actual, User Journey Map, encuestas/entrevistas/observación |
-| 05 | *(es la próxima — todavía no se dio)* | ⬜ | — | — | — |
+| 05 | Design Thinking · Redefinir el problema | **2/9** | ⬜ **sin cargar** | ⬜ | ⬜ |
+| — | 🖥️ **Clase remota sincrónica** · Ideación · Océano Azul · Brainstorming | **5/9** | ⬜ **sin cargar** | ⬜ FM tiene el material | Ideación, Océano Azul, brainstorming |
+| 06 | Roadmap · Modelo de negocio · Business Model Canvas | **9/9** | ⬜ *(es hoy)* | ⬜ | ⬜ |
+
+> ⚠️ **Deuda al 9/9:** las clases del **2/9** y del **5/9** ya se dieron y **no están cargadas**.
+> El material del 5/9 lo tiene FM. Tarjeta: https://trello.com/c/yiJGkjGS
 
 **Dos niveles por clase:**
 
