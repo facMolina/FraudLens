@@ -61,6 +61,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Gestión | Convención de tickets: taxonomía de 7 etiquetas, formato de tarjeta y comentario de resolución obligatorio | [Convención](../docs/04-metodologia/convencion-de-tickets.md) |
 | 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
 | 2026-09-02 | FGR | Research | Reformulación del problema con la fórmula "¿Cómo podríamos nosotros...?" — 3 versiones (una por perfil), marcadas como hipótesis pre-research para no adelantar P-07 | [Bitácora](../bitacora/2026-09-02-reformulacion-problema.md) |
+| 2026-09-09 | FGR | Gestión | Chequeo de disponibilidad del nombre FraudLens en Argentina (GitHub, Google Play, INPI, NIC.ar) — sin conflicto encontrado, dominio `fraudlens.ar` disponible | [P-23](../docs/00-proyecto/preguntas-abiertas.md#p-23) · [Tarjeta](https://trello.com/c/Tz6P99Oi) |
 
 ---
 
@@ -71,7 +72,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 3 | 2026-09-02 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
 | Molina, Facundo Roman (FM) | 24 | 2026-09-09 |
 

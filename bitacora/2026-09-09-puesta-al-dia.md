@@ -4,7 +4,7 @@
 |---|---|
 | **Tipo** | Revisión de estado (con asistencia de Claude Code) |
 | **Duración** | — |
-| **Participantes** | Facundo Molina (FM) |
+| **Participantes** | Facundo Molina (FM) · Francisco Guerrero (FGR, cuarta parte) |
 
 ## Por qué esta sesión
 
@@ -209,3 +209,32 @@ Siguiendo la regla del proyecto (ningún ticket pasa a Hecho sin comentario de r
 - Corregir el rojo CRITICAL en modo oscuro (`#DC2626`, 4.02:1 — no llega al mínimo AA de 4.5).
 - Elegir entre Inter e IBM Plex Sans para la tipografía de UI del producto — distinto del wordmark
   del logo, que ya quedó resuelto.
+
+---
+
+## Cuarta parte — disponibilidad del nombre FraudLens en Argentina
+
+FGR pidió crear y resolver una tarjeta para chequear si "FraudLens" está disponible como nombre en
+Argentina, antes de seguir construyendo marca sobre él.
+
+### Qué se chequeó
+
+| Fuente | Resultado |
+|---|---|
+| GitHub | Existen 2 repos con el nombre, ninguno conflictivo (uno open source sin fines de lucro, otro abandonado en el commit inicial) |
+| Google Play | Sin app con ese nombre exacto; 2 coincidencias parciales con nombre distinto (ScamLens, Fraudly) |
+| INPI (marcas Argentina) | Sin marca registrada con el mismo nombre ni el mismo objetivo |
+| NIC.ar | Dominio `fraudlens.ar` disponible |
+
+### Conclusión
+
+No hay nada que bloquee el uso del nombre para el MVP académico. Es un chequeo informal hecho a
+mano por FGR, no un dictamen legal — si el proyecto avanza más allá de la materia, conviene una
+búsqueda de marca formal.
+
+### Registro en los dos lugares
+
+- [`docs/00-proyecto/preguntas-abiertas.md`](../docs/00-proyecto/preguntas-abiertas.md#p-23) — P-23
+  nueva, resuelta.
+- Comentario de resolución en la [tarjeta de Trello #29](https://trello.com/c/Tz6P99Oi) y tarjeta
+  movida a ✅ Hecho.

@@ -43,6 +43,7 @@ de Trello con esa fecha de vencimiento.
 | [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
+| [P-23](#p-23) | ¿El nombre FraudLens está disponible para usar en Argentina? | 🟡 | Equipo | ✅ **Resuelta** |
 
 ---
 
@@ -477,6 +478,33 @@ evidencia de campo?
 
 **Impacto: alto.** Define si el entregable de esa clase está completo o no.
 
+
+---
+
+## P-23
+### ¿El nombre FraudLens está disponible para usar en Argentina?
+
+**✅ Resuelta** *(FGR, 2026-09-09)* — chequeo informal en 4 fuentes, sin conflicto encontrado.
+
+> **Sí, no se encontró nada que bloquee el uso de "FraudLens" para el MVP universitario en
+> Argentina.**
+
+| Fuente | Qué se buscó | Resultado |
+|---|---|---|
+| **GitHub** | Repos/usuarios con el nombre | Existen 2: [`YobieBen/FraudLens`](https://github.com/YobieBen/FraudLens) (open source colaborativo, sin fines de lucro) y [`Amna-Afsha/FraudLens-AI-Security-Platform`](https://github.com/Amna-Afsha/FraudLens-AI-Security-Platform) (sólo el commit inicial, sin avance). Ninguno con la misma titularidad ni fin comercial. |
+| **Google Play** | Apps publicadas con el nombre (búsqueda por Google) | No hay ninguna app llamada "FraudLens". 2 coincidencias parciales con nombre distinto: **ScamLens** (análisis de imágenes) y **Fraudly** (verificar legitimidad de páginas web antes de comprar). |
+| **INPI** ([portaltramites.inpi.gob.ar](https://portaltramites.inpi.gob.ar/MarcasConsultas/Grilla)) | Marcas registradas en Argentina similares a "Fraud" o "Lens" | No aparece "FraudLens" ni una marca registrada con el mismo objetivo que el MVP. |
+| **NIC.ar** ([nic.ar/verificar-dominio](https://nic.ar/verificar-dominio)) | Disponibilidad del dominio `fraudlens.ar` | **Disponible.** |
+
+⚠️ **Alcance del chequeo:** lo hizo FGR a mano, buscando por su cuenta en cada sitio — **no es un
+dictamen legal ni una búsqueda profesional de antecedentes marcarios**. Alcanza para seguir
+adelante con el MVP académico, pero si el proyecto se lleva más allá de la materia conviene una
+búsqueda de marca formal antes de registrar nada.
+
+**Consecuencia:** no cambia nada de lo ya decidido en [P-01](#p-01) — el nombre **FraudLens** se
+mantiene. Si el equipo quiere reservar el dominio `fraudlens.ar`, está disponible para hacerlo.
+
+**Registrado en:** [tarjeta de Trello #29](https://trello.com/c/Tz6P99Oi/29-analizar-si-el-nombre-fraudlens-est%C3%A1-disponible-en-argentina).
 
 ---
 
