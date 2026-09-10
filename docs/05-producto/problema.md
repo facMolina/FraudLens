@@ -109,6 +109,84 @@ Fuente: [usuarios.md](usuarios.md#perfil-c--consumidor-con-fraude-o-rechazo-inde
 
 ✅ Reformuladas las 3 — pendiente de corregirse con entrevistas reales. No cierra P-07.
 
+## Narrativa de la propuesta de solución
+
+| | |
+|---|---|
+| **Estado** | 🟡 **Borrador — pendiente de validar con research** |
+| **Fecha** | 2026-09-10 |
+| **Ticket** | [11. Narrativa de la propuesta de solución](https://trello.com/c/dcgkOG5x) |
+| **Método** | Estructura de 3 actos (Aristóteles) — [Clase 05](../01-clases/clase-05-oratoria-y-storytelling.md) |
+
+> ⚠️ **Materia prima:** las 3 reformulaciones de arriba, ninguna hipótesis nueva. Por lo mismo que
+> hay 3 reformulaciones y no 1 ([P-07](../00-proyecto/preguntas-abiertas.md#p-07) sigue abierta),
+> hay **3 narrativas**, una por perfil — elegir una sola narrativa hoy adelantaría esa respuesta sin
+> evidencia.
+
+### 🔴 Dos trampas que esta narrativa tiene que esquivar
+
+1. **Trampa 3 del océano rojo** — "confundir innovación de valor con tecnología". Ninguna de las
+   tres narrativas puede arrancar por "usamos IA".
+2. **Clave 2 de Robbins** — no se habla del MVP, se habla del problema que resuelve, con un número.
+   Hoy **no tenemos ese número**: sale del User Research, todavía en cero. Cada narrativa lo deja
+   marcado como hueco explícito en vez de inventarlo.
+
+### A — Analista de fraude
+
+**INICIO.** Todos los días llega una cola de transacciones para revisar. Las reglas predefinidas
+atrapan lo conocido — pero el fraude que importa es el que **no** estaba contemplado, y ese pasa o
+se atasca en una revisión manual sin más ayuda que el criterio propio.
+
+**DESARROLLO.** Sin nada que cambie, cada caso dudoso sigue dependiendo de la experiencia individual
+del analista, con la misma información limitada de siempre y sin poder explicar del todo por qué
+una transacción es riesgosa cuando alguien pregunta. *⬜ Falta el número: cuánto tiempo o cuántos
+casos mal decididos cuesta esto hoy — lo responde la entrevista del Perfil A.*
+
+**CIERRE.** FraudLens no reemplaza ese criterio: lo asiste con un motivo explícito por transacción y
+una cola priorizada, para que decidir un caso dudoso deje de depender sólo de la memoria de quien
+lo revisa.
+
+> **Test de los 10 segundos:** *"Ayudamos a analistas de fraude a decidir los casos que las reglas
+> no contemplan, mostrándoles por qué cada transacción es riesgosa."*
+
+### B — Dueño de comercio / e-commerce chico
+
+**INICIO.** Un comercio chico vende online sin equipo ni presupuesto para prevenir fraude. Cada
+contracargo o venta fraudulenta se resuelve como puede, caso por caso, sin herramienta ninguna.
+
+**DESARROLLO.** Sin nada que cambie, ese comercio sigue absorbiendo la pérdida en silencio, o
+rechazando ventas por las dudas y perdiendo también clientes buenos. *⬜ Falta el número: cuánto
+pierde al año en contracargos — lo responde la entrevista del Perfil B.*
+
+**CIERRE.** FraudLens le da a un comercio sin equipo antifraude una señal de riesgo por transacción,
+sin necesitar un área dedicada para usarla.
+
+> **Test de los 10 segundos:** *"Ayudamos a comercios chicos sin equipo antifraude a saber qué
+> ventas conviene revisar, sin tener que armar un área para eso."*
+
+### C — Consumidor
+
+**INICIO.** A alguien le rechazan una compra legítima en el peor momento, o le aparece un cargo que
+no reconoce. En los dos casos, no tiene ninguna forma de intervenir en esa decisión — la toma un
+sistema que no ve.
+
+**DESARROLLO.** Sin nada que cambie, sigue siendo una moneda al aire: unas veces el sistema lo deja
+pasar sin problema, otras veces lo frena sin que pueda entender por qué. *⬜ Falta el número: con
+qué frecuencia le pasa esto a la gente — lo responde la encuesta del Perfil C.*
+
+**CIERRE.** FraudLens está del otro lado del sistema que decide por él: ayuda a que esa decisión
+tenga un motivo explicable, no una moneda al aire.
+
+> **Test de los 10 segundos:** *"Ayudamos a que rechazar una compra o aprobar un cargo dudoso deje
+> de ser una moneda al aire — con un motivo explicable detrás."*
+
+### Qué falta para converger en una sola
+
+Estas 3 narrativas **no van a competir para siempre**: en algún momento (probablemente para The
+Pitch, formato todavía sin confirmar — [P-19](../00-proyecto/preguntas-abiertas.md#p-19)) el equipo
+va a tener que elegir una sola historia. Esa elección es la misma que resuelve
+[P-07](../00-proyecto/preguntas-abiertas.md#p-07), y depende del research — no se adelanta acá.
+
 ## El ángulo del proyecto
 
 De la Clase 1, la **brecha de innovación** (la paradoja de la maleta con ruedas): la rueda existe

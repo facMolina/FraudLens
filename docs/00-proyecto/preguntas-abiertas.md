@@ -44,6 +44,7 @@ de Trello con esa fecha de vencimiento.
 | [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
 | [P-23](#p-23) | ¿El nombre FraudLens está disponible para usar en Argentina? | 🟡 | Equipo | ✅ **Resuelta** |
+| [P-24](#p-24) | ¿Qué formato de Grilla de Priorización espera el docente? | 🟢 | Docente | 🔲 Abierta |
 
 ---
 
@@ -525,3 +526,21 @@ Propuesta en [`convencion-de-tickets.md`](../04-metodologia/convencion-de-ticket
 ⚠️ **El asistente no puede crear ni renombrar etiquetas** (limitación del conector). Sea cual sea la
 decisión, **alguien tiene que crearlas a mano** en Trello. Una vez creadas, el asistente sí puede
 aplicarlas a las tarjetas.
+
+---
+
+## P-24
+### ¿Qué formato de Grilla de Priorización espera el docente?
+
+**🔲 Abierta** *(FM, 2026-09-10)*
+
+El deck de la Clase 6 **nombra** la Grilla de Priorización como entregable, pero no explica cómo se
+arma (ejes, criterios). Para no quedar frenados, en [`ideacion.md`](../05-producto/ideacion.md) se
+usó **Impacto × Esfuerzo**, una técnica estándar de priorización — **no es la que dio el docente**,
+es una elección del equipo ante el hueco del material.
+
+**Impacto:** bajo. No bloquea nada de esta semana, pero si el docente espera un formato distinto
+(por ejemplo, ejes distintos o una matriz de otro tipo), la grilla ya armada se rehace.
+
+**Cuándo preguntar:** en la próxima clase presencial, ya que es sobre un entregable que ya se
+entregó con una interpretación propia.

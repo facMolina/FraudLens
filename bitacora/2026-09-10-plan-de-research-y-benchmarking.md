@@ -1,4 +1,4 @@
-# 2026-09-10 — Plan de research y benchmarking
+# 2026-09-10 — Plan de research, benchmarking, ideación y narrativa
 
 | | |
 |---|---|
@@ -69,7 +69,7 @@ dentro de la **descripción** de cada tarjeta, bajo un encabezado `## 📋 RESOL
 autor. Pierde los metadatos de comentario nativo (autor/fecha separados), pero mantiene la
 transparencia que pide la regla del proyecto.
 
-## Qué quedó pendiente
+## Qué quedó pendiente (primera parte)
 
 | Tarea | Responsable | Urgencia |
 |---|---|---|
@@ -79,8 +79,63 @@ transparencia que pide la regla del proyecto.
 | Repetir la curva de valor después del research del Perfil A | Equipo | 🟢 |
 | Re-testear si `add_comment` de Trello ya funciona, para volver a comentarios nativos | FM | 🟢 |
 
+---
+
+## Segunda parte — Ideación y Narrativa de la propuesta
+
+Mismo día, se encararon los otros dos entregables vencidos del 9/9: la tarjeta 10 (Ideación y
+Grilla de Priorización) y la tarjeta 11 (Narrativa de la propuesta de solución).
+
+### Ideación (`docs/05-producto/ideacion.md`)
+
+Se amplió el borrador ERRC de la Clase 6 con fuente citada por idea (el borrador mismo, el
+benchmarking, los requerimientos), y se armó una **grilla de priorización Impacto × Esfuerzo** con
+6 ideas.
+
+🔴 **Dos hallazgos, no sólo un entregable cumplido:**
+
+1. El deck nombra la Grilla de Priorización pero no explica cómo se arma. Se usó Impacto×Esfuerzo
+   como criterio **propio del equipo, no del docente** — queda como
+   [P-24](../docs/00-proyecto/preguntas-abiertas.md#p-24), a confirmar.
+2. La idea "eliminar la configuración manual de reglas" (borrador ERRC) **choca directo con el
+   CU-07** de los requerimientos de ML, que define un actor administrador justamente para eso. No
+   se resolvió acá — queda anotado para cuando el equipo revise los requerimientos funcionales.
+
+### Narrativa de la propuesta (nueva sección en `docs/05-producto/problema.md`)
+
+Se escribieron **3 narrativas en 3 actos** (estructura de Aristóteles, Clase 5), una por perfil —
+mismo criterio que las 3 reformulaciones de FGR: elegir una sola hoy adelantaría
+[P-07](../docs/00-proyecto/preguntas-abiertas.md#p-07) sin evidencia. Cada narrativa:
+
+- Esquiva las dos trampas que la propia tarjeta señalaba (arrancar por la tecnología / no dar el
+  número).
+- Deja marcado explícitamente **el número que falta** en cada perfil (tiempo perdido del analista,
+  plata perdida del comercio, frecuencia del rechazo indebido) como hueco a completar con el
+  research — no se inventó ningún dato.
+- Pasa un test de 10 segundos, escrito al final de cada una.
+
+Queda pendiente decidir **cuándo converge en una sola historia** para The Pitch — no se fuerza acá.
+
+### Registro en los dos lugares
+
+Mismo patrón que el resto de la sesión: resolución escrita en la `desc` de cada tarjeta (workaround
+por el bug de `add_comment`) y ambas movidas a **👀 En revisión** — son borradores sobre un Problem
+Statement todavía abierto, y falta la validación del equipo.
+
+## Qué quedó pendiente (segunda parte)
+
+| Tarea | Responsable | Urgencia |
+|---|---|---|
+| Resolver la tensión "eliminar config. manual" vs. CU-07 | Equipo | 🟡 Al revisar los requerimientos |
+| Confirmar con el docente el formato de Grilla de Priorización (P-24) | Equipo → Docente | 🟢 |
+| Validar las 3 narrativas y decidir cuándo convergen en una sola | Equipo | 🟡 Antes de The Pitch |
+| Revalidar la ideación con los resultados del research | Equipo | 🟢 |
+
 ## Archivos
 
 - `docs/05-producto/user-research.md` *(nuevo)*
 - `docs/05-producto/benchmarking.md` *(nuevo)*
+- `docs/05-producto/ideacion.md` *(nuevo)*
+- `docs/05-producto/problema.md` — nueva sección "Narrativa de la propuesta de solución"
+- `docs/00-proyecto/preguntas-abiertas.md` — P-24 nueva
 - `registro/historial-aportes.md`
