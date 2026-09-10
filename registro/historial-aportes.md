@@ -63,6 +63,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
 | 2026-09-02 | FGR | Research | Reformulación del problema con la fórmula "¿Cómo podríamos nosotros...?" — 3 versiones (una por perfil), marcadas como hipótesis pre-research para no adelantar P-07 | [Bitácora](../bitacora/2026-09-02-reformulacion-problema.md) |
 | 2026-09-09 | FGR | Gestión | Chequeo de disponibilidad del nombre FraudLens en Argentina (GitHub, Google Play, INPI, NIC.ar) — sin conflicto encontrado, dominio `fraudlens.ar` disponible | [P-23](../docs/00-proyecto/preguntas-abiertas.md#p-23) · [Tarjeta](https://trello.com/c/Tz6P99Oi) |
+| 2026-09-10 | FM | Research | Plan de research: guías de entrevista para perfiles A y B, borrador de encuesta para perfil C, volumen propuesto (80-100 respuestas + 2-3 entrevistas/perfil) justificado contra P-17 | [`user-research.md`](../docs/05-producto/user-research.md) · [Tarjeta](https://trello.com/c/EkjU3QyB) |
+| 2026-09-10 | FM | Research | Benchmarking con curva de valor: 6 competidores relevados con fuente citada. Corrige la propia hipótesis del equipo (explicabilidad ya es tendencia de industria, no diferencial) y aísla el único hallazgo que sobrevive (complementar vs. reemplazar un sistema existente) | [`benchmarking.md`](../docs/05-producto/benchmarking.md) · [Tarjeta](https://trello.com/c/OCO21r8W) |
 
 ---
 
@@ -75,7 +77,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 25 | 2026-09-10 |
+| Molina, Facundo Roman (FM) | 27 | 2026-09-10 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
