@@ -29,6 +29,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Fecha | Quién | Tipo | Aporte | Evidencia |
 |---|---|---|---|---|
+| 2026-09-10 | FM | Gestión | Revisión en equipo del ticket 3 (Insight + Definición, FGR): validado el enfoque de 3 reformulaciones y movido a Hecho | [Tarjeta](https://trello.com/c/oKb7KHWi) |
 | *(previo)* | MDV | Gestión | Carga de la planilla de relevamiento inicial de propuestas TIF 2C 2026 | `TIF_2C2026_Clase1597_Britez.xlsx` |
 | 2026-09-01 | FM | Gestión | Armado de la estructura base del repositorio como centro de cómputos | [Bitácora](../bitacora/2026-09-01-armado-de-la-base.md) |
 | 2026-09-01 | FM | Documentación | Procesamiento y carga de la Clase 1 (51 diapositivas) con bajada de conceptos a FraudLens | [Clase 01](../docs/01-clases/clase-01-mvp-y-problema.md) |
@@ -74,7 +75,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 24 | 2026-09-09 |
+| Molina, Facundo Roman (FM) | 25 | 2026-09-10 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
