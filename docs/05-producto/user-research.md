@@ -57,19 +57,32 @@ predefinidas que pueden resultar insuficientes"* — que no nombra a nadie ni cu
 ⚠️ **Es la entrevista más valiosa y la más escasa.** Preparar esta guía con el equipo antes de
 usarla — no se puede improvisar y volver a llamar.
 
-### Entrevista — Perfil B (dueño de comercio / e-commerce chico)
+### Entrevista — Perfil B (responsable de riesgo/producto en fintech o banco)
 
-**Objetivo:** cuantificar el dolor en plata real, y sin equipo antifraude de por medio.
+> 🔄 **Actualizada el 2026-09-14** tras la redefinición del Perfil B —
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). La guía original
+> apuntaba a "dueño de comercio/e-commerce chico"; queda en el historial de esta misma sesión
+> (2026-09-10).
+
+**Objetivo:** entender cómo gestiona hoy el riesgo de fraude y cuantificar el costo real, en un
+contexto donde el BCRA exige tener un programa de gestión de riesgo de fraude (Comunicaciones "A"
+8471 y "A" 8473, 2026).
 
 **Guía de temas:**
 
-1. ¿Tenés hoy algún sistema o proceso para prevenir fraude? ¿Cuál, o por qué no?
-2. ¿Cuánto estimás que perdiste el último año en contracargos o ventas fraudulentas?
-3. De los dos errores — rechazar una venta buena o dejar pasar un fraude — ¿cuál te duele más y
-   por qué?
-4. ¿Pagarías por una herramienta que te ayude con esto? ¿Cuánto te parecería razonable?
+1. ¿Cómo gestionan hoy el riesgo de fraude? ¿Reglas propias, un proveedor externo, ambos?
+2. ¿Cómo están encarando la Comunicación "A" 8471 del BCRA? ¿Ya tienen una función/persona
+   responsable asignada, autoevaluaciones hechas?
+3. ¿Cuánto estiman que pierden al año en fraude, o en el esfuerzo de cumplir con la normativa?
+4. De los dos errores — rechazar una operación buena o dejar pasar un fraude — ¿cuál les preocupa
+   más y por qué?
+5. ¿Contratarían una herramienta que complemente lo que ya tienen? ¿Cuánto sería razonable pagar?
 
-### Encuesta — Perfil C (consumidor)
+⚠️ **Sin contacto de acceso confirmado todavía** — a diferencia del Perfil A (ML), nadie del equipo
+confirmó tener un contacto real en una fintech o banco para esta entrevista. Es el punto crítico que
+señaló el [análisis de 6 sombreros](analisis/6-sombreros-enfoque-fintech.md).
+
+### Encuesta — Perfil C (usuario final de fintech/billetera/pasarela)
 
 **Objetivo:** medir la frecuencia real de dos eventos — que le clonen una compra, y que le rechacen
 una compra legítima — y cuál pesa más en la experiencia.
@@ -118,9 +131,11 @@ que buscamos ahí es profundidad de proceso, no muestra representativa.
   auto-selección, no aleatoria — hay que decirlo así en el documento final, no como si fuera una
   muestra representativa de la población.
 - **Entrevistas (perfil A):** contactos de ML en el rubro.
-- **Entrevistas (perfil B):** contactos personales del equipo con comercios chicos o e-commerce
-  propio; si no hay, grupos de Facebook/WhatsApp de vendedores de plataformas como Tiendanube o
-  Mercado Shops.
+- **Entrevistas (perfil B):** ⬜ **sin canal confirmado.** Tras la redefinición a "responsable de
+  riesgo/producto en fintech o banco" ([decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md)),
+  los canales anteriores (grupos de vendedores de Tiendanube/Mercado Shops) ya no aplican. No se
+  inventa un canal — queda como tarea abierta preguntarle al equipo si alguien tiene un contacto
+  real en una fintech, billetera, pasarela o banco.
 
 ## Cronograma de ejecución
 

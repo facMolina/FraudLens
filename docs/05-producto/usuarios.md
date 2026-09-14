@@ -2,10 +2,17 @@
 
 | | |
 |---|---|
-| **Estado** | ✅ **Decidido** por el equipo (2026-09-02) |
+| **Estado** | ✅ **Decidido** por el equipo (2026-09-02) · Perfil B y C **redefinidos** el 2026-09-14 |
 | **Ticket** | [1. Decidir los 3 perfiles de usuario](https://trello.com/c/IYegyoM6) |
-| **Método** | [Análisis de 6 Sombreros](analisis/6-sombreros-usuario-objetivo.md) |
+| **Método** | [Análisis de 6 Sombreros (2/9)](analisis/6-sombreros-usuario-objetivo.md) · [Análisis de 6 Sombreros — enfoque fintech (14/9)](analisis/6-sombreros-enfoque-fintech.md) |
 | **Bloquea a** | Plan de research · User Persona ×3 · Mapa de Empatía ×3 · Problem Statement |
+
+> 🔄 **2026-09-14 — Perfil B y C redefinidos.** El equipo decidió que el enfoque del proyecto es
+> llegar a **empresas fintech y bancos tradicionales**, no comercio chico. Ver
+> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). Lo que sigue abajo
+> ya refleja esa redefinición; la versión original del 2/9 (comercio chico) queda documentada en el
+> [análisis de 6 sombreros del 2/9](analisis/6-sombreros-usuario-objetivo.md) como parte del
+> historial de la decisión.
 
 ## La decisión
 
@@ -18,9 +25,9 @@ tres Mapas de Empatía van a salir genuinamente distintos, que es lo que pide la
 
 | | Perfil | Rol en el problema | Cómo se investiga | Acceso |
 |---|---|---|---|---|
-| **A** | **Analista de fraude** | El que **decide**: revisa la cola de casos y aprueba, rechaza o escala | Entrevistas en profundidad | ✅ **Confirmado por ML** |
-| **B** | **Dueño de comercio / e-commerce chico** | El que **paga**: absorbe el fraude y los contracargos | Entrevistas | Accesible sin contactos especiales |
-| **C** | **Consumidor** con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta | Masivamente accesible |
+| **A** | **Analista de fraude** (dentro de la fintech/banco cliente) | El que **decide**: revisa la cola de casos y aprueba, rechaza o escala | Entrevistas en profundidad | ✅ **Confirmado por ML** |
+| **B** | **Responsable de riesgo/producto en una fintech, billetera virtual, pasarela de pago o banco tradicional** | El que **paga/decide integrar** FraudLens | Entrevistas | ⬜ **Sin contacto confirmado todavía** |
+| **C** | **Usuario final de una fintech, billetera virtual o pasarela de pago** (ej. Mercado Pago, Ualá, Modo) con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta | Masivamente accesible |
 
 ### Perfil A — Analista de fraude
 
@@ -35,23 +42,34 @@ día y quien toma la decisión que FraudLens asiste.
 - **Por qué importa que sea entrevista y no encuesta:** lo que necesitamos de él es el *proceso* y
   las *excepciones*, y eso no entra en un formulario.
 
-### Perfil B — Dueño de comercio / e-commerce chico
+### Perfil B — Responsable de riesgo/producto en una fintech o banco tradicional
 
-**Es quien pone la plata.** No tiene equipo antifraude ni presupuesto para uno: come el contracargo
-o pierde la venta.
+**Es quien pone la plata.** Trabaja en una fintech, billetera virtual, pasarela de pago o banco
+tradicional, y es quien evalúa e integra una solución antifraude como FraudLens.
 
-- **Qué buscamos entender:** cuánto le cuesta el fraude en plata real, qué hace hoy al respecto
-  (probablemente poco o nada), y cuál de los dos errores le duele más — dejar pasar un fraude o
-  rechazar un cliente bueno.
+> 🔄 **Redefinido el 2026-09-14** — antes era "dueño de comercio/e-commerce chico". Ver
+> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md) y el
+> [análisis de 6 sombreros](analisis/6-sombreros-enfoque-fintech.md).
+
+- **Qué buscamos entender:** cómo gestiona hoy el riesgo de fraude, qué le exige la normativa (las
+  Comunicaciones "A" 8471 y "A" 8473 del BCRA obligan a tener una función de gestión de riesgo de
+  fraude), y cuál de los dos errores le duele más — dejar pasar un fraude o rechazar un cliente
+  bueno.
 - **Por qué está:** es el perfil que conecta el problema con el **modelo de negocio**. Sirve
   directo para la Clase 6 (BMC).
+- ⚠️ **A diferencia del Perfil A, todavía no hay ningún contacto de acceso confirmado.**
 
-### Perfil C — Consumidor con fraude o rechazo indebido
+### Perfil C — Usuario final de una fintech, billetera virtual o pasarela de pago
 
 **Es quien sufre el problema en el cuerpo**, y el único perfil al que podemos llegar en volumen.
 
+> 🔄 **Redefinido el 2026-09-14** — antes era "consumidor" genérico. Ahora es específicamente
+> alguien que usa una fintech/billetera/pasarela (ej. Mercado Pago, Ualá, Modo). Ver
+> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
+
 - **Qué buscamos entender:** la experiencia del fraude vivido, y sobre todo **el falso positivo** —
-  que te rechacen una compra legítima en el peor momento. Es el costo invisible que nadie mide.
+  que te rechacen una compra o transferencia legítima en el peor momento. Es el costo invisible que
+  nadie mide.
 - **Por qué está:** hace que el research tenga **datos reales en cantidad**, que es lo que el
   docente exige, sin depender de conseguir entrevistas.
 
@@ -80,12 +98,13 @@ para corregir eso, no para justificarlo.
 
 ## Relación con P-07
 
-Esto **no cierra** [P-07 (¿quién es el usuario objetivo?)](../00-proyecto/preguntas-abiertas.md#p-07).
+El **tipo de cliente** (empresas fintech y bancos tradicionales, no comercio chico) quedó decidido
+por el equipo el 2026-09-14 — ver [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
 
-Lo que se decidió acá es **a quién investigar**. Quién termina siendo *el* usuario objetivo del MVP
-es una conclusión que sale **del research**, no de antes. La hipótesis de FM —que el usuario es el
-equipo de fraude de una fintech— coincide con el perfil A, y el research la va a confirmar o a
-tirar abajo.
+Pero esto **no cierra del todo** [P-07](../00-proyecto/preguntas-abiertas.md#p-07): falta confirmar
+si *el* usuario objetivo del MVP (a quién se le diseña la interfaz, el dashboard, el pitch) es el
+Perfil A (analista) o el Perfil B (quien decide integrarlo) — eso sigue siendo una conclusión que
+sale **del research**, no de antes.
 
 ## Estado del ticket
 

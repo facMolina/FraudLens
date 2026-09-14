@@ -95,10 +95,14 @@ imagen, y el prompt 6 lo corrige.
 
 ## Dependencia declarada
 
-La identidad se apoya en una **hipótesis de FM**, no en una decisión del equipo: que FraudLens es
-B2B para fintechs que integran el sistema como complemento de su antifraude, más un dashboard de
-revisión.
+La identidad se apoya en la hipótesis de FM de que FraudLens es B2B para fintechs que integran el
+sistema como complemento de su antifraude, más un dashboard de revisión.
 
-El usuario objetivo real se define en [P-07](../../00-proyecto/preguntas-abiertas.md#p-07) y en el
-[análisis de 6 sombreros](../analisis/6-sombreros-usuario-objetivo.md). **Si el research lo
-contradice, la identidad se revisa.**
+> 🔄 **2026-09-14** — el tipo de cliente (fintechs y bancos tradicionales) ya **no es sólo la
+> hipótesis de FM**: el equipo lo confirmó como decisión —
+> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). La identidad
+> visual queda **más alineada, no menos**, con lo decidido.
+
+Sigue sin cerrar cuál perfil (A o B) es *el* usuario objetivo del MVP — eso se define en
+[P-07](../../00-proyecto/preguntas-abiertas.md#p-07). **Si el research lo contradice, la identidad
+se revisa.**

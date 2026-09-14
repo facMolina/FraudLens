@@ -27,7 +27,7 @@ de Trello con esa fecha de vencimiento.
 | [P-04](#p-04) | ¿Cuál es el calendario real de 2C 2026? | 🔴 | Docente | ✅ **Resuelta** |
 | [P-05](#p-05) | ¿Dónde vive el código del MVP? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-06](#p-06) | ¿Qué datos reales vamos a usar? | 🔴 | Equipo | 🟡 **Parcial** |
-| [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🔲 Abierta |
+| [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | 🔲 Abierta |
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta |
@@ -177,6 +177,14 @@ muy desbalanceados, así que *accuracy* no sirve.
 > el **perfil A (analista de fraude)**. Pero **esta pregunta sigue abierta**: quién es *el* usuario
 > objetivo del MVP es una conclusión que sale del research, no de antes. **ML confirmó acceso a
 > analistas de fraude para entrevistar**, así que se puede responder con datos.
+
+> 🟡 **Avance (2026-09-14):** el equipo **confirmó el tipo de cliente**: empresas fintech y bancos
+> tradicionales (billeteras virtuales, pasarelas de pago, entidades financieras) — **no** comercio
+> chico. Ver [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). El Perfil B
+> se redefinió de "dueño de comercio" a "responsable de riesgo/producto en la fintech o banco", y el
+> Perfil C a "usuario final de una fintech/billetera/pasarela". **Sigue sin cerrar** si *el* usuario
+> objetivo del MVP (a quién se diseña la interfaz) es el Perfil A o el Perfil B — eso todavía
+> depende del research.
 
 
 FraudLens "asiste en la decisión de aprobar, rechazar o revisar". ¿Quién toma esa decisión?

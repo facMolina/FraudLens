@@ -8,6 +8,13 @@
 | **Tarjeta de Trello** | https://trello.com/c/IYegyoM6 |
 | **Estado** | 🟡 En análisis — se cierra en la clase del 2/9 |
 
+> 🔄 **2026-09-14 — Perfil B y C redefinidos.** Este análisis definió el Perfil B como "dueño de
+> comercio/e-commerce chico" y el Perfil C como "consumidor" genérico. El equipo redefinió después
+> el tipo de cliente a fintechs y bancos tradicionales — ver
+> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md) y el
+> [nuevo análisis de 6 sombreros](6-sombreros-enfoque-fintech.md). **Este documento queda como
+> historial de cómo se llegó a la decisión original** — no se reescribe, se supersede.
+
 > ⚠️ **El 🔴 sombrero rojo lo tiene que escribir el equipo.** Lo que está abajo es un borrador de
 > lo que se percibe desde afuera; corríjanlo con lo que sienten de verdad. Un rojo prestado no sirve.
 

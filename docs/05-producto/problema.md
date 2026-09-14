@@ -31,19 +31,69 @@ Desarrollar un prototipo capaz de analizar transacciones **en tiempo real** y es
 riesgo de fraude mediante un modelo de IA entrenado con datos históricos, permitiendo identificar
 comportamientos anómalos y **asistir en la decisión de aprobar, rechazar o revisar** una operación.
 
+## Árbol de Problemas y 5 Por Qué
+
+| | |
+|---|---|
+| **Estado** | ✅ Escrito |
+| **Fecha** | 2026-09-14 |
+| **Ticket** | [Árbol de Problemas y análisis 5 Por Qué de FraudLens](https://trello.com/c/G4UP8ERN) |
+| **Método** | Árbol de Problemas y 5 Por Qué (5 Why) — [Clase 02](../01-clases/clase-02-segmentacion-y-problema.md#5-por-qué-5-why--análisis-de-causa-raíz) |
+
+### Árbol de Problemas
+
+**PROBLEMA CENTRAL** *(planilla del docente, textual)*:
+> "Los sistemas tradicionales de detección de fraude se apoyan en reglas predefinidas, que pueden
+> resultar insuficientes para identificar comportamientos anómalos que no fueron contemplados
+> previamente."
+
+**EFECTOS** *(consecuencias, una por perfil — ver [`usuarios.md`](usuarios.md))*:
+
+| Perfil | Efecto |
+|---|---|
+| **A · Analista de fraude** | Revisa casos dudosos sin más ayuda que su propio criterio, sin poder explicar del todo por qué una transacción es riesgosa cuando alguien le pregunta |
+| **B · Responsable de riesgo/producto en la fintech o banco** | Queda expuesto a un riesgo regulatorio real: las Comunicaciones "A" 8471 y "A" 8473 del BCRA (2026) exigen a PSP y entidades financieras tener una función de gestión de riesgo de fraude, autoevaluaciones y reportes periódicos — y a pérdidas financieras/reputacionales si el sistema actual no alcanza |
+| **C · Usuario final de una fintech/billetera/pasarela** | Sufre el rechazo indebido de una compra o transferencia legítima, o le aprueban un cargo que no reconoce |
+
+**CAUSAS:**
+- Las reglas predefinidas no contemplan casos de uso nuevos, ni los movimientos de fraudulentos que buscan evadirlas.
+- Dependen de un ser humano que razone y las reconfigure.
+- La estrategia elegida no es reemplazar a ese humano por un modelo autónomo, sino que el modelo lo **asista** con hipótesis para crear reglas nuevas o detectar posibles casos de fraude — reforzado porque la normativa BCRA exige justamente una persona/función responsable, no un sistema sin supervisión.
+
+### 5 Por qué
+
+1. **¿Por qué se escapan fraudes (o se rechazan operaciones legítimas)?** → Hay casos de uso que las reglas típicas no contemplan. Esas reglas, en el sistema financiero y digital argentino, están marcadas por normativa del BCRA (Comunicaciones "A" 8471 y "A" 8473, 2026) y marcos internacionales de cumplimiento obligatorio para bancos y PSP.
+2. **¿Por qué esas reglas no contemplan casos nuevos?** → Son definidas de antemano y no contemplan casos de uso nuevos, ni los movimientos ingeniosos de fraudulentos que buscan evadir el sistema ya conocido.
+3. **¿Por qué depende de que alguien las actualice?** → Porque dependen de un ser humano que razone y reconfigure los casos no contemplados.
+4. **¿Por qué reconfiguración manual en vez de un modelo autónomo?** → Porque la estrategia es que el modelo **asista** al analista — con hipótesis para crear reglas nuevas o detectar posibles casos de fraude — en vez de reemplazarlo. Reforzado por la normativa BCRA (Com. "A" 8471), que exige una persona/función responsable a cargo.
+
+> Se cierra en 4 niveles: se llegó a una causa raíz sólida (decisión estratégica + mandato
+> regulatorio). El material de la Clase 2 no exige un número fijo de "por qués" más allá del nombre
+> de la técnica — se para cuando se llega al fondo, no antes ni después.
+
+**Fuentes de cada afirmación:**
+
+| Afirmación | Fuente |
+|---|---|
+| Enunciado del problema central | Planilla del docente |
+| Normativa BCRA (Comunicaciones "A" 8471 y "A" 8473) | Búsqueda web, 2026-09-14 — [Bruchou & Funes de Rioja](https://bruchoufunes.com/nueva-regulacion-del-bcra-sobre-gestion-del-riesgo-de-fraude-com-a-8471/), [Tavarone Rovelli Salim Miani](https://tavarone.com/comunicaciones-bcra-a-8471-y-a-8473-gestion-y-prevencion-del-riesgo-de-fraude/) |
+| Reglas estáticas, dependencia de reconfiguración manual, estrategia de modelo asistivo | Razonamiento del equipo (FM, con correcciones de FM en la sesión del 14/9) — no es una fuente documental externa |
+
 ## Hipótesis de trabajo sobre el usuario
 
-> 📌 **Aportada por FM el 2026-09-02. No está validada ni decidida en equipo.**
+> 📌 **Aportada por FM el 2026-09-02.** El **tipo de cliente** (empresas fintech y bancos
+> tradicionales, no comercio chico) quedó **confirmado como decisión del equipo el 2026-09-14** —
+> ver [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). Sigue sin decidir
+> **cuál perfil (A o B) es *el* usuario objetivo del MVP** — eso depende del research.
 
-FraudLens sería un producto **B2B para empresas fintech** que manejan tráfico de transacciones:
-integran nuestro sistema como **complemento** de su antifraude actual, sumando un filtro más
-específico gracias a la IA, más un **dashboard de revisión** para su equipo.
+FraudLens sería un producto **B2B para empresas fintech y bancos tradicionales** que manejan
+tráfico de transacciones: integran nuestro sistema como **complemento** de su antifraude actual,
+sumando un filtro más específico gracias a la IA, más un **dashboard de revisión** para su equipo.
 
-Si se confirma: el **cliente** que paga es la fintech; los **usuarios** que lo usan todos los días
-son los analistas de su equipo de fraude.
+El **cliente** que paga es la fintech/banco (Perfil B); los **usuarios** que lo usan todos los días
+son los analistas de su equipo de fraude (Perfil A).
 
-Queda registrada acá para que sea explícita y contrastable contra el research, no para darla por
-cierta. Ver [P-07](../00-proyecto/preguntas-abiertas.md#p-07).
+Ver [P-07](../00-proyecto/preguntas-abiertas.md#p-07).
 
 ## Lo que todavía no sabemos
 
@@ -91,23 +141,36 @@ Nuestro enunciado actual describe una **oportunidad tecnológica**, no un usuari
 Fuente: planilla del docente (*"reglas predefinidas... insuficientes para identificar
 comportamientos anómalos"*) + rol descripto en [usuarios.md](usuarios.md#perfil-a--analista-de-fraude).
 
-### B — Dueño de comercio / e-commerce chico *(el que paga)*
+### B — Responsable de riesgo/producto en una fintech o banco tradicional *(el que paga)*
 
-> **¿Cómo podríamos ayudar a un dueño de comercio o e-commerce chico, sin equipo ni presupuesto
-> para prevención de fraude, a reducir lo que pierde en contracargos y ventas fraudulentas?**
+> **¿Cómo podríamos ayudar a un responsable de riesgo o producto en una fintech, billetera virtual,
+> pasarela de pago o banco tradicional a cumplir con la gestión de riesgo de fraude que le exige el
+> BCRA, sin depender sólo de reglas que no contemplan casos nuevos?**
 
-Fuente: [usuarios.md](usuarios.md#perfil-b--dueño-de-comercio--e-commerce-chico).
+> 🔄 **Actualizada el 2026-09-14** — la reformulación original (FGR, 2/9) apuntaba a "dueño de
+> comercio/e-commerce chico". Se ajustó al redefinirse el Perfil B —
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md) — conservando la
+> autoría original de la fórmula y el criterio de FGR.
 
-### C — Consumidor *(el que lo sufre)*
+Fuente: [usuarios.md](usuarios.md#perfil-b--responsable-de-riesgoproducto-en-una-fintech-o-banco-tradicional).
 
-> **¿Cómo podríamos evitar que a un consumidor le rechacen una compra legítima o le aprueben una
-> fraudulenta, sin que tenga forma de intervenir en esa decisión?**
+### C — Usuario final de una fintech/billetera/pasarela *(el que lo sufre)*
 
-Fuente: [usuarios.md](usuarios.md#perfil-c--consumidor-con-fraude-o-rechazo-indebido).
+> **¿Cómo podríamos evitar que al usuario final de una fintech, billetera virtual o pasarela de pago
+> le rechacen una compra o transferencia legítima, o le aprueben una fraudulenta, sin que tenga
+> forma de intervenir en esa decisión?**
+
+> 🔄 **Actualizada el 2026-09-14** — la reformulación original (FGR, 2/9) hablaba de "consumidor" en
+> general. Se ajustó al redefinirse el Perfil C —
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
+
+Fuente: [usuarios.md](usuarios.md#perfil-c--usuario-final-de-una-fintech-billetera-virtual-o-pasarela-de-pago).
 
 ### Estado
 
-✅ Reformuladas las 3 — pendiente de corregirse con entrevistas reales. No cierra P-07.
+✅ Reformuladas las 3 — pendiente de corregirse con entrevistas reales. El tipo de cliente (fintech/
+bancos) ya se confirmó ([decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md));
+sigue sin cerrar cuál perfil es *el* usuario objetivo del MVP → [P-07](../00-proyecto/preguntas-abiertas.md#p-07).
 
 ## Narrativa de la propuesta de solución
 
@@ -149,25 +212,36 @@ lo revisa.
 > **Test de los 10 segundos:** *"Ayudamos a analistas de fraude a decidir los casos que las reglas
 > no contemplan, mostrándoles por qué cada transacción es riesgosa."*
 
-### B — Dueño de comercio / e-commerce chico
+### B — Responsable de riesgo/producto en una fintech o banco tradicional
 
-**INICIO.** Un comercio chico vende online sin equipo ni presupuesto para prevenir fraude. Cada
-contracargo o venta fraudulenta se resuelve como puede, caso por caso, sin herramienta ninguna.
+> 🔄 **Actualizada el 2026-09-14** tras la redefinición del Perfil B —
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). La versión original
+> (dueño de comercio chico) queda en el historial de la sesión del 2026-09-10.
 
-**DESARROLLO.** Sin nada que cambie, ese comercio sigue absorbiendo la pérdida en silencio, o
-rechazando ventas por las dudas y perdiendo también clientes buenos. *⬜ Falta el número: cuánto
-pierde al año en contracargos — lo responde la entrevista del Perfil B.*
+**INICIO.** Una fintech o banco maneja tráfico de transacciones bajo una exigencia regulatoria
+concreta: las Comunicaciones "A" 8471 y "A" 8473 del BCRA (2026) obligan a tener una función de
+gestión de riesgo de fraude, con autoevaluaciones y reportes periódicos.
 
-**CIERRE.** FraudLens le da a un comercio sin equipo antifraude una señal de riesgo por transacción,
-sin necesitar un área dedicada para usarla.
+**DESARROLLO.** Sin nada que cambie, esa gestión sigue dependiendo de reglas que no contemplan
+casos nuevos y de la reconfiguración manual de un analista, con el riesgo regulatorio y financiero
+recayendo sobre quien tiene que responder por el programa antifraude. *⬜ Falta el número: cuánto le
+cuesta hoy el fraude o el incumplimiento regulatorio — lo responde la entrevista del Perfil B.*
 
-> **Test de los 10 segundos:** *"Ayudamos a comercios chicos sin equipo antifraude a saber qué
-> ventas conviene revisar, sin tener que armar un área para eso."*
+**CIERRE.** FraudLens le da a esa fintech o banco un filtro adicional y explicable para su programa
+antifraude, sin reemplazar lo que ya tienen ni requerir un equipo de ciencia de datos propio.
 
-### C — Consumidor
+> **Test de los 10 segundos:** *"Ayudamos a fintechs y bancos a reforzar su gestión de riesgo de
+> fraude con un filtro explicable, sin armar un equipo de ciencia de datos para eso."*
 
-**INICIO.** A alguien le rechazan una compra legítima en el peor momento, o le aparece un cargo que
-no reconoce. En los dos casos, no tiene ninguna forma de intervenir en esa decisión — la toma un
+### C — Usuario final de una fintech/billetera/pasarela
+
+> 🔄 **Actualizada el 2026-09-14** tras la redefinición del Perfil C —
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). La versión original
+> (consumidor genérico) queda en el historial de la sesión del 2026-09-10.
+
+**INICIO.** A alguien le rechazan una compra o transferencia legítima en el peor momento, usando su
+fintech, billetera virtual o pasarela de pago (ej. Mercado Pago, Ualá, Modo), o le aparece un cargo
+que no reconoce. En los dos casos, no tiene ninguna forma de intervenir en esa decisión — la toma un
 sistema que no ve.
 
 **DESARROLLO.** Sin nada que cambie, sigue siendo una moneda al aire: unas veces el sistema lo deja

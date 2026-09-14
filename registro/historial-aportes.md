@@ -67,6 +67,9 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-10 | FM | Research | Benchmarking con curva de valor: 6 competidores relevados con fuente citada. Corrige la propia hipótesis del equipo (explicabilidad ya es tendencia de industria, no diferencial) y aísla el único hallazgo que sobrevive (complementar vs. reemplazar un sistema existente) | [`benchmarking.md`](../docs/05-producto/benchmarking.md) · [Tarjeta](https://trello.com/c/OCO21r8W) |
 | 2026-09-10 | FM | Producto | Ideación con las 4 acciones (ERRC) y grilla de priorización Impacto×Esfuerzo; detecta una tensión sin resolver entre "eliminar configuración manual" y el CU-07 de los requerimientos | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Tarjeta](https://trello.com/c/3ULARKgX) |
 | 2026-09-10 | FM | Producto | Narrativa de la propuesta de solución en 3 actos (Aristóteles), una por perfil — mismo criterio que las 3 reformulaciones de FGR, para no adelantar P-07 | [`problema.md`](../docs/05-producto/problema.md#narrativa-de-la-propuesta-de-solución) · [Tarjeta](https://trello.com/c/dcgkOG5x) |
+| 2026-09-14 | FM | Research | Árbol de Problemas y 5 Por Qué de FraudLens, validado punto por punto con FM en sesión, citando normativa real del BCRA (Comunicaciones "A" 8471 y 8473) | [`problema.md`](../docs/05-producto/problema.md#árbol-de-problemas-y-5-por-qué) · [Tarjeta](https://trello.com/c/G4UP8ERN) |
+| 2026-09-14 | Equipo | Producto | **Decisión 0004**: el enfoque de cliente pasa de comercio chico a fintechs y bancos tradicionales. Perfil B y C redefinidos, con 6 Sombreros propio (sombrero rojo pendiente) | [Decisión 0004](../docs/03-decisiones/0004-enfoque-cliente-fintech-bancos.md) · [Análisis](../docs/05-producto/analisis/6-sombreros-enfoque-fintech.md) |
+| 2026-09-14 | FM | Documentación | Actualización en cascada de la redefinición de Perfil B/C: `usuarios.md`, P-07, `benchmarking.md`, `user-research.md` e identidad visual | [`usuarios.md`](../docs/05-producto/usuarios.md) |
 
 ---
 
@@ -79,7 +82,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 29 | 2026-09-10 |
+| Molina, Facundo Roman (FM) | 31 | 2026-09-14 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

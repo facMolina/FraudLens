@@ -23,7 +23,7 @@
 | **Forter** | Plataforma de puntuación | Invierte el enfoque usual: optimiza **aprobar buenos clientes** en vez de bloquear más fraude | [cside.com](https://cside.com/blog/best-fraud-detection-software) |
 | **Signifyd** | Modelo de garantía | #1 en protección de e-commerce según Digital Commerce 360 (5 años seguidos); garantía financiera 100% contra chargebacks de fraude | [cside.com](https://cside.com/blog/best-fraud-detection-software) |
 | **Riskified** | Modelo de garantía | Grandes minoristas online enfocados en crecimiento; fraude sin intervención manual | [cside.com](https://cside.com/blog/best-fraud-detection-software) |
-| **ClearSale** | Modelo de garantía, foco LatAm | Presencia activa en Argentina y LatAm; integración directa con **Tiendanube**; garantía de contracargo pensada para **PyMEs de e-commerce** | [es.clear.sale](https://es.clear.sale/proteccion-contra-el-fraude/como-funciona), [dplnews.com](https://dplnews.com/clearsale-expertise-y-productos-antifraude-mexico-2025/) |
+| **ClearSale** | Modelo de garantía, foco LatAm | Presencia activa en Argentina y LatAm; integración directa con **Tiendanube**; garantía de contracargo pensada para **PyMEs de e-commerce** — no para fintechs o bancos | [es.clear.sale](https://es.clear.sale/proteccion-contra-el-fraude/como-funciona), [dplnews.com](https://dplnews.com/clearsale-expertise-y-productos-antifraude-mexico-2025/) |
 
 **Modelos de precio, por categoría** (no por empresa individual, la fuente no discrimina tanto):
 capas de señal desde $99–500/mes, plataformas de puntuación $2K–10K/mes, plataformas empresariales
@@ -36,7 +36,7 @@ desde $50K/año, modelos de garantía a 0.6–1.5% del GMV protegido.
 
 | Factor | Sift | Feedzai | Forter | Signifyd | Riskified | ClearSale | **FraudLens (hipótesis)** |
 |---|---|---|---|---|---|---|---|
-| Precio / accesible para comercio chico | Medio | Bajo | ❓ | ❓ | Bajo | **Alto** | Alto |
+| Precio / accesible para una fintech chica (vs. un banco grande) | Medio | Bajo | ❓ | ❓ | Bajo | ❓ *(barato para comercio chico, no evaluado para fintech)* | Alto |
 | Foco específico en LatAm/Argentina | Bajo | Bajo | Bajo | Bajo | Bajo | **Alto** | Alto |
 | Modelo de garantía (asume la pérdida) | Bajo | Bajo | Bajo | **Alto** | **Alto** | **Alto** | Bajo *(no es el modelo elegido)* |
 | Cobertura AML + fraude en un solo producto | Bajo | **Alto** | Bajo | Bajo | Bajo | Bajo | Bajo *(fuera de alcance del MVP)* |
@@ -64,9 +64,15 @@ proponía la explicabilidad y el foco en comercio chico como posible espacio bla
    tiene que estar **dirigida a un analista sin equipo de ciencia de datos propio**, en una fintech
    chica — no a un banco con área de compliance.
 
-2. **"Comercio chico + LatAm" ya lo cubre ClearSale**, con un modelo de garantía financiera y
-   presencia confirmada en Argentina, integrado directo a Tiendanube — que es exactamente el canal
-   de e-commerce chico que imaginábamos alcanzar. No es un hueco vacío: hay un jugador establecido.
+2. **"Comercio chico + LatAm" ya lo cubre ClearSale** — con un modelo de garantía financiera y
+   presencia confirmada en Argentina, integrado directo a Tiendanube. Este hallazgo ya no aplica
+   directo a nuestra hipótesis: el equipo **redefinió el foco a fintechs y bancos tradicionales, no
+   comercio chico** ([decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md),
+   2026-09-14). ClearSale sigue siendo relevante como referencia de "foco LatAm", pero apunta a un
+   mercado distinto (PyMEs de e-commerce) del que ahora tenemos.
+
+   ⬜ **Queda sin verificar** si algún competidor cubre específicamente "fintech chica/billetera
+   virtual + LatAm" — no se buscó todavía. No se completa a ojo: es tarea para la próxima vuelta.
 
 ### El espacio que sí queda sin cubrir en lo relevado
 
@@ -85,5 +91,7 @@ real o es una hipótesis cómoda para el prototipo que ya existe. Mismo sesgo qu
 
 - ⬜ Verificar directamente en los sitios de cada competidor las celdas marcadas ❓
 - ⬜ Sumar 1-2 competidores más chicos / específicos de Argentina (más allá de ClearSale)
+- ⬜ Buscar si algún competidor se posiciona específicamente para **fintechs chicas o billeteras
+  virtuales** (no sólo comercio/e-commerce), tras la redefinición del Perfil B ([decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md))
 - ⬜ Repetir esta curva **después** de tener el research del perfil A — la fila de "complemento vs.
   reemplazo" es la más importante y hoy es una hipótesis, no un hallazgo
