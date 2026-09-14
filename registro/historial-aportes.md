@@ -70,6 +70,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-14 | FM | Research | Árbol de Problemas y 5 Por Qué de FraudLens, validado punto por punto con FM en sesión, citando normativa real del BCRA (Comunicaciones "A" 8471 y 8473) | [`problema.md`](../docs/05-producto/problema.md#árbol-de-problemas-y-5-por-qué) · [Tarjeta](https://trello.com/c/G4UP8ERN) |
 | 2026-09-14 | Equipo | Producto | **Decisión 0004**: el enfoque de cliente pasa de comercio chico a fintechs y bancos tradicionales. Perfil B y C redefinidos, con 6 Sombreros propio (sombrero rojo pendiente) | [Decisión 0004](../docs/03-decisiones/0004-enfoque-cliente-fintech-bancos.md) · [Análisis](../docs/05-producto/analisis/6-sombreros-enfoque-fintech.md) |
 | 2026-09-14 | FM | Documentación | Actualización en cascada de la redefinición de Perfil B/C: `usuarios.md`, P-07, `benchmarking.md`, `user-research.md` e identidad visual | [`usuarios.md`](../docs/05-producto/usuarios.md) |
+| 2026-09-14 | Equipo | Producto | **Decisión 0005**: recorte de alcance del MVP (CU-02/CU-07 a configuración fija), aclaración de roles (Administrador=Perfil B, Analista=Perfil A) y corrección de la tabla de clasificación de riesgo | [Decisión 0005](../docs/03-decisiones/0005-recorte-alcance-mvp.md) · [Tarjeta](https://trello.com/c/eSWWYc7Z) |
+| 2026-09-14 | FM | Diseño | Assets oficiales del logo en PNG (isotipo, logo completo, favicon) reconstruidos con la geometría exacta del pptx exportado de Canva | [`identidad/logo/`](../docs/05-producto/identidad/logo/README.md) |
 
 ---
 
@@ -82,7 +84,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 31 | 2026-09-14 |
+| Molina, Facundo Roman (FM) | 33 | 2026-09-14 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

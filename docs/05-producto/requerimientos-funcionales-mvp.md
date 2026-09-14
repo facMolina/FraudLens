@@ -206,11 +206,16 @@ análisis · umbral de revisión · umbral de bloqueo.
 | Puntaje | Nivel | Acción |
 |---|---|---|
 | 0–39 | Bajo | Aprobar |
-| 40–59 | Medio | Aprobar o monitorear |
+| 40–59 | Medio | Aprobar |
 | 60–84 | Alto | Revisar |
 | 85–100 | Crítico | Bloquear |
 
 > Los rangos deben adaptarse automáticamente a los umbrales configurados.
+>
+> 🔧 **Corregido el 2026-09-14** (revisión en equipo, punto 5): decía "Aprobar o monitorear" para
+> Medio, pero CU-04 sólo define 3 resultados posibles (aprobar/revisar/bloquear) — "monitorear" no
+> existe como resultado del sistema. Se corrige a "Aprobar", consistente con el ejemplo de CU-04
+> ("riesgo menor a 60% → aprobar"). Es una corrección editorial, no una decisión de alcance.
 
 ## 7. Requerimientos no funcionales
 
@@ -264,14 +269,14 @@ El MVP estará completo cuando pueda demostrarse este recorrido:
 
 > Esta sección **no es de Francisco**: son observaciones para la revisión. Se resuelven en equipo.
 
-| # | Punto | Por qué revisarlo |
-|---|---|---|
-| 1 | El documento **asume el usuario objetivo** (analista de fraude + administrador) | Es justamente lo que la materia pide validar con User Research antes de definir. Está por delante de [P-07](../00-proyecto/preguntas-abiertas.md#p-07) |
-| 2 | El alcance incluye **7 casos de uso, dashboard, autenticación y configuración de umbrales** | Hay que contrastarlo contra el criterio de MVP de la Clase 1 (UberCab = una ciudad, una función). Puede ser más grande que un MVP |
-| 3 | Autenticación + roles (admin vs analista) están **dentro** del alcance | ¿Es necesario para demostrar valor, o es NO MVP? |
-| 4 | No hay **métricas de evaluación del modelo** | En fraude los datos están desbalanceados; hay que decidir cómo se mide que el modelo sirve |
-| 5 | Los umbrales de ejemplo (60 / 85) y los rangos de la tabla de clasificación **no coinciden entre sí** | La tabla marca "medio" hasta 59 y "alto" desde 60; conviene unificar el criterio |
-| 6 | Está escrito **antes del User Research** | La Clase 4 dice que Design Thinking sirve para resolver el problema *"antes de escribir la primera línea de código"*, y que el 90% de las startups fallan por construir algo que nadie necesita. Si el research contradice lo asumido acá, **el research gana** |
+| # | Punto | Por qué revisarlo | Estado |
+|---|---|---|---|
+| 1 | El documento **asume el usuario objetivo** (analista de fraude + administrador) | Es justamente lo que la materia pide validar con User Research antes de definir. Está por delante de [P-07](../00-proyecto/preguntas-abiertas.md#p-07) | ✅ **Resuelto (2026-09-14):** Administrador = Perfil B (decide/integra a nivel comercial); Analista = Perfil A (revisa casos día a día). Ver [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) |
+| 2 | El alcance incluye **7 casos de uso, dashboard, autenticación y configuración de umbrales** | Hay que contrastarlo contra el criterio de MVP de la Clase 1 (UberCab = una ciudad, una función). Puede ser más grande que un MVP | ✅ **Resuelto (2026-09-14):** ver [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) |
+| 3 | Autenticación + roles (admin vs analista) están **dentro** del alcance | ¿Es necesario para demostrar valor, o es NO MVP? | 🟡 **Parcial (2026-09-14):** ver [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) — falta precisar el alcance exacto de la vista del Administrador |
+| 4 | No hay **métricas de evaluación del modelo** | En fraude los datos están desbalanceados; hay que decidir cómo se mide que el modelo sirve | 🚧 **Bloqueante (2026-09-14):** depende de qué dataset se use → [P-11](../00-proyecto/preguntas-abiertas.md#p-11). No se avanza en esto hasta resolver P-11 |
+| 5 | Los umbrales de ejemplo (60 / 85) y los rangos de la tabla de clasificación **no coinciden entre sí** | La tabla marca "medio" hasta 59 y "alto" desde 60; conviene unificar el criterio | ✅ **Corregido (2026-09-14)** — ver sección 6 |
+| 6 | Está escrito **antes del User Research** | La Clase 4 dice que Design Thinking sirve para resolver el problema *"antes de escribir la primera línea de código"*, y que el 90% de las startups fallan por construir algo que nadie necesita. Si el research contradice lo asumido acá, **el research gana** | 🔲 Sigue como regla permanente, no se cierra |
 
 > ℹ️ **Este documento ya se usó**: Francisco (FGR) lo tomó como insumo para generar un prototipo
 > (backend con Claude, frontend con Codex) junto con un notebook de Kaggle.

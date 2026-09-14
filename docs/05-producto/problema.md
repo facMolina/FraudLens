@@ -289,6 +289,13 @@ considerado y documentado por qué lo descartamos suma** en el documento entrega
 
 > Se completa cuando definamos el usuario. Por ahora, la hipótesis de trabajo:
 
+> 🔄 **2026-09-14 — El MVP es una simulación, no el sistema final.** Mientras no se resuelvan las
+> cuestiones de negocio pendientes (P-07, acceso al Perfil B, dataset), el MVP demuestra el
+> comportamiento del sistema (analizar, puntuar, decidir) sin construir las piezas que dependen de
+> esas decisiones — ver [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md). CU-02 y CU-07
+> de los [requerimientos](requerimientos-funcionales-mvp.md) pasan a ser **configuración fija al
+> arrancar**, no un panel de administración en vivo.
+
 **Sí es MVP:**
 - Recibir una transacción y devolver un **score de riesgo**
 - Mostrar las transacciones y su nivel de riesgo en una **pantalla**

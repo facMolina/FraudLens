@@ -1,4 +1,4 @@
-# 2026-09-14 — Árbol de Problemas, 5 Por Qué y pivot a fintechs/bancos
+# 2026-09-14 — Árbol de Problemas, pivot a fintechs, revisión de requerimientos y logo
 
 | | |
 |---|---|
@@ -97,7 +97,7 @@ Se actualizaron todos los documentos que quedaban inconsistentes con la redefini
 | Verificar si algún competidor cubre "fintech chica + LatAm" en el benchmarking | Equipo | 🟢 |
 | Re-testear si `add_comment` de Trello ya funciona | FM | 🟢 |
 
-## Archivos
+## Archivos (primera parte)
 
 - `docs/05-producto/problema.md` — nueva sección Árbol de Problemas/5 Por Qué, reformulaciones y
   narrativas B/C actualizadas
@@ -109,4 +109,104 @@ Se actualizaron todos los documentos que quedaban inconsistentes con la redefini
 - `docs/05-producto/benchmarking.md`
 - `docs/05-producto/user-research.md`
 - `docs/05-producto/identidad/propuesta-canva.md`
+- `registro/historial-aportes.md`
+
+---
+
+## Segunda parte — Revisión de requerimientos funcionales del MVP
+
+Mismo día, se retomó la revisión en equipo del documento de ML (`requerimientos-funcionales-mvp.md`),
+trabajando los 6 puntos abiertos punto por punto con FM.
+
+### Lo que se resolvió
+
+- **Punto 1 (actores):** Administrador = Perfil B (decide e integra a nivel comercial). Analista =
+  Perfil A (revisa casos día a día). En realidad ya coincidía con el documento de ML (CU-05/06 usan
+  "analista", CU-07 usa "administrador") — el conflicto estaba en no tener los actores mapeados
+  contra los perfiles.
+- **Puntos 2 y 3 (alcance):** CU-02 y CU-07 se recortan de funciones vivas del Administrador a
+  **configuración fija al arrancar el sistema**, sin panel de administración en el MVP. FM remarcó
+  algo importante para dejar dicho en el documento: **el MVP tiene que decir explícitamente que
+  simula el sistema final**, hasta que se resuelvan las cuestiones de negocio pendientes (P-07,
+  dataset, acceso al Perfil B).
+  - Punto 3 queda 🟡 **parcial**: FM aclaró que el Administrador sí necesita usar la app para ver
+    reportes o señales agregadas de FraudLens (no sólo configurar). Falta precisar el alcance exacto
+    de esa vista antes de cerrar si hace falta autenticación/roles en el MVP.
+- **Punto 4 (métricas del modelo):** se deja explícitamente **bloqueante** — no se avanza hasta
+  resolver [P-11](../docs/00-proyecto/preguntas-abiertas.md#p-11) (qué dataset se usa).
+- **Punto 5 (inconsistencia de umbrales):** corregido directo — la tabla de clasificación decía
+  "Aprobar o monitorear" para el nivel Medio, pero CU-04 sólo define 3 resultados (aprobar/revisar/
+  bloquear). Se ajustó a "Aprobar", consistente con el resto del documento.
+- **Punto 6:** sigue como regla permanente (si el research contradice, gana el research).
+
+### Registro
+
+- [`requerimientos-funcionales-mvp.md`](../docs/05-producto/requerimientos-funcionales-mvp.md) —
+  tabla de "Puntos a discutir" con el estado de cada punto, y la corrección de la sección 6. El
+  documento original de ML **no se reescribió** — las anotaciones de revisión quedan claramente
+  separadas, seguimos la regla de "borrador ≠ definición".
+- [`docs/03-decisiones/0005-recorte-alcance-mvp.md`](../docs/03-decisiones/0005-recorte-alcance-mvp.md) —
+  decisión registrada de forma **liviana** (no el 6 Sombreros completo que pide la decisión 0003):
+  el 1° Parcial es en 2 días (16/9), así que se prioriza avanzar y se deja el análisis formal para
+  después del parcial.
+- Trello: resolución en la `desc` de la tarjeta (mismo workaround de siempre) y movida a
+  👀 En revisión — queda el punto 3 por cerrar antes de dar el documento por aprobado.
+
+---
+
+## Tercera parte — Assets oficiales del logo (PNG)
+
+FM subió el pptx de la Propuesta de Identidad Visual (el board de Canva exportado) y pidió armar
+PNG oficiales: el logo solo, el logo con texto, y variaciones.
+
+### Cómo se hizo
+
+En vez de recortar capturas del pptx, se **extrajo la geometría vectorial exacta** (`custGeom`) del
+slide 14 ("Logo Final") y se reconstruyó el isotipo con un script Python — así los PNG son nítidos
+en cualquier tamaño. La extracción confirmó, coordenada por coordenada, la especificación que ya
+estaba en `propuesta-canva.md`: grilla 3×3 en columnas/filas 22-50-78 (viewBox 100×100), círculos
+r=8 regulares y r=12 en la anomalía (78, 22).
+
+También se descubrió que el pptx usa **dos tratamientos de color según el fondo** (no estaba
+documentado antes con este nivel de detalle):
+
+| | Dots regulares | Anomalía |
+|---|---|---|
+| Modo claro | `#6B21A8` | `#9333EA` |
+| Modo oscuro | `#7E22CE` | `#C084FC` |
+
+### Assets generados
+
+`docs/05-producto/identidad/logo/`: isotipo (claro/oscuro/monocromo blanco), logo completo con
+wordmark (claro/oscuro), favicon/ícono de app — más el script (`make_logo_assets.py`) y un
+`README.md` documentando fuente, paleta y una sustitución declarada: el pptx usa **Arimo Bold**,
+no instalada en este entorno, así que se usó **Liberation Sans Bold** (métricamente compatible).
+
+⚠️ **El pptx en sí no se sube al repo** — `.gitignore` excluye `*.pptx` (regla ya existente del
+proyecto para material pesado). Sólo los PNG resultantes y el script generador quedan versionados.
+
+### Registro en Trello
+
+Nota agregada a la tarjeta de identidad visual (ya en ✅ Hecho, no se mueve) con el mismo workaround
+de `desc` — `add_comment` se probó de nuevo en esta tarjeta (que sí tiene comentarios nativos de
+sesiones anteriores) y **sigue fallando**.
+
+## Qué queda pendiente (todo el día)
+
+| Tarea | Responsable | Urgencia |
+|---|---|---|
+| Escribir el sombrero rojo de los dos análisis de 6 sombreros | Equipo | 🟡 |
+| Conseguir contacto real para entrevistar al nuevo Perfil B | Equipo | 🔴 Antes del 16/9 |
+| Precisar el alcance de la vista de reportes del Administrador (punto 3) | Equipo | 🟡 |
+| Resolver P-11 (dataset) para destrabar las métricas del modelo | Equipo | 🔴 |
+| Hacer el 6 Sombreros formal del recorte de alcance del MVP | Equipo | 🟢 Después del 16/9 |
+| Validar visualmente los PNG del logo | Equipo | 🟢 |
+
+## Archivos (segunda y tercera parte)
+
+- `docs/05-producto/requerimientos-funcionales-mvp.md`
+- `docs/03-decisiones/0005-recorte-alcance-mvp.md` *(nuevo)*
+- `docs/05-producto/problema.md` — nota de "MVP es simulación" en Alcance del MVP
+- `docs/05-producto/identidad/logo/` *(nuevo: README.md, 6 PNG, make_logo_assets.py)*
+- `docs/05-producto/identidad/propuesta-canva.md` — link a los assets
 - `registro/historial-aportes.md`

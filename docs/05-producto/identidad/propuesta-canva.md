@@ -20,6 +20,9 @@ detecta el fraude.
 - **Descartados:** Opción A (Embudo) y Opción C (Prisma), documentados abajo como alternativas
   exploradas.
 
+📦 **Assets oficiales del logo (PNG):** [`logo/`](logo/) — isotipo, logo completo con wordmark y
+favicon, en modo claro y oscuro, reconstruidos con la geometría exacta del pptx exportado.
+
 El board de Canva cierra con tres páginas agregadas para presentarlo formalmente:
 
 | Pág. | Contenido |
