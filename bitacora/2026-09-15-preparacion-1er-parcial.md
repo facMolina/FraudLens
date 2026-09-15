@@ -146,6 +146,13 @@ material, y aun así calzó. Lo que sí falta y es nuevo: el **Profit & Loss** (
 egresos/ingresos, viabilidad) — no estaba cubierto hasta ahora. Se creó una tarjeta nueva en
 Trello para armarlo.
 
+### Registro en Trello de la carga de la Clase 07
+
+Tarjeta nueva **"Cargar al repo la Clase 07 (Business Model Canvas)"**, creada directo en
+✅ Hecho, con el hallazgo del BMC y la discrepancia de numeración anotados. La tarjeta del P&L
+("Armar el P&L del proyecto") quedó en 📥 Backlog, sin asignar todavía — no es urgente para el
+parcial de mañana, es un pedido para la próxima clase.
+
 ### Protocolo de Declaración de uso de IA
 
 FM preguntó si había quedado anotado un protocolo para que la Declaración de uso de IA se
