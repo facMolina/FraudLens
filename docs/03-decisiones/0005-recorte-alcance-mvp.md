@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Fecha** | 2026-09-14 |
-| **Estado** | 🟡 **Registrada de forma liviana** — 6 Sombreros formal pendiente para después del 1° Parcial (16/9), por tiempo |
+| **Estado** | ✅ **Registrada de forma liviana** — 6 Sombreros formal pendiente para después del 1° Parcial (16/9), por tiempo |
 | **Decidido por** | El equipo (FM, en la revisión de requerimientos) |
 | **Ticket** | [Revisar en equipo los requerimientos funcionales del MVP](https://trello.com/c/eSWWYc7Z) |
 | **Documento afectado** | [`requerimientos-funcionales-mvp.md`](../05-producto/requerimientos-funcionales-mvp.md) — "Puntos a discutir en equipo" |
@@ -27,10 +27,11 @@ para revisar la cola de transacciones.
 viva y editable por un Administrador con su propio login, a una **configuración fija que se carga
 al levantar el sistema** (seed inicial), sin pantalla de administración dedicada en el MVP.
 
-> 🟡 **Sin cerrar todavía:** si el Administrador (Perfil B) necesita además una **vista de reportes
-> o señales agregadas** de FraudLens (más allá de revisar casos, que es del Analista), eso definiría
-> si hace falta algún tipo de autenticación/vista diferenciada en el MVP. Queda pendiente de
-> precisar — ver punto 3 en el documento de requerimientos.
+**El Analista (Perfil A) hace las dos cosas**: revisa casos uno por uno (CU-05/CU-06) y ve los
+reportes o señales agregadas que da el sistema. No hay una vista ni un login separado para el
+Administrador en el MVP — su rol queda acotado a la configuración fija inicial. Por eso **no hace
+falta autenticación con roles diferenciados** para el MVP: un solo tipo de usuario (Analista)
+accede a todo el dashboard.
 
 ## Por qué
 
@@ -51,7 +52,6 @@ al levantar el sistema** (seed inicial), sin pantalla de administración dedicad
 - `requerimientos-funcionales-mvp.md` queda anotado con el estado de cada punto de revisión, sin
   reescribir el documento original de ML (sigue siendo su borrador, con las anotaciones de revisión
   claramente separadas).
-- Falta: precisar el alcance exacto de la vista del Administrador (punto 3), y hacer el 6 Sombreros
-  formal de este recorte de alcance después del 16/9.
+- Falta: hacer el 6 Sombreros formal de este recorte de alcance después del 16/9.
 - El MVP, mientras tanto, se documenta explícitamente como una **simulación** del sistema final —
   no como el sistema de producción de una fintech real.

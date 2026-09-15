@@ -129,9 +129,9 @@ trabajando los 6 puntos abiertos punto por punto con FM.
   algo importante para dejar dicho en el documento: **el MVP tiene que decir explícitamente que
   simula el sistema final**, hasta que se resuelvan las cuestiones de negocio pendientes (P-07,
   dataset, acceso al Perfil B).
-  - Punto 3 queda 🟡 **parcial**: FM aclaró que el Administrador sí necesita usar la app para ver
-    reportes o señales agregadas de FraudLens (no sólo configurar). Falta precisar el alcance exacto
-    de esa vista antes de cerrar si hace falta autenticación/roles en el MVP.
+  - Punto 3 ✅ **resuelto**: el Analista (Perfil A) hace las dos cosas — revisa casos (CU-05/CU-06)
+    y ve los reportes/señales agregadas del sistema. No hay login ni vista separada para el
+    Administrador en el MVP. Por lo tanto, **no hace falta autenticación con roles diferenciados**.
 - **Punto 4 (métricas del modelo):** se deja explícitamente **bloqueante** — no se avanza hasta
   resolver [P-11](../docs/00-proyecto/preguntas-abiertas.md#p-11) (qué dataset se usa).
 - **Punto 5 (inconsistencia de umbrales):** corregido directo — la tabla de clasificación decía
@@ -150,7 +150,8 @@ trabajando los 6 puntos abiertos punto por punto con FM.
   el 1° Parcial es en 2 días (16/9), así que se prioriza avanzar y se deja el análisis formal para
   después del parcial.
 - Trello: resolución en la `desc` de la tarjeta (mismo workaround de siempre) y movida a
-  👀 En revisión — queda el punto 3 por cerrar antes de dar el documento por aprobado.
+  **✅ Hecho** — los 6 puntos están resueltos o explícitamente dispuestos (el punto 4 queda como
+  dependencia externa de P-11, no bloquea el documento en sí).
 
 ---
 
@@ -197,7 +198,6 @@ sesiones anteriores) y **sigue fallando**.
 |---|---|---|
 | Escribir el sombrero rojo de los dos análisis de 6 sombreros | Equipo | 🟡 |
 | Conseguir contacto real para entrevistar al nuevo Perfil B | Equipo | 🔴 Antes del 16/9 |
-| Precisar el alcance de la vista de reportes del Administrador (punto 3) | Equipo | 🟡 |
 | Resolver P-11 (dataset) para destrabar las métricas del modelo | Equipo | 🔴 |
 | Hacer el 6 Sombreros formal del recorte de alcance del MVP | Equipo | 🟢 Después del 16/9 |
 | Validar visualmente los PNG del logo | Equipo | 🟢 |
