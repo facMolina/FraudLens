@@ -144,7 +144,7 @@ que buscamos ahí es profundidad de proceso, no muestra representativa.
 | Ya | Armar y revisar en equipo la guía de entrevista del perfil A (no hay margen para improvisar) |
 | Antes del 16/9 | Difundir la encuesta del perfil C — cuanto antes, porque las respuestas tardan días en juntarse |
 | Antes del 16/9 | Al menos 1 entrevista con analista de fraude (vía ML), antes de que se cierre la ventana |
-| Antes del 16/9 | Al menos 1 entrevista con dueño de comercio chico |
+| Antes del 16/9 | Al menos 1 entrevista con responsable de riesgo/producto en fintech o banco (Perfil B) — sin canal confirmado todavía |
 | Con los resultados | Cargar hallazgos en `usuarios.md` (User Persona, Mapa de Empatía) y corregir `problema.md` si hace falta |
 
 ## Qué hacemos con lo que salga
