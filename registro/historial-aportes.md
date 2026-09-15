@@ -77,6 +77,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-15 | FM | Producto | Business Model Canvas como hipótesis explícita del equipo, y reformulación de la lista "No es MVP" como líneas futuras | [`modelo-negocio.md`](../docs/05-producto/modelo-negocio.md) |
 | 2026-09-15 | FM | Gestión | Reorganización completa del tablero de Trello contra la consigna del docente para la oral del 1° Parcial: 2 tarjetas nuevas (Stakeholders, Modelos de IA), 3 subidas de prioridad, 2 resueltas con la actualización del día | [Tablero](https://trello.com/b/iUaTi33p) |
 | 2026-09-15 | FM | Gestión | Revisión en equipo de las 8 tarjetas en "En revisión": 5 pasadas a Hecho (Árbol de Problemas, Benchmarking, Narrativa, Roles, BMC/Roadmap); 3 quedan abiertas por tarea concreta pendiente del equipo (Perfiles, Plan de research, Ideación) | [Tablero](https://trello.com/b/iUaTi33p) |
+| 2026-09-15 | FM | Gestión | División final de tareas pendientes para el parcial entre los 4 integrantes, comunicada por WhatsApp y registrada en cada tarjeta de Trello | [Tablero](https://trello.com/b/iUaTi33p) |
 
 ---
 
@@ -89,7 +90,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 37 | 2026-09-15 |
+| Molina, Facundo Roman (FM) | 38 | 2026-09-15 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

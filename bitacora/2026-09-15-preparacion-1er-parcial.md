@@ -115,6 +115,22 @@ Quedan en 👀 En revisión, con tarea concreta pendiente del equipo (no mía): 
 perfiles** (dos sombreros rojos sin escribir), **2. Plan de research** (falta revisión de otro
 integrante + ejecución) y **10. Ideación y Grilla de Priorización** (conflicto CU-07 sin resolver).
 
+## División final de tareas para el parcial
+
+Con el equipo repasando por WhatsApp, FM ajustó la asignación dos veces: primero corrigió que el
+código del MVP no aplica a esta entrega (siguen definiendo objetivos clase a clase), y después
+movió la revisión del Plan de research de ML a MDV, para balancear el aporte individual de este
+último. Quedó registrado en cada tarjeta de Trello:
+
+| Quién | Tareas |
+|---|---|
+| **Lewinzon, Mateo (ML)** | Conseguir la encuesta/entrevista (prioridad máxima) · confirmar si usó IA para los requerimientos · buscar contacto para el Perfil B |
+| **Guerrero Rojas, Francisco Daniel (FGR)** | Elegir y documentar el dataset · resolver junto con ML la tensión CU-07 vs. ideación |
+| **Diaz Valdez, Mateo (MDV)** | Coordinar la escritura de los dos sombreros rojos · revisar el Plan de research |
+| **Molina, Facundo Roman (FM)** | Documentación y coordinación general |
+
+Código del MVP: confirmado que **no aplica a esta entrega**.
+
 ## Qué queda pendiente para mañana
 
 | Tarea | Urgencia |
