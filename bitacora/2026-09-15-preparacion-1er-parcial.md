@@ -93,6 +93,28 @@ el docente para la oral, priorizados:
   igual el argumento de la estrategia (modelo asistivo, no autónomo) para poder hablarlo mañana.
 - **"🔴 1° PARCIAL"** → movida al tope de 🎯 Esta semana, como referencia central de la semana.
 
+## Revisión de las tarjetas en "En revisión"
+
+FM pidió repasar juntas las 8 tarjetas que estaban en 👀 En revisión. Se separaron en dos grupos:
+las que tenían una tarea concreta sin terminar que sólo puede resolver el equipo (sombreros rojos,
+revisión de otro integrante, un conflicto real sin resolver), y las que ya cumplían su propio
+checklist y sólo les faltaba una validación futura normal (research, The Pitch). FM confirmó pasar
+estas 5 a **✅ Hecho**, con cierre anotado en cada una:
+
+- **Árbol de Problemas y 5 Por Qué** — sin blocker real.
+- **9. Benchmarking con curva de valor** — el entregable está completo; "es continuo" es su
+  naturaleza, no una tarea pendiente.
+- **11. Narrativa de la propuesta de solución** — cumple su checklist; converger en una sola queda
+  para The Pitch.
+- **Definir roles del equipo** — roles confirmados; la rotación de Sprint Reviews (14/10) no
+  bloquea nada hoy.
+- **Clase 6 — BMC/Roadmap** — el BMC-hipótesis es justo lo que pedía la tarjeta; validarlo es
+  trabajo futuro atado al research del Perfil B.
+
+Quedan en 👀 En revisión, con tarea concreta pendiente del equipo (no mía): **1. Decidir los 3
+perfiles** (dos sombreros rojos sin escribir), **2. Plan de research** (falta revisión de otro
+integrante + ejecución) y **10. Ideación y Grilla de Priorización** (conflicto CU-07 sin resolver).
+
 ## Qué queda pendiente para mañana
 
 | Tarea | Urgencia |
