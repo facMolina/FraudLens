@@ -73,6 +73,26 @@ benchmarking ya había descartado.
   resolución anotada. FM se encarga de cerrar los dos puntos que quedaron abiertos en el propio
   documento (confirmar con ML, documentar qué defiende cada uno del prototipo).
 
+## Reorganización del tablero contra la consigna del docente
+
+A pedido de FM, se reordenó el tablero completo para que refleje exactamente los ítems que pidió
+el docente para la oral, priorizados:
+
+- **"Definir roles del equipo y rotación de Sprint Reviews"** → roles marcados hechos, rotación
+  queda como pendiente separado (no bloquea mañana). Movida a 👀 En revisión.
+- **"Clase 6: Roadmap + Modelo de negocio + BMC"** → resolución con el BMC-hipótesis y el roadmap
+  de hoy. Movida a 👀 En revisión.
+- **"Documentar el prototipo de FGR"**, **"Documentar el dataset de casos de prueba"**,
+  **"Arrancar el repositorio de código del MVP"** → subidas de 📥 Backlog a 🎯 Esta semana,
+  priorizadas porque el docente pidió explícitamente código/plataformas si existen.
+- **"🔴 12. Encuesta difundida..."** → renombrada a **"Encuestas y entrevistas"** para cubrir los
+  dos ítems de la consigna que comparten el mismo bloqueo real (0 ejecutado). Sigue en 🚧 Bloqueado.
+- **"Stakeholders y expertos consultados"** *(nueva)* → 🎯 Esta semana. Estado real: Perfil A con
+  acceso confirmado (ML), Perfil B todavía sin contacto.
+- **"Modelos de IA a utilizar"** *(nueva)* → 🚧 Bloqueado, depende de P-11 (dataset). Se dejó
+  igual el argumento de la estrategia (modelo asistivo, no autónomo) para poder hablarlo mañana.
+- **"🔴 1° PARCIAL"** → movida al tope de 🎯 Esta semana, como referencia central de la semana.
+
 ## Qué queda pendiente para mañana
 
 | Tarea | Urgencia |
