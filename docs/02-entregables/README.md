@@ -51,18 +51,19 @@ la sumatoria de lo que vamos produciendo clase a clase:
 
 | Bloque | Contenido | Fuente en este repo | Estado |
 |---|---|---|---|
-| Problema | Definición, contexto, evidencia | [`docs/05-producto/problema.md`](../05-producto/problema.md) | 🟡 Iniciado |
-| Usuarios | Segmentación, target, personas | ⬜ | 🔲 |
-| User Research | Encuestas, entrevistas, observación, hallazgos | ⬜ | 🔲 |
-| Ideación y solución | Design Thinking, alternativas, selección | ⬜ | 🔲 |
-| Benchmarking / Océano Azul | Competencia y diferenciación | ⬜ | 🔲 |
-| Roadmap | Evolución del producto | ⬜ | 🔲 |
-| Modelo de negocio | BMC · P&L | ⬜ | 🔲 |
-| Planificación ágil | Sprints, historias de usuario, estimaciones | ⬜ | 🔲 |
-| Diseño | UX/UI, prototipos, heurísticas | ⬜ | 🔲 |
-| Métricas | OKRs · KPIs | ⬜ | 🔲 |
-| Producto | MVP funcionando + demo | ⬜ | 🔲 |
-| Retrospectivas | Las 4 retros + Big Retro | ⬜ | 🔲 |
+| Problema | Definición, Árbol de Problemas, 5 Por Qué, reformulaciones, narrativa | [`docs/05-producto/problema.md`](../05-producto/problema.md) | 🟢 Avanzado — falta validar con research |
+| Usuarios | Segmentación, target, 3 perfiles | [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) | ✅ Escrito |
+| User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🔴 Plan escrito, **0 encuestas y 0 entrevistas ejecutadas** |
+| Ideación y solución | Design Thinking, alternativas, grilla de priorización | [`docs/05-producto/ideacion.md`](../05-producto/ideacion.md) | 🟡 Borrador, pendiente de validar |
+| Benchmarking / Océano Azul | Competencia y diferenciación | [`docs/05-producto/benchmarking.md`](../05-producto/benchmarking.md) | 🟢 Primera vuelta hecha — es continuo |
+| Roadmap | Evolución del producto | [`problema.md` — Líneas futuras](../05-producto/problema.md#líneas-futuras--próximas-versiones) | 🟡 Lista inicial, sin priorizar |
+| Modelo de negocio | BMC · P&L | [`docs/05-producto/modelo-negocio.md`](../05-producto/modelo-negocio.md) | 🟡 BMC como hipótesis, sin validar. Falta P&L |
+| Planificación ágil | Sprints, historias de usuario, estimaciones | ⬜ | 🔲 No empezado |
+| Diseño | Identidad visual, logo, paleta de colores | [`docs/05-producto/identidad/`](../05-producto/identidad/) | ✅ Cerrado |
+| Métricas | OKRs · KPIs | ⬜ | 🔲 No empezado |
+| Producto | MVP funcionando + demo | [`docs/05-producto/prototipo.md`](../05-producto/prototipo.md) | 🔴 Sólo existe el prototipo de FGR, sin documentar dónde vive el código |
+| Retrospectivas | Las 4 retros + Big Retro | ⬜ | 🔲 Todavía no llegamos a esa etapa del cronograma |
+| **Declaración de uso de IA** | Herramientas, alcance, validación, responsabilidad | [`docs/00-proyecto/declaracion-uso-ia.md`](../00-proyecto/declaracion-uso-ia.md) | ✅ Escrita |
 
 ## Pendientes inmediatos
 

@@ -312,6 +312,24 @@ considerado y documentado por qué lo descartamos suma** en el documento entrega
 > Recordar el caso Uber de la Clase 1: el MVP no sólo recorta funciones, **recorta el alcance**.
 > UberCab era una ciudad, una función.
 
+## Líneas futuras / próximas versiones
+
+Lo que queda **fuera del MVP** no se descarta — es la lista de por dónde seguir después:
+
+- **Reentrenamiento automático del modelo** — hoy es manual/fijo; a futuro, aprendizaje continuo.
+- **Multi-tenant** — hoy es un solo cliente; a futuro, varias fintechs/bancos en la misma
+  plataforma.
+- **Alertas por mail o notificaciones** en tiempo real para el analista.
+- **Panel de administración** completo para el Perfil B, más allá de la configuración fija actual
+  (ver [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md)).
+- **Integraciones reales con procesadores de pago.**
+- **Explicabilidad avanzada del modelo** (más allá de los 3 factores básicos de CU-03).
+- **Cobertura AML + fraude en un solo producto** — hoy fuera de alcance, pero es lo que ya ofrece
+  Feedzai según el [benchmarking](benchmarking.md); podría ser una línea de crecimiento si el
+  research confirma demanda.
+- **Verificar el espacio "complementa, no reemplaza"** con más research — es el hallazgo central
+  del benchmarking, pero sigue siendo hipótesis (ver [P-07](../00-proyecto/preguntas-abiertas.md#p-07)).
+
 ## Chequeo contra "Problemas que NO"
 
 El docente descartó explícitamente: reservas en general, estacionamiento, cómo viajar, filas y

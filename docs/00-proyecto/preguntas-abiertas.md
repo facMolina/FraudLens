@@ -28,7 +28,7 @@ de Trello con esa fecha de vencimiento.
 | [P-05](#p-05) | ¿Dónde vive el código del MVP? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-06](#p-06) | ¿Qué datos reales vamos a usar? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🟡 **Parcial** |
-| [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | 🔲 Abierta |
+| [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta |
 | [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | 🔲 Abierta |
@@ -201,8 +201,12 @@ la lista después del calendario. Se trabaja en la **Clase 2 (Segmentación de u
 ## P-08
 ### ¿Qué roles toma cada integrante?
 
-Ver la tabla de roles propuesta en [`equipo.md`](equipo.md#roles-a-repartir).
-También hay que armar la rotación de presentadores de Sprint Reviews.
+**✅ Resuelta** *(equipo, 2026-09-15)* — ML referente de producto, FGR referente técnico, FM
+referente de documentación, MDV referente de proceso. Detalle y justificación en
+[`equipo.md`](equipo.md#roles-a-repartir).
+
+**Falta todavía:** la rotación de presentadores de Sprint Reviews (arranca el 14/10, distinta del
+1° Parcial del 16/9 que presenta FM).
 
 ---
 

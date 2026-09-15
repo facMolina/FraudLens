@@ -72,6 +72,9 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-14 | FM | Documentación | Actualización en cascada de la redefinición de Perfil B/C: `usuarios.md`, P-07, `benchmarking.md`, `user-research.md` e identidad visual | [`usuarios.md`](../docs/05-producto/usuarios.md) |
 | 2026-09-14 | Equipo | Producto | **Decisión 0005**: recorte de alcance del MVP (CU-02/CU-07 a configuración fija), aclaración de roles (Administrador=Perfil B, Analista=Perfil A hace casos y reportes, sin auth con roles distintos) y corrección de la tabla de clasificación de riesgo. Revisión de requerimientos cerrada, ticket a Hecho | [Decisión 0005](../docs/03-decisiones/0005-recorte-alcance-mvp.md) · [Tarjeta](https://trello.com/c/eSWWYc7Z) |
 | 2026-09-14 | FM | Diseño | Assets oficiales del logo en PNG (isotipo, logo completo, favicon) reconstruidos con la geometría exacta del pptx exportado de Canva | [`identidad/logo/`](../docs/05-producto/identidad/logo/README.md) |
+| 2026-09-15 | FM | Documentación | Declaración de uso de IA, basada en los Lineamientos de la UADE — herramientas, alcance por etapa, proceso de validación y responsabilidad declarados | [`declaracion-uso-ia.md`](../docs/00-proyecto/declaracion-uso-ia.md) |
+| 2026-09-15 | Equipo | Gestión | Roles del equipo asignados y confirmados (ML producto, FGR técnico, FM documentación, MDV proceso). Resuelve P-08 | [`equipo.md`](../docs/00-proyecto/equipo.md#roles-a-repartir) |
+| 2026-09-15 | FM | Producto | Business Model Canvas como hipótesis explícita del equipo, y reformulación de la lista "No es MVP" como líneas futuras | [`modelo-negocio.md`](../docs/05-producto/modelo-negocio.md) |
 
 ---
 
@@ -84,7 +87,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
-| Molina, Facundo Roman (FM) | 33 | 2026-09-14 |
+| Molina, Facundo Roman (FM) | 35 | 2026-09-15 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
