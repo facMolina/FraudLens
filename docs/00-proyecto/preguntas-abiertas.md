@@ -465,6 +465,13 @@ cronograma.** El cronograma decía *"Design Thinking. Redefinir el problema"* y 
 *"presentaciones: Design Thinking de al menos 3 posibles usuarios"* — o sea, **los entregables se
 presentaban en esa clase aunque el tema dictado fuera otro**.
 
+### 🔎 Nueva discrepancia al cargar la Clase 7 (BMC) *(2026-09-15)*
+
+El archivo de la clase del 9/9 (Business Model Canvas) trae **dos numeraciones distintas dentro
+del mismo nombre**: el prefijo dice `007` y el título interno dice "Clase_08". Ninguna de las dos
+tiene por qué coincidir con el cronograma. Se cargó como **Clase 07** de este repo (por prefijo y
+por orden), sin resolver cuál de los dos números usa el docente — no se completa a ojo.
+
 > ⚠️ **Consecuencia:** el cronograma sirve para **fechas y entregables**, pero **no** para anticipar
 > el tema que se va a dictar. Conviene no planificar el contenido de una clase leyendo sólo el
 > cronograma.

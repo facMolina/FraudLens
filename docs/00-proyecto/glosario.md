@@ -241,11 +241,29 @@ Temas asociados: **Competencia** y **Diferenciación**.
 ### Benchmarking 🔜 *(Bloque 1)*
 Comparación sistemática contra soluciones existentes.
 
-### BMC — Business Model Canvas 🔜 *(Bloque 2)*
-Lienzo de 9 bloques para describir el modelo de negocio.
+### BMC — Business Model Canvas ✅ *(Clase 07)*
+Herramienta para definir y crear modelos de negocio innovadores. Simplifica el negocio en 4
+grandes áreas (Clientes, Oferta, Infraestructura, Viabilidad Económica) y 9 bloques: segmentos de
+clientes, propuesta de valor, canales, relación con clientes, fuentes de ingreso, recursos clave,
+actividades clave, socios clave, estructura de costos.
 
-### P&L — Profit & Loss 🔜 *(Bloque 2)*
-Estado de resultados. En la materia: **estimación de costos** del proyecto.
+### P&L — Profit & Loss ✅ *(Clase 07)*
+El "excel" donde se cargan los costos y se planean las ganancias de un proyecto: identificar
+recursos y tareas, calcular Horas-Hombre, separar costos fijos/variables, registrar egresos e
+ingresos, y analizar viabilidad (inversión inicial, cuándo llegan ingresos y beneficio).
+
+### Horas-Hombre (HH) ✅ *(Clase 07)*
+Unidad para medir el costo de trabajo: cantidad de tiempo que un trabajador dedica a una
+actividad. Ejemplo: 2 personas × 3 horas = 6 HH.
+
+### Modelos de monetización ✅ *(Clase 07)*
+Las 5 técnicas dadas en clase: Freemium, Pago por descarga, Compras In-App, Suscripciones y
+Anuncios In-App *(esta última, explícitamente no recomendada por el docente)*.
+
+### Long Tail / Cebo y Anzuelo / Plataforma Multilateral ✅ *(Clase 07)*
+Tres patrones de modelo de negocio: **Long Tail** (vender poca cantidad de mucha variedad),
+**Cebo y Anzuelo** (producto barato que engancha a la compra repetitiva de algo con mejor margen),
+**Plataforma Multilateral** (crea valor conectando 2+ grupos de clientes interdependientes).
 
 ### Roadmap 🔜 *(Bloque 1 / Management 3.0)*
 Plan temporal de evolución del producto.

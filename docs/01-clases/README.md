@@ -12,7 +12,7 @@ Una nota por clase. Cada nota tiene la misma estructura para poder compararlas y
 | 04 | Design Thinking · User Research | ⬜ | ✅ [clase-04-design-thinking.md](clase-04-design-thinking.md) | [📄](material/clase-04-design-thinking.md) | Design Thinking, User Persona, Mapa de Empatía, Escenario Actual, User Journey Map, encuestas/entrevistas/observación |
 | 05 | Taller de Oratoria · Storytelling con Datos | **2/9** | ✅ [clase-05-oratoria-y-storytelling.md](clase-05-oratoria-y-storytelling.md) | [📄](material/clase-05-taller-de-oratoria.md) [📄](material/clase-05-storytelling-con-datos.md) | Elevator pitch, 5 claves de Robbins, storytelling con datos, la Gran Idea, storyboard inverso |
 | 06 | 🖥️ **Remota** · Ideación · Océano Azul · Benchmarking | **5/9** | ✅ [clase-06-oceano-azul.md](clase-06-oceano-azul.md) | [📄](material/clase-06-oceano-azul.md) [📄](material/clase-06-oceano-azul-presentacion.md) | Océano rojo/azul, innovación de valor, 4 acciones, curva de valor, no clientes |
-| 07 | Roadmap · Modelo de negocio · Business Model Canvas | **9/9** | ⬜ *(es hoy)* | ⬜ | ⬜ |
+| 07 | Roadmap · Modelo de negocio · Business Model Canvas | **9/9** | ✅ [clase-07-business-model-canvas.md](clase-07-business-model-canvas.md) | [📄](material/clase-07-business-model-canvas.md) | BMC (9 bloques), Profit & Loss, Horas-Hombre, modelos de monetización |
 
 > ⚠️ **Ojo con la numeración ([P-20](../00-proyecto/preguntas-abiertas.md#p-20)):** el **#** de esta
 > tabla es el del **deck del docente**, no el del cronograma. El cronograma llama "Clase 5" al 2/9

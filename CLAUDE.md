@@ -59,7 +59,8 @@ Cuando alguien abre una sesión, antes de escribir código o documentos:
 
 Al cerrar la sesión, recordale el checklist: `.md` actualizado · bitácora · historial de aportes ·
 **comentario de resolución en la tarjeta de Trello** · tarjeta movida · commit con **su propio
-usuario de Git**.
+usuario de Git** · **`docs/00-proyecto/declaracion-uso-ia.md` actualizada, si en la sesión se usó
+IA para algo nuevo** (nueva herramienta, nueva etapa del proyecto, alguien nuevo empezó a usarla).
 
 > 🔴 **Ningún ticket pasa a ✅ Hecho sin comentario de resolución en Trello** — qué se decidió, qué
 > se descartó y por qué. No alcanza con documentarlo en el repo: va en **los dos lugares**.
@@ -128,6 +129,14 @@ usuario de Git**.
    - El sombrero **rojo** lo escribe **el equipo**, no vos. Podés dejar un borrador marcado como tal.
    - El análisis va en `docs/05-producto/analisis/6-sombreros-<tema>.md` y se linkea desde la
      tarjeta de Trello.
+
+10. **Todo uso de IA queda declarado, siempre, a medida que se usa.** No es un documento que se
+    escribe una vez y se olvida: cada vez que el proyecto avanza con ayuda de IA (una herramienta
+    nueva, una etapa nueva del proyecto, alguien del equipo que empieza a usarla) actualizá
+    `docs/00-proyecto/declaracion-uso-ia.md` en el momento, con qué herramienta, para qué, en qué
+    etapa y quién la usó. Es exigencia de los
+    [Lineamientos de Uso de IA de la UADE](https://dre.uade.edu.ar/PDFs/lineamientosiaalumnos1.pdf)
+    para el TIF: la declaración tiene que reflejar el uso real, no reconstruirse al final.
 
 ## Cuando llega una clase nueva
 

@@ -131,6 +131,29 @@ movió la revisión del Plan de research de ML a MDV, para balancear el aporte i
 
 Código del MVP: confirmado que **no aplica a esta entrega**.
 
+## Cuarta parte — Carga de la Clase 07 (Business Model Canvas) y protocolo de IA
+
+FM preguntó hasta qué clase estaba cargado el repo (Clase 06) y pasó el material de la Clase 07
+(Business Model Canvas), con una discrepancia de numeración nueva: el archivo trae el prefijo
+`007` pero el título interno dice "Clase_08" — se cargó como Clase 07 por prefijo y orden, sin
+resolver cuál es la numeración real del docente (sumado a [P-20](../docs/00-proyecto/preguntas-abiertas.md#p-20)).
+
+### Hallazgo clave: el BMC ya armado el 14/9 coincide con la clase real
+
+Los 9 bloques del [`modelo-negocio.md`](../docs/05-producto/modelo-negocio.md) armado ayer
+coinciden exactamente con la estructura que enseñó esta clase — se escribió antes de tener el
+material, y aun así calzó. Lo que sí falta y es nuevo: el **Profit & Loss** (costos en Horas-Hombre,
+egresos/ingresos, viabilidad) — no estaba cubierto hasta ahora. Se creó una tarjeta nueva en
+Trello para armarlo.
+
+### Protocolo de Declaración de uso de IA
+
+FM preguntó si había quedado anotado un protocolo para que la Declaración de uso de IA se
+actualice cada vez que el proyecto avance con algo — **no lo había, sólo estaba la nota dentro del
+propio documento.** Se agregó como **regla 10** en `CLAUDE.md` y como ítem del checklist de cierre
+de sesión: cada vez que se use IA para algo nuevo (herramienta, etapa, integrante), se actualiza
+`declaracion-uso-ia.md` en el momento, no al final.
+
 ## Qué queda pendiente para mañana
 
 | Tarea | Urgencia |
