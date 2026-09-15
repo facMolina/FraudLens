@@ -69,6 +69,9 @@ benchmarking ya había descartado.
 
 - Tarjeta del **1° Parcial** actualizada con el formato real confirmado por el docente y el estado
   honesto contra cada ítem de la consigna — no se movió (el parcial es mañana).
+- Tarjeta nueva **"Declaración de uso de IA"**, creada directo en ✅ Hecho a pedido de FM, con la
+  resolución anotada. FM se encarga de cerrar los dos puntos que quedaron abiertos en el propio
+  documento (confirmar con ML, documentar qué defiende cada uno del prototipo).
 
 ## Qué queda pendiente para mañana
 
