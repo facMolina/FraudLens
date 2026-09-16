@@ -10,7 +10,7 @@ es lo único que tenemos definido.
 | [`problema.md`](problema.md) | Definición del problema, contexto y evidencia | Clases 1-2 | 🟡 Iniciado |
 | [`requerimientos-funcionales-mvp.md`](requerimientos-funcionales-mvp.md) | Requerimientos y casos de uso del MVP — **borrador de FGR, sin aprobar** | — | 🟡 En revisión |
 | `usuarios.md` | Segmentación, target, personas | Clase 2 | 🔲 Pendiente |
-| `user-research.md` | Encuestas, entrevistas, observación y hallazgos | Clase 3 | 🔲 Pendiente |
+| `user-research.md` | Encuestas, entrevistas, observación y hallazgos | Clase 3 | 🟡 Entrevistas A/B registradas; encuesta C pendiente |
 | `solucion.md` | Ideación, alternativas y solución elegida | Clase 4 | 🔲 Pendiente |
 | `benchmarking.md` | Competencia, diferenciación, Océano Azul | Clase 4 | 🔲 Pendiente |
 | `roadmap.md` | Evolución prevista del producto | Clase 4 | 🔲 Pendiente |

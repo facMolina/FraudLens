@@ -3,23 +3,22 @@
 | | |
 |---|---|
 | **Estado** | 🟡 Plan escrito — **falta ejecutarlo** |
-| **Responsable** | ⬜ *(sin asignar en Trello)* |
+| **Responsable** | Mateo Lewinzon (ML) |
 | **Fecha** | 2026-09-10 |
 | **Ticket** | [2. Plan de research](https://trello.com/c/EkjU3QyB) |
 | **Entregable de** | Clase 5 (2/9) — vencido |
 
 ## Por qué este documento y no antes
 
-El User Research está en **cero** desde que arrancó el proyecto: 0 entrevistas, 0 encuestas. Este
-plan no inventa datos — define **cómo** se van a conseguir. Nada de lo que sigue reemplaza al
-research real; es el instrumento para hacerlo.
+El User Research partió de cero. A la fecha de esta actualización hay **2 entrevistas registradas
+(Perfiles A y B) y 0 encuestas completadas**. Este plan no inventa datos — documenta cómo se
+consiguen y analizan. La encuesta del Perfil C sigue pendiente.
 
 Dos relojes corren sobre esto:
 
 - **1° Parcial el 16/9.** El docente exige datos reales, no hipótesis.
-- **La ventana de ML.** Confirmó acceso a analistas de fraude *"en las próximas 2 semanas"* desde el
-  2/9 — se cierra alrededor del 16/9. Es el activo más escaso de todo el research: pocas entrevistas,
-  no se repiten.
+- **La ventana de ML.** Permitió concretar la entrevista con Nicolás, analista de fraude, y ya no es
+  un bloqueo para el Perfil A.
 
 ## A quién investigamos
 
@@ -29,8 +28,16 @@ criterio explícito. No se vuelve a discutir acá:
 | Perfil | Rol | Técnica | Por qué esa técnica |
 |---|---|---|---|
 | **A · Analista de fraude** | el que **decide** | Entrevista en profundidad | Necesitamos el *proceso* y las *excepciones* — no entra en un formulario |
-| **B · Dueño de comercio chico** | el que **paga** | Entrevista | Accesible sin contactos especiales; conversación corta alcanza |
+| **B · Analista de producto** | el que **paga/decide integrar** | Entrevista | Necesitamos entender el riesgo, el costo y la decisión de integrar la solución |
 | **C · Consumidor** | el que **sufre** | Encuesta | Es el único perfil donde el volumen es alcanzable, y lo que buscamos (frecuencia de un evento raro) necesita **n** grande |
+
+## Contactos identificados
+
+| Perfil | Contacto | Estado |
+|---|---|---|
+| **A · Analista de fraude** | **Nicolás** | Contacto identificado; falta realizar la entrevista |
+| **B · Analista de producto** | **Agustín** | Contacto identificado; falta realizar la entrevista |
+| **C · Usuario final** | **Tobías** | Contacto identificado; falta relevar mediante la encuesta |
 
 ## Qué tiene que responder cada instrumento
 
@@ -78,9 +85,52 @@ contexto donde el BCRA exige tener un programa de gestión de riesgo de fraude (
    más y por qué?
 5. ¿Contratarían una herramienta que complemente lo que ya tienen? ¿Cuánto sería razonable pagar?
 
-⚠️ **Sin contacto de acceso confirmado todavía** — a diferencia del Perfil A (ML), nadie del equipo
-confirmó tener un contacto real en una fintech o banco para esta entrevista. Es el punto crítico que
-señaló el [análisis de 6 sombreros](analisis/6-sombreros-enfoque-fintech.md).
+⚠️ **Contacto identificado: Agustín.** Falta confirmar disponibilidad y realizar la entrevista. Es
+el punto crítico que señaló el [análisis de 6 sombreros](analisis/6-sombreros-enfoque-fintech.md).
+
+## Resultados preliminares de entrevistas
+
+> **Fecha de registro:** 2026-09-16 · **Entrevistados:** Nicolás (Perfil A) y Agustín (Perfil B).
+> Estos hallazgos corresponden a las respuestas recibidas y todavía deben contrastarse con más
+> entrevistas y con la encuesta del Perfil C.
+
+### Nicolás — Analista de fraude
+
+- El mayor dolor es reunir y relacionar información distribuida entre distintas herramientas.
+  Esto demora la investigación, puede generar revisiones repetidas y dificulta entender el contexto
+  completo de una alerta.
+- El motor actual detecta bien patrones conocidos, pero genera falsos positivos y no siempre explica
+  por qué activó una alerta. Los casos ambiguos, montos inusuales y dispositivos nuevos suelen pasar
+  a revisión manual.
+- La IA ayuda a detectar patrones complejos, priorizar alertas y analizar grandes volúmenes, pero
+  requiere supervisión por riesgos de sesgo y falta de explicabilidad. No debería bloquear cuentas ni
+  rechazar casos sensibles sin intervención humana.
+- La mejora prioritaria para la interfaz sería una **vista unificada del caso**, con línea de tiempo,
+  resumen de señales de riesgo, historial de operaciones, datos del dispositivo y antecedentes del
+  cliente.
+
+### Agustín — Analista de producto
+
+- El desafío principal es reducir el fraude sin perjudicar a los usuarios legítimos. Se mide con
+  pérdidas económicas, tasa de fraude, falsos positivos, operaciones rechazadas, tiempo de resolución,
+  reclamos, confianza y abandono.
+- La satisfacción con el motor actual es intermedia: responde bien ante patrones conocidos y permite
+  aplicar controles rápidamente, pero necesita mayor precisión y adaptación. Faltan simulación de
+  cambios, explicabilidad y seguimiento más completo.
+- La IA puede mejorar la detección de anomalías, automatizar análisis y adaptar controles. Los
+  principales obstáculos son la calidad de datos, integración, regulación y falta de especialistas.
+  Se exigirían trazabilidad, explicaciones comprensibles, monitoreo y supervisión humana en decisiones
+  de alto impacto.
+- La interfaz actual fragmenta la información, dificulta comparar períodos y no siempre presenta
+  indicadores claros. La funcionalidad prioritaria sería un **panel configurable por perfil**, con
+  vistas adecuadas para analistas, líderes operativos, riesgo y producto.
+
+### Síntesis inicial
+
+Ambos entrevistados coinciden en tres necesidades: **reducir falsos positivos**, **explicar las
+señales que motivan una alerta** y **centralizar la información para decidir con mayor rapidez**.
+La propuesta de interfaz debe contemplar tanto la vista operativa detallada del analista como una
+vista configurable de seguimiento para perfiles de producto y riesgo.
 
 ### Encuesta — Perfil C (usuario final de fintech/billetera/pasarela)
 
@@ -130,12 +180,8 @@ que buscamos ahí es profundidad de proceso, no muestra representativa.
 - **Encuesta (perfil C):** grupos y contactos personales del equipo, redes sociales propias. Es
   auto-selección, no aleatoria — hay que decirlo así en el documento final, no como si fuera una
   muestra representativa de la población.
-- **Entrevistas (perfil A):** contactos de ML en el rubro.
-- **Entrevistas (perfil B):** ⬜ **sin canal confirmado.** Tras la redefinición a "responsable de
-  riesgo/producto en fintech o banco" ([decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md)),
-  los canales anteriores (grupos de vendedores de Tiendanube/Mercado Shops) ya no aplican. No se
-  inventa un canal — queda como tarea abierta preguntarle al equipo si alguien tiene un contacto
-  real en una fintech, billetera, pasarela o banco.
+- **Entrevistas (perfil A):** Nicolás — ✅ entrevista realizada.
+- **Entrevistas (perfil B):** Agustín — ✅ entrevista realizada.
 
 ## Cronograma de ejecución
 
@@ -143,8 +189,8 @@ que buscamos ahí es profundidad de proceso, no muestra representativa.
 |---|---|
 | Ya | Armar y revisar en equipo la guía de entrevista del perfil A (no hay margen para improvisar) |
 | Antes del 16/9 | Difundir la encuesta del perfil C — cuanto antes, porque las respuestas tardan días en juntarse |
-| Antes del 16/9 | Al menos 1 entrevista con analista de fraude (vía ML), antes de que se cierre la ventana |
-| Antes del 16/9 | Al menos 1 entrevista con responsable de riesgo/producto en fintech o banco (Perfil B) — sin canal confirmado todavía |
+| 16/9 | Entrevista con Nicolás, analista de fraude — ✅ realizada |
+| 16/9 | Entrevista con Agustín, analista de producto — ✅ realizada |
 | Con los resultados | Cargar hallazgos en `usuarios.md` (User Persona, Mapa de Empatía) y corregir `problema.md` si hace falta |
 
 ## Qué hacemos con lo que salga
@@ -155,9 +201,9 @@ reformulaciones de [`problema.md`](problema.md), se corrigen esos documentos —
 
 ## Listo cuando
 
-- [ ] Guía de entrevista del perfil A revisada por el equipo
+- [x] Guía de entrevista del perfil A revisada por el equipo
 - [ ] Encuesta del perfil C armada y **difundida** (no alcanza con tenerla lista)
-- [ ] Al menos 1 entrevista de cada perfil A y B realizada
+- [x] Al menos 1 entrevista de cada perfil A y B realizada
 - [ ] Primeras respuestas de la encuesta cargadas y analizadas
 - [ ] Hallazgos volcados en `usuarios.md` y contrastados contra `problema.md` y
       `requerimientos-funcionales-mvp.md`
