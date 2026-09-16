@@ -9,6 +9,10 @@
 
 8 imágenes: 3 láminas de isotipos, 2 de paleta, 2 de dashboard, 1 de tipografía.
 
+> ⬜ **Pendiente (2026-09-16):** las 8 imágenes hoy viven sólo en el Google Drive del equipo
+> (`Mi unidad/FraudLens`), no están versionadas en este repo — sólo este análisis en texto. Falta
+> subirlas a `docs/05-producto/identidad/generacion-01/` para que queden citables desde acá.
+
 ---
 
 ## 1. Isotipos — shortlist

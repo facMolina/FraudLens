@@ -21,13 +21,14 @@
 | **Claude Code** | Facundo Molina (FM), con validación del equipo en cada sesión | Construcción y mantenimiento de este repositorio: documentación de clases, decisiones, diseño del research, identidad visual, benchmarking, ideación, revisión de requerimientos |
 | **Claude** | Francisco Guerrero Rojas (FGR) | Generación del **backend** del prototipo de FraudLens |
 | **Codex** | Francisco Guerrero Rojas (FGR) | Generación del **frontend** del prototipo, ajustado al backend ya generado |
+| **Gemini / Nano Banana** (Google AI Studio) | Facundo Molina (FM) | Generación de imágenes exploratorias para la identidad visual: isotipos, paletas de color, mockups de dashboard y lámina de tipografía — ver [`prompts-nano-banana.md`](../05-producto/prompts-nano-banana.md) |
 
 ## Alcance del uso, por etapa
 
 | Etapa / entregable | Herramienta | Qué se generó con IA | Qué hizo el equipo |
 |---|---|---|---|
 | Documentación de clases (`docs/01-clases/`) | Claude Code | Redacción de notas trabajadas a partir del material crudo cargado por el equipo | El equipo aportó el material fuente y la bajada a FraudLens se basa en decisiones y hechos que el equipo confirmó en sesión |
-| Identidad visual (logo, paleta, tipografía) | Claude Code | Exploración de símbolos, medición de contraste WCAG, presentación en Canva, reconstrucción de los assets finales del logo | El equipo votó entre las 3 propuestas finales y aprobó la decisión final |
+| Identidad visual (logo, paleta, tipografía) | Gemini/Nano Banana (generación de imágenes) + Claude Code (prompts, análisis, contraste WCAG, Canva, assets finales) | Dos rondas de generación (2/9 en azul, 2/9 en violeta ya decidido): 3 láminas de isotipos, 2 de paleta, 2 de mockup de dashboard, 1 de tipografía — analizadas en [`analisis-generacion-01.md`](../05-producto/identidad/analisis-generacion-01.md) | El equipo votó entre las 3 propuestas finales de isotipo y aprobó la decisión final (violeta, "Anomalía en grilla") |
 | Plan de research, benchmarking, ideación, Árbol de Problemas/5 Por Qué | Claude Code | Redacción de los documentos, búsqueda web para benchmarking y normativa citada | FM corrigió cada punto en vivo (ver `bitacora/2026-09-14-*.md`); ninguna afirmación fáctica quedó sin fuente marcada |
 | Revisión de requerimientos funcionales del MVP | Claude Code | Análisis de los puntos a discutir, propuesta de recorte de alcance | El equipo definió las respuestas de fondo (roles, alcance, qué es MVP); Claude Code documentó y estructuró |
 | Documentación del dataset del MVP (`datos.md`) | Claude Code | Investigación web para identificar qué dataset usa cada notebook candidato y sus características (registros, columnas, licencia), marcando qué quedó confirmado con fuente y qué no | **FGR decidió** usar 3 datasets y el rol de cada uno (entrenamiento / validación y explicabilidad / test final) — no fue una sugerencia del asistente |
