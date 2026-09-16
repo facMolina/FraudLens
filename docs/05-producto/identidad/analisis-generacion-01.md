@@ -9,13 +9,17 @@
 
 8 imágenes: 3 láminas de isotipos, 2 de paleta, 2 de dashboard, 1 de tipografía.
 
-> ⬜ **Pendiente (2026-09-16):** las 8 imágenes hoy viven sólo en el Google Drive del equipo
-> (`Mi unidad/FraudLens`), no están versionadas en este repo — sólo este análisis en texto. Falta
-> subirlas a `docs/05-producto/identidad/generacion-01/` para que queden citables desde acá.
+> ✅ **Versionadas (2026-09-16):** las 8 imágenes están en
+> [`docs/05-producto/identidad/generacion-01/`](generacion-01/), linkeadas desde cada sección de
+> este análisis.
 
 ---
 
 ## 1. Isotipos — shortlist
+
+[Lámina 1A · lente](generacion-01/isotipos-1a-lente.jpeg) ·
+[Lámina 1B · lente+dato](generacion-01/isotipos-1b-lente-dato.jpeg) ·
+[Lámina 1C · abstracta](generacion-01/isotipos-1c-abstracta.jpeg)
 
 De los 27 símbolos generados, **6 sobreviven** al filtro de: concepto claro, legible a 24px, y que
 no signifique otra cosa.
@@ -46,6 +50,8 @@ evitar desde el principio. Si se elige **E**, hay que recolorear el pico.
 ---
 
 ## 2. Paletas — verificación de contraste
+
+[Lámina clara](generacion-01/paleta-clara.jpeg) · [Lámina oscura](generacion-01/paleta-oscura.jpeg)
 
 Medí el contraste WCAG real de las dos láminas. **Los números son verificables, no opinión.**
 
@@ -92,6 +98,8 @@ Recomendación: usar esos valores para los dos modos.
 
 ## 3. Mockups de dashboard
 
+[Mockup claro](generacion-01/mockup-dashboard-claro.jpeg) · [Mockup oscuro](generacion-01/mockup-dashboard-oscuro.jpeg)
+
 ### ✅ El de modo claro salió notablemente mejor
 
 - Las métricas tienen sentido real: *Total Transactions 14,250 · Flagged for Review 312 ·
@@ -116,6 +124,8 @@ Recomendación: usar esos valores para los dos modos.
 ---
 
 ## 4. Tipografía
+
+[Lámina de tipografía](generacion-01/tipografia.jpeg)
 
 La lámina se ve bien y el estilo `[BRACKETS_MAYÚSCULA]` es coherente con la referencia Linear/Vercel.
 
