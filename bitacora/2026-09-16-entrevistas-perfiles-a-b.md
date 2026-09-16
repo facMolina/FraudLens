@@ -7,8 +7,7 @@ Se incorporaron las respuestas de:
 - **Nicolás** — analista de fraude (Perfil A).
 - **Agustín** — analista de producto (Perfil B).
 
-La encuesta del Perfil C todavía no fue ejecutada; **Tobías** quedó identificado como usuario
-final para relevar mediante ese instrumento.
+La encuesta abierta del Perfil C todavía está en difusión y debe relevar a varias personas.
 
 ## Hallazgos compartidos
 
@@ -20,5 +19,5 @@ seguimiento de métricas e impacto.
 ## Próximos pasos
 
 1. Completar la encuesta con el Perfil C.
-2. Volcar los hallazgos de los tres perfiles en `usuarios.md`.
+2. Volcar los hallazgos de la encuesta abierta del Perfil C en `usuarios.md`.
 3. Contrastar problema, requerimientos y propuesta de interfaz con la evidencia obtenida.

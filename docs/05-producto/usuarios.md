@@ -27,7 +27,7 @@ tres Mapas de Empatía van a salir genuinamente distintos, que es lo que pide la
 |---|---|---|---|---|
 | **A** | **Analista de fraude** (dentro de la fintech/banco cliente) | El que **decide**: revisa la cola de casos y aprueba, rechaza o escala | Entrevistas en profundidad | ✅ **Nicolás entrevistado** |
 | **B** | **Analista de producto en una fintech, billetera virtual, pasarela de pago o banco tradicional** | El que **paga/decide integrar** FraudLens | Entrevistas | ✅ **Agustín identificado** |
-| **C** | **Usuario final de una fintech, billetera virtual o pasarela de pago** (ej. Mercado Pago, Ualá, Modo) con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta | ✅ **Tobías identificado** |
+| **C** | **Usuario final de una fintech, billetera virtual o pasarela de pago** (ej. Mercado Pago, Ualá, Modo) con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta abierta | 🔄 **En difusión** |
 
 ### Perfil A — Analista de fraude
 

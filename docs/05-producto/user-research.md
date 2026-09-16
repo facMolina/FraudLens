@@ -35,9 +35,9 @@ criterio explícito. No se vuelve a discutir acá:
 
 | Perfil | Contacto | Estado |
 |---|---|---|
-| **A · Analista de fraude** | **Nicolás** | Contacto identificado; falta realizar la entrevista |
-| **B · Analista de producto** | **Agustín** | Contacto identificado; falta realizar la entrevista |
-| **C · Usuario final** | **Tobías** | Contacto identificado; falta relevar mediante la encuesta |
+| **A · Analista de fraude** | **Nicolás** | Entrevista realizada |
+| **B · Analista de producto** | **Agustín** | Entrevista realizada |
+| **C · Usuario final** | **Encuesta abierta** | En difusión; falta recopilar y analizar respuestas |
 
 ## Qué tiene que responder cada instrumento
 
