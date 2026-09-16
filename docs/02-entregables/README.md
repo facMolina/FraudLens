@@ -53,7 +53,7 @@ la sumatoria de lo que vamos produciendo clase a clase:
 |---|---|---|---|
 | Problema | Definición, Árbol de Problemas, 5 Por Qué, reformulaciones, narrativa | [`docs/05-producto/problema.md`](../05-producto/problema.md) | 🟢 Avanzado — falta validar con research |
 | Usuarios | Segmentación, target, 3 perfiles | [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) | ✅ Escrito |
-| User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🔴 Plan escrito, **0 encuestas y 0 entrevistas ejecutadas** |
+| User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🟡 Entrevistas A y B realizadas; encuesta C pendiente |
 | Ideación y solución | Design Thinking, alternativas, grilla de priorización | [`docs/05-producto/ideacion.md`](../05-producto/ideacion.md) | 🟡 Borrador, pendiente de validar |
 | Benchmarking / Océano Azul | Competencia y diferenciación | [`docs/05-producto/benchmarking.md`](../05-producto/benchmarking.md) | 🟢 Primera vuelta hecha — es continuo |
 | Roadmap | Evolución del producto | [`problema.md` — Líneas futuras](../05-producto/problema.md#líneas-futuras--próximas-versiones) | 🟡 Lista inicial, sin priorizar |

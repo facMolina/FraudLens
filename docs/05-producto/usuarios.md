@@ -25,9 +25,9 @@ tres Mapas de Empatía van a salir genuinamente distintos, que es lo que pide la
 
 | | Perfil | Rol en el problema | Cómo se investiga | Acceso |
 |---|---|---|---|---|
-| **A** | **Analista de fraude** (dentro de la fintech/banco cliente) | El que **decide**: revisa la cola de casos y aprueba, rechaza o escala | Entrevistas en profundidad | ✅ **Confirmado por ML** |
-| **B** | **Responsable de riesgo/producto en una fintech, billetera virtual, pasarela de pago o banco tradicional** | El que **paga/decide integrar** FraudLens | Entrevistas | ⬜ **Sin contacto confirmado todavía** |
-| **C** | **Usuario final de una fintech, billetera virtual o pasarela de pago** (ej. Mercado Pago, Ualá, Modo) con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta | Masivamente accesible |
+| **A** | **Analista de fraude** (dentro de la fintech/banco cliente) | El que **decide**: revisa la cola de casos y aprueba, rechaza o escala | Entrevistas en profundidad | ✅ **Nicolás entrevistado** |
+| **B** | **Analista de producto en una fintech, billetera virtual, pasarela de pago o banco tradicional** | El que **paga/decide integrar** FraudLens | Entrevistas | ✅ **Agustín identificado** |
+| **C** | **Usuario final de una fintech, billetera virtual o pasarela de pago** (ej. Mercado Pago, Ualá, Modo) con fraude o rechazo indebido | El que lo **sufre**: le clonan la tarjeta, o le rechazan una compra legítima | Encuesta abierta | 🔄 **En difusión** |
 
 ### Perfil A — Analista de fraude
 
@@ -42,7 +42,7 @@ día y quien toma la decisión que FraudLens asiste.
 - **Por qué importa que sea entrevista y no encuesta:** lo que necesitamos de él es el *proceso* y
   las *excepciones*, y eso no entra en un formulario.
 
-### Perfil B — Responsable de riesgo/producto en una fintech o banco tradicional
+### Perfil B — Analista de producto en una fintech o banco tradicional
 
 **Es quien pone la plata.** Trabaja en una fintech, billetera virtual, pasarela de pago o banco
 tradicional, y es quien evalúa e integra una solución antifraude como FraudLens.
@@ -57,7 +57,7 @@ tradicional, y es quien evalúa e integra una solución antifraude como FraudLen
   bueno.
 - **Por qué está:** es el perfil que conecta el problema con el **modelo de negocio**. Sirve
   directo para la Clase 6 (BMC).
-- ⚠️ **A diferencia del Perfil A, todavía no hay ningún contacto de acceso confirmado.**
+- ✅ **Agustín entrevistado.**
 
 ### Perfil C — Usuario final de una fintech, billetera virtual o pasarela de pago
 
