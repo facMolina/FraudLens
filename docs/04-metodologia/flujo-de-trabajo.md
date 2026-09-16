@@ -23,13 +23,27 @@ equipo, o dos horas solo un martes a la noche.
 
 ## Ramas
 
+> ✅ **Regla del equipo (2026-09-16):** se trabaja **directo sobre la rama compartida**
+> `claude/proyecto-base-documentacion-8njz5t` — commit y push directo, **sin Pull Request**.
+>
+> Se decidió después de que dos integrantes abrieran PRs desde ramas propias (`mdv/fix-...`,
+> `encuestas`) y ninguno pudiera cerrarlos solo: hubo que mergearlos a mano y resolver conflictos
+> con `historial-aportes.md` por haber quedado desactualizados respecto a la rama compartida. Para
+> un equipo de 4 personas trabajando en Markdown, el PR agrega fricción sin agregar revisión real
+> (nadie lo estaba revisando antes de pedir el merge).
+>
+> ⚠️ Si tu sesión de Claude Code (o la de otro integrante) te propone por defecto una rama nueva y
+> un PR, avisale que trabaje directo sobre `claude/proyecto-base-documentacion-8njz5t` — esa
+> configuración depende de cómo se armó tu sesión/entorno, este archivo no la puede cambiar por
+> vos.
+
 | Situación | Qué hacer |
 |---|---|
-| Editar documentación, cargar una clase, sumar bitácora | Directo a `main` |
-| Cambio grande que quieras que revisen (reestructurar el repo, redefinir el problema) | Rama `docs/<tema>` + Pull Request |
+| Editar documentación, cargar una clase, sumar bitácora | Directo a `claude/proyecto-base-documentacion-8njz5t` |
+| Antes de empezar a trabajar | `git pull origin claude/proyecto-base-documentacion-8njz5t` — evita pisar el trabajo de otro |
 
-Para documentación, trabajar directo en `main` es lo más práctico. Los conflictos en Markdown son
-fáciles de resolver y no rompen nada.
+Los conflictos en Markdown son fáciles de resolver y no rompen nada — si aparece uno al pushear,
+se resuelve ahí mismo, no hace falta pasar por un PR para eso.
 
 ## Commits
 

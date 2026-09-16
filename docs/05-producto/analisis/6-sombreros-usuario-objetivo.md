@@ -64,8 +64,8 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 ## 🔴 Sombrero Rojo — Mente emocional
 
 > Sin justificar. Las emociones son del equipo, no de un modelo.
-> ⬜ **Parcialmente validado** — respondió MDV. Falta la voz de FGR, ML y FM. Los puntos a debatir
-> con el resto del equipo están [al final de esta sección](#-pendiente-completar-con-el-resto-del-equipo).
+> ⬜ **Parcialmente validado** — respondieron MDV y FM. Falta la voz de FGR y ML. Los puntos a
+> debatir con el resto del equipo están [al final de esta sección](#-pendiente-completar-con-el-resto-del-equipo).
 
 **Aporte de MDV (2026-09-15):**
 
@@ -81,9 +81,29 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
    materia — y en general no tienen ganas de entrevistar. Él no tiene problema en hacerlo.
 6. **El perfil C.** No hay mucho entusiasmo del equipo para salir a buscar respuestas.
 
+**Aporte de FM (2026-09-16):**
+
+1. **El prototipo.** No sería tan costoso a nivel diseño/UX/UI/frontend — pero sí sería costoso si
+   piden rehacer la lógica del backend, que es el motor fuerte del proyecto. Igual, si los datos de
+   prueba muestran que no es eficiente o no logra los objetivos, hay que rehacerlo.
+2. **El orden invertido.** Sí lo sintió raro — deberíamos haber hecho primero el research y
+   establecido las bases, y desde ahí el prototipo seguramente sería más certero respecto al
+   entregable final.
+3. **Ser cuatro.** Lo siente parejo: hay un enfoque técnico con ML donde FGR aporta, y entre
+   organización y enfoque del proyecto MDV y FM ayudan a que las bases sean firmes.
+4. **El miedo concreto.** Contestaría que entrevistamos profesionales del ámbito fintech, allegados
+   a ML, que es el experto en el rubro.
+5. **Las entrevistas de ML.** Las entrevistas ya están hechas; siente que tienen una ventaja al
+   estar ya "adentro" para entender al cliente — con ML tienen esa vista del lado cliente, clave
+   para intentar ofrecer soluciones que alivien la problemática del fraude.
+6. **El perfil C.** Sí hay ganas — además de ser el que sufre el problema, es el usuario final de
+   las fintechs a las que le ofrecen el producto: si esas fintechs le cuentan a sus usuarios que
+   suman estas features y dan feedback, eso ayuda a mostrarle a las fintechs las ventajas reales
+   que llegan a sus propios usuarios si incorporan el sistema.
+
 ### ⬜ PENDIENTE: completar con el resto del equipo
 
-Falta que FGR, ML y FM respondan las mismas seis preguntas con lo que sienten de verdad — no hay
+Falta que FGR y ML respondan las mismas seis preguntas con lo que sienten de verdad — no hay
 respuestas correctas, el sombrero rojo no se justifica, se dice.
 
 1. **El prototipo.** ¿Cuánto nos costaría emocionalmente que el research diga que hay que tirarlo o
@@ -98,10 +118,10 @@ respuestas correctas, el sombrero rojo no se justifica, se dice.
 6. **El perfil C.** Salir a buscar respuestas de consumidores es trabajo de campo real y aburrido.
    ¿Hay ganas o hay resistencia?
 
-> Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV), y recién
+> Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV y FM), y recién
 > cuando estén las cuatro voces se puede dar por **validado por el equipo**.
 
-**Validado por:** ⬜ *(pendiente — falta FGR, ML, FM)* · **Fecha:** ⬜
+**Validado por:** ⬜ *(pendiente — falta FGR, ML)* · **Fecha:** ⬜
 
 ---
 

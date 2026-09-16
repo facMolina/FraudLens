@@ -43,7 +43,7 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
 
 ## 🔴 Sombrero Rojo — Mente emocional
 
-> Sin justificar. ⬜ **Parcialmente validado** — respondió MDV. Falta la voz de FGR, ML y FM.
+> Sin justificar. ⬜ **Parcialmente validado** — respondieron MDV y FM. Falta la voz de FGR y ML.
 
 **Aporte de MDV (2026-09-15):**
 
@@ -53,16 +53,29 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
 3. **Normativa BCRA.** Le da tranquilidad: valida que el problema es real y hay demanda genuina, no
    es una necesidad inventada por el equipo.
 
+**Aporte de FM (2026-09-16):**
+
+1. **"Comercio chico" nunca cerró.** Nunca terminó de cerrarle: los eventos de fraude no son tan
+   complejos de detectar en ese rubro. Apuntar a una fintech que maneja millones de transacciones
+   por día saca más valor — la fintech ve mejor el valor y el costo del servicio queda más
+   justificado. Al comercio chico quizás no le sea rentable el sistema por su costo y volumen de
+   transacciones.
+2. **Contacto para el nuevo Perfil B.** En su caso no tiene contacto propio — cuentan con los de ML.
+3. **Normativa BCRA.** Le da tranquilidad (hay reglas a cumplir) y a la vez presión (hay que
+   adaptarse a ellas). La idea del equipo es estar alineados con el BCRA para transmitirle
+   confianza al cliente — y no sólo con el BCRA, sino con la entidad bancaria que regule en cada
+   país.
+
 ### ⬜ PENDIENTE: completar con el resto del equipo
 
 1. ¿Alguien sintió que "comercio chico" nunca terminaba de cerrar, desde el principio?
 2. ¿Quién tiene o puede conseguir un contacto real en una fintech, billetera o banco para entrevistar al nuevo Perfil B?
 3. ¿Da tranquilidad o presión que la normativa BCRA le dé urgencia real al problema?
 
-> Cuando el resto responda, se suma acá como aporte individual, y recién cuando estén las cuatro
-> voces se puede dar por **validado por el equipo**.
+> Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV y FM), y recién
+> cuando estén las cuatro voces se puede dar por **validado por el equipo**.
 
-**Validado por:** ⬜ *(pendiente — falta FGR, ML, FM)* · **Fecha:** ⬜
+**Validado por:** ⬜ *(pendiente — falta FGR, ML)* · **Fecha:** ⬜
 
 ---
 

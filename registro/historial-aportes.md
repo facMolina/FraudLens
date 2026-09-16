@@ -85,6 +85,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-16 | FGR | Documentación | Sincronización de `ideacion.md` con la decisión 0005: la tensión "eliminar configuración manual" vs. CU-07 quedó marcada como resuelta, con el porqué | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Bitácora](../bitacora/2026-09-16-sincronizar-ideacion-decision-0005.md) |
 | 2026-09-16 | ML | Research | Registro de entrevistas con Nicolás (analista de fraude) y Agustín (analista de producto), con hallazgos sobre falsos positivos, explicabilidad y vistas unificadas/configurables | [`user-research.md`](../docs/05-producto/user-research.md) · [Bitácora](../bitacora/2026-09-16-entrevistas-perfiles-a-b.md) |
 | 2026-09-16 | FM | Gestión | Merge del PR #2 de ML (encuestas/entrevistas), resolución del conflicto en este archivo, actualización de Trello (Stakeholders, Encuestas y entrevistas, Modelos de IA, 5 tarjetas diferidas a Backlog) y guía completa para la oral del 1° Parcial mapeando los 16 ítems del docente contra el estado real del repo | [`guia-1er-parcial.md`](../docs/00-proyecto/guia-1er-parcial.md) · [Tablero](https://trello.com/b/iUaTi33p) |
+| 2026-09-16 | FM | Gestión | Sombrero rojo respondido (9 preguntas) en los dos análisis de 6 sombreros — segunda voz cargada después de MDV. Regla de equipo agregada a flujo-de-trabajo.md: commit y push directo a la rama compartida, sin Pull Request | [`6-sombreros-usuario-objetivo.md`](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md) · [`6-sombreros-enfoque-fintech.md`](../docs/05-producto/analisis/6-sombreros-enfoque-fintech.md) · [`flujo-de-trabajo.md`](../docs/04-metodologia/flujo-de-trabajo.md) |
 
 ---
 
@@ -97,7 +98,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
 | Guerrero Rojas, Francisco Daniel (FGR) | 6 | 2026-09-16 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
-| Molina, Facundo Roman (FM) | 42 | 2026-09-16 |
+| Molina, Facundo Roman (FM) | 43 | 2026-09-16 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
