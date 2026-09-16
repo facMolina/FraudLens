@@ -37,7 +37,7 @@ criterio explícito. No se vuelve a discutir acá:
 |---|---|---|
 | **A · Analista de fraude** | **Nicolás** | Entrevista realizada |
 | **B · Analista de producto** | **Agustín** | Entrevista realizada |
-| **C · Usuario final** | **Encuesta abierta** | En difusión; falta recopilar y analizar respuestas |
+| **C · Usuario final** | **Encuesta abierta** | Disponible para difusión; falta recopilar y analizar respuestas |
 
 ## Qué tiene que responder cada instrumento
 
@@ -137,6 +137,8 @@ vista configurable de seguimiento para perfiles de producto y riesgo.
 **Objetivo:** medir la frecuencia real de dos eventos — que le clonen una compra, y que le rechacen
 una compra legítima — y cuál pesa más en la experiencia.
 
+**Formulario:** [Encuesta sobre fraude y rechazos de operaciones](https://forms.gle/ZLfhijskphLA1Fxu9)
+
 **Buenas prácticas** (de la Clase 4, ya en el ticket, no se repiten con criterio propio):
 
 - Sin preguntas de "respuesta ideal" que inducen la respuesta.
@@ -146,7 +148,7 @@ una compra legítima — y cuál pesa más en la experiencia.
 - Agregar siempre **"Otros"** y **"NS/NC"**.
 - Anonimizar las respuestas.
 
-**Borrador de preguntas:**
+**Preguntas del formulario:**
 
 1. ¿Usás tarjeta de débito/crédito o billetera virtual para comprar online? *(filtro — sin esto no
    sigue)*
@@ -202,7 +204,8 @@ reformulaciones de [`problema.md`](problema.md), se corrigen esos documentos —
 ## Listo cuando
 
 - [x] Guía de entrevista del perfil A revisada por el equipo
-- [ ] Encuesta del perfil C armada y **difundida** (no alcanza con tenerla lista)
+- [x] Encuesta del perfil C armada
+- [ ] Encuesta del perfil C difundida y con respuestas recopiladas
 - [x] Al menos 1 entrevista de cada perfil A y B realizada
 - [ ] Primeras respuestas de la encuesta cargadas y analizadas
 - [ ] Hallazgos volcados en `usuarios.md` y contrastados contra `problema.md` y

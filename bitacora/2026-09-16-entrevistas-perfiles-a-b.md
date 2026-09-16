@@ -7,7 +7,8 @@ Se incorporaron las respuestas de:
 - **Nicolás** — analista de fraude (Perfil A).
 - **Agustín** — analista de producto (Perfil B).
 
-La encuesta abierta del Perfil C todavía está en difusión y debe relevar a varias personas.
+La encuesta abierta del Perfil C ya está armada y disponible para difusión:
+<https://forms.gle/ZLfhijskphLA1Fxu9>. Debe relevar a varias personas.
 
 ## Hallazgos compartidos
 
