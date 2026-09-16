@@ -63,6 +63,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
 | 2026-09-02 | FGR | Research | Reformulación del problema con la fórmula "¿Cómo podríamos nosotros...?" — 3 versiones (una por perfil), marcadas como hipótesis pre-research para no adelantar P-07 | [Bitácora](../bitacora/2026-09-02-reformulacion-problema.md) |
 | 2026-09-09 | FGR | Gestión | Chequeo de disponibilidad del nombre FraudLens en Argentina (GitHub, Google Play, INPI, NIC.ar) — sin conflicto encontrado, dominio `fraudlens.ar` disponible | [P-23](../docs/00-proyecto/preguntas-abiertas.md#p-23) · [Tarjeta](https://trello.com/c/Tz6P99Oi) |
+| 2026-09-15 | FGR | Producto | **Decisión de los 3 datasets del modelo** y su rol (entrenamiento / validación-explicabilidad / test final), resolviendo P-11 | [Decisión 0006](../docs/03-decisiones/0006-tres-datasets-para-el-modelo.md) · [`datos.md`](../docs/05-producto/datos.md) · [Bitácora](../bitacora/2026-09-15-decision-3-datasets.md) · [Tarjeta](https://trello.com/c/4oV9jmrT) |
 | 2026-09-10 | FM | Research | Plan de research: guías de entrevista para perfiles A y B, borrador de encuesta para perfil C, volumen propuesto (80-100 respuestas + 2-3 entrevistas/perfil) justificado contra P-17 | [`user-research.md`](../docs/05-producto/user-research.md) · [Tarjeta](https://trello.com/c/EkjU3QyB) |
 | 2026-09-10 | FM | Research | Benchmarking con curva de valor: 6 competidores relevados con fuente citada. Corrige la propia hipótesis del equipo (explicabilidad ya es tendencia de industria, no diferencial) y aísla el único hallazgo que sobrevive (complementar vs. reemplazar un sistema existente) | [`benchmarking.md`](../docs/05-producto/benchmarking.md) · [Tarjeta](https://trello.com/c/OCO21r8W) |
 | 2026-09-10 | FM | Producto | Ideación con las 4 acciones (ERRC) y grilla de priorización Impacto×Esfuerzo; detecta una tensión sin resolver entre "eliminar configuración manual" y el CU-07 de los requerimientos | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Tarjeta](https://trello.com/c/3ULARKgX) |
@@ -91,7 +92,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 5 | 2026-09-15 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
 | Molina, Facundo Roman (FM) | 41 | 2026-09-15 |
 
