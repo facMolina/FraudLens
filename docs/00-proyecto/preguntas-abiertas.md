@@ -31,7 +31,7 @@ de Trello con esa fecha de vencimiento.
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta |
-| [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | 🔲 Abierta |
+| [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🔲 Abierta |
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
 | [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | ✅ **Resuelta** |
@@ -246,16 +246,17 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 ## P-11
 ### ¿Cuál es el dataset de casos de prueba del MVP?
 
-**🟡 Parcialmente resuelta** *(FM, 2026-09-02)* — hay **3 candidatos pre-seleccionados**,
-cargados en [`docs/05-producto/datos.md`](../05-producto/datos.md).
+**✅ Resuelta** *(FGR, 2026-09-15)* — ver [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md).
 
-⚠️ **Los tres links son notebooks de Kaggle (`/code/`), no datasets (`/datasets/`).** Falta
-identificar **qué dataset usa cada uno**, que es el dato que realmente necesitamos.
+> **No se elige un único dataset: se usan 3, cada uno con un rol distinto** — entrenamiento
+> (Credit Card Fraud Detection Dataset 2023), validación y explicabilidad (dataset sintético de
+> `miadul`) y test final (dataset de `kartik2112`, con datos no vistos en los otros dos).
 
-Falta además, para cada candidato: cantidad de registros, columnas, si trae la etiqueta de fraude,
-el % de desbalanceo, la licencia, y si alcanza para **entrenar** o sólo para **probar**.
+Detalle completo, con lo verificado y lo que todavía falta confirmar (licencia y registros exactos
+de 2 de los 3), en [`docs/05-producto/datos.md`](../05-producto/datos.md).
 
-Y una decisión de producto: **con qué métricas se evalúa el modelo**. En fraude, *accuracy* no sirve.
+Sigue abierto, como consecuencia de esta decisión: **con qué métricas se evalúa el modelo**. En
+fraude, *accuracy* no sirve — queda para después del recorte de los 3 datasets.
 
 ---
 

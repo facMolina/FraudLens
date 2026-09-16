@@ -43,19 +43,26 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
 
 ## 🔴 Sombrero Rojo — Mente emocional
 
-> Sin justificar. **Borrador escrito desde afuera — ⬜ el equipo todavía tiene que reescribirlo.**
+> Sin justificar. ⬜ **Parcialmente validado** — respondió MDV. Falta la voz de FGR, ML y FM.
 
-- **Alivio de coherencia:** el nuevo enfoque encaja con lo que ya se venía construyendo (identidad, hipótesis de FM) — se siente menos como un parche y más como un ajuste que faltaba.
-- **Incomodidad de rehacer:** hay documentos enteros (ideación, narrativa, guía de entrevista) escritos sobre "comercio chico" que hay que reescribir. Puede sentirse como trabajo perdido.
-- **Preocupación de acceso:** a diferencia del Perfil A, nadie confirmó todavía tener un contacto real en una fintech o banco para el nuevo Perfil B. Puede repetirse el mismo cuello de botella que tuvo el Perfil A antes de que ML confirmara acceso.
+**Aporte de MDV (2026-09-15):**
 
-### ⬜ PENDIENTE: el equipo tiene que escribir el sombrero rojo
+1. **"Comercio chico" nunca cerró.** Sí, siempre sintió que el objetivo real era fintech — hay ruido
+   de ideas de proyectos viejas detrás del perfil "comercio chico".
+2. **Contacto para el nuevo Perfil B.** Mateo Lewinzon (ML) — trabaja en el rubro.
+3. **Normativa BCRA.** Le da tranquilidad: valida que el problema es real y hay demanda genuina, no
+   es una necesidad inventada por el equipo.
+
+### ⬜ PENDIENTE: completar con el resto del equipo
 
 1. ¿Alguien sintió que "comercio chico" nunca terminaba de cerrar, desde el principio?
 2. ¿Quién tiene o puede conseguir un contacto real en una fintech, billetera o banco para entrevistar al nuevo Perfil B?
 3. ¿Da tranquilidad o presión que la normativa BCRA le dé urgencia real al problema?
 
-**Validado por:** ⬜ *(pendiente)* · **Fecha:** ⬜
+> Cuando el resto responda, se suma acá como aporte individual, y recién cuando estén las cuatro
+> voces se puede dar por **validado por el equipo**.
+
+**Validado por:** ⬜ *(pendiente — falta FGR, ML, FM)* · **Fecha:** ⬜
 
 ---
 

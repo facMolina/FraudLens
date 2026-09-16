@@ -37,11 +37,18 @@ documentado, no de nada inventado — el link a la fuente va al lado de cada una
 |---|---|
 | La configuración manual de reglas y umbrales que hoy le come tiempo al analista | [Borrador ERRC](../01-clases/clase-06-oceano-azul.md#32-las-cuatro-acciones-aplicadas-a-fraudlens--borrador-para-discutir) |
 
-> ⚠️ **Tensión con lo ya escrito:** los [requerimientos de ML](requerimientos-funcionales-mvp.md#cu-07--configurar-reglas-y-umbrales)
-> (CU-07) incluyen la configuración de umbrales como parte del MVP, con un actor **administrador**
-> dedicado a eso. "Eliminar" la configuración manual entra en conflicto directo con ese documento.
-> No se resuelve acá — queda anotado para la revisión en equipo de los requerimientos (ticket
-> "Revisar en equipo los requerimientos funcionales del MVP").
+> ✅ **Tensión resuelta — [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) (2026-09-14).**
+> Los [requerimientos de ML](requerimientos-funcionales-mvp.md#cu-07--configurar-reglas-y-umbrales)
+> (CU-07) incluían la configuración de umbrales como una función viva, editable desde el dashboard
+> por un actor **administrador** con login propio — eso era lo que entraba en conflicto directo con
+> "eliminar" esta idea.
+>
+> El equipo, en la revisión de requerimientos, decidió un punto medio: **CU-07 se recorta a una
+> configuración fija que se carga al levantar el sistema (seed inicial), sin pantalla de
+> administración dedicada en el MVP.** No es la eliminación total que proponía esta ideación, pero
+> sí elimina lo que más costaba (la pantalla y el rol de administración en vivo); el concepto de
+> "umbrales configurables" se mantiene como un caso de uso simplificado, no como una función
+> operativa del MVP.
 
 ### ⊖ Reducir
 
@@ -85,7 +92,7 @@ sobra tiempo; **Bajo impacto / Alto esfuerzo** = descartar.
 | Dashboard que cuenta la historia de la transacción | Medio-Alto | Medio | Hacer primero — ya está en el alcance del MVP (CU-06, detalle de transacción) como base |
 | Complementar en vez de reemplazar el sistema existente | Alto *(hipótesis)* | Bajo *(es una decisión de posicionamiento, no de desarrollo)* | Hacer primero — barato de decidir, alto impacto potencial en el diferencial |
 | Reducir volumen de casos a revisión humana | Medio | Alto | Planificarlo — depende de la calidad del modelo, no es trivial |
-| Eliminar configuración manual de reglas | ❓ *(en conflicto con CU-07)* | Medio | **No priorizar todavía** — resolver primero la tensión con los requerimientos |
+| Eliminar configuración manual de reglas | Medio *(ya resuelto vía [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md): CU-07 pasa a configuración fija por seed, sin pantalla de administración)* | Medio | **Resuelto por decisión de alcance** — no queda como idea a priorizar por separado, quedó incorporado al recorte de CU-07 |
 
 > ⚠️ Las columnas "Impacto" son **estimaciones del equipo**, no medidas. Las marcadas *(hipótesis)*
 > o *(si se confirma)* dependen directamente del research de los perfiles A y B — están para
@@ -94,6 +101,6 @@ sobra tiempo; **Bajo impacto / Alto esfuerzo** = descartar.
 ## Qué queda pendiente
 
 - ⬜ Confirmar con el docente el formato esperado de la Grilla de Priorización ([P-24](../00-proyecto/preguntas-abiertas.md#p-24))
-- ⬜ Resolver la tensión entre "Eliminar configuración manual" y el CU-07 de los requerimientos
+- ✅ Tensión entre "Eliminar configuración manual" y el CU-07 de los requerimientos — resuelta por la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) (2026-09-14)
 - ⬜ Revalidar impacto y esfuerzo una vez haya datos del Perfil A y B
 - ⬜ El equipo tiene que revisar esta ideación — es tan borrador como el ERRC del que parte

@@ -63,26 +63,28 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 
 ## 🔴 Sombrero Rojo — Mente emocional
 
-> Sin justificar. **Borrador escrito desde afuera — ⬜ el equipo todavía tiene que reescribirlo.**
-> Las emociones son del equipo, no de un modelo. Los puntos a debatir están
-> [al final de esta sección](#-pendiente-el-equipo-tiene-que-escribir-el-sombrero-rojo).
+> Sin justificar. Las emociones son del equipo, no de un modelo.
+> ⬜ **Parcialmente validado** — respondió MDV. Falta la voz de FGR, ML y FM. Los puntos a debatir
+> con el resto del equipo están [al final de esta sección](#-pendiente-completar-con-el-resto-del-equipo).
 
-- **Ansiedad por la fecha.** La clase es hoy y no hay una sola entrevista hecha.
-- **Incomodidad de fondo:** se escribieron los requerimientos y se armó un prototipo antes de saber
-  para quién. Se siente como haber puesto el carro delante del caballo, y nadie lo dijo en voz alta.
-- **Apego a lo hecho.** El prototipo anda y da orgullo. Da fastidio pensar que el research podría
-  obligar a tirarlo.
-- **Falsa sensación de ir adelantados.** Tener un documento largo y un prototipo funcionando da la
-  impresión de estar avanzados. La realidad es que estamos atrasados justo en lo que se evalúa.
-- **Miedo concreto:** que el docente pregunte *"¿a quién entrevistaron?"* y no haya respuesta.
-- **Cansancio de ser cuatro** en un trabajo pensado para seis u ocho.
-- **Tentación de elegir el usuario que le queda cómodo al prototipo** en vez del que conviene al
-  proyecto. Es el sesgo más peligroso de esta decisión y hay que nombrarlo.
+**Aporte de MDV (2026-09-15):**
 
-### ⬜ PENDIENTE: el equipo tiene que escribir el sombrero rojo
+1. **El prototipo.** Entusiasmado con la idea, pero no confía tanto: siente que es un mercado con
+   demasiada competencia. Si el research no demuestra oportunidades, no lo defiende.
+2. **El orden invertido.** No lo sintió raro. Ve la idea clara y cree que fue el camino adecuado.
+3. **Ser cuatro.** Siente que son muchos siendo cuatro: hay una persona llevando el proyecto
+   adelante, dos haciendo el trabajo de una, y el restante (él mismo) sin hacer nada.
+4. **El miedo concreto.** Respondería que usaron la información del compañero que está dentro de la
+   industria (ML) y las consultas a sus compañeros de trabajo.
+5. **Las entrevistas de ML.** No siente presión de desaprovechar el acceso. Percibe que el resto del
+   equipo no está tan entusiasmado con la idea del proyecto en general — que solo quieren aprobar la
+   materia — y en general no tienen ganas de entrevistar. Él no tiene problema en hacerlo.
+6. **El perfil C.** No hay mucho entusiasmo del equipo para salir a buscar respuestas.
 
-Lo de arriba es un borrador escrito desde afuera. Para reemplazarlo, el equipo tiene que hablar
-**estas seis cosas**. No hay respuestas correctas: el sombrero rojo no se justifica, se dice.
+### ⬜ PENDIENTE: completar con el resto del equipo
+
+Falta que FGR, ML y FM respondan las mismas seis preguntas con lo que sienten de verdad — no hay
+respuestas correctas, el sombrero rojo no se justifica, se dice.
 
 1. **El prototipo.** ¿Cuánto nos costaría emocionalmente que el research diga que hay que tirarlo o
    rehacerlo? ¿Alguien lo defendería aunque los datos digan otra cosa?
@@ -96,10 +98,10 @@ Lo de arriba es un borrador escrito desde afuera. Para reemplazarlo, el equipo t
 6. **El perfil C.** Salir a buscar respuestas de consumidores es trabajo de campo real y aburrido.
    ¿Hay ganas o hay resistencia?
 
-> Cuando lo hablen, **reemplacen el borrador de arriba** con lo que salga, y firmen abajo quiénes
-> participaron. Es la única sección de este documento que no puede escribir una IA.
+> Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV), y recién
+> cuando estén las cuatro voces se puede dar por **validado por el equipo**.
 
-**Validado por:** ⬜ *(pendiente)* · **Fecha:** ⬜
+**Validado por:** ⬜ *(pendiente — falta FGR, ML, FM)* · **Fecha:** ⬜
 
 ---
 

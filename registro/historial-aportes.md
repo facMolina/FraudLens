@@ -63,6 +63,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-02 | FM | Diseño | Brief de identidad visual de FraudLens y prompts para generación de isotipos, paletas, mockup y tipografía | [Brief](../docs/05-producto/identidad-visual.md) |
 | 2026-09-02 | FGR | Research | Reformulación del problema con la fórmula "¿Cómo podríamos nosotros...?" — 3 versiones (una por perfil), marcadas como hipótesis pre-research para no adelantar P-07 | [Bitácora](../bitacora/2026-09-02-reformulacion-problema.md) |
 | 2026-09-09 | FGR | Gestión | Chequeo de disponibilidad del nombre FraudLens en Argentina (GitHub, Google Play, INPI, NIC.ar) — sin conflicto encontrado, dominio `fraudlens.ar` disponible | [P-23](../docs/00-proyecto/preguntas-abiertas.md#p-23) · [Tarjeta](https://trello.com/c/Tz6P99Oi) |
+| 2026-09-15 | FGR | Producto | **Decisión de los 3 datasets del modelo** y su rol (entrenamiento / validación-explicabilidad / test final), resolviendo P-11 | [Decisión 0006](../docs/03-decisiones/0006-tres-datasets-para-el-modelo.md) · [`datos.md`](../docs/05-producto/datos.md) · [Bitácora](../bitacora/2026-09-15-decision-3-datasets.md) · [Tarjeta](https://trello.com/c/4oV9jmrT) |
 | 2026-09-10 | FM | Research | Plan de research: guías de entrevista para perfiles A y B, borrador de encuesta para perfil C, volumen propuesto (80-100 respuestas + 2-3 entrevistas/perfil) justificado contra P-17 | [`user-research.md`](../docs/05-producto/user-research.md) · [Tarjeta](https://trello.com/c/EkjU3QyB) |
 | 2026-09-10 | FM | Research | Benchmarking con curva de valor: 6 competidores relevados con fuente citada. Corrige la propia hipótesis del equipo (explicabilidad ya es tendencia de industria, no diferencial) y aísla el único hallazgo que sobrevive (complementar vs. reemplazar un sistema existente) | [`benchmarking.md`](../docs/05-producto/benchmarking.md) · [Tarjeta](https://trello.com/c/OCO21r8W) |
 | 2026-09-10 | FM | Producto | Ideación con las 4 acciones (ERRC) y grilla de priorización Impacto×Esfuerzo; detecta una tensión sin resolver entre "eliminar configuración manual" y el CU-07 de los requerimientos | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Tarjeta](https://trello.com/c/3ULARKgX) |
@@ -81,6 +82,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-15 | FM | Documentación | Carga de la Clase 07 (Business Model Canvas): BMC de 9 bloques, Profit & Loss, Horas-Hombre y modelos de monetización, con bajada a FraudLens — confirma que el BMC armado el día anterior ya coincidía con la estructura real | [Clase 07](../docs/01-clases/clase-07-business-model-canvas.md) |
 | 2026-09-15 | FM | Gestión | Protocolo agregado a CLAUDE.md (regla 10): la Declaración de uso de IA se actualiza en el momento cada vez que el proyecto avanza con IA, no al final | [`CLAUDE.md`](../CLAUDE.md) |
 | 2026-09-15 | FM | Gestión | Registro en Trello de la carga de la Clase 07, con el hallazgo del BMC y tarjeta nueva para el P&L pendiente | [Tablero](https://trello.com/b/iUaTi33p) |
+| 2026-09-16 | FGR | Documentación | Sincronización de `ideacion.md` con la decisión 0005: la tensión "eliminar configuración manual" vs. CU-07 quedó marcada como resuelta, con el porqué | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Bitácora](../bitacora/2026-09-16-sincronizar-ideacion-decision-0005.md) |
 | 2026-09-16 | ML | Research | Registro de entrevistas con Nicolás (analista de fraude) y Agustín (analista de producto), con hallazgos sobre falsos positivos, explicabilidad y vistas unificadas/configurables | [`user-research.md`](../docs/05-producto/user-research.md) · [Bitácora](../bitacora/2026-09-16-entrevistas-perfiles-a-b.md) |
 
 ---
@@ -92,7 +94,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 4 | 2026-09-09 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 6 | 2026-09-16 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 41 | 2026-09-15 |
 
