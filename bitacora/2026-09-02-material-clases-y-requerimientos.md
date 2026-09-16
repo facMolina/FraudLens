@@ -311,7 +311,7 @@ esta semana, 3 de deuda a blanquear y 2 operativas.
 Se trabajó el ticket [Identidad visual](https://trello.com/c/ncNYKzbF) (FM) hasta dejarlo listo
 para que el equipo decida. Quedó en **👀 En revisión**, no en Hecho: la elección es del equipo.
 
-**Entregable:** [presentación en Canva](https://www.canva.com/design/DAHUDsuQPB8), 14 páginas, en
+**Entregable:** [presentación en Canva](https://canva.link/s167eweo67bw2la), 14 páginas, en
 español. Documentada en
 [`docs/05-producto/identidad/propuesta-canva.md`](../docs/05-producto/identidad/propuesta-canva.md).
 

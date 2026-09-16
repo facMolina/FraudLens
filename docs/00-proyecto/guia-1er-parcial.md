@@ -99,7 +99,7 @@ entrevistas reales ejecutadas y analizadas:
 **"Anomalía en grilla"** (grilla de puntos violeta con una irregularidad resaltada — metáfora
 directa de detectar fraude). Assets PNG en [`identidad/logo/`](../05-producto/identidad/logo/):
 isotipo, logo completo con wordmark, favicon, en modo claro y oscuro.
-Presentación completa: [Canva, 17 páginas](https://www.canva.com/design/DAHUDsuQPB8).
+Presentación completa: [Canva, 17 páginas](https://canva.link/s167eweo67bw2la).
 
 ## 11. Estudio de colores ✅
 

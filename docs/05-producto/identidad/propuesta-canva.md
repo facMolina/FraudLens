@@ -6,7 +6,7 @@
 | **Responsable** | Facundo Molina (FM) |
 | **Fecha de decisión** | 2026-09-09 *(propuesta original: 2026-09-02)* |
 | **Ticket** | [Identidad visual](https://trello.com/c/ncNYKzbF) — ✅ Hecho |
-| **Entregable** | [Presentación en Canva](https://www.canva.com/design/DAHUDsuQPB8) — 17 páginas, español |
+| **Entregable** | [Presentación en Canva](https://canva.link/s167eweo67bw2la) — 17 páginas, español |
 
 ## Decisión final
 

@@ -184,7 +184,7 @@ alternativas exploradas.
 
 ### Cierre del board para presentarlo
 
-Se agregaron tres páginas finales al [board de Canva](https://www.canva.com/design/DAHUDsuQPB8)
+Se agregaron tres páginas finales al [board de Canva](https://canva.link/s167eweo67bw2la)
 (pasó de 14 a 17 páginas):
 
 - **Logo Final** — el isotipo elegido junto al wordmark, más su aplicación como favicon/ícono de app.
