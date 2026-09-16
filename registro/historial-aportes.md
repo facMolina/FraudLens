@@ -82,6 +82,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-15 | FM | Documentación | Carga de la Clase 07 (Business Model Canvas): BMC de 9 bloques, Profit & Loss, Horas-Hombre y modelos de monetización, con bajada a FraudLens — confirma que el BMC armado el día anterior ya coincidía con la estructura real | [Clase 07](../docs/01-clases/clase-07-business-model-canvas.md) |
 | 2026-09-15 | FM | Gestión | Protocolo agregado a CLAUDE.md (regla 10): la Declaración de uso de IA se actualiza en el momento cada vez que el proyecto avanza con IA, no al final | [`CLAUDE.md`](../CLAUDE.md) |
 | 2026-09-15 | FM | Gestión | Registro en Trello de la carga de la Clase 07, con el hallazgo del BMC y tarjeta nueva para el P&L pendiente | [Tablero](https://trello.com/b/iUaTi33p) |
+| 2026-09-16 | FGR | Documentación | Sincronización de `ideacion.md` con la decisión 0005: la tensión "eliminar configuración manual" vs. CU-07 quedó marcada como resuelta, con el porqué | [`ideacion.md`](../docs/05-producto/ideacion.md) · [Bitácora](../bitacora/2026-09-16-sincronizar-ideacion-decision-0005.md) |
 
 ---
 
@@ -92,7 +93,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 1 | *(previo)* |
-| Guerrero Rojas, Francisco Daniel (FGR) | 5 | 2026-09-15 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 6 | 2026-09-16 |
 | Lewinzon, Mateo (ML) | 3 | 2026-09-02 |
 | Molina, Facundo Roman (FM) | 41 | 2026-09-15 |
 
