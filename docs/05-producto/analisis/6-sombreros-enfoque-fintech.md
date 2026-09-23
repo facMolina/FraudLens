@@ -43,7 +43,7 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
 
 ## 🔴 Sombrero Rojo — Mente emocional
 
-> Sin justificar. ⬜ **Parcialmente validado** — respondieron MDV y FM. Falta la voz de FGR y ML.
+> Sin justificar. ⬜ **Parcialmente validado** — respondieron MDV, FM y FGR. Falta la voz de ML.
 
 **Aporte de MDV (2026-09-15):**
 
@@ -66,7 +66,17 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
    confianza al cliente — y no sólo con el BCRA, sino con la entidad bancaria que regule en cada
    país.
 
+**Aporte de FGR (2026-09-23):**
+
+1. **"Comercio chico" nunca cerró.** No, le costaba encontrarle valor a esos comercios —
+   nada que hiciera que les interesara la solución.
+2. **Contacto para el nuevo Perfil B.** No tiene contacto propio, pero puede buscar y ver si
+   consigue uno.
+3. **Normativa BCRA.** Le da tranquilidad: es algo que el mercado ya sabe que necesita.
+
 ### ⬜ PENDIENTE: completar con el resto del equipo
+
+Falta que ML responda las mismas preguntas.
 
 1. ¿Alguien sintió que "comercio chico" nunca terminaba de cerrar, desde el principio?
 2. ¿Quién tiene o puede conseguir un contacto real en una fintech, billetera o banco para entrevistar al nuevo Perfil B?
@@ -75,7 +85,7 @@ perfil sin perder la estructura de los tres niveles del dolor (decide / paga / s
 > Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV y FM), y recién
 > cuando estén las cuatro voces se puede dar por **validado por el equipo**.
 
-**Validado por:** ⬜ *(pendiente — falta FGR, ML)* · **Fecha:** ⬜
+**Validado por:** ⬜ *(pendiente — falta ML)* · **Fecha:** ⬜
 
 ---
 

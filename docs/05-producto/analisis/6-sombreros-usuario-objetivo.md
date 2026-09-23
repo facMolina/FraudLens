@@ -64,7 +64,7 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
 ## 🔴 Sombrero Rojo — Mente emocional
 
 > Sin justificar. Las emociones son del equipo, no de un modelo.
-> ⬜ **Parcialmente validado** — respondieron MDV y FM. Falta la voz de FGR y ML. Los puntos a
+> ⬜ **Parcialmente validado** — respondieron MDV, FM y FGR. Falta la voz de ML. Los puntos a
 > debatir con el resto del equipo están [al final de esta sección](#-pendiente-completar-con-el-resto-del-equipo).
 
 **Aporte de MDV (2026-09-15):**
@@ -101,9 +101,20 @@ Es la decisión más cara del proyecto: todo lo que viene después se apoya acá
    suman estas features y dan feedback, eso ayuda a mostrarle a las fintechs las ventajas reales
    que llegan a sus propios usuarios si incorporan el sistema.
 
+**Aporte de FGR (2026-09-23):**
+
+1. **El prototipo.** Le costaría mucho: significaría invertir trabajo nuevo para resolver lo que
+   diga el research. Lo defendería un poco, no del todo.
+2. **El orden invertido.** No lo sintió raro en su momento — no le prestaron atención a eso.
+3. **Ser cuatro.** Sería más ágil con seis personas por lo menos, así no queda tanto trabajo
+   concentrado en los cuatro únicos.
+4. **El miedo concreto.** Tranquilidad, porque la entrevista ya se realizó.
+5. **Las entrevistas de ML.** Sí, puede ayudar en las entrevistas.
+6. **El perfil C.** Tiene ganas: aporta una mirada que el equipo no tiene hasta ahora.
+
 ### ⬜ PENDIENTE: completar con el resto del equipo
 
-Falta que FGR y ML respondan las mismas seis preguntas con lo que sienten de verdad — no hay
+Falta que ML responda las mismas seis preguntas con lo que siente de verdad — no hay
 respuestas correctas, el sombrero rojo no se justifica, se dice.
 
 1. **El prototipo.** ¿Cuánto nos costaría emocionalmente que el research diga que hay que tirarlo o
@@ -121,7 +132,7 @@ respuestas correctas, el sombrero rojo no se justifica, se dice.
 > Cuando el resto responda, se suma acá como aporte individual (igual que el de MDV y FM), y recién
 > cuando estén las cuatro voces se puede dar por **validado por el equipo**.
 
-**Validado por:** ⬜ *(pendiente — falta FGR, ML)* · **Fecha:** ⬜
+**Validado por:** ⬜ *(pendiente — falta ML)* · **Fecha:** ⬜
 
 ---
 
