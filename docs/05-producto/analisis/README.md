@@ -8,6 +8,7 @@ Cada decisión relevante del proyecto se analiza con el
 | Análisis | Decisión | Estado |
 |---|---|---|
 | [6-sombreros-usuario-objetivo.md](6-sombreros-usuario-objetivo.md) | ¿Quién es el usuario de FraudLens? | 🟡 En análisis — se cierra en la clase del 2/9 |
+| [6-sombreros-jev.md](6-sombreros-jev.md) | ¿Incorporamos Jev (TypeSafe AI) como modelo de IA? | 🟡 **Borrador** — faltan el rojo (4 voces) y el azul |
 
 ## Cómo se usa
 

@@ -45,6 +45,9 @@ de Trello con esa fecha de vencimiento.
 | [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
 | [P-23](#p-23) | ¿El nombre FraudLens está disponible para usar en Argentina? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-24](#p-24) | ¿Qué formato de Grilla de Priorización espera el docente? | 🟢 | Docente | 🔲 Abierta |
+| [P-25](#p-25) | ¿Tenemos acceso a la API de TypeSafe (Jev)? | 🟡 | Equipo | 🔲 Abierta |
+| [P-26](#p-26) | ¿Qué hace TypeSafe con los datos que recibe? | 🟡 | Equipo | 🔲 Abierta |
+| [P-27](#p-27) | ¿Qué texto/contexto real tendríamos para pasarle a Jev? | 🟡 | Equipo | 🔲 Abierta |
 
 ---
 
@@ -239,6 +242,10 @@ tenerlo pensado antes del Sprint 1 para no perder tiempo.
 
 Criterio sugerido: **elegir lo que el equipo ya sabe usar**. El cuatrimestre es corto y la nota no
 premia aprender un framework nuevo — premia tener un MVP funcionando.
+
+> 📌 **Dato nuevo (2026-09-30, MDV):** si el equipo incorpora Jev (TypeSafe AI), hay **SDK oficial de
+> Python y de .NET**; con otro lenguaje se usa la API REST directamente. Ver
+> [`typesafe-jev.md`](../05-producto/typesafe-jev.md). No cierra esta pregunta.
 
 
 ---
@@ -564,3 +571,57 @@ es una elección del equipo ante el hueco del material.
 
 **Cuándo preguntar:** en la próxima clase presencial, ya que es sobre un entregable que ya se
 entregó con una interpretación propia.
+
+---
+
+## P-25
+### ¿Tenemos acceso a la API de TypeSafe (Jev)?
+
+**🔲 Abierta** *(MDV, 2026-09-30)*
+
+Jev está en **early access**; según una fuente secundaria (TrueFoundry), con lista de espera y un
+único API hosteado. **No sabemos si ya hay clave ni si alguien del equipo se anotó.**
+
+**Impacto:** sin clave no se puede hacer el spike de validación, y la arquitectura quedaría
+diseñada alrededor de una API a la que no podemos llamar.
+
+**Cómo se responde:** entrar a [console.typesafe.ai/keys](https://console.typesafe.ai/keys) y
+anotar el resultado (clave / lista de espera / sin acceso).
+**Tarjeta:** [Conseguir acceso a la API de TypeSafe](https://trello.com/c/mT2FcXyY).
+
+⚠️ La clave de API **no se sube al repo**: va en una variable de entorno.
+
+---
+
+## P-26
+### ¿Qué hace TypeSafe con los datos que recibe?
+
+**🔲 Abierta** *(MDV, 2026-09-30)*
+
+⬜ **No se pudo verificar.** El Trust Center ([trust.typesafe.ai](https://trust.typesafe.ai/)) no
+devolvió contenido legible y typesafe.ai no hace afirmaciones de privacidad en lo que se leyó.
+Falta saber **qué retiene** y **si usa los datos para entrenar**.
+
+**Impacto:** nuestro cliente objetivo son fintech y bancos (decisión
+[0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md)). Con datasets públicos o
+sintéticos no es un problema para el MVP, pero **en The Pitch hay que tener una respuesta**.
+
+**Tarjeta:** [Conseguir acceso a la API de TypeSafe](https://trello.com/c/mT2FcXyY) (incluye leer
+las políticas a mano).
+
+---
+
+## P-27
+### ¿Qué texto/contexto real tendríamos para pasarle a Jev?
+
+**🔲 Abierta** *(MDV, 2026-09-30)*
+
+Jev interpreta **texto**, no columnas numéricas. El dataset 1 (entrenamiento) son columnas PCA
+anonimizadas, sin texto; el dataset 3 trae comercio, categoría y monto ([`datos.md`](../05-producto/datos.md)).
+**Qué contexto textual podemos armar con datos reales** depende del mapeo columna por columna de
+los datasets, que sigue pendiente de FGR ([P-11](#p-11)).
+
+**Impacto:** si el contexto que le pasamos lo inventamos nosotros, sesgamos el resultado de Jev.
+
+**Tarjetas:** [Validar Jev con una muestra del dataset 3](https://trello.com/c/EYxcS7tu) ·
+[Modelos de IA a utilizar](https://trello.com/c/HgigLF8C).

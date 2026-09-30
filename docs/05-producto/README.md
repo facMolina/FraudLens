@@ -18,6 +18,7 @@ es lo único que tenemos definido.
 | [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
 | [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
+| [`typesafe-jev.md`](typesafe-jev.md) | Investigación de TypeSafe AI (modelo Jev) y arquitectura propuesta con diagramas Mermaid — **borrador de MDV, sin aprobar** | — | 🟡 Borrador |
 | `metricas.md` | OKRs y KPIs | 4/11 | 🔲 Pendiente |
 | [`identidad-visual.md`](identidad-visual.md) | Brief de marca: tono, referencias, paleta y tipografía | — | 🔨 En curso (FM) |
 | [`prompts-nano-banana.md`](prompts-nano-banana.md) | Prompts para generar isotipos, paletas, mockups y tipografía | — | ✅ Listos para usar |
