@@ -10,7 +10,8 @@
 
 > ⚠️ **Cómo leer este documento (regla 6 del repo: distinguir fuentes).** Cada afirmación lleva su
 > origen: 📗 **fuente oficial de TypeSafe** · 📙 **fuente secundaria** (terceros, sin verificar) ·
-> 💡 **hipótesis nuestra / sugerencia de Claude**. Lo que no pudimos verificar está marcado ⬜.
+> 💡 **hipótesis nuestra / sugerencia de Claude** · 🧪 **prueba propia nuestra**. Lo que no pudimos
+verificar está marcado ⬜.
 > **Nada de la sección 4 (arquitectura) es una decisión**: es un punto de partida para discutir.
 
 ---
@@ -35,9 +36,14 @@
 
 | Tipo | Qué devuelve | Ejemplo aplicado a fraude 💡 |
 |---|---|---|
-| **Noul** | Sí/No con confianza | ¿La descripción de la operación es inconsistente con el perfil del cliente? |
+| **Noul** | Sí/No, con la probabilidad del "sí" (**sin confianza separada**) | ¿La descripción de la operación es inconsistente con el perfil del cliente? |
 | **Choice** | Una opción de un **catálogo fijo** | ¿Cuál de estos motivos de riesgo aplica? (lista cerrada) |
 | **Score** | Un puntaje en una escala **ordenada** | Severidad del caso: baja / media / alta / crítica |
+
+> 🔧 **Corregido el 2026-09-30** (al leer [la doc de confianza](https://docs.typesafe.ai/confidence.md)):
+> una versión anterior de este documento decía que todas las respuestas traen confianza. **Sólo
+> Choice y Score traen `probabilities` y `confidence` (0 a 1).** Noul devuelve la probabilidad de
+> "sí": una probabilidad cerca de 0,5 significa "sí y no parecidos", no "intensidad media".
 
 📗 Reglas de diseño que da la documentación: las preguntas deben ser **atómicas y estrechas**; se
 pasa sólo el contexto relevante; son **independientes y en paralelo** (no hay bucle de agente).
@@ -83,6 +89,8 @@ esquemas concretos** para fraude.
 | **Privacidad / retención de datos** | ⬜ **No pudimos verificarlo.** El Trust Center ([trust.typesafe.ai](https://trust.typesafe.ai/)) no devolvió contenido legible y typesafe.ai no hace afirmaciones de privacidad en lo que leímos | ⬜ |
 | **Límites de uso (rate limits)** | ⬜ No figuran en la documentación que leímos | ⬜ |
 | **Versión de Python** | ⬜ No figura en lo que leímos del SDK | ⬜ |
+| **Idioma** | **El inglés es el idioma principal de entrenamiento**; otros idiomas se aceptan "con menor precisión". Jev sólo acepta **texto** (string, objeto JSON o arreglo de textos) | 📗 [State](https://docs.typesafe.ai/concepts/state.md) |
+| **Saldo de la cuenta** | En la prueba del 2026-09-30 el playground respondió *"Your organization is out of funds. Add funds to keep running requests."* — ver §3.1 | 🧪 prueba propia |
 
 > 💡 **Lo que esto implica para el proyecto:**
 > 1. **Mandar datos de transacciones a una API de terceros** es una objeción obvia para un banco o
@@ -93,6 +101,30 @@ esquemas concretos** para fraude.
 > 3. Es **una dependencia externa cerrada** (sin on-premise). El requerimiento no funcional de ML
 >    manda que *"los errores del modelo no deben producir aprobaciones silenciosas"*: si Jev cae,
 >    hay que degradar de forma explícita.
+> 4. **Nuestros datos y nuestro equipo trabajan en español**, y el inglés es el idioma principal de
+>    Jev. **Habría que medir la diferencia**: el spike debería probar las mismas filas en inglés y
+>    en español antes de decidir en qué idioma armar el `state`.
+
+### 3.1 Prueba en el playground — 2026-09-30 🧪
+
+Primera prueba real, hecha por MDV con asistencia de Claude Code en
+[console.typesafe.ai/playground](https://console.typesafe.ai/playground), con **datos sintéticos
+inventados** (una compra de ARS 480.000 en electrónica a las 03:12, desde Brasil, con dispositivo
+nuevo, contra un perfil con monto habitual de ARS 25.000, sólo Argentina, horario 09:00–22:00 y
+rubros *groceries* y *transport*). Tres preguntas sobre el mismo `state`: un **Noul**, un **Choice**
+y un **Score**.
+
+| Qué se probó | Resultado |
+|---|---|
+| Acceso a la consola y al playground con la cuenta de MDV | ✅ **Funciona** (sin lista de espera para el login) |
+| El `state` JSON y las 3 preguntas pasan la validación del editor | ✅ 0 errores |
+| El request llega al servicio | ✅ |
+| Respuestas de Jev | ⬜ **No hay resultados.** Las 3 preguntas devolvieron `Billing error`: *"Your organization is out of funds"* |
+
+**Lo que esto cambia:** el bloqueo B1 (§5) ya no es "¿tenemos acceso?" sino **"¿quién carga fondos
+y cuánto?"**. No se cargaron fondos: es un pago y lo decide el equipo. Hasta entonces, **no hay
+ningún dato sobre calidad, calibración, latencia ni costo reales de Jev**; todo lo de este
+documento sobre eso sigue siendo lo que dice TypeSafe o un tercero.
 
 ---
 
@@ -114,7 +146,7 @@ Donde Jev **podría** aportar (cada uno sujeto a validar en §6):
 |---|---|---|---|---|
 | J1 | **Motivos legibles** para el analista: elegir del catálogo fijo de motivos de riesgo | Choice | Cubre "devolver los motivos" del CU-01 sin que el modelo invente texto | Depende de cuánto contexto textual le pasemos; dataset 3 sí trae comercio/categoría |
 | J2 | **Señales cualitativas** ("monto atípico para este perfil", "comercio inusual para la categoría") | Noul | Convierte contexto semi-estructurado en señales tipadas | Puede ser redundante con el modelo tabular |
-| J3 | **Puerta de confianza** hacia "revisar" cuando la confianza es baja | Confidence-Gated Routing | Es el patrón oficial más alineado con el flujo aprobar/revisar/bloquear | Calibración no verificada por terceros |
+| J3 | **Puerta de confianza** hacia "revisar" cuando la confianza es baja | Confidence-Gated Routing | Es el patrón oficial más alineado con el flujo aprobar/revisar/bloquear | Calibración no verificada por terceros. **Sólo hay `confidence` en Choice y Score**; con Noul hay que usar la distancia de la probabilidad a 0,5 |
 | J4 | **Priorizar la cola** del analista por severidad | Score | Ayuda al Perfil A a empezar por lo más grave | Es una función de valor agregado, no del MVP mínimo |
 
 > 💡 **Regla de diseño que propongo:** Jev **sólo aporta señales**; **la decisión final la toma el
@@ -174,7 +206,7 @@ sequenceDiagram
         Mod-->>API: riesgo 0–100
     and
         API->>Jev: state (contexto) + preguntas Noul/Choice/Score
-        Jev-->>API: respuestas tipadas + confianza
+        Jev-->>API: respuestas tipadas + probabilidades<br/>(confianza sólo en Choice/Score)
     end
     API->>API: componer puntaje + aplicar umbrales<br/>(confianza baja → revisar)
     API->>DB: guardar resultado + config vigente
@@ -192,8 +224,8 @@ sequenceDiagram
   [console.typesafe.ai/playground](https://console.typesafe.ai/playground) (requiere login)
 - Cuerpo: `state` (texto), `model` (p. ej. `"jev-latest"`), `questions` (objeto con `type`
   `noul|choice|score`, `instructions`, `criteria`)
-- Respuesta: `model` (p. ej. `jev-1.13.0`), `answers` con `confidence` y `probabilities` por
-  pregunta, y `usage` (tokens de entrada/salida)
+- Respuesta: `model` (p. ej. `jev-1.13.0`), `answers` con `probabilities` por pregunta (y
+  `confidence` **sólo en Choice y Score**), y `usage` (tokens de entrada/salida)
 
 📗 **SDK oficial de Python** ([repo](https://github.com/typesafe-ai/typesafe-sdk-python), licencia
 MIT): `pip install typesafe-sdk` (o `uv add typesafe-sdk`), clientes `TypeSafeClient` y
@@ -224,7 +256,7 @@ se lee con `response.nouls[k].noul`, `response.choices[k].choice`, `response.sco
 
 | # | Bloqueo | Quién | Cómo se destraba |
 |---|---|---|---|
-| B1 | ¿Tenemos **acceso a la API** (clave)? El acceso es por lista de espera 📙 | MDV | Entrar a [console.typesafe.ai](https://console.typesafe.ai/keys) y ver si hay clave o se pide acceso. ⬜ **No sabemos si ya se anotó alguien** |
+| B1 | **La cuenta de MDV entra a la consola y al playground, pero la organización no tiene fondos** (§3.1). ⬜ Falta saber si hay clave de API creada (API Keys) y **quién carga fondos y cuánto** | Equipo (la carga de fondos es un pago, no la hace el asistente) | Mirar [API Keys](https://console.typesafe.ai/keys) y Billing; acordar en equipo el monto, si se carga |
 | B2 | **Repositorio de código del MVP** no existe | ML (tarjeta "Arrancar el repositorio de código del MVP") | [P-05](../00-proyecto/preguntas-abiertas.md#p-05) — arranca el 7/10 según el cronograma |
 | B3 | **Stack sin definir** | Equipo | [P-10](../00-proyecto/preguntas-abiertas.md#p-10). Ojo: hay SDK oficial de Python y de .NET; **si el backend no es Python, se usa REST directo** |
 | B4 | **Mapeo de datasets** a requerimientos sin hacer | FGR | [`datos.md`](datos.md) — define qué texto/contexto podríamos pasarle a Jev |
@@ -237,7 +269,8 @@ se lee con `response.nouls[k].noul`, `response.choices[k].choice`, `response.sco
 
 1. **Conseguir clave** y probar 3–5 preguntas en el [Playground](https://console.typesafe.ai/playground).
 2. Tomar una muestra del **dataset 3** (`kartik2112`, sintético, trae comercio/categoría/monto) y
-   renderizar cada fila como texto corto para `state`.
+   renderizar cada fila como texto corto para `state`. **Probar las mismas filas en inglés y en
+   español** (el inglés es el idioma principal de Jev, §3).
 3. Medir contra la etiqueta real (`fraude / no fraude`): ¿las señales de Jev **agregan** algo
    sobre el modelo tabular solo? ¿La confianza **está calibrada** (las respuestas con 90% de
    confianza aciertan ~90%)? Es la promesa que 📙 dice que nadie verificó.

@@ -35,6 +35,9 @@ API, que no pudimos verificar su política de datos y que su calibración no fue
 | Jev es el primer modelo de la clase "System One" de TypeSafe: recibe texto más preguntas con esquema y devuelve valores tipados con probabilidad y confianza | 📗 [typesafe.ai](https://typesafe.ai/) |
 | System One **no es un agente**: no genera código ni elige su próxima acción; el código controla el flujo | 📗 [docs.typesafe.ai](https://docs.typesafe.ai/concepts/how-to-build-with-system-one) |
 | Tiene 3 tipos de pregunta: **Noul** (sí/no), **Choice** (opción de una lista fija) y **Score** (escala ordenada) | 📗 idem |
+| **Sólo Choice y Score** devuelven `confidence`; Noul devuelve la probabilidad de "sí" | 📗 [Confianza](https://docs.typesafe.ai/confidence.md) |
+| El **inglés es el idioma principal**; otros idiomas se aceptan con menor precisión. Sólo acepta texto | 📗 [State](https://docs.typesafe.ai/concepts/state.md) |
+| **2026-09-30:** la cuenta de MDV entra a la consola y al playground; al correr 3 preguntas de prueba (datos sintéticos) la respuesta fue `Billing error: your organization is out of funds`. No hay resultados de Jev | 🧪 prueba propia — [`typesafe-jev.md` §3.1](../typesafe-jev.md) |
 | La documentación oficial menciona "Financial Crime": evaluar narrativas de transacciones, documentos KYC e historiales de alertas, y derivar casos ambiguos a un investigador | 📗 [Casos de uso](https://docs.typesafe.ai/concepts/use-case-map) |
 | TypeSafe **no se presenta como plataforma antifraude**; la documentación da marcos generales, sin esquemas concretos para fraude | 📗 idem |
 | Endpoint `POST https://api.typesafe.ai/v1/systemone`, autenticación `Bearer`, clave en console.typesafe.ai | 📗 [Quick start](https://docs.typesafe.ai/introduction/quickstart) |
@@ -51,7 +54,8 @@ API, que no pudimos verificar su política de datos y que su calibración no fue
 
 > No se completa a ojo. Si falta, se marca como falta.
 
-- ⬜ **Si tenemos acceso a la API** (clave) y quién del equipo se anotaría.
+- ⬜ **Si hay una clave de API creada**, y **quién carga fondos y cuánto**: la consola funciona pero la organización no tiene saldo. No sabemos cuánto costaría una prueba real.
+- ⬜ **Cuánto se degrada en español**: el idioma principal es el inglés y no medimos la diferencia.
 - ⬜ **Qué retiene TypeSafe** de los datos que recibe ni si los usa para entrenar (el Trust Center no se pudo leer).
 - ⬜ **Límites de uso (rate limits)** y si el precio publicado aplica a early access.
 - ⬜ **Si la confianza de Jev está bien calibrada** para nuestro tipo de datos — nadie lo midió.
@@ -90,11 +94,13 @@ API, que no pudimos verificar su política de datos y que su calibración no fue
 
 | Riesgo | Cómo se ve el fracaso |
 |---|---|
-| **No conseguimos acceso** (lista de espera) | Diseñamos la arquitectura alrededor de una API a la que no podemos llamar antes de la entrega del prototipo (28/10) |
+| **No podemos usar la API** (sin fondos, sin clave o sin acceso) | Diseñamos la arquitectura alrededor de una API a la que no podemos llamar antes de la entrega del prototipo (28/10) |
 | **Dependencia cerrada y externa** | Si la API cae o cambia de versión, el MVP pierde una pieza; sin on-premise no hay plan B propio |
 | **Privacidad incumplible para el cliente** | Un banco o fintech pregunta qué retiene TypeSafe y no tenemos respuesta; el pitch pierde credibilidad |
 | **Calibración sin verificar** | Jev "elige con seguridad" la opción equivocada entre las que le damos; el sistema manda a aprobar un fraude con falsa confianza |
 | **No agrega señal** | Medimos y Jev no mejora al modelo tabular: construimos complejidad para nada |
+| **Jev rinde peor en español** | Nuestros datos y el equipo trabajan en español; el inglés es el idioma principal. Las señales salen menos precisas y no nos damos cuenta porque no lo medimos |
+| **Costo que no estaba en el plan** | La cuenta no tiene fondos: para probar hay que pagar, el equipo no decidió hacerlo y no hay presupuesto definido |
 | **No hay texto que leer** | El dataset de entrenamiento es PCA anonimizado; el contexto textual que le pasemos lo inventamos nosotros y sesga el resultado |
 | **Nadie puede explicarlo** | En The Pitch no podemos defender qué hace Jev por dentro (es un modelo propietario) — choca con "cada integrante puede defender lo que muestra" |
 | **Distracción del alcance** | Dedicar horas a Jev en vez de al MVP mínimo y al User Research, que sigue pendiente; el MVP tiene que ser chico |

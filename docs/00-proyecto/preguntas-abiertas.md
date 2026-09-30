@@ -45,7 +45,7 @@ de Trello con esa fecha de vencimiento.
 | [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
 | [P-23](#p-23) | ¿El nombre FraudLens está disponible para usar en Argentina? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-24](#p-24) | ¿Qué formato de Grilla de Priorización espera el docente? | 🟢 | Docente | 🔲 Abierta |
-| [P-25](#p-25) | ¿Tenemos acceso a la API de TypeSafe (Jev)? | 🟡 | Equipo | 🔲 Abierta |
+| [P-25](#p-25) | ¿Tenemos acceso a la API de TypeSafe (Jev)? | 🟡 | Equipo | 🟡 **Parcial** — hay consola, falta saldo |
 | [P-26](#p-26) | ¿Qué hace TypeSafe con los datos que recibe? | 🟡 | Equipo | 🔲 Abierta |
 | [P-27](#p-27) | ¿Qué texto/contexto real tendríamos para pasarle a Jev? | 🟡 | Equipo | 🔲 Abierta |
 
@@ -580,13 +580,22 @@ entregó con una interpretación propia.
 **🔲 Abierta** *(MDV, 2026-09-30)*
 
 Jev está en **early access**; según una fuente secundaria (TrueFoundry), con lista de espera y un
-único API hosteado. **No sabemos si ya hay clave ni si alguien del equipo se anotó.**
+único API hosteado.
 
-**Impacto:** sin clave no se puede hacer el spike de validación, y la arquitectura quedaría
-diseñada alrededor de una API a la que no podemos llamar.
+> 🔄 **Actualización (2026-09-30, MDV):** se probó el playground. **La cuenta de MDV entra a la
+> consola y al playground**, pero al correr 3 preguntas de prueba la respuesta fue
+> *"Your organization is out of funds"*. Es decir: **el acceso a la consola existe; falta saldo.**
+> No se cargaron fondos (es un pago: lo decide el equipo). Detalle en
+> [`typesafe-jev.md` §3.1](../05-producto/typesafe-jev.md).
 
-**Cómo se responde:** entrar a [console.typesafe.ai/keys](https://console.typesafe.ai/keys) y
-anotar el resultado (clave / lista de espera / sin acceso).
+**Impacto:** sin fondos (o sin clave) no se puede hacer el spike de validación, y la arquitectura
+quedaría diseñada alrededor de una API a la que no podemos llamar.
+
+**Falta saber:** ⬜ si hay una clave de API creada · ⬜ quién carga fondos y **cuánto** · ⬜ si el
+precio publicado aplica a early access.
+
+**Cómo se responde:** el equipo decide si se cargan fondos (monto mínimo) o se descarta la prueba.
+Mirar [API Keys](https://console.typesafe.ai/keys) y Billing.
 **Tarjeta:** [Conseguir acceso a la API de TypeSafe](https://trello.com/c/mT2FcXyY).
 
 ⚠️ La clave de API **no se sube al repo**: va en una variable de entorno.

@@ -33,6 +33,22 @@ oficiales y la arquitectura diagramada con Mermaid. Es el modelo **Jev** de la t
 - Decisiones de MDV: sin etiquetas de categoría (P-22 sin aprobar; la categoría quedó escrita en la
   descripción), y publicar todo junto en un solo commit.
 
+## Segunda parte — primera prueba en el playground
+
+Con la pestaña del navegador y el skill oficial de TypeSafe, se cargó en
+[console.typesafe.ai/playground](https://console.typesafe.ai/playground) un caso **sintético**
+(compra de ARS 480.000 en electrónica a las 03:12 desde Brasil, contra un perfil habitual) con 3
+preguntas (Noul, Choice, Score).
+
+- ✅ La cuenta de MDV entra a la consola y al playground; el JSON validó sin errores.
+- 🔴 **Sin resultados:** `Billing error — your organization is out of funds`. **No se cargaron
+  fondos** (es un pago; lo decide el equipo).
+- **Correcciones a `typesafe-jev.md`:** solo Choice y Score devuelven `confidence` (Noul devuelve
+  la probabilidad de "sí"), y el inglés es el idioma principal de Jev.
+- **Actualizados:** `typesafe-jev.md` (§3, §3.1, §5, §6), `6-sombreros-jev.md` (hechos, faltantes y
+  2 riesgos nuevos en el negro), P-25 (ahora 🟡 Parcial) y un comentario en la tarjeta
+  [Conseguir acceso a la API](https://trello.com/c/mT2FcXyY).
+
 ## Hallazgos principales
 
 - Jev **no es un clasificador tabular**: recibe texto + un esquema y devuelve respuestas tipadas con

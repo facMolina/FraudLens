@@ -90,6 +90,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-09-16 | FM | Documentación | Las 8 imágenes de la primera generación de Nano Banana (identidad visual) subidas al repo, renombradas de forma descriptiva y organizadas en `identidad/generacion-01/`, linkeadas desde cada sección de `analisis-generacion-01.md` | [`analisis-generacion-01.md`](../docs/05-producto/identidad/analisis-generacion-01.md) · [`identidad/generacion-01/`](../docs/05-producto/identidad/generacion-01/) |
 | 2026-09-23 | FGR | Gestión | Sombrero rojo respondido (9 preguntas) en los dos análisis de 6 sombreros — tercera voz cargada después de MDV y FM. Sólo falta ML para dar el rojo por validado por el equipo | [`6-sombreros-usuario-objetivo.md`](../docs/05-producto/analisis/6-sombreros-usuario-objetivo.md) · [`6-sombreros-enfoque-fintech.md`](../docs/05-producto/analisis/6-sombreros-enfoque-fintech.md) |
 | 2026-09-30 | MDV | Gestión | Cierre de la tarjeta "1. Decidir los 3 perfiles de usuario" con comentario de resolución en Trello, **sin la voz de ML** en el sombrero rojo (decisión de MDV, explicitada en el comentario) | [Bitácora](../bitacora/2026-09-30-cierre-tarjeta-perfiles.md) · [`usuarios.md`](../docs/05-producto/usuarios.md) |
+| 2026-09-30 | MDV | Producto | Primera prueba de Jev en el playground (datos sintéticos): la consola funciona pero la organización no tiene fondos, sin resultados; correcciones al documento (confianza solo en Choice/Score; idioma principal inglés) y P-25 actualizada | [`typesafe-jev.md` §3.1](../docs/05-producto/typesafe-jev.md) · [Bitácora](../bitacora/2026-09-30-investigacion-typesafe-jev.md) |
 | 2026-09-30 | MDV | Producto | Investigación de TypeSafe AI (modelo Jev) en fuentes oficiales y arquitectura propuesta con diagramas Mermaid, borrador del 6 Sombreros (rojo vacío para el equipo), preguntas P-25 a P-27 y 3 tarjetas nuevas en Trello — **borrador**, sin decisión | [`typesafe-jev.md`](../docs/05-producto/typesafe-jev.md) · [`6-sombreros-jev.md`](../docs/05-producto/analisis/6-sombreros-jev.md) · [Bitácora](../bitacora/2026-09-30-investigacion-typesafe-jev.md) · [Tablero](https://trello.com/b/iUaTi33p) |
 
 ---
@@ -100,7 +101,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
-| Diaz Valdez, Mateo (MDV) | 3 | 2026-09-30 |
+| Diaz Valdez, Mateo (MDV) | 4 | 2026-09-30 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 45 | 2026-09-16 |
