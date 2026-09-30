@@ -113,4 +113,5 @@ sale **del research**, no de antes.
 | ML respondió sobre el acceso a expertos | ✅ Hay acceso |
 | P-18 preguntada al docente | ✅ Son 3 perfiles distintos |
 | Los 3 perfiles escritos | ✅ Este documento |
-| El equipo validó el sombrero rojo | ⬜ **Pendiente** — ver [puntos a debatir](analisis/6-sombreros-usuario-objetivo.md#-pendiente-el-equipo-tiene-que-escribir-el-sombrero-rojo) |
+| El equipo validó el sombrero rojo | 🟡 **3 de 4 voces** (MDV, FM, FGR). **Falta ML.** Tarjeta cerrada el 2026-09-30 por decisión de MDV sin la voz de ML — se completa cuando ML responda. Ver [puntos a debatir](analisis/6-sombreros-usuario-objetivo.md#-pendiente-el-equipo-tiene-que-escribir-el-sombrero-rojo) |
+| Tarjeta de Trello | ✅ Movida a Hecho el 2026-09-30, con comentario de resolución |

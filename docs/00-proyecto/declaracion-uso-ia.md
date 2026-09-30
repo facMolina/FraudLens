@@ -5,7 +5,7 @@
 | **Proyecto** | FraudLens — Sistema inteligente de detección de fraude en transacciones en tiempo real |
 | **Materia** | Seminario de Gestión Tecnológica — TIF, 2C 2026 |
 | **Equipo** | Diaz Valdez, Mateo (1192969) · Guerrero Rojas, Francisco Daniel (1042529) · Lewinzon, Mateo (1151641) · Molina, Facundo Roman (1115862) |
-| **Fecha** | 2026-09-15 *(documento vivo — se actualiza cada vez que cambia el uso de IA)* |
+| **Fecha** | 2026-09-30 *(documento vivo — se actualiza cada vez que cambia el uso de IA)* |
 | **Marco normativo** | [Lineamientos de Uso de Inteligencia Artificial — UADE](https://dre.uade.edu.ar/PDFs/lineamientosiaalumnos1.pdf), sección *"Uso de IA en Trabajos Integradores Finales, Trabajos Finales de Investigación, Proyectos Finales de Ingeniería"* |
 
 > Esta declaración se presenta porque el lineamiento de la UADE la exige de forma **obligatoria**
@@ -19,6 +19,7 @@
 |---|---|---|
 | **Claude** (chat web) | Los 4 integrantes del equipo | Consultas de estudio, redacción y comprensión de conceptos de la materia — uso instrumental |
 | **Claude Code** | Facundo Molina (FM), con validación del equipo en cada sesión | Construcción y mantenimiento de este repositorio: documentación de clases, decisiones, diseño del research, identidad visual, benchmarking, ideación, revisión de requerimientos |
+| **Claude Code** | Mateo Diaz Valdez (MDV), desde 2026-09-30 | Gestión del tablero de Trello (lectura del estado, comentario de resolución, movimiento de tarjetas) y del rastro en el repo (bitácora, historial de aportes, estado de tickets) |
 | **Claude** | Francisco Guerrero Rojas (FGR) | Generación del **backend** del prototipo de FraudLens |
 | **Codex** | Francisco Guerrero Rojas (FGR) | Generación del **frontend** del prototipo, ajustado al backend ya generado |
 | **Gemini / Nano Banana** (Google AI Studio) | Facundo Molina (FM) | Generación de imágenes exploratorias para la identidad visual: isotipos, paletas de color, mockups de dashboard y lámina de tipografía — ver [`prompts-nano-banana.md`](../05-producto/prompts-nano-banana.md) |
@@ -32,6 +33,7 @@
 | Plan de research, benchmarking, ideación, Árbol de Problemas/5 Por Qué | Claude Code | Redacción de los documentos, búsqueda web para benchmarking y normativa citada | FM corrigió cada punto en vivo (ver `bitacora/2026-09-14-*.md`); ninguna afirmación fáctica quedó sin fuente marcada |
 | Revisión de requerimientos funcionales del MVP | Claude Code | Análisis de los puntos a discutir, propuesta de recorte de alcance | El equipo definió las respuestas de fondo (roles, alcance, qué es MVP); Claude Code documentó y estructuró |
 | Documentación del dataset del MVP (`datos.md`) | Claude Code | Investigación web para identificar qué dataset usa cada notebook candidato y sus características (registros, columnas, licencia), marcando qué quedó confirmado con fuente y qué no | **FGR decidió** usar 3 datasets y el rol de cada uno (entrenamiento / validación y explicabilidad / test final) — no fue una sugerencia del asistente |
+| Gestión del tablero de Trello y rastro en el repo (2026-09-30) | Claude Code | Redacción del comentario de resolución de la tarjeta "Decidir los 3 perfiles" a partir de lo ya documentado en el repo y en Trello, y de la bitácora/historial de esa sesión | **MDV decidió** cerrar la tarjeta sin la voz de ML en el sombrero rojo y **dejar sin tocar** la tarjeta del 1° Parcial hasta tener la devolución del docente; el asistente propuso, no decidió |
 | Prototipo — backend | Claude | Código del backend a partir del documento de requerimientos y un notebook de Kaggle citado | FGR es responsable de entender, ejecutar y poder defender el código |
 | Prototipo — frontend | Codex | Código del frontend, ajustado al backend | FGR es responsable de entender, ejecutar y poder defender el código |
 | Documento de requerimientos funcionales del MVP | — | Escrito por Mateo Lewinzon (ML) | Sin asistencia de IA declarada por el autor a la fecha de este documento |
