@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Estado** | 🟡 Datos tal como llegaron, **anonimizados**. Sin validar por el equipo |
-| **Fuente** | Export de respuestas del Google Form [*Encuesta sobre fraude y rechazos de operaciones*](https://forms.gle/ZLfhijskphLA1Fxu9), **aportado por FM el 2026-10-07** (`FraudLens_encuesta.xlsx`; los `.xlsx` no se versionan en este repo) |
+| **Fuente** | Export de respuestas del Google Form [*Encuesta sobre experiencias de fraude en bancos y fintech*](https://forms.gle/ZLfhijskphLA1Fxu9), **aportado por FM el 2026-10-07** (`FraudLens_encuesta.xlsx`; los `.xlsx` no se versionan en este repo) |
 | **Respuestas** | **28** |
 | **Período** | 16/9 al 22/9/2026 *(según la marca temporal del Form)* |
 | **Análisis** | [`encuesta-perfil-c-analisis.md`](encuesta-perfil-c-analisis.md) |
@@ -15,28 +15,39 @@
 - **Una respuesta nombraba un club puntual** (R09, pregunta 10): se reemplazó por `[nombre de un club — omitido por anonimato]`. Es lo **único** que se tocó. El resto está
   **textual**, con sus errores de tipeo.
 - **No se corrigió ninguna inconsistencia** entre respuestas (ver el análisis).
-- ⬜ **El export trae solo la opción que eligió cada persona, no la lista completa de opciones de cada pregunta.** Hay preguntas donde no se
-  puede saber si existía una opción que nadie marcó (ver el análisis, pregunta 8).
+- ✅ **La estructura del formulario (opciones de cada pregunta) se confirmó el 2026-10-07** con un relevamiento hecho por otro chat de Claude con
+  Claude in Chrome, que leyó los datos de la página pública del Form sin responderlo. Está en la sección siguiente. El export de Excel, por sí solo,
+  trae únicamente lo que cada persona eligió.
 
-## Las preguntas del formulario, según el export
+## Estructura del formulario
 
-| # | Pregunta |
-|---|---|
-| 1 | ¿Con qué frecuencia realizás compras o pagos usando tarjetas o billeteras virtuales? |
-| 2 | En los últimos 12 meses, ¿alguna vez te rechazaron una compra que considerabas legítima? |
-| 3 | Si te ocurrió, ¿con qué frecuencia pasó? |
-| 4 | ¿Qué hiciste después de que rechazaran la compra? |
-| 5 | En los últimos 12 meses, ¿alguna vez detectaste un consumo o transferencia que no reconocías? |
-| 6 | Si te ocurrió, ¿cómo te enteraste? |
-| 7 | ¿Qué situación te generaría un mayor inconveniente? |
-| 8 | Cuando una operación es rechazada, ¿qué explicación recibís normalmente? |
-| 9 | ¿Qué información te gustaría recibir cuando una operación es rechazada por seguridad? |
-| 10 | Contanos brevemente la última experiencia que hayas tenido con una compra rechazada o un consumo no reconocido. |
-| 11 (edad) | ¿En qué rango de edad te encontrás? |
+> **Fuente:** relevamiento del 2026-10-07 hecho por otro chat de Claude con Claude in Chrome, **solo lectura** (no se respondió el Form). Lo leyó de los datos
+> internos de la página pública. **No pudo ver la pestaña de Respuestas** (requiere acceso de editor), así que **el total de respuestas del Form no está
+> verificado**: las 28 salen del export.
 
-> ⚠️ El export muestra **11 preguntas**. La descripción de la encuesta en
-> [`user-research.md`](user-research.md#encuesta--perfil-c-usuario-final-de-fintechbilleterapasarela) listaba 7 ítems con otras opciones: es el
-> **diseño previo a la difusión**. **Para lo que se respondió, vale este export.**
+- **Título publicado:** *Encuesta sobre experiencias de fraude en bancos y fintech*. *(El nombre interno del archivo es "Formulario sin título". El diseño previo, en [`user-research.md`](user-research.md), lo llamaba "Encuesta sobre fraude y rechazos de operaciones".)*
+- **Descripción:** *"No se te va a pedir nombre, documento, número de tarjeta ni datos bancarios"*. Es el único texto sobre anonimato. **No hay texto de consentimiento.**
+- **Sin secciones y sin lógica condicional:** el formulario **no filtra** a nadie. **Solo las preguntas 1 y 2 son obligatorias**; por eso hay respuestas en blanco en las demás.
+- **El formulario seguía aceptando respuestas** el 2026-10-07 (la página pública mostraba las preguntas y el botón de enviar, sin aviso de cierre).
+
+| # | Pregunta | Tipo | Oblig. | Opciones, en orden *(entre paréntesis, cuántas de las 28 la marcaron)* |
+|---|---|---|---|---|
+| 1 | ¿Con qué frecuencia realizás compras o pagos usando tarjetas o billeteras virtuales? | Opción múltiple | **Sí** | Todos los días (14) · Varias veces por semana (12) · Algunas veces al mes (2) · Menos de una vez al mes (0) · No utilizo estos medios (0) |
+| 2 | En los últimos 12 meses, ¿alguna vez te rechazaron una compra que considerabas legítima? | Opción múltiple | **Sí** | Sí (11) · No (12) · No estoy seguro (5) |
+| 3 | Si te ocurrió, ¿con qué frecuencia pasó? | Opción múltiple | No | Una sola vez (4) · Dos o tres veces (7) · Varias veces (0) · No recuerdo (3) · No me ocurrió (12) · *(en blanco: 2)* |
+| 4 | ¿Qué hiciste después de que rechazaran la compra? | Opción múltiple | No | Intenté nuevamente y funcionó (2) · Use otro medio de pago *(sin tilde, así figura)* (8) · Contacté al banco o billetera (5) · Abandoné la compra (0) · No me ocurrió (9) · **Otros** (texto libre) (0) · *(en blanco: 4)* |
+| 5 | En los últimos 12 meses, ¿alguna vez detectaste un consumo o transferencia que no reconocías? | Opción múltiple | No | Sí (10) · No (17) · No estoy seguro (1) |
+| 6 | Si te ocurrió, ¿cómo te enteraste? | Opción múltiple | No | Revisando el resumen o viendo la transacción en la aplicación (10) · Por una notificación (0) · Por un llamado o aviso de la entidad (2) · No me ocurrió (11) · **Otros** (texto libre) (0) · *(en blanco: 5)* |
+| 7 | ¿Qué situación te generaría un mayor inconveniente? | Opción múltiple | No | Que rechacen una compra legítima (1) · Que se apruebe una operación que no hice (19) · Ambas por igual (8) · Ninguna de las dos (0) · No estoy seguro (0) |
+| 8 | Cuando una operación es rechazada, ¿qué explicación recibís normalmente? | Opción múltiple | No | Una explicación poco clara (15) · **Una explicación clara (0)** · Ninguna explicación. *(con punto final)* (6) · No recuerdo (3) · Nunca me ocurrió (4) |
+| 9 | ¿Qué información te gustaría recibir cuando una operación es rechazada por seguridad? | Párrafo | No | — |
+| 10 | Contanos brevemente la última experiencia que hayas tenido con una compra rechazada o un consumo no reconocido. | Párrafo | No | — |
+| 11 | ¿En qué rango de edad te encontrás? | Opción múltiple | No | Menos de 18 (0) · 18–24 (11) · 25–34 (11) · 35–44 (2) · 45–54 (2) · 55 o más (2) · Prefiero no responder (0) |
+
+Los 11 textos y su orden **coinciden** con los del export de respuestas.
+
+> ⚠️ La descripción de la encuesta en [`user-research.md`](user-research.md#encuesta--perfil-c-usuario-final-de-fintechbilleterapasarela) listaba **7 ítems** con
+> otras opciones y un filtro inicial: es el **diseño previo a la difusión**. **Para lo que se respondió, vale esta estructura.**
 
 ## Respuestas cerradas (preguntas 1 a 8 y edad)
 

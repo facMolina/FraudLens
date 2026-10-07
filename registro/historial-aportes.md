@@ -95,6 +95,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-07 | FM | Documentación | Carga de las **Clases 09** (Agile · Scrum · Kanban) y **10** (User Story Mapping · Backlog · User Flow · HU) con bajada a FraudLens, glosario (30 términos), preguntas P-28 a P-32, link del repo del prototipo de FGR, relevamiento de qué tarjetas del tablero hay que resolver antes del Product Backlog del 14/10, y **creación de 11 tarjetas nuevas en Trello** (User Story Mapping, User Flow, herramienta y Product Backlog, MoSCoW, 6 Sombreros del recorte, roles Scrum, Sprint Review, Retro, Spike de Jev, Sprint 1) y carga del texto del Manifiesto Ágil aportado por FM | [Clase 09](../docs/01-clases/clase-09-agile-scrum-kanban.md) · [Clase 10](../docs/01-clases/clase-10-user-story-mapping-y-backlog.md) · [Bitácora](../bitacora/2026-10-07-clases-9-y-10.md) |
 | 2026-10-07 | FM | Research | Aportó el export de las **28 respuestas** de la encuesta del Perfil C y se cargaron al repo anonimizadas, con primer análisis (conteos, temas de las abiertas, límites de los datos) | [Respuestas](../docs/05-producto/encuesta-perfil-c-respuestas.md) · [Análisis](../docs/05-producto/encuesta-perfil-c-analisis.md) · [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
 | 2026-10-07 | FM | Gestión | Cierre de la tarjeta del 1° Parcial (nota 9 para los 4 integrantes) con comentario de resolución, y toma de las 3 tarjetas urgentes (User Story Mapping, User Flow, herramienta del backlog) | [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
+| 2026-10-07 | FM | Research | Relevamiento del **formulario de la encuesta** y del **repo privado del prototipo de FGR** con otro chat de Claude con Claude in Chrome (solo lectura), y carga de los resultados: estructura completa del Form (se resolvió la duda de la pregunta 8) y documentación del prototipo con sus hallazgos | [`prototipo.md`](../docs/05-producto/prototipo.md) · [Estructura del Form](../docs/05-producto/encuesta-perfil-c-respuestas.md#estructura-del-formulario) · [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
 
 ---
 
@@ -107,7 +108,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 4 | 2026-09-30 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
-| Molina, Facundo Roman (FM) | 48 | 2026-10-07 |
+| Molina, Facundo Roman (FM) | 49 | 2026-10-07 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

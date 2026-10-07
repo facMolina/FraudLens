@@ -137,7 +137,7 @@ vista configurable de seguimiento para perfiles de producto y riesgo.
 **Objetivo:** medir la frecuencia real de dos eventos — que le clonen una compra, y que le rechacen
 una compra legítima — y cuál pesa más en la experiencia.
 
-**Formulario:** [Encuesta sobre fraude y rechazos de operaciones](https://forms.gle/ZLfhijskphLA1Fxu9)
+**Formulario:** [Encuesta sobre experiencias de fraude en bancos y fintech](https://forms.gle/ZLfhijskphLA1Fxu9) *(título publicado; en el diseño se llamaba "Encuesta sobre fraude y rechazos de operaciones")*
 
 **Buenas prácticas** (de la Clase 4, ya en el ticket, no se repiten con criterio propio):
 

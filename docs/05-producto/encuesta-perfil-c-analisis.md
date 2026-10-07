@@ -4,7 +4,7 @@
 |---|---|
 | **Estado** | 🟡 **Primer análisis, sin validar por el equipo** |
 | **Datos** | [`encuesta-perfil-c-respuestas.md`](encuesta-perfil-c-respuestas.md) — **28 respuestas** del 16/9 al 22/9/2026 |
-| **Cómo se hizo** | Tabulación con un script sobre el export que aportó FM (2026-10-07) + lectura manual de las respuestas abiertas (Claude Code). **La lectura de las abiertas es una interpretación**: cada respuesta está identificada (R##) para poder auditarla |
+| **Cómo se hizo** | Tabulación con un script sobre el export que aportó FM (2026-10-07), con las opciones de cada pregunta confirmadas por un relevamiento del Form + lectura manual de las respuestas abiertas (Claude Code). **La lectura de las abiertas es una interpretación**: cada respuesta está identificada (R##) para poder auditarla |
 | **Ticket** | [Encuestas y entrevistas](https://trello.com/c/KPXsyG4O) |
 
 ## 1. Cómo leer esto: lo que limita los datos
@@ -17,7 +17,11 @@
   6 tienen 35 o más.
 - **Casi todos compran seguido:** 26 de 28 compran todos los días o varias veces por semana; los otros 2 algunas veces al mes.
   Es una muestra de compradores habituales.
-- ⬜ **Falta la lista de opciones de cada pregunta** (el export solo trae lo que se marcó): ver la pregunta 8.
+- **El formulario no filtra y casi todo era opcional.** No tiene secciones ni lógica condicional, y solo las preguntas 1 y 2 eran obligatorias: por eso hay
+  respuestas en blanco. La opción *"No utilizo estos medios"* de la pregunta 1 existía y **nadie la marcó**.
+- **Opciones que existían y nadie marcó**, para no leer mal los conteos: *Varias veces* (P3), *Abandoné la compra* y *Otros* (P4), *Por una notificación* y *Otros* (P6),
+  *Ninguna de las dos* y *No estoy seguro* (P7), *Una explicación clara* (P8). La estructura completa está en
+  [`encuesta-perfil-c-respuestas.md`](encuesta-perfil-c-respuestas.md#estructura-del-formulario).
 
 ## 2. Lo que respondieron
 
@@ -56,6 +60,7 @@ contra 1 que eligió el rechazo de una compra legítima (8 dijeron "ambas por ig
 ### De los 10 que detectaron un consumo que no reconocían (P6)
 - 8 lo vieron **revisando el resumen o la aplicación**.
 - 2 se enteraron **por un llamado o aviso de la entidad**.
+- **0** marcaron *"Por una notificación"*: la opción existía.
 
 ### ¿Qué explicación reciben cuando rechazan una operación? (P8)
 | Respuesta | Cantidad |
@@ -66,9 +71,9 @@ contra 1 que eligió el rechazo de una compra legítima (8 dijeron "ambas por ig
 | No recuerdo | **3** de 28 |
 
 - **21 de 28** dicen que la explicación es *poco clara* o que *no hay ninguna*.
-- ⬜ **Ojo con leer esto como "nadie recibe una explicación clara".** Nadie marcó una opción de explicación clara, pero **el export no dice si esa
-  opción existía** en el formulario. Hay un indicio de que sí: R05 respondió *"poco clara"* y en la pregunta 10 escribió *"en general en esos casos la
-  explicación es clara, pero otras veces no sabés por qué rechaza"*. **Para confirmarlo hace falta ver las opciones del Form.**
+- ✅ **Confirmado el 2026-10-07:** la opción *"Una explicación clara"* **sí existía** (era la segunda de cinco) y **ninguno de los 28 la marcó**.
+  Hay una respuesta que matiza: R05 marcó *"poco clara"* y en la pregunta 10 escribió *"en general en esos casos la explicación es clara, pero otras veces no
+  sabés por qué rechaza"*. Es una persona de 28, y **cuenta lo mismo en su respuesta cerrada**: poco clara.
 
 ### Edad
 | Respuesta | Cantidad |
@@ -136,7 +141,7 @@ Algunas citas, textuales: *"Estando de viaje, me rechazaron varias veces una com
 
 ## 6. Qué queda abierto
 
-- ⬜ **Ver las opciones reales del formulario** (una captura de la edición del Form alcanza), sobre todo la pregunta 8.
+- ⬜ **Confirmar el total de respuestas del Form.** La pestaña de Respuestas solo la ve un editor; el export trae 28 filas y el relevamiento no pudo contrastarlo.
 - ⬜ **¿Se amplía la difusión?** Hay 28 de las 80-100 que propuso el plan ([P-17](../00-proyecto/preguntas-abiertas.md#p-17)). Lo decide el equipo.
 - ⬜ **Revisión del equipo** de este análisis, y en particular del punto 5.1.
 - ⬜ Volcar los hallazgos en los **User Persona y Mapas de Empatía** (tarjetas [4](https://trello.com/c/dlJzvQPi) y [5](https://trello.com/c/8pJ24yzo)):

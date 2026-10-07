@@ -134,6 +134,8 @@ Hay que distinguir dos cosas:
 
 **Asignado a:** Mateo Lewinzon (ML) — tarjeta creada en el Backlog de Trello.
 
+> 📌 **Dato nuevo (2026-10-07):** se relevó el repo del prototipo ([`prototipo.md`](../05-producto/prototipo.md#qué-muestra-el-repo--relevamiento-del-2026-10-07)). Tiene backend (NestJS + Prisma + PostgreSQL), frontend (React + Vite), un motor de reglas determinista y los 7 casos de uso implementados **según el código** (sin ejecutar). **No es el MVP y la pregunta sigue abierta:** falta decidir si el MVP parte de ese código o arranca de cero.
+
 **A definir:**
 - ¿Repositorio aparte o carpeta dentro de este repo? *(sugerido: repositorio aparte)*
 - Stack → [P-10](#p-10)
@@ -252,6 +254,8 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 > Python y de .NET**; con otro lenguaje se usa la API REST directamente. Ver
 > [`typesafe-jev.md`](../05-producto/typesafe-jev.md). No cierra esta pregunta.
 
+> 📌 **Dato nuevo (2026-10-07):** el **prototipo** de FGR usa **TypeScript con NestJS, Prisma y PostgreSQL** en el backend y **React + Vite** en el frontend. Es el stack del prototipo, **no una decisión para el MVP**: esta pregunta sigue abierta. *(Con Jev, un backend en TypeScript usaría la API REST directamente: el SDK oficial es de Python y .NET.)*
+
 
 ---
 
@@ -269,6 +273,8 @@ de 2 de los 3), en [`docs/05-producto/datos.md`](../05-producto/datos.md).
 
 Sigue abierto, como consecuencia de esta decisión: **con qué métricas se evalúa el modelo**. En
 fraude, *accuracy* no sirve — queda para después del recorte de los 3 datasets.
+
+> 📌 **Dato nuevo (2026-10-07):** el repo del prototipo de FGR **no usa ninguno de los 3 datasets** de esta decisión: no hay datasets en el repo y solo menciona PaySim como inspiración de unos campos. El modelo del prototipo es un motor de reglas, no un modelo entrenado. Ver [`prototipo.md`](../05-producto/prototipo.md).
 
 ---
 

@@ -37,9 +37,7 @@ Nada se decidió. Lo que dicen los datos, **con n = 28, auto-selección y 22 de 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
 | Revisar el análisis de la encuesta, en especial el punto 5.1 (*"costo invisible" del falso positivo*) | Equipo | ⬜ |
-| Pasar una captura del Form con las opciones de cada pregunta (el Form no se puede abrir desde este entorno y Chrome no está conectado) | FM | ⬜ |
 | Decidir si se amplía la difusión (hay 28 de las 80-100 que propuso el plan, P-17) | Equipo | ⬜ |
-| Dar acceso al repo del prototipo a esta sesión (reconectar GitHub, clonarlo y pasar un `.zip`, o pegar README y árbol de archivos) | FM | ⬜ |
 | Cerrar la tarjeta [Encuestas y entrevistas](https://trello.com/c/KPXsyG4O) *(está en En revisión)* cuando el equipo revise el análisis | Equipo | ⬜ |
 
 ## Dudas que surgieron
@@ -53,3 +51,35 @@ Nada se decidió. Lo que dicen los datos, **con n = 28, auto-selección y 22 de 
 - Nuevos: `docs/05-producto/encuesta-perfil-c-respuestas.md` · `docs/05-producto/encuesta-perfil-c-analisis.md`
 - Modificados: `user-research.md` · `usuarios.md` · `docs/02-entregables/README.md` · `guia-1er-parcial.md` · `declaracion-uso-ia.md` · `registro/historial-aportes.md`
 - **Trello:** responsable escrito en 3 tarjetas; tarjeta del 1° Parcial cerrada con comentario de resolución. **No se movió ninguna otra tarjeta.**
+
+---
+
+## Tercera parte — relevamiento del Form y del repo del prototipo
+
+Esta sesión no tiene Claude in Chrome ni acceso al repo de FGR. FM corrió un **prompt en otro chat de Claude que sí los tiene** y trajo el informe
+(solo lectura, sin responder el Form, sin ejecutar nada). Quedó cargado en [`prototipo.md`](../docs/05-producto/prototipo.md) y en los documentos de la encuesta.
+
+**Resolvió:**
+- ✅ **Pregunta 8 del Form:** la opción *"Una explicación clara"* **sí existía** y **ningún** encuestado la marcó. Se quitó el hueco del análisis.
+- ✅ Estructura completa del Form con todas las opciones y cuáles eran obligatorias (solo la 1 y la 2). El Form **no filtra** y **no tiene texto de consentimiento**.
+- ✅ Título publicado del Form: *Encuesta sobre experiencias de fraude en bancos y fintech*. El que figuraba en el repo era el del diseño previo.
+
+**Corrigió un error mío:** en `prototipo.md` había dejado escrito que el prototipo *"no tiene un modelo ni reglas funcionando detrás"*. **Es falso:** hay un backend con un
+motor de reglas ponderadas y determinista, base de datos y 12 tests. **Lo que no hay es un modelo de ML.** También se corrigió la guía del parcial. ⚠️ **La
+diapositiva 11 de la presentación en PDF del parcial** dice que es *"un prototipo de interfaz: todavía no tiene la lógica del modelo detrás"*: queda desactualizada
+(ese PDF no está en el repo).
+
+**Lo que el informe dejó a la vista, para hablar con FGR** (ninguno se dedujo):
+- El prototipo **no usa los 3 datasets** de la decisión 0006 y el **notebook de Kaggle no está citado** con título ni link en su repo.
+- **Ningún archivo menciona Claude ni Codex**; quién generó qué no se puede confirmar desde el repo.
+- Implementa **CU-02 y CU-07 como funciones vivas** y **3 roles**, lo que la decisión 0005 recortó para el MVP.
+- `node_modules` commiteado, claves de desarrollo en texto plano (también en `Frontend/src/api.js`) y contradicciones entre su README y el código (SQLite / PostgreSQL).
+
+**Quedó abierto:**
+
+| Tarea | Responsable | Para cuándo |
+|---|---|---|
+| Ejecutar el prototipo y sus 12 tests para confirmar lo que dice el código | ⬜ | ⬜ |
+| Citar bien el notebook de Kaggle y declarar el uso de IA en el repo de FGR; confirmar qué generó cada herramienta | FGR | ⬜ |
+| Decidir si el MVP parte del código del prototipo o arranca de cero (P-05) | Equipo | ⬜ |
+| Contrastar el total de respuestas del Form con las 28 del export (solo lo ve un editor) | FM | ⬜ |
