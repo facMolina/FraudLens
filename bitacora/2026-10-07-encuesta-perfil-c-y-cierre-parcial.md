@@ -17,8 +17,11 @@
   y [`docs/02-entregables/README.md`](../docs/02-entregables/README.md).
 - **1° Parcial: nota 9 para los cuatro integrantes** (informado por FM). Se registró en entregables y en la guía del parcial, y se cerró la tarjeta en Trello.
 - **FM tomó las 3 tarjetas urgentes** — [User Story Mapping](https://trello.com/c/mxSfKQw6), [User Flow](https://trello.com/c/ivQo0hEI) y
-  [herramienta del backlog](https://trello.com/c/kceMBbCj) — y se escribió su nombre en la línea *Responsable* de cada una. **Tiene que darle "Unirme" a mano.**
-- Se intentó leer el repo del prototipo de FGR (`fguerrero2/FraudLens-prototipo`): **la sesión no tiene acceso** (privado o sin permiso). No se insistió.
+  [herramienta del backlog](https://trello.com/c/kceMBbCj) — y se escribió su nombre en la línea *Responsable* de cada una. FM ya les dio "Unirme"
+  y **las tres pasaron a 🔨 En curso**.
+- Se intentó leer el repo del prototipo de FGR (`fguerrero2/FraudLens-prototipo`): **la sesión no tiene acceso**. FM sí puede abrirlo con su cuenta.
+  FM propuso usar Claude in Chrome, pero **en esta sesión no hay herramientas de Chrome disponibles**: no se pudo. Sigue pendiente (ver abajo).
+- La tarjeta [Encuestas y entrevistas](https://trello.com/c/KPXsyG4O) pasó a **👀 En revisión**, con un comentario que dice qué tiene que revisar el equipo.
 - Declaración de uso de IA actualizada (análisis de datos de la encuesta).
 
 ## Qué se definió
@@ -34,16 +37,16 @@ Nada se decidió. Lo que dicen los datos, **con n = 28, auto-selección y 22 de 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
 | Revisar el análisis de la encuesta, en especial el punto 5.1 (*"costo invisible" del falso positivo*) | Equipo | ⬜ |
-| Pasar una captura de la edición del Form con las opciones de cada pregunta | ⬜ | ⬜ |
+| Pasar una captura del Form con las opciones de cada pregunta (el Form no se puede abrir desde este entorno y Chrome no está conectado) | FM | ⬜ |
 | Decidir si se amplía la difusión (hay 28 de las 80-100 que propuso el plan, P-17) | Equipo | ⬜ |
-| Dar "Unirme" en las 3 tarjetas tomadas | FM | ⬜ |
-| Decidir si la tarjeta [Encuestas y entrevistas](https://trello.com/c/KPXsyG4O) se cierra, después de la revisión del equipo | Equipo | ⬜ |
+| Dar acceso al repo del prototipo a esta sesión (reconectar GitHub, clonarlo y pasar un `.zip`, o pegar README y árbol de archivos) | FM | ⬜ |
+| Cerrar la tarjeta [Encuestas y entrevistas](https://trello.com/c/KPXsyG4O) *(está en En revisión)* cuando el equipo revise el análisis | Equipo | ⬜ |
 
 ## Dudas que surgieron
 
 - ¿Qué opciones tenía realmente la pregunta 8 del Form? (¿existía una opción de explicación clara?)
 - ¿FraudLens llega al mensaje que recibe el usuario final, o solo al analista? *(Planteada en el análisis, punto 5.2; no se deduce.)*
-- ¿El docente dio una devolución cualitativa del parcial, además de la nota?
+- ~~¿El docente dio una devolución cualitativa del parcial, además de la nota?~~ → **No dio devolución** (FM, 2026-10-07).
 
 ## Archivos tocados
 
