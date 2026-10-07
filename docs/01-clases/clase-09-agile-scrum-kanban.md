@@ -2,16 +2,16 @@
 
 | | |
 |---|---|
-| **Fecha** | ⬜ *No consta en el material — a confirmar por el equipo ([P-28](../00-proyecto/preguntas-abiertas.md#p-28))* |
+| **Fecha** | **Miércoles 23/9** *(confirmada por FM, 2026-10-07; no figura en el material)* |
 | **Docente** | Daniel Britez *(el deck está firmado por Ing. Juan C. Montero · Ing. Julieta Viarengo · Ing. Silvina Gentile)* |
 | **Material** | `Clase_09_SIPI_AgileScrumKanban.md` → [`material/clase-09-agile-scrum-kanban.md`](material/clase-09-agile-scrum-kanban.md) |
 | **Cargada por** | Facundo Molina (FM) |
 | **Fecha de carga** | 2026-10-07 |
 
-> ⚠️ **Numeración y fecha ([P-20](../00-proyecto/preguntas-abiertas.md#p-20), [P-28](../00-proyecto/preguntas-abiertas.md#p-28)):**
-> el número `09` es el del **nombre del archivo**. No se asignó fecha: la regla `deck NN = clase NN-1
-> del cronograma` de P-20 no alcanza a explicar esta clase y no la aplicamos a ciegas. Se cargó por
-> **orden** (sigue a la Clase 07) y se habla por fecha cuando el equipo la confirme.
+> ✅ **Fecha ([P-28](../00-proyecto/preguntas-abiertas.md#p-28), resuelta):** FM confirmó que esta clase fue el **23/9**. Con esa
+> fecha la regla de [P-20](../00-proyecto/preguntas-abiertas.md#p-20) (*deck NN = clase NN-1 del cronograma*) cierra: deck 09 =
+> clase 8 del cronograma. ⚠️ Pero el cronograma anuncia para el 23/9 **Taller de Oratoria**, no Agile/Scrum/Kanban: el tema de
+> esta clase **no figura** en el cronograma de ese día.
 >
 > ⚠️ **La tarea del cierre se repite.** El "Para la próxima clase…" de este deck es **textual** el de
 > la Clase 07 (BMC, "terminar de armar el MVP en su totalidad", Presentación de Avance). Parece un
@@ -77,7 +77,8 @@ y entrega constante de valor**. Se basa en **"ser ágil"** (valores y principios
 >   seguir un plan"*, y dos principios: **equipo auto-organizado** y **reflexión sobre la mejora
 >   continua**.
 > - Los cuatro valores completos y los 12 principios **no están en el material**. Si el docente los
->   pide, se cita el Manifiesto original, **no se reconstruye de memoria**.
+>   pide, se cita el Manifiesto original, **no se reconstruye de memoria**. *(Se intentó traerlo de
+>   internet el 2026-10-07: el entorno bloquea `agilemanifesto.org`.)*
 
 ### Scrum
 **Marco ágil** que optimiza la gestión de proyectos con un enfoque **iterativo e incremental**. Está
@@ -205,16 +206,16 @@ siendo las mismas y **ya tienen tarjeta**:
 |---|---|---|---|
 | Armar el P&L | ⬜ Sin asignar | ⬜ | [Armar el P&L](https://trello.com/c/mMTyvp1F) *(Backlog)* |
 | "Terminar de armar el MVP en su totalidad" | Equipo | ⬜ | Cubierto por las tarjetas existentes — ver la lista de pendientes en la [bitácora](../../bitacora/2026-10-07-clases-9-y-10.md) |
-| Presentación de Avance | ⬜ rota según la regla de Sprint Reviews | ⬜ | ⬜ sin tarjeta |
+| Presentación de Avance | ⬜ rota según la regla de Sprint Reviews | ⬜ | ⬜ sin tarjeta propia — ver [Preparar la Sprint Review 1](https://trello.com/c/65jEv8rn) |
 
 ---
 
 ## 5. Dudas que quedaron
 
-- ¿Qué fecha tiene esta clase? → [P-28](../00-proyecto/preguntas-abiertas.md#p-28)
+- ~~¿Qué fecha tiene esta clase?~~ → ✅ 23/9, [P-28](../00-proyecto/preguntas-abiertas.md#p-28) resuelta
 - ¿Quién ocupa PO / Scrum Master, o alcanza con los roles actuales? → [P-29](../00-proyecto/preguntas-abiertas.md#p-29)
 - ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? → [P-31](../00-proyecto/preguntas-abiertas.md#p-31)
-- El texto del Manifiesto Ágil (4 valores, 12 principios) no llegó en la conversión.
+- El texto del Manifiesto Ágil (4 valores, 12 principios) no llegó en la conversión. **Se intentó traerlo de internet (2026-10-07) y no se pudo:** `agilemanifesto.org` y `es.wikipedia.org` están bloqueados por el proxy de salida del entorno. Si alguien lo pega acá, se carga **marcado como fuente externa, no del docente**.
 
 ---
 

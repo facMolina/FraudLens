@@ -2,16 +2,17 @@
 
 | | |
 |---|---|
-| **Fecha** | ⬜ *No consta en el material — a confirmar por el equipo ([P-28](../00-proyecto/preguntas-abiertas.md#p-28))* |
+| **Fecha** | **Miércoles 30/9** *(confirmada por FM, 2026-10-07; no figura en el material)* |
 | **Docente** | Daniel Britez *(deck firmado por la cátedra, ver Clase 09)* |
 | **Material** | `010_-_Clase_09_SIPI_User_Story_Mapping_y_Backlog.md` → [`material/clase-10-user-story-mapping-backlog.md`](material/clase-10-user-story-mapping-backlog.md) |
 | **Cargada por** | Facundo Molina (FM) |
 | **Fecha de carga** | 2026-10-07 |
 
-> ⚠️ **Numeración ([P-20](../00-proyecto/preguntas-abiertas.md#p-20)):** el nombre del archivo trae
-> **dos números a la vez** (`010` y `Clase_09`), igual que pasó con la Clase 07. Se cargó como
-> **Clase 10** por el prefijo y por orden, sin asumir cuál es "el correcto" para el docente.
-> Tampoco se le asignó fecha ([P-28](../00-proyecto/preguntas-abiertas.md#p-28)).
+> ✅ **Fecha ([P-28](../00-proyecto/preguntas-abiertas.md#p-28), resuelta):** FM confirmó que esta clase fue el **30/9**; coincide con el
+> cronograma de ese día (*Definición del MVP, MVP Canvas, MoSCoW*) y con la regla de
+> [P-20](../00-proyecto/preguntas-abiertas.md#p-20) (deck 10 = clase 9 del cronograma).
+> ⚠️ El nombre del archivo trae **dos números a la vez** (`010` y `Clase_09`), igual que el de la Clase 07: se cargó como
+> **Clase 10** por el prefijo y por orden.
 
 ---
 
@@ -196,19 +197,20 @@ las próximas a trabajar con título y Como/Quiero/Para · las menos prioritaria
 
 | Tarea | Responsable | Fecha límite | Trello |
 |---|---|---|---|
-| Armar la propuesta de MVP con User Story Mapping | ⬜ Sin asignar | ⬜ *(el cronograma pide el Product Backlog el 14/10)* | ⬜ **Crear tarjeta** |
-| Plantear los User Flow de las funcionalidades del MVP | ⬜ Sin asignar | ⬜ | ⬜ **Crear tarjeta** |
-| Decidir la herramienta donde se registra el Backlog | ⬜ Equipo | ⬜ | ⬜ **Crear tarjeta** ([P-30](../00-proyecto/preguntas-abiertas.md#p-30)) |
-| Escribir el Product Backlog (HU con criterios de aceptación, refinadas por prioridad) | ⬜ Sin asignar | **14/10** *(entregable, según cronograma)* | ⬜ **Crear tarjeta** |
+| Armar la propuesta de MVP con User Story Mapping | ⬜ Sin asignar | **7/10** | [Tarjeta](https://trello.com/c/mxSfKQw6) |
+| Plantear los User Flow de las funcionalidades del MVP | ⬜ Sin asignar | **7/10** | [Tarjeta](https://trello.com/c/ivQo0hEI) |
+| Decidir la herramienta donde se registra el Backlog | ⬜ Sin asignar | **7/10** | [Tarjeta](https://trello.com/c/kceMBbCj) |
+| Escribir el Product Backlog (HU con criterios de aceptación, refinadas por prioridad) | ⬜ Sin asignar | **14/10** *(entregable)* | [Tarjeta](https://trello.com/c/MhuvgAQX) |
 
-> ⚠️ Estas 4 tarjetas **no existen todavía** en el tablero. Se proponen en la
-> [bitácora](../../bitacora/2026-10-07-clases-9-y-10.md); no se crearon sin que el equipo las revise.
+> ✅ **Tarjetas creadas el 2026-10-07** en 📥 Backlog, sin responsable ni etiqueta de categoría (P-22 sin aprobar). Las fechas de
+> 7/10 son el "para la próxima clase" del deck (la siguiente clase del cronograma). Detalle y las otras 8 tarjetas que salieron de las
+> Clases 09 y 10 en la [bitácora](../../bitacora/2026-10-07-clases-9-y-10.md).
 
 ---
 
 ## 5. Dudas que quedaron
 
-- ¿Qué fecha tiene esta clase? → [P-28](../00-proyecto/preguntas-abiertas.md#p-28)
+- ~~¿Qué fecha tiene esta clase?~~ → ✅ 30/9, [P-28](../00-proyecto/preguntas-abiertas.md#p-28) resuelta
 - ¿Qué actores escriben HU, dado "no hay un único usuario" y la decisión 0005? → [P-32](../00-proyecto/preguntas-abiertas.md#p-32)
 - ¿Con qué herramienta se arma el backlog? → [P-30](../00-proyecto/preguntas-abiertas.md#p-30)
 - ¿El Product Backlog del 14/10 se entrega ya estimado? → [P-31](../00-proyecto/preguntas-abiertas.md#p-31)

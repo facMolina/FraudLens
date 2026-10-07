@@ -48,7 +48,7 @@ de Trello con esa fecha de vencimiento.
 | [P-25](#p-25) | ¿Tenemos acceso a la API de TypeSafe (Jev)? | 🟡 | Equipo | 🟡 **Parcial** — hay consola, falta saldo |
 | [P-26](#p-26) | ¿Qué hace TypeSafe con los datos que recibe? | 🟡 | Equipo | 🔲 Abierta |
 | [P-27](#p-27) | ¿Qué texto/contexto real tendríamos para pasarle a Jev? | 🟡 | Equipo | 🔲 Abierta |
-| [P-28](#p-28) | ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran? | 🟢 | Equipo | 🔲 Abierta |
+| [P-28](#p-28) | ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran? | 🟢 | Equipo | ✅ **Resuelta** |
 | [P-29](#p-29) | ¿Quién ocupa los roles de Scrum (Product Owner, Scrum Master)? | 🟡 | Equipo · Docente | 🔲 Abierta |
 | [P-30](#p-30) | ¿Con qué herramienta registramos el Product Backlog? | 🟡 | Equipo | 🔲 Abierta |
 | [P-31](#p-31) | ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? | 🟡 | Docente 📅 próxima clase | 🔲 Abierta |
@@ -645,20 +645,17 @@ los datasets, que sigue pendiente de FGR ([P-11](#p-11)).
 ## P-28
 ### ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran?
 
-**🔲 Abierta** *(FM, 2026-10-07)*
+**✅ Resuelta** *(FM, 2026-10-07)*
 
-Los decks de [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) (Agile · Scrum · Kanban) y
-[Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) (User Story Mapping · Backlog) se
-cargaron **sin fecha**: el material no la trae y la regla de [P-20](#p-20) (*deck NN = clase NN-1 del
-cronograma*) **no alcanza** para asignarla — el deck 07 es del 9/9 (cronograma: clase 6), pero el 16/9
-fue el parcial y no hay un deck 08 cargado. Además el archivo de la Clase 10 trae `010` y `Clase_09` a la
-vez, como pasó con el de la Clase 07.
+**Respuesta de FM:** la [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) (Agile · Scrum · Kanban) fue el
+**23/9** y la [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) (User Story Mapping · Backlog) fue el **30/9**.
 
-**Impacto:** bajo. No bloquea nada; es para poder hablar por **fechas** (que es lo que recomienda P-20)
-y para saber si falta un deck 08.
+**Lo que esto confirma sobre [P-20](#p-20):** la regla *deck NN = clase NN-1 del cronograma* se sostiene para los decks 07
+(9/9), 09 (23/9) y 10 (30/9), y la clase del 7/10 sería el deck 11. El 16/9 fue el parcial, que no es una clase con deck: es
+compatible con que no haya deck 08, pero **eso no se confirmó**.
 
-**Cómo se responde:** alguien del equipo que estuvo en esas clases confirma las fechas, y si hubo un
-deck 08 que no se cargó.
+**Lo que queda raro:** el cronograma anuncia para el 23/9 **Taller de Oratoria**, y el deck de ese día es Agile/Scrum/Kanban.
+El tema no figura en el cronograma de esa fecha.
 
 ---
 
@@ -681,6 +678,8 @@ proceso" suenen parecidos): puede ser que la cátedra no exija roles Scrum liter
 **Cómo se responde:** el equipo decide si adopta los roles, y se confirma con el docente si hace falta.
 Si se asignan, es una decisión que va a [`docs/03-decisiones/`](../03-decisiones/).
 
+**Tarjeta:** [Definir si el equipo adopta los roles de Scrum](https://trello.com/c/qHAYMWJ5).
+
 ---
 
 ## P-30
@@ -698,6 +697,8 @@ Miro/FigJam + backlog en Trello, o el backlog como archivo del repo. Elegir es u
 puede hacer mal de más de una manera → [6 Sombreros liviano](../04-metodologia/seis-sombreros.md).
 
 **Impacto:** medio. Sin esto no se puede empezar a escribir las historias.
+
+**Tarjeta:** [Decidir la herramienta donde se registra el Product Backlog](https://trello.com/c/kceMBbCj).
 
 ---
 
@@ -718,6 +719,8 @@ tomó nota de que el P&L usa **Horas-Hombre**, que es otra unidad.
 
 **Cuándo preguntar:** en la **próxima clase** — afecta lo que entregamos el 14/10. Se suma a la
 tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) (ya vence el 7/10).
+
+**Tarjetas que dependen de esta respuesta:** [Armar el Sprint 1](https://trello.com/c/MPrYaqYT) · [Preparar la Sprint Review 1](https://trello.com/c/65jEv8rn) · [Escribir el Product Backlog](https://trello.com/c/MhuvgAQX).
 
 ---
 
@@ -740,3 +743,5 @@ un rol que escribe HU? ¿la configuración inicial va como HU de quien despliega
 **Impacto:** medio. Cambia cuántas HU tiene el backlog del 14/10.
 
 **Cómo se responde:** el equipo, al armar el User Story Mapping.
+
+**Tarjeta:** [Armar la propuesta de MVP con User Story Mapping](https://trello.com/c/mxSfKQw6).

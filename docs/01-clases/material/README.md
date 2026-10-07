@@ -13,8 +13,8 @@ Acá se guarda el **material crudo** de cada clase, tal como lo dio el docente, 
 | [`clase-06-oceano-azul.md`](clase-06-oceano-azul.md) | 06 — Ideación · Océano Azul · Benchmarking *(remota 5/9)* | `Clase_06_SIPI_Oceano_Azul` |
 | [`clase-06-oceano-azul-presentacion.md`](clase-06-oceano-azul-presentacion.md) | 06 — La Estrategia del Océano Azul *(complemento)* | `La_Estrategia_del_Oceano_Azul__Presentacion` |
 | [`clase-07-business-model-canvas.md`](clase-07-business-model-canvas.md) | 07 — Roadmap · Modelo de negocio · BMC | `007_-_Clase_08_SIPI_Business_Model_Canvas.md` ⚠️ el nombre trae dos numeraciones distintas (007 / Clase_08), ver P-20 |
-| [`clase-09-agile-scrum-kanban.md`](clase-09-agile-scrum-kanban.md) | 09 — Agile · Scrum · Kanban *(fecha ⬜, ver P-28)* | `Clase_09_SIPI_AgileScrumKanban.md` |
-| [`clase-10-user-story-mapping-backlog.md`](clase-10-user-story-mapping-backlog.md) | 10 — User Story Mapping · Backlog · User Flow · Historias de Usuario *(fecha ⬜, ver P-28)* | `010_-_Clase_09_SIPI_User_Story_Mapping_y_Backlog.md` ⚠️ el nombre dice `010` y `Clase_09` a la vez, ver P-20 |
+| [`clase-09-agile-scrum-kanban.md`](clase-09-agile-scrum-kanban.md) | 09 — Agile · Scrum · Kanban *(23/9)* | `Clase_09_SIPI_AgileScrumKanban.md` |
+| [`clase-10-user-story-mapping-backlog.md`](clase-10-user-story-mapping-backlog.md) | 10 — User Story Mapping · Backlog · User Flow · Historias de Usuario *(30/9)* | `010_-_Clase_09_SIPI_User_Story_Mapping_y_Backlog.md` ⚠️ el nombre dice `010` y `Clase_09` a la vez, ver P-20 |
 
 ---
 
