@@ -203,22 +203,108 @@ Decisión de adopción: [0003](../03-decisiones/0003-metodo-seis-sombreros.md).
 
 ## Metodología ágil
 
-### Sprint 🔜 *(Bloque 3)*
-Iteración de trabajo de duración fija. El cursado tiene **4 sprints**.
+### Sprint ✅ *(Clase 1 y Clase 09)*
+Iteración de trabajo de duración fija. **Duración en esta cátedra: 2 semanas**, y cada sprint tiene un
+**objetivo definido** (ej.: *"Armar mockup"*, *"Armar módulo de IA"*) — *Clase 09*. El deck de la
+Clase 1 decía que el cursado tiene **4 sprints**; el cronograma oficial no lo confirma
+([P-19](preguntas-abiertas.md#p-19), [P-31](preguntas-abiertas.md#p-31)).
 
-### Sprint Review 🔜 *(Bloque 3)*
+### Sprint Review ✅ *(Clase 1 y Clase 09)*
 Instancia donde el equipo presenta los avances del sprint. **Los presentadores rotan semana a
-semana.** Sólo se admite uno desaprobado y un ausente.
+semana.** Sólo se admite uno desaprobado y un ausente. Formato de la cátedra (*Clase 09*): **al final
+de cada sprint, 5 minutos, dos personas por equipo**, contando *¿qué hicieron y cómo? ¿qué problemas
+tuvieron y cómo podemos ayudarlos? ¿qué van a hacer en el próximo sprint?*. En Scrum la facilita el
+**Product Owner**.
 
-### Retrospectiva 🔜 *(Bloque 3)*
+### Retrospectiva / Sprint Retrospective ✅ *(Clase 1 y Clase 09)*
 Reunión de fin de sprint donde el equipo revisa **cómo trabajó** (no qué construyó) y define mejoras.
-Al cierre del cuatrimestre hay una **Big Retro**.
+Al cierre del cuatrimestre hay una **Big Retro**. Reglas de la cátedra (*Clase 09*): **el facilitador
+no es siempre el mismo** y **se documenta en el Trello**.
 
 ### Daily / Weekly ✅ *(Clase 1, mencionadas)*
 Reuniones de seguimiento basadas en lineamientos ágiles.
 
-### SCRUM · KANBAN · Historias de Usuario · Estimación de tareas 🔜 *(Bloque 2)*
-Se dictan en el bloque de planificación. Definiciones a completar cuando se vean.
+### Agilidad / Mindset ágil ✅ *(Clase 09)*
+**Agilidad:** *la capacidad de crear y responder al cambio para tener éxito en un entorno incierto y
+turbulento.* **Mindset ágil:** forma de pensar centrada en colaboración, adaptabilidad, aprendizaje
+continuo y entrega constante de valor; **"ser ágil"** (valores y principios) antes que **"hacer ágil"**
+(prácticas).
+
+### Scrum ✅ *(Clase 09)*
+Marco ágil que optimiza la gestión de proyectos con un enfoque iterativo e incremental, en ciclos
+cortos llamados sprints. **Roles:** **Product Owner** (voz del cliente, define el product backlog,
+valida los entregables de cada sprint) · **Scrum Master** (facilitador, líder servil, remueve
+impedimentos) · **Scrum Team** (5 a 9 personas, interdisciplinario y autoorganizado) ·
+**Stakeholders**. **Reuniones:** **Daily Scrum** · **Sprint Planning** · Sprint Review · Sprint
+Retrospective.
+
+### Kanban ✅ *(Clase 09)*
+Método basado en **visualizar el flujo de trabajo** y mejorarlo de forma continua: tarjetas en un
+tablero con una columna por estado. No es específico del desarrollo de software.
+
+### WIP — Work in Progress ✅ *(Clase 09)*
+Límite de trabajo en curso: foco solo en las tareas actuales para terminar más rápido cada elemento.
+
+### Lead Time / Cycle Time ✅ *(Clase 09)*
+**Lead Time:** desde que se solicita el elemento (se crea en el backlog) hasta que se entrega
+funcional al usuario final. **Cycle Time:** desde que el equipo empieza a trabajarlo activamente
+(*"En Progreso"*) hasta que se completa (*"Done"*).
+
+### PBI — Product Backlog Item ✅ *(Clase 09)*
+Elemento del Product Backlog.
+
+### Story Points · Fibonacci · T-Shirt Sizing ✅ *(Clase 09)*
+**Story Points:** unidades que miden el esfuerzo de una tarea, con escala discreta. **Fibonacci**
+(1, 2, 3, 5, 8, 13, 21 … 40, 100) para features/tareas; **T-Shirt Sizing** (S · M · L · XL) para épicas.
+
+### Planning Poker ✅ *(Clase 09)*
+Técnica de estimación: se describe la HU, se debate, cada persona elige una carta y **a la cuenta de 3
+todos las muestran**; se escucha a los de los extremos (outliers) y se repite si no hay consenso. Lo
+que importa es la conversación, no el puntaje.
+
+### DoD — Definition of Done ✅ *(Clase 09)*
+Definición de cuándo una historia está terminada; se acuerda **de antemano**, antes de estimar.
+
+### User Story Mapping (USM) ✅ *(Clase 10)*
+Manera visual y colaborativa de definir el **mapa de funcionalidades** de un producto, ordenado por
+prioridad. 4 pasos: objetivo del usuario → User Journey → descomponer en tareas → definir MVP y
+releases (línea punteada). Permite ver qué entra al MVP y qué a futuros releases.
+
+### Product Backlog / Sprint Backlog ✅ *(Clase 10)*
+**Product Backlog:** lista dinámica de los elementos del producto; lo de mayor prioridad está más
+refinado. **Sprint Backlog:** los PBI de mayor prioridad que se planifican para una iteración.
+
+### User Flow / Diagrama de flujo ✅ *(Clase 10)*
+**User Flow:** el camino que sigue un usuario al interactuar con un producto, desde que accede hasta
+que completa la acción deseada. Se representa con **diagramas de flujo** (izquierda→derecha,
+arriba→abajo, sin cruzar líneas), con formas distintas para decisiones del usuario y del sistema.
+
+### Historia de Usuario (HU) ✅ *(Clase 10)*
+Descripción breve de algo que el cliente quiere. **Título:** verbo en infinitivo. **Formato:** *Como*
+[rol] *quiero* [funcionalidad] *para* [objetivo]. Debe cumplir las **3 C's**: **Card** (cabe en una
+tarjeta), **Conversación** (se completa hablando, sin ambigüedad), **Confirmación** (criterios para
+saber si está terminada).
+
+### Criterios de aceptación ✅ *(Clase 10)*
+Requerimientos que deben cumplirse para dar por terminada una HU. Formato: **Dado** [precondición]
+**cuando** [acción] **entonces** [consecuencia].
+
+### INVEST ✅ *(Clase 10)*
+Cómo saber si una HU es buena: **I**ndependiente · **N**egociable · **V**alorable · **E**stimable ·
+**S**mall · **T**esteable.
+
+### MoSCoW ✅ *(Clase 10)*
+Priorización: **Must** (necesario en el sprint) · **Should** (importante pero no necesario) · **Could**
+(deseable, mejora la experiencia a bajo costo) · **Won't** (menor criticidad, bajo valor o no
+apropiado *en este momento* — en el futuro, puede ser).
+
+### Épica ✅ *(Clase 10)*
+Historia de usuario tan grande que el equipo la descompone en historias de tamaño manejable.
+
+### SPIDR / Spike ✅ *(Clase 10)*
+Criterio para partir épicas: **S**pikes · **P**aths · **I**nterfaces · **D**ata · **R**ules. Un
+**Spike** es una investigación o prueba de concepto cuyo objetivo es **determinar qué hay que hacer
+en otra HU** (ej.: ¿podemos integrarnos con Mercado Pago?).
 
 ---
 

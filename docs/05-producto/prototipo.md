@@ -1,8 +1,18 @@
 # Prototipo de FraudLens
 
-> **Estado:** 🟡 existe, pero **no está documentado ni versionado** en este repositorio.
+> **Estado:** 🟡 existe en un **repositorio propio** (ver abajo), pero **no está documentado a fondo** en este repo.
 > **Autor:** Francisco Daniel Guerrero Rojas (FGR)
 > **Registrado acá:** 2026-09-02 por FM, a partir de lo que FGR compartió por WhatsApp.
+> **Link del repositorio agregado:** 2026-10-07 por FM.
+
+## Dónde vive
+
+**Repositorio:** https://github.com/fguerrero2/FraudLens-prototipo *(link que pasó FM, 2026-09-17)*.
+
+> ⚠️ **Es solo un prototipo, sin lógica** *(aclaración del equipo, 2026-09-17)*. La interfaz existe y se
+> puede mostrar — hay una captura del dashboard en la presentación del 1° Parcial —, pero **no hay un
+> modelo ni reglas funcionando detrás**: las transacciones que se ven son datos de prueba. **No es el
+> repositorio del MVP** (eso arranca según el cronograma, ver [P-05](../00-proyecto/preguntas-abiertas.md#p-05)).
 
 ## Qué hay
 
@@ -17,8 +27,8 @@ Francisco armó un prototipo funcional de FraudLens:
 
 ## Qué falta
 
-- [ ] **¿Dónde vive el código?** ¿Repo de GitHub, carpeta local, otra cosa? → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
-- [ ] Link al repositorio del prototipo
+- [x] **¿Dónde vive el código?** → repo de GitHub de FGR, ver arriba. Falta decidir dónde vive **el del MVP** → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
+- [x] Link al repositorio del prototipo
 - [ ] Qué stack usa realmente (lenguaje, framework, librerías) → [P-10](../00-proyecto/preguntas-abiertas.md#p-10)
 - [ ] Qué dataset usa y si es el mismo "dataset de casos de prueba" del que habló el equipo → [P-11](../00-proyecto/preguntas-abiertas.md#p-11)
 - [ ] Cómo se levanta y se prueba

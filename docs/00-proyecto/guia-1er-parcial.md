@@ -114,7 +114,7 @@ frontend con Codex, sobre el notebook de Kaggle [*Fraud Detection Full Project i
 Spanish*](https://www.kaggle.com/code/carmencastrogonzlez/fraud-detection-full-project-in-spanish)
 (`carmencastrogonzlez`), citado. Ver [`prototipo.md`](../05-producto/prototipo.md).
 
-No está en un repo propio todavía, ni linkeado. Discurso sugerido: *"Existe un prototipo de
+**Actualización (2026-10-07):** el prototipo **sí tiene repo propio**: https://github.com/fguerrero2/FraudLens-prototipo. Es solo interfaz, sin lógica detrás. El repo **del MVP** sigue sin existir. Discurso que se sugirió para la oral del 16/9: *"Existe un prototipo de
 validación técnica sobre un dataset y un notebook público citados; el repositorio del MVP en sí
 arranca recién el 7/10 según el cronograma, después de cerrar el alcance con el User Research."*
 Decisión [0005](../03-decisiones/0005-recorte-alcance-mvp.md) — el MVP es explícitamente una

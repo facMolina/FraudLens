@@ -58,7 +58,7 @@ la sumatoria de lo que vamos produciendo clase a clase:
 | Benchmarking / Océano Azul | Competencia y diferenciación | [`docs/05-producto/benchmarking.md`](../05-producto/benchmarking.md) | 🟢 Primera vuelta hecha — es continuo |
 | Roadmap | Evolución del producto | [`problema.md` — Líneas futuras](../05-producto/problema.md#líneas-futuras--próximas-versiones) | 🟡 Lista inicial, sin priorizar |
 | Modelo de negocio | BMC · P&L | [`docs/05-producto/modelo-negocio.md`](../05-producto/modelo-negocio.md) | 🟡 BMC como hipótesis, sin validar. Falta P&L |
-| Planificación ágil | Sprints, historias de usuario, estimaciones | ⬜ | 🔲 No empezado |
+| Planificación ágil | Sprints, historias de usuario, estimaciones | [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) · [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) *(teoría cargada)* | 🔲 **Backlog no empezado** — es el entregable del 14/10 |
 | Diseño | Identidad visual, logo, paleta de colores | [`docs/05-producto/identidad/`](../05-producto/identidad/) | ✅ Cerrado |
 | Métricas | OKRs · KPIs | ⬜ | 🔲 No empezado |
 | Producto | MVP funcionando + demo | [`docs/05-producto/prototipo.md`](../05-producto/prototipo.md) | 🔴 Sólo existe el prototipo de FGR, sin documentar dónde vive el código |

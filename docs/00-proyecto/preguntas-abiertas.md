@@ -48,6 +48,11 @@ de Trello con esa fecha de vencimiento.
 | [P-25](#p-25) | ¿Tenemos acceso a la API de TypeSafe (Jev)? | 🟡 | Equipo | 🟡 **Parcial** — hay consola, falta saldo |
 | [P-26](#p-26) | ¿Qué hace TypeSafe con los datos que recibe? | 🟡 | Equipo | 🔲 Abierta |
 | [P-27](#p-27) | ¿Qué texto/contexto real tendríamos para pasarle a Jev? | 🟡 | Equipo | 🔲 Abierta |
+| [P-28](#p-28) | ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran? | 🟢 | Equipo | 🔲 Abierta |
+| [P-29](#p-29) | ¿Quién ocupa los roles de Scrum (Product Owner, Scrum Master)? | 🟡 | Equipo · Docente | 🔲 Abierta |
+| [P-30](#p-30) | ¿Con qué herramienta registramos el Product Backlog? | 🟡 | Equipo | 🔲 Abierta |
+| [P-31](#p-31) | ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? | 🟡 | Docente 📅 próxima clase | 🔲 Abierta |
+| [P-32](#p-32) | ¿Qué actores escriben Historias de Usuario, dado "no hay un único usuario" y la decisión 0005? | 🟡 | Equipo | 🔲 Abierta |
 
 ---
 
@@ -634,3 +639,104 @@ los datasets, que sigue pendiente de FGR ([P-11](#p-11)).
 
 **Tarjetas:** [Validar Jev con una muestra del dataset 3](https://trello.com/c/EYxcS7tu) ·
 [Modelos de IA a utilizar](https://trello.com/c/HgigLF8C).
+
+---
+
+## P-28
+### ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran?
+
+**🔲 Abierta** *(FM, 2026-10-07)*
+
+Los decks de [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) (Agile · Scrum · Kanban) y
+[Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) (User Story Mapping · Backlog) se
+cargaron **sin fecha**: el material no la trae y la regla de [P-20](#p-20) (*deck NN = clase NN-1 del
+cronograma*) **no alcanza** para asignarla — el deck 07 es del 9/9 (cronograma: clase 6), pero el 16/9
+fue el parcial y no hay un deck 08 cargado. Además el archivo de la Clase 10 trae `010` y `Clase_09` a la
+vez, como pasó con el de la Clase 07.
+
+**Impacto:** bajo. No bloquea nada; es para poder hablar por **fechas** (que es lo que recomienda P-20)
+y para saber si falta un deck 08.
+
+**Cómo se responde:** alguien del equipo que estuvo en esas clases confirma las fechas, y si hubo un
+deck 08 que no se cargó.
+
+---
+
+## P-29
+### ¿Quién ocupa los roles de Scrum (Product Owner, Scrum Master)?
+
+**🔲 Abierta** *(FM, 2026-10-07)*
+
+La [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) define tres roles — **Product Owner** (define
+el product backlog, valida los entregables de cada sprint, facilita la Sprint Review), **Scrum Master**
+(facilita, remueve impedimentos) y **Scrum Team** (5 a 9 personas) — y habla de un *team leader* que
+facilita el Sprint Planning. Nuestros roles actuales son otros: referente de **proceso**, **técnico**,
+**producto** y **documentación** ([`equipo.md`](equipo.md)), y somos **4**.
+
+**No se asigna PO ni Scrum Master por deducción** (aunque "referente de producto" y "referente de
+proceso" suenen parecidos): puede ser que la cátedra no exija roles Scrum literales.
+
+**Impacto:** medio. El PO es quien escribe el backlog que se entrega el 14/10.
+
+**Cómo se responde:** el equipo decide si adopta los roles, y se confirma con el docente si hace falta.
+Si se asignan, es una decisión que va a [`docs/03-decisiones/`](../03-decisiones/).
+
+---
+
+## P-30
+### ¿Con qué herramienta registramos el Product Backlog?
+
+**🔲 Abierta** *(FM, 2026-10-07)*
+
+La [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) pide explícitamente **decidir la
+herramienta donde el equipo registrará su Backlog**. El deck muestra Miro, FigJam y Lucidspark para
+armar el mapa; la [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) nombra **Trello** como la
+herramienta del sprint, y ya es nuestro tablero.
+
+**Opciones a evaluar** *(no decididas)*: seguir en Trello (backlog y sprint en el mismo lugar), mapa en
+Miro/FigJam + backlog en Trello, o el backlog como archivo del repo. Elegir es una decisión que se
+puede hacer mal de más de una manera → [6 Sombreros liviano](../04-metodologia/seis-sombreros.md).
+
+**Impacto:** medio. Sin esto no se puede empezar a escribir las historias.
+
+---
+
+## P-31
+### ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog?
+
+**🔲 Abierta** *(FM, 2026-10-07)*
+
+La Clase 09 dice **sprints de 2 semanas con objetivo definido**, Sprint Review de 5 minutos con dos
+personas, y estimación con Story Points. El cronograma oficial solo lista Sprint Review el 14/10, 21/10
+(rotulada "Sprint Review 1" igual que la del 14/10), 28/10 y 4/11 — ver [P-19](#p-19).
+
+**Qué no sabemos:** la fecha de inicio del Sprint 1 · cuántos sprints son · cuál es el objetivo de cada
+uno · si el **Product Backlog del 14/10** se entrega **ya estimado** (Story Points) o sin estimar. Se
+tomó nota de que el P&L usa **Horas-Hombre**, que es otra unidad.
+
+**Impacto:** medio. Define qué entra en el backlog que se entrega y cómo se lo presenta.
+
+**Cuándo preguntar:** en la **próxima clase** — afecta lo que entregamos el 14/10. Se suma a la
+tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) (ya vence el 7/10).
+
+---
+
+## P-32
+### ¿Qué actores escriben Historias de Usuario, dado "no hay un único usuario" y la decisión 0005?
+
+**🔲 Abierta** *(FM, 2026-10-07)*
+
+La [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) advierte: *"si diseñamos las HU
+pensando en un solo usuario entonces perderemos HU — error muy frecuente"*. La
+[decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) dejó **un solo tipo de usuario (Analista)**
+en el MVP y recortó al Administrador. Pero los
+[requerimientos](../05-producto/requerimientos-funcionales-mvp.md#3-actores) tienen otro actor que no es
+una persona: el **sistema cliente**, que envía las transacciones por API (CU-01), y hay una configuración
+inicial fija (CU-02, CU-07) que alguien tiene que cargar.
+
+**No se trata de re-discutir la decisión 0005**, sino de **no perder historias**: ¿el sistema cliente es
+un rol que escribe HU? ¿la configuración inicial va como HU de quien despliega el sistema?
+
+**Impacto:** medio. Cambia cuántas HU tiene el backlog del 14/10.
+
+**Cómo se responde:** el equipo, al armar el User Story Mapping.
