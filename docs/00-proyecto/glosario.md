@@ -230,6 +230,12 @@ turbulento.* **Mindset ágil:** forma de pensar centrada en colaboración, adapt
 continuo y entrega constante de valor; **"ser ágil"** (valores y principios) antes que **"hacer ágil"**
 (prácticas).
 
+### Manifiesto Ágil ✅ *(Clase 09 — texto: fuente externa)*
+Declaración de 2001 de 17 autores. Dice que **valoramos más**: *individuos e interacciones* sobre procesos y herramientas · *software
+funcionando* sobre documentación extensiva · *colaboración con el cliente* sobre negociación contractual · *respuesta ante el cambio* sobre
+seguir un plan. El deck de la Clase 09 muestra solo una de las cuatro frases y nombra 12 principios cuyo texto no llegó: ver la
+[nota de la Clase 09](../01-clases/clase-09-agile-scrum-kanban.md#manifiesto-por-el-desarrollo-ágil-de-software).
+
 ### Scrum ✅ *(Clase 09)*
 Marco ágil que optimiza la gestión de proyectos con un enfoque iterativo e incremental, en ciclos
 cortos llamados sprints. **Roles:** **Product Owner** (voz del cliente, define el product backlog,

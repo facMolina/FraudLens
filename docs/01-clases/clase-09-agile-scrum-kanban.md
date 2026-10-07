@@ -11,7 +11,8 @@
 > ✅ **Fecha ([P-28](../00-proyecto/preguntas-abiertas.md#p-28), resuelta):** FM confirmó que esta clase fue el **23/9**. Con esa
 > fecha la regla de [P-20](../00-proyecto/preguntas-abiertas.md#p-20) (*deck NN = clase NN-1 del cronograma*) cierra: deck 09 =
 > clase 8 del cronograma. ⚠️ Pero el cronograma anuncia para el 23/9 **Taller de Oratoria**, no Agile/Scrum/Kanban: el tema de
-> esta clase **no figura** en el cronograma de ese día.
+> esta clase **no figura** en el cronograma de ese día. **FM: "parece que el profe cambió de fecha esa clase"** (2026-10-07) — es una impresión, **no
+> está confirmada**, y no se modificó el cronograma.
 >
 > ⚠️ **La tarea del cierre se repite.** El "Para la próxima clase…" de este deck es **textual** el de
 > la Clase 07 (BMC, "terminar de armar el MVP en su totalidad", Presentación de Avance). Parece un
@@ -68,17 +69,39 @@ Forma de pensar y abordar el trabajo centrada en **colaboración, adaptabilidad,
 y entrega constante de valor**. Se basa en **"ser ágil"** (valores y principios) **antes** que
 **"hacer ágil"** (prácticas): abrazar el cambio y priorizar a las personas por sobre procesos rígidos.
 
-### El corazón de la agilidad y el Manifiesto Ágil
-> ⬜ **Hueco del material.** Las diapositivas "¿Qué es el corazón de la agilidad?" y "12 principios
-> del Manifiesto" son casi todo imagen. Se rescata solo esto, **sin armar el resto**:
-> - Se lee, desordenado: *propósito · espacio común · innovación · equipos multidisciplinarios ·
->   entender · vulnerabilidad · ofrecer confianza · pedir ayuda*.
-> - Del manifiesto se lee con claridad **una** frase: *"Respuesta ante el cambio por encima de
->   seguir un plan"*, y dos principios: **equipo auto-organizado** y **reflexión sobre la mejora
->   continua**.
-> - Los cuatro valores completos y los 12 principios **no están en el material**. Si el docente los
->   pide, se cita el Manifiesto original, **no se reconstruye de memoria**. *(Se intentó traerlo de
->   internet el 2026-10-07: el entorno bloquea `agilemanifesto.org`.)*
+### El corazón de la agilidad
+> ⬜ **Hueco del material.** La diapositiva "¿Qué es el corazón de la agilidad?" es casi todo imagen. Se lee, desordenado: *propósito · espacio
+> común · innovación · equipos multidisciplinarios · entender · vulnerabilidad · ofrecer confianza · pedir ayuda*. **No se armó nada más a partir de eso.**
+> Del slide "12 principios" solo se leen dos títulos: **equipo auto-organizado** y **reflexión sobre la mejora continua**.
+
+### Manifiesto por el Desarrollo Ágil de Software
+> ⚠️ **Fuente externa, NO es del deck ni del docente.** Texto completo de la declaración, transcripto de una **captura que aportó FM
+> (2026-10-07)** de la versión en español. El deck solo muestra una de las cuatro frases. La declaración pide que se copie **sólo de forma
+> íntegra**: por eso se transcribe completa, con firmantes y nota de copyright.
+
+*Estamos descubriendo formas mejores de desarrollar software tanto por nuestra propia experiencia como ayudando a terceros. A través de este
+trabajo hemos aprendido a valorar:*
+
+| Valoramos más… | …que |
+|---|---|
+| **Individuos e interacciones** | procesos y herramientas |
+| **Software funcionando** | documentación extensiva |
+| **Colaboración con el cliente** | negociación contractual |
+| **Respuesta ante el cambio** | seguir un plan |
+
+*Esto es, aunque valoramos los elementos de la derecha, valoramos más los de la izquierda.*
+
+**Firmantes:** Kent Beck · Mike Beedle · Arie van Bennekum · Alistair Cockburn · Ward Cunningham · Martin Fowler · James Grenning · Jim
+Highsmith · Andrew Hunt · Ron Jeffries · Jon Kern · Brian Marick · Robert C. Martin · Steve Mellor · Ken Schwaber · Jeff Sutherland · Dave Thomas.
+
+*© 2001, los autores mencionados. Mediante esta nota se autoriza la copia y distribución de esta declaración a través de cualquier medio, pero sólo
+de forma íntegra.*
+
+Coincide con lo que se leía en el deck: *"Respuesta ante el cambio por encima de seguir un plan"* es el cuarto valor (el deck dice "por encima de";
+la declaración dice "sobre").
+
+> ⬜ **Siguen faltando los 12 principios.** La captura es solo la página de los valores. El deck los nombra ("12 principios del Manifiesto") pero su
+> texto no llegó en la conversión. Se cargan cuando alguien aporte la captura de esa página; **no se reconstruyen de memoria**.
 
 ### Scrum
 **Marco ágil** que optimiza la gestión de proyectos con un enfoque **iterativo e incremental**. Está
@@ -215,7 +238,7 @@ siendo las mismas y **ya tienen tarjeta**:
 - ~~¿Qué fecha tiene esta clase?~~ → ✅ 23/9, [P-28](../00-proyecto/preguntas-abiertas.md#p-28) resuelta
 - ¿Quién ocupa PO / Scrum Master, o alcanza con los roles actuales? → [P-29](../00-proyecto/preguntas-abiertas.md#p-29)
 - ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? → [P-31](../00-proyecto/preguntas-abiertas.md#p-31)
-- El texto del Manifiesto Ágil (4 valores, 12 principios) no llegó en la conversión. **Se intentó traerlo de internet (2026-10-07) y no se pudo:** `agilemanifesto.org` y `es.wikipedia.org` están bloqueados por el proxy de salida del entorno. Si alguien lo pega acá, se carga **marcado como fuente externa, no del docente**.
+- ✅ Los **4 valores** del Manifiesto ya están (captura de FM, fuente externa). ⬜ Faltan los **12 principios**: se intentó traerlos de internet el 2026-10-07 y `agilemanifesto.org` y `es.wikipedia.org` están bloqueados por el proxy de salida del entorno; hace falta una captura de esa página.
 
 ---
 

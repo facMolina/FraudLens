@@ -651,11 +651,13 @@ los datasets, que sigue pendiente de FGR ([P-11](#p-11)).
 **23/9** y la [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) (User Story Mapping · Backlog) fue el **30/9**.
 
 **Lo que esto confirma sobre [P-20](#p-20):** la regla *deck NN = clase NN-1 del cronograma* se sostiene para los decks 07
-(9/9), 09 (23/9) y 10 (30/9), y la clase del 7/10 sería el deck 11. El 16/9 fue el parcial, que no es una clase con deck: es
+(9/9), 09 (23/9) y 10 (30/9). El 16/9 fue el parcial, que no es una clase con deck: es
 compatible con que no haya deck 08, pero **eso no se confirmó**.
 
 **Lo que queda raro:** el cronograma anuncia para el 23/9 **Taller de Oratoria**, y el deck de ese día es Agile/Scrum/Kanban.
-El tema no figura en el cronograma de esa fecha.
+El tema no figura en el cronograma de esa fecha. **FM (2026-10-07): "parece que el profe cambió de fecha esa clase".** Es una impresión,
+**no está confirmada**; si el cronograma cambió, [`cronograma.md`](cronograma.md) puede estar desactualizado y **no se tocó**.
+⬜ Abierto: ¿hay un cronograma actualizado del docente?
 
 ---
 
