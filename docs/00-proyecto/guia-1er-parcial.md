@@ -6,6 +6,8 @@
 > Armada por FM (con Claude Code) el mismo día del parcial, con el estado del repo a esa fecha.
 > Referencia: tarjeta [🔴 1° PARCIAL](https://trello.com/c/3w2I0Een) en Trello.
 
+> ✅ **Resultado (2026-10-07, informado por FM):** el 1° Parcial salió con **nota 9 para los cuatro integrantes**. La devolución cualitativa del docente **no está registrada**.
+
 Leyenda: ✅ listo · 🟡 parcial/en curso · 🔴 no empezado o hueco real.
 
 ---

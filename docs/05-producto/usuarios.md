@@ -9,7 +9,7 @@
 
 > 🔄 **2026-09-14 — Perfil B y C redefinidos.** El equipo decidió que el enfoque del proyecto es
 > llegar a **empresas fintech y bancos tradicionales**, no comercio chico. Ver
-> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). Lo que sigue abajo
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md). Lo que sigue abajo
 > ya refleja esa redefinición; la versión original del 2/9 (comercio chico) queda documentada en el
 > [análisis de 6 sombreros del 2/9](analisis/6-sombreros-usuario-objetivo.md) como parte del
 > historial de la decisión.
@@ -48,7 +48,7 @@ día y quien toma la decisión que FraudLens asiste.
 tradicional, y es quien evalúa e integra una solución antifraude como FraudLens.
 
 > 🔄 **Redefinido el 2026-09-14** — antes era "dueño de comercio/e-commerce chico". Ver
-> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md) y el
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md) y el
 > [análisis de 6 sombreros](analisis/6-sombreros-enfoque-fintech.md).
 
 - **Qué buscamos entender:** cómo gestiona hoy el riesgo de fraude, qué le exige la normativa (las
@@ -65,13 +65,15 @@ tradicional, y es quien evalúa e integra una solución antifraude como FraudLen
 
 > 🔄 **Redefinido el 2026-09-14** — antes era "consumidor" genérico. Ahora es específicamente
 > alguien que usa una fintech/billetera/pasarela (ej. Mercado Pago, Ualá, Modo). Ver
-> [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
+> [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
 
 - **Qué buscamos entender:** la experiencia del fraude vivido, y sobre todo **el falso positivo** —
   que te rechacen una compra o transferencia legítima en el peor momento. Es el costo invisible que
   nadie mide.
 - **Por qué está:** hace que el research tenga **datos reales en cantidad**, que es lo que el
   docente exige, sin depender de conseguir entrevistas.
+
+> 🔎 **Primer dato de la encuesta (2026-10-07, 28 respuestas, sin validar):** a la pregunta de cuál situación genera más inconveniente, **19 de 28** eligieron *"que se apruebe una operación que no hice"*, **8** *"ambas por igual"* y **1** *"que rechacen una compra legítima"*. El texto de arriba ("sobre todo el falso positivo") **no se modificó**: lo tiene que revisar el equipo. Ver [`encuesta-perfil-c-analisis.md`](encuesta-perfil-c-analisis.md#5-qué-dice-esto-frente-a-lo-que-el-repo-daba-por-hipótesis).
 
 ## Qué se descartó y por qué
 
@@ -99,7 +101,7 @@ para corregir eso, no para justificarlo.
 ## Relación con P-07
 
 El **tipo de cliente** (empresas fintech y bancos tradicionales, no comercio chico) quedó decidido
-por el equipo el 2026-09-14 — ver [decisión 0004](../../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
+por el equipo el 2026-09-14 — ver [decisión 0004](../03-decisiones/0004-enfoque-cliente-fintech-bancos.md).
 
 Pero esto **no cierra del todo** [P-07](../00-proyecto/preguntas-abiertas.md#p-07): falta confirmar
 si *el* usuario objetivo del MVP (a quién se le diseña la interfaz, el dashboard, el pitch) es el

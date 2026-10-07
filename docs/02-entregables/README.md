@@ -7,7 +7,7 @@
 
 | Instancia | Fecha | Estado | Notas |
 |---|---|---|---|
-| 🔴 **1° PARCIAL** | **miércoles 16/9** | 🔲 | Instancia de evaluación 1 de 2 |
+| 🔴 **1° PARCIAL** | **miércoles 16/9** | ✅ **Nota 9 — los 4 integrantes** | Instancia de evaluación 1 de 2. *Nota informada por FM (2026-10-07); la devolución cualitativa del docente no está registrada* |
 | Entregable: Solución elegida + narrativa | miércoles 23/9 | 🔲 | Clase de Taller de Oratoria |
 | Entregable: Product Backlog | miércoles 14/10 | 🔲 | Sprint Review 1 · Retrospectiva grupal 1 |
 | Entregable: Prototipo clickeable (Figma \| Código) | miércoles 21/10 | 🔲 | Taller UX/UI · Sprint Review 1 |
@@ -53,7 +53,7 @@ la sumatoria de lo que vamos produciendo clase a clase:
 |---|---|---|---|
 | Problema | Definición, Árbol de Problemas, 5 Por Qué, reformulaciones, narrativa | [`docs/05-producto/problema.md`](../05-producto/problema.md) | 🟢 Avanzado — falta validar con research |
 | Usuarios | Segmentación, target, 3 perfiles | [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) | ✅ Escrito |
-| User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🟡 Entrevistas A y B realizadas; encuesta C pendiente |
+| User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🟡 Entrevistas A y B realizadas; encuesta C con **28 respuestas** y primer análisis sin validar ([análisis](../05-producto/encuesta-perfil-c-analisis.md)) |
 | Ideación y solución | Design Thinking, alternativas, grilla de priorización | [`docs/05-producto/ideacion.md`](../05-producto/ideacion.md) | 🟡 Borrador, pendiente de validar |
 | Benchmarking / Océano Azul | Competencia y diferenciación | [`docs/05-producto/benchmarking.md`](../05-producto/benchmarking.md) | 🟢 Primera vuelta hecha — es continuo |
 | Roadmap | Evolución del producto | [`problema.md` — Líneas futuras](../05-producto/problema.md#líneas-futuras--próximas-versiones) | 🟡 Lista inicial, sin priorizar |

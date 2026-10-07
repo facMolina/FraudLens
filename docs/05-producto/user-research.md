@@ -12,7 +12,7 @@
 
 El User Research partió de cero. A la fecha de esta actualización hay **2 entrevistas registradas
 (Perfiles A y B) y 0 encuestas completadas**. Este plan no inventa datos — documenta cómo se
-consiguen y analizan. La encuesta del Perfil C sigue pendiente.
+consiguen y analizan. La encuesta del Perfil C sigue pendiente. *(Actualización 2026-10-07: ya hay 28 respuestas cargadas — ver [análisis](encuesta-perfil-c-analisis.md).)*
 
 Dos relojes corren sobre esto:
 
@@ -37,7 +37,7 @@ criterio explícito. No se vuelve a discutir acá:
 |---|---|---|
 | **A · Analista de fraude** | **Nicolás** | Entrevista realizada |
 | **B · Analista de producto** | **Agustín** | Entrevista realizada |
-| **C · Usuario final** | **Encuesta abierta** | Disponible para difusión; falta recopilar y analizar respuestas |
+| **C · Usuario final** | **Encuesta** | **28 respuestas** (16/9 al 22/9), cargadas y con primer análisis sin validar: [datos](encuesta-perfil-c-respuestas.md) · [análisis](encuesta-perfil-c-analisis.md) |
 
 ## Qué tiene que responder cada instrumento
 
@@ -161,6 +161,9 @@ una compra legítima — y cuál pesa más en la experiencia.
 6. *(opcional, abierta)* Contanos brevemente qué pasó la última vez.
 7. Edad *(rango)* · Con qué frecuencia comprás online *(rango)* — al final.
 
+> ⚠️ **Actualización 2026-10-07:** el export de respuestas muestra que el formulario **efectivamente difundido tiene 11 preguntas** y otras opciones que
+> las de esta lista (que es el diseño previo). **Para lo que se respondió vale el export:** ver [`encuesta-perfil-c-respuestas.md`](encuesta-perfil-c-respuestas.md).
+
 ## Cuántas respuestas buscamos, y por qué alcanza
 
 Por [P-17](../00-proyecto/preguntas-abiertas.md#p-17): las 400 respuestas de la Clase 4 son una
@@ -205,8 +208,8 @@ reformulaciones de [`problema.md`](problema.md), se corrigen esos documentos —
 
 - [x] Guía de entrevista del perfil A revisada por el equipo
 - [x] Encuesta del perfil C armada
-- [ ] Encuesta del perfil C difundida y con respuestas recopiladas
+- [x] Encuesta del perfil C difundida y con respuestas recopiladas — **28** *(el plan proponía 80-100)*
 - [x] Al menos 1 entrevista de cada perfil A y B realizada
-- [ ] Primeras respuestas de la encuesta cargadas y analizadas
+- [x] Primeras respuestas de la encuesta cargadas y analizadas — [datos](encuesta-perfil-c-respuestas.md) · [análisis](encuesta-perfil-c-analisis.md) *(primer análisis, **falta la revisión del equipo**)*
 - [ ] Hallazgos volcados en `usuarios.md` y contrastados contra `problema.md` y
       `requerimientos-funcionales-mvp.md`
