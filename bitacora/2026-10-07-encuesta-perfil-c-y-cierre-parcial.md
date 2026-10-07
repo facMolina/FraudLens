@@ -79,7 +79,17 @@ diapositiva 11 de la presentación en PDF del parcial** dice que es *"un prototi
 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
-| Ejecutar el prototipo y sus 12 tests para confirmar lo que dice el código | ⬜ | ⬜ |
+| Ejecutar el prototipo y sus 12 tests para confirmar lo que dice el código | MDV y FGR *(según FM; ver abajo)* | ⬜ |
 | Citar bien el notebook de Kaggle y declarar el uso de IA en el repo de FGR; confirmar qué generó cada herramienta | FGR | ⬜ |
 | Decidir si el MVP parte del código del prototipo o arranca de cero (P-05) | Equipo | ⬜ |
 | Contrastar el total de respuestas del Form con las 28 del export (solo lo ve un editor) | FM | ⬜ |
+
+---
+
+## Cuarta parte — decisiones de FM
+
+- **Presentación en PDF del parcial:** no se actualiza por cada cambio. **Se actualiza todo junto cuando se acerque el 2° Parcial (11/11).** Hasta entonces la diapositiva 11 queda desactualizada.
+- **Quién ejecuta el prototipo y los tests:** *"están MDV y FGR. MDV está con lo de Jev para aplicar y FGR tiene la iniciativa del prototipo"* (FM). Se registra tal cual; **no es una asignación formal** de la tarea de ejecutar.
+- **Tarjeta [Preguntar al profe: huecos del cronograma](https://trello.com/c/16leWNGS): desestimada** por FM y **archivada**. Las preguntas **siguen abiertas** en `preguntas-abiertas.md` (P-19, P-29, P-31). Ojo: [Armar el Sprint 1](https://trello.com/c/MPrYaqYT) quedó bloqueada por P-31 y
+  [Preparar la Sprint Review 1](https://trello.com/c/65jEv8rn) depende de la misma pregunta, y **ya no hay un recordatorio con fecha para preguntarla**.
+- **Preguntas para FGR** dejadas como comentario en la tarjeta [Documentar el prototipo de FGR](https://trello.com/c/DC1vH1F6), con mención a su usuario de Trello: 13 preguntas sobre autoría de IA, citas, modelo, datasets, alcance, estado del repo y ejecución.

@@ -98,7 +98,7 @@ reglas**; no son filas escritas a mano en la interfaz.
 - [x] Qué dataset usa → **ninguno** en el repo; no usa los 3 de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md) ([P-11](../00-proyecto/preguntas-abiertas.md#p-11))
 - [x] Cómo se levanta → `docker compose up --build` desde `Backend/` (y `docker compose exec backend npm run seed` para datos de demo), según el README. **Sin ejecutar**
 - [x] Qué casos de uso están implementados → los 7, según el código. **Sin ejecutar**
-- [ ] **Ejecutar el prototipo y los 12 tests** para confirmar que lo que dice el código ocurre
+- [ ] **Ejecutar el prototipo y los 12 tests** para confirmar que lo que dice el código ocurre *(FM, 2026-10-07: "están MDV y FGR"; no es una asignación formal)*
 - [ ] **Citar bien el notebook de Kaggle** (título y link) y **declarar el uso de IA** en el repo de FGR
 - [ ] Decidir **qué se hace con este código en el MVP** (¿se parte de él o se arranca de cero?) → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
 - [ ] Confirmar con FGR **qué partes generó cada herramienta de IA** (el repo no lo dice)

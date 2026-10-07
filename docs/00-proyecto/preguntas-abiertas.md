@@ -440,6 +440,8 @@ una persona, y el *administrador* es un rol de configuración sin dolor propio.
 
 Las dos tienen su tarjeta en Trello con esa fecha de vencimiento.
 
+> 🗑️ **Tarjeta desestimada (2026-10-07, decisión de FM):** la tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) se **archivó**. **Las preguntas siguen abiertas en este archivo**; sin esa tarjeta no hay un recordatorio con fecha. La tarjeta de The Pitch (25/11) sigue vigente.
+
 El cronograma de la cátedra tiene tres inconsistencias que conviene aclarar con el docente:
 
 | Hueco | Detalle |
@@ -725,8 +727,9 @@ tomó nota de que el P&L usa **Horas-Hombre**, que es otra unidad.
 
 **Impacto:** medio. Define qué entra en el backlog que se entrega y cómo se lo presenta.
 
-**Cuándo preguntar:** en la **próxima clase** — afecta lo que entregamos el 14/10. Se suma a la
-tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) (ya vence el 7/10).
+**Cuándo preguntar:** en la **próxima clase** — afecta lo que entregamos el 14/10.
+
+> 🗑️ **Tarjeta desestimada (2026-10-07, decisión de FM):** la tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) se **archivó**. **Las preguntas siguen abiertas en este archivo**; sin esa tarjeta no hay un recordatorio con fecha. Cuándo y cómo se preguntan lo define el equipo.
 
 **Tarjetas que dependen de esta respuesta:** [Armar el Sprint 1](https://trello.com/c/MPrYaqYT) · [Preparar la Sprint Review 1](https://trello.com/c/65jEv8rn) · [Escribir el Product Backlog](https://trello.com/c/MhuvgAQX).
 
