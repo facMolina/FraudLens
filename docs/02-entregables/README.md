@@ -9,7 +9,7 @@
 |---|---|---|---|
 | 🔴 **1° PARCIAL** | **miércoles 16/9** | ✅ **Nota 9 — los 4 integrantes** | Instancia de evaluación 1 de 2. *Nota informada por FM (2026-10-07); la devolución cualitativa del docente no está registrada* |
 | Entregable: Solución elegida + narrativa | miércoles 23/9 | 🔲 | Clase de Taller de Oratoria |
-| Entregable: Product Backlog | miércoles 14/10 | 🔲 | Sprint Review 1 · Retrospectiva grupal 1 |
+| Entregable: Product Backlog | miércoles 14/10 | 🔲 | Sprint Review 1 · Retrospectiva grupal 1 · **Se entrega sin estimar** *(FM, 2026-10-07)* |
 | Entregable: Prototipo clickeable (Figma \| Código) | miércoles 21/10 | 🔲 | Taller UX/UI · Sprint Review 1 |
 | 🚨 **2da. Entrega: Prototipo v1** | **miércoles 28/10** | 🔲 | Sprint Review 2 |
 | 🔴 **2° PARCIAL** | **miércoles 11/11** | 🔲 | Instancia de evaluación 2 de 2 |

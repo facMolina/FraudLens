@@ -96,6 +96,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-07 | FM | Research | Aportó el export de las **28 respuestas** de la encuesta del Perfil C y se cargaron al repo anonimizadas, con primer análisis (conteos, temas de las abiertas, límites de los datos) | [Respuestas](../docs/05-producto/encuesta-perfil-c-respuestas.md) · [Análisis](../docs/05-producto/encuesta-perfil-c-analisis.md) · [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
 | 2026-10-07 | FM | Gestión | Cierre de la tarjeta del 1° Parcial (nota 9 para los 4 integrantes) con comentario de resolución, y toma de las 3 tarjetas urgentes (User Story Mapping, User Flow, herramienta del backlog) | [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
 | 2026-10-07 | FM | Research | Relevamiento del **formulario de la encuesta** y del **repo privado del prototipo de FGR** con otro chat de Claude con Claude in Chrome (solo lectura), y carga de los resultados: estructura completa del Form (se resolvió la duda de la pregunta 8) y documentación del prototipo con sus hallazgos | [`prototipo.md`](../docs/05-producto/prototipo.md) · [Estructura del Form](../docs/05-producto/encuesta-perfil-c-respuestas.md#estructura-del-formulario) · [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
+| 2026-10-07 | FM | Gestión | Respondió las preguntas al docente que habían quedado abiertas (inicio de sprints, estimación del backlog, roles de Scrum, cronograma) y se reflejaron en el repo; pidió dejar las dudas de MDV y FGR en sus tarjetas de Trello | [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) · [P-31](../docs/00-proyecto/preguntas-abiertas.md#p-31) |
 
 ---
 
@@ -108,7 +109,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 4 | 2026-09-30 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
-| Molina, Facundo Roman (FM) | 49 | 2026-10-07 |
+| Molina, Facundo Roman (FM) | 50 | 2026-10-07 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.

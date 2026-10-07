@@ -206,8 +206,7 @@ Decisión de adopción: [0003](../03-decisiones/0003-metodo-seis-sombreros.md).
 ### Sprint ✅ *(Clase 1 y Clase 09)*
 Iteración de trabajo de duración fija. **Duración en esta cátedra: 2 semanas**, y cada sprint tiene un
 **objetivo definido** (ej.: *"Armar mockup"*, *"Armar módulo de IA"*) — *Clase 09*. El deck de la
-Clase 1 decía que el cursado tiene **4 sprints**; el cronograma oficial no lo confirma
-([P-19](preguntas-abiertas.md#p-19), [P-31](preguntas-abiertas.md#p-31)).
+Clase 1 decía que el cursado tiene **4 sprints**; el cronograma oficial no lo confirma. **FM (2026-10-07): no hay una cantidad fija de sprints; se arrancó "la semana pasada" y "no es muy estricto"** ([P-31](preguntas-abiertas.md#p-31)).
 
 ### Sprint Review ✅ *(Clase 1 y Clase 09)*
 Instancia donde el equipo presenta los avances del sprint. **Los presentadores rotan semana a

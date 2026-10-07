@@ -17,6 +17,8 @@
 > ⚠️ *"Los actos de deshonestidad académica o cualquier situación de indisciplina serán sancionados
 > según el régimen disciplinario correspondiente."*
 
+> ⚠️ **Las fechas pueden cambiar** *(FM, 2026-10-07)*: no hay un cronograma actualizado y el docente *"va clase a clase"*. Ver [P-28](preguntas-abiertas.md#p-28).
+
 ## Calendario completo
 
 | Clase | Fecha | Temas / Actividades | Entregable |

@@ -210,12 +210,12 @@ Esta es la sección más importante para el proyecto: **son pautas del docente, 
 
 | Qué | Por qué | Dónde se refleja |
 |---|---|---|
-| **Sprints de 2 semanas con objetivo** (D) — ⬜ **no sabemos cuándo arranca el Sprint 1 ni cuántos hay**. El cronograma lista Sprint Review el 14/10, 21/10 (dos veces "Sprint Review 1"), 28/10 y 4/11 | Si no sabemos qué sprint estamos corriendo, no podemos redactar su objetivo. No se deduce un calendario de sprints a partir de esas fechas | [P-31](../00-proyecto/preguntas-abiertas.md#p-31) · [P-19](../00-proyecto/preguntas-abiertas.md#p-19) · tarjeta *Preguntar al profe: huecos del cronograma* |
-| **Sprint Review: 5 min, 2 personas, 3 preguntas** (D) | Es un formato cerrado que se puede ensayar. Hay que decidir **quiénes presentan** (la Clase 1 exige rotación) | [`historial-aportes.md`](../../registro/historial-aportes.md) — la tabla "Presentaciones en clase" está vacía (R) |
+| **Sprints de 2 semanas con objetivo** (D) — **FM (2026-10-07): no hay una cantidad fija de sprints; se arrancó "la semana pasada" y "no es muy estricto"** | No se deduce un calendario a partir de las fechas de Sprint Review. ⬜ No hay fecha exacta de inicio ni objetivo redactado | [P-31](../00-proyecto/preguntas-abiertas.md#p-31) ✅ · [P-19](../00-proyecto/preguntas-abiertas.md#p-19) 🟡 |
+| **Sprint Review: 5 min, 2 personas, 3 preguntas** (D) | Es un formato cerrado que se puede ensayar. **Las reviews y las retros se hacen el día de clase** (FM, 2026-10-07). Hay que decidir **quiénes presentan** (la Clase 1 exige rotación) | [`historial-aportes.md`](../../registro/historial-aportes.md) — la tabla "Presentaciones en clase" está vacía (R) |
 | **Retro con facilitador rotativo, documentada en Trello** (D) | No tenemos plantilla ni lugar para las retros | (S) una plantilla en `docs/04-metodologia/` y un registro de quién facilitó. **Sin hacer** — es una sugerencia |
-| **Roles Scrum: PO · Scrum Master · Team de 5–9** (D) | Somos 4 y nuestros roles son *proceso / técnico / producto / documentación* (R). **No se asigna PO ni Scrum Master por deducción** | [P-29](../00-proyecto/preguntas-abiertas.md#p-29) |
+| **Roles Scrum: PO · Scrum Master · Team de 5–9** (D) | Somos 4 y nuestros roles son *proceso / técnico / producto / documentación* (R). **No se asigna PO ni Scrum Master por deducción** | [P-29](../00-proyecto/preguntas-abiertas.md#p-29) ✅ — **FM: \"estamos bien con los roles actuales\"** |
 | **Trello como herramienta del sprint** (D) | Ya lo usamos y ya tiene forma de Kanban (R). Falta: WIP, y decidir si los sprints se reflejan en el tablero | [`flujo-de-trabajo.md`](../04-metodologia/flujo-de-trabajo.md) no menciona sprints (R) |
-| **Estimación con Story Points / Planning Poker** (D) | Hoy ninguna tarjeta tiene estimación (R). Ojo: el **P&L** (Clase 07) pide **Horas-Hombre**, que es **otra unidad**: no son intercambiables | [P-31](../00-proyecto/preguntas-abiertas.md#p-31) — ¿el docente exige estimar el backlog? |
+| **Estimación con Story Points / Planning Poker** (D) | Hoy ninguna tarjeta tiene estimación (R). Ojo: el **P&L** (Clase 07) pide **Horas-Hombre**, que es **otra unidad**: no son intercambiables | [P-31](../00-proyecto/preguntas-abiertas.md#p-31) ✅ — **el Product Backlog se entrega sin estimar** (FM, 2026-10-07) |
 | **Herramientas recomendadas: Git, Miro, Trello, Figma** (D) | Git ✅ y Trello ✅ ya están. **Figma** va a hacer falta para el prototipo clickeable del 21/10. **Miro** se menciona de nuevo en la Clase 10 para el User Story Mapping | [Clase 10](clase-10-user-story-mapping-y-backlog.md) |
 
 ---
@@ -236,8 +236,8 @@ siendo las mismas y **ya tienen tarjeta**:
 ## 5. Dudas que quedaron
 
 - ~~¿Qué fecha tiene esta clase?~~ → ✅ 23/9, [P-28](../00-proyecto/preguntas-abiertas.md#p-28) resuelta
-- ¿Quién ocupa PO / Scrum Master, o alcanza con los roles actuales? → [P-29](../00-proyecto/preguntas-abiertas.md#p-29)
-- ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? → [P-31](../00-proyecto/preguntas-abiertas.md#p-31)
+- ~~¿Quién ocupa PO / Scrum Master?~~ → ✅ roles actuales, [P-29](../00-proyecto/preguntas-abiertas.md#p-29) resuelta
+- ~~¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog?~~ → ✅ [P-31](../00-proyecto/preguntas-abiertas.md#p-31): sin cantidad fija, arrancó "la semana pasada", backlog sin estimar
 - ✅ Los **4 valores** del Manifiesto ya están (captura de FM, fuente externa). ⬜ Faltan los **12 principios**: se intentó traerlos de internet el 2026-10-07 y `agilemanifesto.org` y `es.wikipedia.org` están bloqueados por el proxy de salida del entorno; hace falta una captura de esa página.
 
 ---

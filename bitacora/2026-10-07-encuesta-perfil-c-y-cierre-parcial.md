@@ -96,3 +96,22 @@ diapositiva 11 de la presentación en PDF del parcial** dice que es *"un prototi
 - **"MV" es MDV** (confirmado por FM).
 - **Tarjeta [Stakeholders y expertos consultados](https://trello.com/c/NTsPXw2W)** pasó a **👀 En revisión** (su descripción decía que las respuestas de la encuesta C estaban pendientes; ya hay 28 cargadas). FM coincidió en que **las demás no se mueven todavía**: Evaluar Jev y Conseguir acceso a la API dependen de MDV, Documentar el prototipo de FGR, y las dos de MoSCoW y 6 Sombreros del recorte de que alguien las tome.
 - **Preguntas para el docente (P-19, P-29, P-31):** FM se ofreció a resolverlas. Se le pidió la lista de lo que hace falta saber y para qué sirve cada respuesta.
+
+---
+
+## Quinta parte — respuestas de FM a las preguntas pendientes
+
+FM contestó las preguntas que habían quedado sin dueño. **No aclaró si las respuestas son del docente o un criterio del equipo** (⬜ se le preguntó).
+
+| Pregunta | Respuesta de FM, 2026-10-07 | Dónde quedó |
+|---|---|---|
+| Cuándo arranca el Sprint 1 y cuántos sprints hay (P-31) | *"No hay una cantidad de sprints, arrancamos desde la semana pasada. Pero no es muy estricto."* | P-31 ✅ |
+| ¿El Product Backlog se entrega estimado? (P-31) | **Sin estimar** | P-31 ✅, entregables |
+| Sprint Reviews y retros: fechas y cantidad (P-19) | *"Son el día de clase."* **No respondió** si existe la Retro 2, si el 21/10 es un error, ni cuántas son | P-19 🟡 parcial |
+| ¿Roles de Scrum? (P-29) | *"Estamos bien con los roles actuales."* | P-29 ✅, `equipo.md` |
+| ¿Hay un cronograma actualizado? | *"Nop. Vamos clase a clase."* | P-28, `cronograma.md` (aviso) |
+| ¿Qué es el "MVP Canvas"? | *"No sé, si no se mencionó en las clases el profe lo habrá descartado."* — **es una suposición, no una confirmación** | Clase 10, sección 5 |
+
+**Pendientes de MDV y FGR:** FM pidió dejar las preguntas en **sus tarjetas**, para que su sesión las responda cuando las tomen. Quedaron como comentarios en
+[Conseguir acceso a la API de TypeSafe](https://trello.com/c/mT2FcXyY), [Evaluar modelo Jev](https://trello.com/c/yOSmUHOx) y [Plantilla de Retrospectiva](https://trello.com/c/5VB8UDLb) (MDV),
+y [Validar Jev con una muestra del dataset 3](https://trello.com/c/EYxcS7tu) (FGR), además del comentario de 13 preguntas de [Documentar el prototipo](https://trello.com/c/DC1vH1F6) (FGR).

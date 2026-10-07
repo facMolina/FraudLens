@@ -213,9 +213,9 @@ las próximas a trabajar con título y Como/Quiero/Para · las menos prioritaria
 - ~~¿Qué fecha tiene esta clase?~~ → ✅ 30/9, [P-28](../00-proyecto/preguntas-abiertas.md#p-28) resuelta
 - ¿Qué actores escriben HU, dado "no hay un único usuario" y la decisión 0005? → [P-32](../00-proyecto/preguntas-abiertas.md#p-32)
 - ¿Con qué herramienta se arma el backlog? → [P-30](../00-proyecto/preguntas-abiertas.md#p-30)
-- ¿El Product Backlog del 14/10 se entrega ya estimado? → [P-31](../00-proyecto/preguntas-abiertas.md#p-31)
-- El cronograma del 30/9 anuncia **"MVP Canvas"**; este deck **no lo define**. Si es una herramienta
-  distinta del USM, **no está en el material cargado**.
+- ~~¿El Product Backlog del 14/10 se entrega ya estimado?~~ → ✅ **sin estimar** (FM, 2026-10-07), [P-31](../00-proyecto/preguntas-abiertas.md#p-31)
+- El cronograma del 30/9 anuncia **"MVP Canvas"**; este deck **no lo define**. **FM (2026-10-07): no sabe qué es y supone que, si no se mencionó en las clases, el docente lo habrá
+  descartado.** ⬜ **Es un supuesto, no una confirmación**: sigue sin saberse si es un entregable.
 
 ---
 

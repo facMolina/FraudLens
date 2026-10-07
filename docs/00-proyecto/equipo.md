@@ -37,6 +37,8 @@ documentación no queden siempre en las mismas manos.
 > Los roles **no** son "el que hace todo eso". Son "el que se asegura de que eso pase".
 > El trabajo se reparte igual entre los cuatro.
 
+> ✅ **Roles de Scrum** *(FM, 2026-10-07, [P-29](preguntas-abiertas.md#p-29))*: *"estamos bien con los roles actuales"*. El equipo no adopta Product Owner ni Scrum Master.
+
 ## Regla de las Sprint Reviews
 
 > De la Clase 1: *"los miembros del equipo que presentan los avances deben cambiar semana a semana"*.

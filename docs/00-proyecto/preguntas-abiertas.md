@@ -39,7 +39,7 @@ de Trello con esa fecha de vencimiento.
 | [P-16](#p-16) | ¿El ejercicio de los 4 ejes (Clase 3) se aplica al problema del proyecto? | 🟢 | Docente | 🔲 Abierta |
 | [P-17](#p-17) | Las 400 respuestas, ¿son sólo de la encuesta o del total? | 🟢 | Docente | ✅ **Resuelta** |
 | [P-18](#p-18) | Los 3 usuarios del Design Thinking, ¿son 3 personas o 3 perfiles? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
-| [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente 📅 7/10 y 25/11 | 🔲 Abierta |
+| [P-19](#p-19) | Huecos del cronograma oficial (retro 2, Sprint Review repetido, The Pitch) | 🟡 | Docente 📅 7/10 y 25/11 | 🟡 **Parcial** — falta Retro 2, el 21/10 y The Pitch |
 | [P-20](#p-20) | ¿Cómo se mapea la numeración de los decks con la del cronograma? | 🟢 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-21](#p-21) | ¿Qué significa "Problem Statement **validado**"? | 🔴 | Docente 📅 2/9 | 🔲 Abierta |
 | [P-22](#p-22) | ¿Se aprueba la taxonomía de etiquetas propuesta? | 🟡 | Equipo | 🔲 Abierta |
@@ -49,9 +49,9 @@ de Trello con esa fecha de vencimiento.
 | [P-26](#p-26) | ¿Qué hace TypeSafe con los datos que recibe? | 🟡 | Equipo | 🔲 Abierta |
 | [P-27](#p-27) | ¿Qué texto/contexto real tendríamos para pasarle a Jev? | 🟡 | Equipo | 🔲 Abierta |
 | [P-28](#p-28) | ¿Qué fecha tienen las clases 09 y 10 y cómo se numeran? | 🟢 | Equipo | ✅ **Resuelta** |
-| [P-29](#p-29) | ¿Quién ocupa los roles de Scrum (Product Owner, Scrum Master)? | 🟡 | Equipo · Docente | 🔲 Abierta |
+| [P-29](#p-29) | ¿Quién ocupa los roles de Scrum (Product Owner, Scrum Master)? | 🟡 | Equipo · Docente | ✅ **Resuelta** |
 | [P-30](#p-30) | ¿Con qué herramienta registramos el Product Backlog? | 🟡 | Equipo | 🔲 Abierta |
-| [P-31](#p-31) | ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? | 🟡 | Docente 📅 próxima clase | 🔲 Abierta |
+| [P-31](#p-31) | ¿Cuándo arranca el Sprint 1, cuántos sprints hay y se estima el backlog? | 🟡 | Docente 📅 próxima clase | ✅ **Resuelta** *(por FM)* |
 | [P-32](#p-32) | ¿Qué actores escriben Historias de Usuario, dado "no hay un único usuario" y la decisión 0005? | 🟡 | Equipo | 🔲 Abierta |
 
 ---
@@ -442,6 +442,8 @@ Las dos tienen su tarjeta en Trello con esa fecha de vencimiento.
 
 > 🗑️ **Tarjeta desestimada (2026-10-07, decisión de FM):** la tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) se **archivó**. **Las preguntas siguen abiertas en este archivo**; sin esa tarjeta no hay un recordatorio con fecha. La tarjeta de The Pitch (25/11) sigue vigente.
 
+> 🟡 **Respuesta parcial (FM, 2026-10-07):** *"Las sprint retro y reviews son el día de clase."* **Sigue sin respuesta:** si existe la Retrospectiva grupal 2, si el 21/10 es una segunda "Sprint Review 1" o un error, cuántas Sprint Reviews son en total, y The Pitch (25/11).
+
 El cronograma de la cátedra tiene tres inconsistencias que conviene aclarar con el docente:
 
 | Hueco | Detalle |
@@ -665,7 +667,7 @@ compatible con que no haya deck 08, pero **eso no se confirmó**.
 **Lo que queda raro:** el cronograma anuncia para el 23/9 **Taller de Oratoria**, y el deck de ese día es Agile/Scrum/Kanban.
 El tema no figura en el cronograma de esa fecha. **FM (2026-10-07): "parece que el profe cambió de fecha esa clase".** Es una impresión,
 **no está confirmada**; si el cronograma cambió, [`cronograma.md`](cronograma.md) puede estar desactualizado y **no se tocó**.
-⬜ Abierto: ¿hay un cronograma actualizado del docente?
+✅ **Respondido (FM, 2026-10-07): no hay un cronograma actualizado; el docente "va clase a clase".** Por eso las fechas de `cronograma.md` pueden cambiar.
 
 ---
 
@@ -687,6 +689,9 @@ proceso" suenen parecidos): puede ser que la cátedra no exija roles Scrum liter
 
 **Cómo se responde:** el equipo decide si adopta los roles, y se confirma con el docente si hace falta.
 Si se asignan, es una decisión que va a [`docs/03-decisiones/`](../03-decisiones/).
+
+> ✅ **Resuelta (FM, 2026-10-07):** *"Estamos bien con los roles actuales."* El equipo **no adopta** los roles de Scrum (Product Owner y Scrum Master): siguen los de [`equipo.md`](equipo.md).
+> ⬜ No se aclaró si el docente exige roles Scrum: la respuesta es una decisión del equipo.
 
 **Tarjeta:** [Definir si el equipo adopta los roles de Scrum](https://trello.com/c/qHAYMWJ5).
 
@@ -730,6 +735,12 @@ tomó nota de que el P&L usa **Horas-Hombre**, que es otra unidad.
 **Cuándo preguntar:** en la **próxima clase** — afecta lo que entregamos el 14/10.
 
 > 🗑️ **Tarjeta desestimada (2026-10-07, decisión de FM):** la tarjeta [*Preguntar al profe: huecos del cronograma*](https://trello.com/c/16leWNGS) se **archivó**. **Las preguntas siguen abiertas en este archivo**; sin esa tarjeta no hay un recordatorio con fecha. Cuándo y cómo se preguntan lo define el equipo.
+
+> ✅ **Resuelta (FM, 2026-10-07):**
+> 1. **No hay una cantidad de sprints.** Se arrancó *"desde la semana pasada"* (respecto del 7/10) y *"no es muy estricto"*.
+> 2. **El Product Backlog se entrega sin estimar.**
+>
+> ⬜ No se dio una fecha exacta de inicio del Sprint 1 ni se redactó su objetivo. ⬜ **No se aclaró si estas respuestas son del docente o un criterio del equipo.**
 
 **Tarjetas que dependen de esta respuesta:** [Armar el Sprint 1](https://trello.com/c/MPrYaqYT) · [Preparar la Sprint Review 1](https://trello.com/c/65jEv8rn) · [Escribir el Product Backlog](https://trello.com/c/MhuvgAQX).
 
