@@ -101,7 +101,7 @@ diapositiva 11 de la presentación en PDF del parcial** dice que es *"un prototi
 
 ## Quinta parte — respuestas de FM a las preguntas pendientes
 
-FM contestó las preguntas que habían quedado sin dueño. **No aclaró si las respuestas son del docente o un criterio del equipo** (⬜ se le preguntó).
+FM contestó las preguntas que habían quedado sin dueño. Después aclaró que son **conclusiones suyas al escuchar al docente en clase, no citas textuales**.
 
 | Pregunta | Respuesta de FM, 2026-10-07 | Dónde quedó |
 |---|---|---|
@@ -115,3 +115,13 @@ FM contestó las preguntas que habían quedado sin dueño. **No aclaró si las r
 **Pendientes de MDV y FGR:** FM pidió dejar las preguntas en **sus tarjetas**, para que su sesión las responda cuando las tomen. Quedaron como comentarios en
 [Conseguir acceso a la API de TypeSafe](https://trello.com/c/mT2FcXyY), [Evaluar modelo Jev](https://trello.com/c/yOSmUHOx) y [Plantilla de Retrospectiva](https://trello.com/c/5VB8UDLb) (MDV),
 y [Validar Jev con una muestra del dataset 3](https://trello.com/c/EYxcS7tu) (FGR), además del comentario de 13 preguntas de [Documentar el prototipo](https://trello.com/c/DC1vH1F6) (FGR).
+
+---
+
+## Sexta parte — se dejan de perseguir las dudas menores
+
+- **Fuente de las respuestas anteriores:** *"Son respuestas que saqué conclusiones de escuchar al profesor"* (FM). Se anotó en P-29 y P-31. FM decidió **no retener** las dudas que quedaban sobre ellas, *"ya que no son tan relevantes"*, y dejó **P-29 y P-31 resueltas**.
+- **P-19** (Retro 2, el 21/10, cantidad de Sprint Reviews): *"no es tan relevante, dejá este registro y listo"*. Queda **parcial y sin perseguir**. La tarjeta de The Pitch (25/11) sigue vigente.
+- **Tarjeta [Definir si el equipo adopta los roles de Scrum](https://trello.com/c/qHAYMWJ5): cerrada** con comentario de resolución y movida a ✅ Hecho. Decisión: se siguen los roles actuales; alternativa descartada: adoptar Product Owner y Scrum Master.
+- **Tarjeta [Documentar el prototipo de FGR](https://trello.com/c/DC1vH1F6) pasó a 👀 En revisión:** la documentación está escrita; falta que FGR responda sus 13 preguntas y que el equipo la revise.
+- **En revisión hoy:** Encuestas y entrevistas · Stakeholders y expertos consultados · Documentar el prototipo.
