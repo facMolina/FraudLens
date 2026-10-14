@@ -714,6 +714,8 @@ puede hacer mal de más de una manera → [6 Sombreros liviano](../04-metodologi
 
 **Impacto:** medio. Sin esto no se puede empezar a escribir las historias.
 
+> 🟡 **Propuesta de FM (2026-10-14), pendiente del equipo:** registrarlo en **Trello, en la misma lista Backlog, con una etiqueta HU**. FM la eligió sabiendo que las historias comparten el orden de prioridad con los 15 tickets de trabajo. El análisis está en [`6-sombreros-herramienta-backlog.md`](../05-producto/analisis/6-sombreros-herramienta-backlog.md); **falta el sombrero rojo de las 4 voces**. La pregunta sigue abierta hasta que el equipo decida.
+
 **Tarjeta:** [Decidir la herramienta donde se registra el Product Backlog](https://trello.com/c/kceMBbCj).
 
 ---
@@ -764,6 +766,8 @@ inicial fija (CU-02, CU-07) que alguien tiene que cargar.
 un rol que escribe HU? ¿la configuración inicial va como HU de quien despliega el sistema?
 
 **Impacto:** medio. Cambia cuántas HU tiene el backlog del 14/10.
+
+> 🟡 **Propuesta de FM (2026-10-14), pendiente del equipo:** el mapa se arma **solo desde el Analista de fraude**, como único usuario humano (decisión 0005). Consecuencia: las historias del sistema cliente y la de configuración inicial (HU-07 a HU-10, HU-13 y HU-14 del borrador de MDV) **quedan sin carril en el mapa**; cómo se llevan al backlog **sigue abierto**. Ver [`user-story-map.md`](../05-producto/user-story-map.md).
 
 **Cómo se responde:** el equipo, al armar el User Story Mapping.
 

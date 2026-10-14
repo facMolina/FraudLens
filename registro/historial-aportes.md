@@ -100,6 +100,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-08 | FM | Documentación | Borrador de alcance del MVP: lista unificada de lo que queda fuera (16 ítems, con la fuente de cada uno), recortes de la 0005 y esqueleto de MoSCoW **sin clasificar**; tomó la tarjeta de MoSCoW | [`alcance-mvp-moscow.md`](../docs/05-producto/alcance-mvp-moscow.md) · [Bitácora](../bitacora/2026-10-08-alcance-mvp-moscow.md) |
 | 2026-10-14 | MDV | Gestión | Plantilla de Retrospectiva y registro de facilitadores (reglas de la Clase 09 + propuesta de formato y de dónde documentar en Trello, **sin aprobar**); sin material del Taller de Retrospectivas del 7/10 | [`retrospectivas.md`](../docs/04-metodologia/retrospectivas.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
 | 2026-10-14 | MDV | Producto | Borrador del Product Backlog: 14 historias de usuario (los 7 casos de uso) con criterios de aceptación y fuente de cada uno, sin MoSCoW ni estimación; respuesta a las preguntas de FM en la tarjeta de Retro | [`product-backlog-borrador.md`](../docs/05-producto/product-backlog-borrador.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
+| 2026-10-14 | FM | Producto | Borrador del User Story Mapping (usuario, objetivo, recorrido de 5 pasos y línea de R1) y análisis de 6 Sombreros de la herramienta del backlog, armados respondiendo preguntas de a una; **propuestas de FM, sin validar por el equipo** | [`user-story-map.md`](../docs/05-producto/user-story-map.md) · [6 Sombreros](../docs/05-producto/analisis/6-sombreros-herramienta-backlog.md) · [Bitácora](../bitacora/2026-10-14-user-story-map-y-herramienta.md) |
 
 ---
 
@@ -112,7 +113,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Diaz Valdez, Mateo (MDV) | 6 | 2026-10-14 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
-| Molina, Facundo Roman (FM) | 51 | 2026-10-08 |
+| Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
 
 > ⚠️ Faltan cargar los aportes previos de **MDV**, y las fechas exactas de los aportes marcados
 > como *(previo)*.
