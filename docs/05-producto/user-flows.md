@@ -2,11 +2,11 @@
 
 | | |
 |---|---|
-| **Estado** | 🟡 **Borrador — propuesta de FM, pendiente del equipo.** El **contenido** de los flujos está escrito acá; **el dibujo todavía no existe** |
+| **Estado** | 🟡 **Borrador — propuesta de FM, pendiente del equipo.** El contenido está escrito acá y **hay un primer dibujo generado por Claude Code** (ver abajo), **sin revisar** |
 | **Fecha** | 2026-10-14 |
 | **Responsable** | Facundo Molina (FM) |
 | **Ticket** | [Plantear los User Flow de las funcionalidades del MVP](https://trello.com/c/ivQo0hEI) |
-| **Herramienta** | **Figma** *(FM)* · Link al archivo: ⬜ |
+| **Herramienta** | **Figma** *(FM)* — se usó **FigJam** vía el conector de Figma · [Tablero con los 5 flujos](https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA) |
 | **Cantidad** | **5 flujos, uno por paso del [recorrido](user-story-map.md#paso-2--el-user-journey)** *(FM)* |
 | **Alcance** | Solo **R1**, que es lo que se entrega *(FM)*. Usuario: Analista de fraude |
 
@@ -21,6 +21,29 @@ Cada flujo trae sus **pasos en orden**, quién actúa en cada uno, las **decisio
 - Se refinan con comentarios del equipo.
 
 > ⬜ **Las formas concretas que usa el docente no llegaron en la conversión del deck.** No se inventan. **FM va a mirarlas en el deck original de la Clase 10.** Mientras tanto, este guion marca cada decisión con **(U)** si la toma el usuario o **(S)** si la toma el sistema, para que el dibujo no dependa de la forma.
+
+## El dibujo (generado por Claude Code, sin revisar)
+
+**Tablero:** https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA — los 5 flujos, uno al lado del otro, de izquierda a derecha. Los generó **Claude Code** (conector de Figma → FigJam, a partir de este guion) el 2026-10-14, a pedido de FM. Es un **primer borrador**, no el entregable final.
+
+**Formas y colores usados** *(S — elegidas por Claude Code porque las del docente no se conocen; se cambian cuando FM las confirme)*:
+
+| Elemento | Forma | Color |
+|---|---|---|
+| Inicio / fin del flujo | Rectángulo redondeado | Azul |
+| Paso del analista | Rectángulo | Azul |
+| Paso del sistema | Rectángulo | Sin color |
+| **Decisión del sistema (S)** | **Rombo** | Amarillo |
+| **Decisión del usuario (U)** | **Hexágono** | Violeta |
+
+**Qué se completó en el dibujo que el guion no dice** *(todo (S), para que el equipo lo revise)*:
+- **Flujo 1:** el estado vacío termina ahí; el guion no dice a dónde sigue.
+- **Flujo 2:** la decisión "¿acotar o reordenar?" tiene dos salidas (filtrar / ordenar). El guion no dice qué pasa si **no** quiere ninguna.
+- **Flujo 3:** si el historial es suficiente, el flujo sigue directo a "flujo 4 o volver a la lista"; si no, pasa antes por "historial insuficiente". Si el análisis no está disponible, el flujo termina en ese estado.
+- **Flujo 5:** las tres decisiones de umbral se dibujaron **encadenadas** (monto → revisión → bloqueo), que equivale a lo que dice el guion. El camino "monto bajo" también llega al paso "muestra la decisión recomendada": el guion no lo dice explícitamente.
+- Los textos van **sin tildes** (limitación de la herramienta de generación).
+
+⚠️ El tablero quedó creado en la cuenta de FM (borradores del plan "El equipo de Facundo Molina"). **El equipo todavía no tiene acceso**: FM tiene que moverlo a un proyecto compartido o compartirlo con MDV, FGR y ML.
 
 **Actor de todos los flujos:** Analista de fraude. **Pasos del sistema** son los que ocurren sin que el analista haga nada.
 
@@ -125,8 +148,9 @@ Cada flujo trae sus **pasos en orden**, quién actúa en cada uno, las **decisio
 
 ## Qué falta
 
-- [ ] **FM mira las formas del docente** en el deck original de la Clase 10 y las anota acá
-- [ ] **FM dibuja los 5 flujos en Figma** y pone el link en este archivo
+- [ ] **FM mira las formas del docente** en el deck original de la Clase 10 y las anota acá; después se ajustan las formas del tablero
+- [x] ~~Dibujar los 5 flujos~~ → primer borrador generado por Claude Code ([tablero](https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA))
+- [ ] **FM abre el tablero, lo revisa y lo comparte con el equipo**
 - [ ] Revisar que cada flujo muestre **camino principal y al menos un camino alternativo** (los hay: filtro sin resultados, análisis no disponible, historial insuficiente, monto bajo)
 - [ ] **Revisión del equipo**, en particular de FGR por lo técnico (frecuencia de actualización, qué es sensible)
 - [ ] Si el equipo decide **otro actor o más historias**, se agregan flujos ([P-32](../00-proyecto/preguntas-abiertas.md#p-32))

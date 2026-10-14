@@ -15,7 +15,7 @@ es lo único que tenemos definido.
 | `benchmarking.md` | Competencia, diferenciación, Océano Azul | Clase 4 | 🔲 Pendiente |
 | `roadmap.md` | Evolución prevista del producto | Clase 4 | 🔲 Pendiente |
 | `modelo-negocio.md` | BMC y P&L | Bloque 2 | 🔲 Pendiente |
-| [`user-flows.md`](user-flows.md) | Guion de los 5 User Flow del MVP para dibujar en Figma — **propuesta de FM, sin dibujo todavía** | — | 🟡 Borrador (FM) |
+| [`user-flows.md`](user-flows.md) | Guion de los 5 User Flow del MVP + [dibujo en FigJam](https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA) generado por Claude Code — **propuesta de FM, sin revisar** | — | 🟡 Borrador (FM) |
 | [`user-story-map.md`](user-story-map.md) | User Story Mapping del MVP: objetivo, recorrido del analista y línea de R1 — **propuesta de FM, sin validar** | — | 🟡 Borrador (FM) |
 | [`alcance-mvp-moscow.md`](alcance-mvp-moscow.md) | Qué queda fuera del MVP (lista unificada) y borrador de MoSCoW — **borrador, sin decidir** | — | 🟡 Borrador (FM) |
 | [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
