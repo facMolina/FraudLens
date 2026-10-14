@@ -101,6 +101,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-14 | MDV | Gestión | Plantilla de Retrospectiva y registro de facilitadores (reglas de la Clase 09 + propuesta de formato y de dónde documentar en Trello, **sin aprobar**); sin material del Taller de Retrospectivas del 7/10 | [`retrospectivas.md`](../docs/04-metodologia/retrospectivas.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
 | 2026-10-14 | MDV | Producto | Borrador del Product Backlog: 14 historias de usuario (los 7 casos de uso) con criterios de aceptación y fuente de cada uno, sin MoSCoW ni estimación; respuesta a las preguntas de FM en la tarjeta de Retro | [`product-backlog-borrador.md`](../docs/05-producto/product-backlog-borrador.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
 | 2026-10-14 | FM | Producto | Borrador del User Story Mapping (usuario, objetivo, recorrido de 5 pasos y línea de R1) y análisis de 6 Sombreros de la herramienta del backlog, armados respondiendo preguntas de a una; **propuestas de FM, sin validar por el equipo**; más el guion de los 5 User Flow y su primer dibujo en FigJam (generado con el conector de Figma) | [`user-story-map.md`](../docs/05-producto/user-story-map.md) · [6 Sombreros](../docs/05-producto/analisis/6-sombreros-herramienta-backlog.md) · [Bitácora](../bitacora/2026-10-14-user-story-map-y-herramienta.md) |
+| 2026-10-14 | MDV | Gestión | Revisión de las 6 tarjetas de 👀 En revisión contra sus criterios y el repo: 3 cerradas con comentario de resolución (Stakeholders, Encuestas, documentación del prototipo), 3 de FM devueltas a En curso con lo que falta, y tarjeta nueva para FGR con los pendientes del prototipo | [Bitácora](../bitacora/2026-10-14-revision-tickets-en-revision.md) · [Tarjeta nueva](https://trello.com/c/BmqJQ5uC) |
 
 ---
 
@@ -110,7 +111,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
-| Diaz Valdez, Mateo (MDV) | 6 | 2026-10-14 |
+| Diaz Valdez, Mateo (MDV) | 7 | 2026-10-14 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
