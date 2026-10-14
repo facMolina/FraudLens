@@ -98,6 +98,8 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-07 | FM | Research | Relevamiento del **formulario de la encuesta** y del **repo privado del prototipo de FGR** con otro chat de Claude con Claude in Chrome (solo lectura), y carga de los resultados: estructura completa del Form (se resolvió la duda de la pregunta 8) y documentación del prototipo con sus hallazgos | [`prototipo.md`](../docs/05-producto/prototipo.md) · [Estructura del Form](../docs/05-producto/encuesta-perfil-c-respuestas.md#estructura-del-formulario) · [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) |
 | 2026-10-07 | FM | Gestión | Respondió las preguntas al docente que habían quedado abiertas (inicio de sprints, estimación del backlog, roles de Scrum, cronograma) y se reflejaron en el repo; pidió dejar las dudas de MDV y FGR en sus tarjetas de Trello | [Bitácora](../bitacora/2026-10-07-encuesta-perfil-c-y-cierre-parcial.md) · [P-31](../docs/00-proyecto/preguntas-abiertas.md#p-31) |
 | 2026-10-08 | FM | Documentación | Borrador de alcance del MVP: lista unificada de lo que queda fuera (16 ítems, con la fuente de cada uno), recortes de la 0005 y esqueleto de MoSCoW **sin clasificar**; tomó la tarjeta de MoSCoW | [`alcance-mvp-moscow.md`](../docs/05-producto/alcance-mvp-moscow.md) · [Bitácora](../bitacora/2026-10-08-alcance-mvp-moscow.md) |
+| 2026-10-14 | MDV | Gestión | Plantilla de Retrospectiva y registro de facilitadores (reglas de la Clase 09 + propuesta de formato y de dónde documentar en Trello, **sin aprobar**); sin material del Taller de Retrospectivas del 7/10 | [`retrospectivas.md`](../docs/04-metodologia/retrospectivas.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
+| 2026-10-14 | MDV | Producto | Borrador del Product Backlog: 14 historias de usuario (los 7 casos de uso) con criterios de aceptación y fuente de cada uno, sin MoSCoW ni estimación; respuesta a las preguntas de FM en la tarjeta de Retro | [`product-backlog-borrador.md`](../docs/05-producto/product-backlog-borrador.md) · [Bitácora](../bitacora/2026-10-14-plantilla-retrospectiva.md) |
 
 ---
 
@@ -107,7 +109,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
-| Diaz Valdez, Mateo (MDV) | 4 | 2026-09-30 |
+| Diaz Valdez, Mateo (MDV) | 6 | 2026-10-14 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 7 | 2026-09-23 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 51 | 2026-10-08 |
