@@ -49,6 +49,10 @@ Nada es decisión del equipo. Son **propuestas de FM**:
 - Todo el recorrido entra a R1: la Clase 1 pide un MVP chico. Queda a la vista, sin cuestionarlo.
 - El objetivo dice "decidir" y FraudLens solo recomienda: la acción ocurre afuera.
 
+## Aviso sobre el autor de un commit
+
+El commit `a053847` (primer dibujo de los 5 User Flow) quedó con autor **"Claude"** en vez de **Facundo Molina**, contra la regla del equipo de commitear con el propio usuario de Git. Fue un error del asistente: la configuración de Git de la sesión tenía otro nombre y se commiteó sin corregirla. **No se reescribió el commit** porque ya estaba publicado en `main`. A partir de ahora los commits de esta sesión salen con el usuario de FM. Para ver quién hizo ese aporte, vale esta bitácora y el historial de aportes: `git log --author` no lo muestra.
+
 ## Archivos tocados
 
 - Nuevos: `docs/05-producto/user-story-map.md` · `docs/05-producto/analisis/6-sombreros-herramienta-backlog.md` · `docs/05-producto/user-flows.md`
