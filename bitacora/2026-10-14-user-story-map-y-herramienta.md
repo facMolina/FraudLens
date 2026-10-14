@@ -8,10 +8,11 @@
 
 ## Qué se hizo
 
-FM pidió avanzar con sus 3 tarjetas en curso **a través de preguntas, de a una por vez**. Se hicieron 6 y salieron dos borradores:
+FM pidió avanzar con sus 3 tarjetas en curso **a través de preguntas, de a una por vez**. Se hicieron 9 y salieron tres borradores:
 
 - [`user-story-map.md`](../docs/05-producto/user-story-map.md) — tarjeta [User Story Mapping](https://trello.com/c/mxSfKQw6).
 - [`6-sombreros-herramienta-backlog.md`](../docs/05-producto/analisis/6-sombreros-herramienta-backlog.md) — tarjeta [herramienta del backlog](https://trello.com/c/kceMBbCj). **El sombrero rojo quedó vacío**: lo escribe el equipo.
+- [`user-flows.md`](../docs/05-producto/user-flows.md) — tarjeta [User Flow](https://trello.com/c/ivQo0hEI): el **guion** de los 5 flujos (pasos, decisiones del usuario y del sistema, caminos alternativos, con la fuente de cada uno). **El dibujo lo hace FM en Figma.**
 
 ## Qué se definió
 
@@ -24,6 +25,8 @@ Nada es decisión del equipo. Son **propuestas de FM**:
 | Usuario del mapa | **Solo el Analista de fraude** |
 | Objetivo del usuario | **Decidir qué hacer con cada caso** |
 | Qué hace con el caso en FraudLens | **Solo ve la recomendación** y actúa por fuera |
+| Cantidad de User Flow | **5, uno por paso del recorrido** |
+| Formato y herramienta de los flujos | **Figma** (se dibujan a mano; el guion con el contenido está en el repo) |
 | Recorrido (5 pasos) | Ver la cola · encontrar los casos · abrir un caso · entender por qué · leer la recomendación — **confirmado** |
 | Qué entra al MVP | **Los 5 pasos completos** (8 tareas) |
 | R2 | Alertas y notificaciones · explicabilidad avanzada · configurar umbrales en vivo · reentrenamiento automático |
@@ -38,7 +41,8 @@ Nada es decisión del equipo. Son **propuestas de FM**:
 | Decidir cómo se llevan al backlog las historias que no son del analista (HU-07 a HU-10, HU-13, HU-14): sigue abierta [P-32](../docs/00-proyecto/preguntas-abiertas.md#p-32) | Equipo | ⬜ |
 | Verificar si el conector de Trello puede crear la etiqueta HU (si no, hacerla a mano) | FM | ⬜ |
 | Ajustar el borrador del backlog de MDV al mapa | ⬜ | ⬜ |
-| User Flow (#41): se siguen las preguntas | FM | ⬜ |
+| **FM mira las formas del docente** en el deck original de la Clase 10 (decisión del usuario vs. del sistema) | FM | ⬜ |
+| **FM dibuja los 5 flujos en Figma** y agrega el link a [`user-flows.md`](../docs/05-producto/user-flows.md) | FM | ⬜ |
 
 ## Dudas que surgieron
 
@@ -47,5 +51,5 @@ Nada es decisión del equipo. Son **propuestas de FM**:
 
 ## Archivos tocados
 
-- Nuevos: `docs/05-producto/user-story-map.md` · `docs/05-producto/analisis/6-sombreros-herramienta-backlog.md`
+- Nuevos: `docs/05-producto/user-story-map.md` · `docs/05-producto/analisis/6-sombreros-herramienta-backlog.md` · `docs/05-producto/user-flows.md`
 - Modificados: `docs/00-proyecto/preguntas-abiertas.md` (P-30 y P-32, con la propuesta de FM) · `docs/05-producto/README.md` · `docs/05-producto/analisis/README.md` · `registro/historial-aportes.md`
