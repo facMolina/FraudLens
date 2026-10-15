@@ -10,6 +10,7 @@ Cada decisión relevante del proyecto se analiza con el
 | [6-sombreros-usuario-objetivo.md](6-sombreros-usuario-objetivo.md) | ¿Quién es el usuario de FraudLens? | 🟡 En análisis — se cierra en la clase del 2/9 |
 | [6-sombreros-jev.md](6-sombreros-jev.md) | ¿Incorporamos Jev (TypeSafe AI) como modelo de IA? | 🟡 **Borrador** — faltan el rojo (4 voces) y el azul |
 | [6-sombreros-herramienta-backlog.md](6-sombreros-herramienta-backlog.md) | ¿Con qué herramienta registramos el Product Backlog? | 🟡 **Borrador** — falta el rojo (4 voces) y la decisión del equipo; propuesta de FM: Trello |
+| [6-sombreros-mvp-user-story-map.md](6-sombreros-mvp-user-story-map.md) | ¿Qué entra al MVP y dónde va la línea R1 / R2 / R3? | 🟡 **Borrador** — falta el rojo (4 voces) y la decisión del equipo; propuesta de FM: el mapa con 9 tareas en R1 |
 
 ## Cómo se usa
 

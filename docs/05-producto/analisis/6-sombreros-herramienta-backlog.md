@@ -29,14 +29,14 @@
 | El borrador del backlog de MDV (14 historias con criterios Dado/Cuando/Entonces) **ya existe como archivo del repo** | [`product-backlog-borrador.md`](../product-backlog-borrador.md) |
 | El Product Backlog del 14/10 se entrega **sin estimar** | FM, [P-31](../../00-proyecto/preguntas-abiertas.md#p-31) |
 | El tablero tenía 48 tarjetas el 2026-10-14: 15 en Backlog, 3 en Esta semana, 4 en En curso, 3 en En revisión, 23 en Hecho | Lectura de Trello del 2026-10-14 |
-| El tablero tenía 6 etiquetas, solo 3 con nombre (Prioridad Alta, Prioridad Media, Diseño). **Ninguna se llama HU** | Lectura de Trello del 2026-10-07 |
+| El tablero tenía 6 etiquetas, solo 3 con nombre (Prioridad Alta, Prioridad Media, Diseño). **Ninguna se llama HU.** Las otras 3 (verde, violeta y amarilla) están sin nombre y sin uso | Lectura de Trello del 2026-10-15 |
+| El conector de Trello **no puede crear etiquetas**: solo crea tableros y pone o saca etiquetas que ya existen. La etiqueta HU **se crea a mano** (por ejemplo, renombrando una de las 3 sin nombre) | Revisión de las herramientas del conector, 2026-10-15 |
 | La convención de tickets propone **7 etiquetas de categoría** y exige **una por tarjeta**; ninguna es "HU". Esa convención **no está aprobada** | [`convencion-de-tickets.md`](../../04-metodologia/convencion-de-tickets.md), [P-22](../../00-proyecto/preguntas-abiertas.md#p-22) |
 | Según el docente, el backlog es dinámico y las historias de mayor prioridad van más refinadas | Clase 10 |
 
 ### Lo que NO sabemos
 
 - ⬜ Si el docente evalúa el backlog **en Trello o en otro formato**. No se le preguntó.
-- ⬜ Si el conector de Trello **puede crear la etiqueta HU**. No se verificó.
 - ⬜ Cuántas historias van a quedar después de cruzar el borrador de MDV con el [mapa](../user-story-map.md).
 - ⬜ Qué opinan MDV, FGR y ML.
 
@@ -61,7 +61,7 @@
 | **Etiqueta nueva fuera de la convención** | La etiqueta HU no está entre las 7 categorías propuestas, y esa convención todavía no está aprobada |
 | **Dos fuentes de verdad** | El borrador en el repo y las tarjetas de Trello se desactualizan entre sí |
 | **Criterios largos dentro de tarjetas** | Cada historia lleva Como/Quiero/Para y varios Dado/Cuando/Entonces: se leen peor en la descripción de una tarjeta que en un archivo |
-| **Que la etiqueta no se pueda crear desde el conector** | Hay que hacerla a mano y se pierde tiempo el día de la entrega |
+| **La etiqueta no se puede crear desde el conector** *(verificado el 2026-10-15)* | Hay que hacerla a mano antes de cargar las historias; si se olvida, las tarjetas quedan sin etiqueta |
 
 ---
 
@@ -90,7 +90,7 @@
 
 | Sombrero | Lo que aportó |
 |---|---|
-| ⚪ Blanco | La cátedra nombra Trello para el sprint y evalúa el tablero; el borrador ya existe en el repo; no hay etiqueta HU ni convención aprobada |
+| ⚪ Blanco | La cátedra nombra Trello para el sprint y evalúa el tablero; el borrador ya existe en el repo; no hay etiqueta HU (y el conector no puede crearla) ni convención aprobada |
 | 🔴 Rojo | ⬜ Pendiente: las 4 voces |
 | ⚫ Negro | Mezcla con los tickets, etiqueta fuera de convención y dos fuentes de verdad |
 | 🟡 Amarillo | Un solo tablero evaluable, orden de la lista como prioridad |
@@ -114,7 +114,7 @@
 
 - Que el docente pida otro formato para el backlog.
 - Que la mezcla con los tickets haga confuso priorizar.
-- Que la etiqueta no se pueda crear, o que el equipo prefiera una lista separada.
+- Que el equipo prefiera una lista separada. (La etiqueta HU hay que crearla a mano: el conector no puede.)
 
 ---
 

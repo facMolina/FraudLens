@@ -767,7 +767,7 @@ un rol que escribe HU? ¿la configuración inicial va como HU de quien despliega
 
 **Impacto:** medio. Cambia cuántas HU tiene el backlog del 14/10.
 
-> 🟡 **Propuesta de FM (2026-10-14), pendiente del equipo:** el mapa se arma **solo desde el Analista de fraude**, como único usuario humano (decisión 0005). Consecuencia: las historias del sistema cliente y la de configuración inicial (HU-07 a HU-10, HU-13 y HU-14 del borrador de MDV) **quedan sin carril en el mapa**; cómo se llevan al backlog **sigue abierto**. Ver [`user-story-map.md`](../05-producto/user-story-map.md).
+> 🟡 **Propuesta de FM (2026-10-14), pendiente del equipo:** el mapa se arma **solo desde el Analista de fraude**, como único usuario humano (decisión 0005). Consecuencia: las historias del sistema cliente y la de configuración inicial (HU-07 a HU-10 y HU-14 del borrador de MDV) **quedan sin carril en el mapa** *(HU-13 se sumó al paso 5 el 2026-10-15)*; cómo se llevan al backlog **sigue abierto**. Ver [`user-story-map.md`](../05-producto/user-story-map.md).
 
 **Cómo se responde:** el equipo, al armar el User Story Mapping.
 

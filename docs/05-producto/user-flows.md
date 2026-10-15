@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Estado** | 🟡 **Borrador — propuesta de FM, pendiente del equipo.** El contenido está escrito acá y **hay un primer dibujo generado por Claude Code** (ver abajo), **sin revisar** |
+| **Estado** | 🟡 **Borrador — propuesta de FM, pendiente del equipo.** El contenido está escrito acá y **hay un primer dibujo generado por Claude Code** (ver abajo), **sin revisar**. Volvió a En curso tras la [revisión de MDV](../../bitacora/2026-10-14-revision-tickets-en-revision.md) |
 | **Fecha** | 2026-10-14 |
 | **Responsable** | Facundo Molina (FM) |
 | **Ticket** | [Plantear los User Flow de las funcionalidades del MVP](https://trello.com/c/ivQo0hEI) |
@@ -40,6 +40,7 @@ Cada flujo trae sus **pasos en orden**, quién actúa en cada uno, las **decisio
 - **Flujo 1:** el estado vacío termina ahí; el guion no dice a dónde sigue.
 - **Flujo 2:** la decisión "¿acotar o reordenar?" tiene dos salidas (filtrar / ordenar). El guion no dice qué pasa si **no** quiere ninguna.
 - **Flujo 3:** si el historial es suficiente, el flujo sigue directo a "flujo 4 o volver a la lista"; si no, pasa antes por "historial insuficiente". Si el análisis no está disponible, el flujo termina en ese estado.
+- **Flujo 4:** el camino "historial insuficiente" se agregó el 2026-10-15 (propuesta de FM, ver el flujo). El dibujo del Flujo 4 se regeneró.
 - **Flujo 5:** las tres decisiones de umbral se dibujaron **encadenadas** (monto → revisión → bloqueo), que equivale a lo que dice el guion. El camino "monto bajo" también llega al paso "muestra la decisión recomendada": el guion no lo dice explícitamente.
 - Los textos van **sin tildes** (limitación de la herramienta de generación).
 
@@ -116,19 +117,21 @@ Cada flujo trae sus **pasos en orden**, quién actúa en cada uno, las **decisio
 
 | # | Quién | Paso | Fuente |
 |---|---|---|---|
-| 1 | Sistema | Muestra **hasta tres factores relevantes** que elevaron el riesgo, **sin explicaciones avanzadas del modelo** | (R) CU-03, HU-11 |
-| 2 | Analista | Lee los factores, junto con el **resumen del historial utilizado** y las **reglas aplicadas** del detalle | (R) CU-06 |
+| 1 | **Decisión (S)** | **¿El usuario tiene historial suficiente?** | (R) CU-03 |
+| 1a | Sistema | **Sí** → muestra **hasta tres factores relevantes** que elevaron el riesgo, **sin explicaciones avanzadas del modelo** | (R) CU-03, HU-11 |
+| 1b | Sistema | **No** → **no muestra factores** y muestra el aviso **"historial insuficiente"** | **(FM)**, 2026-10-15 — pendiente de ML |
+| 2 | Analista | Lee los factores (o el aviso), junto con el **resumen del historial utilizado** y las **reglas aplicadas** del detalle | (R) CU-06 |
 | 3 | Analista | Sigue al **flujo 5** | (S) |
 
 **Sale por:** el analista pasa a leer la recomendación.
 
-⬜ **Qué factores se muestran cuando el historial es insuficiente** no está definido. ⚠️ **Este flujo se solapa con el 3**: el detalle ya incluye los factores. MDV dejó abierta la duda de si HU-06 y HU-11 se fusionan; **FM los dejó en pasos distintos**, así que acá van separados.
+⬜ **Qué factores se muestran cuando el historial es insuficiente** no está definido en los requerimientos (solo dicen que el resultado indica "historial insuficiente"). El camino 1b es **propuesta de FM**: sin factores, solo el aviso. **ML tiene que confirmarlo.** ⚠️ **Este flujo se solapa con el 3**: el detalle ya incluye los factores. MDV dejó abierta la duda de si HU-06 y HU-11 se fusionan; **FM los dejó en pasos distintos**, así que acá van separados.
 
 ---
 
 ## Flujo 5 — Leer la recomendación
 
-**Entra por:** el analista mira la decisión del caso. · **Historias:** HU-12, HU-13 · **Casos de uso:** CU-04, CU-02
+**Entra por:** el analista mira la decisión del caso. · **Historias:** HU-12, HU-13 *(HU-13 ya está en el [mapa](user-story-map.md), paso 5, desde el 2026-10-15)* · **Casos de uso:** CU-04, CU-02
 
 | # | Quién | Paso | Fuente |
 |---|---|---|---|
@@ -150,7 +153,9 @@ Cada flujo trae sus **pasos en orden**, quién actúa en cada uno, las **decisio
 
 - [ ] **FM mira las formas del docente** en el deck original de la Clase 10 y las anota acá; después se ajustan las formas del tablero
 - [x] ~~Dibujar los 5 flujos~~ → primer borrador generado por Claude Code ([tablero](https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA))
-- [ ] **FM abre el tablero, lo revisa y lo comparte con el equipo**
+- [ ] **FM mueve el tablero a un proyecto compartido o lo comparte con MDV, FGR y ML.** Hoy está en sus borradores y **nadie más lo puede abrir** (MDV lo comprobó el 14/10)
+- [ ] **Revisar que no haya líneas cruzadas** en el dibujo: lo tiene que mirar alguien con acceso
+- [x] ~~Camino alternativo del Flujo 4~~ → agregado (propuesta de FM, pendiente de ML)
 - [ ] Revisar que cada flujo muestre **camino principal y al menos un camino alternativo** (los hay: filtro sin resultados, análisis no disponible, historial insuficiente, monto bajo)
 - [ ] **Revisión del equipo**, en particular de FGR por lo técnico (frecuencia de actualización, qué es sensible)
 - [ ] Si el equipo decide **otro actor o más historias**, se agregan flujos ([P-32](../00-proyecto/preguntas-abiertas.md#p-32))

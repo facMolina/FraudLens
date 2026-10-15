@@ -7,6 +7,7 @@
 | **Responsable** | Facundo Molina (FM) |
 | **Ticket** | [Armar la propuesta de MVP con User Story Mapping](https://trello.com/c/mxSfKQw6) |
 | **Método** | User Story Mapping, [Clase 10 (30/9)](../01-clases/clase-10-user-story-mapping-y-backlog.md): objetivo del usuario → User Journey → tareas → MVP y releases |
+| **6 Sombreros** | [Borrador](analisis/6-sombreros-mvp-user-story-map.md) · falta el rojo del equipo |
 | **Cómo se armó** | FM respondió **6 preguntas, una por vez**. Claude Code ordenó las respuestas y las cruzó con lo que ya está escrito en el repo |
 
 Fuentes: **(FM)** respuesta de FM del 2026-10-14 · **(R)** documento del repo, con link · **(S)** sugerencia de Claude Code, sin aprobar.
@@ -29,19 +30,19 @@ Los 5 pasos del analista, **confirmados por FM**:
 
 ## Pasos 3 y 4 — Tareas y línea del MVP
 
-Las tareas salen de las historias del [borrador de MDV](product-backlog-borrador.md) *(R)*. **El orden vertical NO es prioridad**: la prioridad es el MoSCoW, que el equipo todavía no decidió.
+Las tareas salen de las historias del [borrador de MDV](product-backlog-borrador.md) *(R)*. **HU-13 se agregó el 2026-10-15** (respuesta de FM a la revisión de MDV): el [Flujo 5](user-flows.md#flujo-5--leer-la-recomendación) ya la usaba como paso de R1 y el mapa la dejaba afuera. **El orden vertical NO es prioridad**: la prioridad es el MoSCoW, que el equipo todavía no decidió.
 
 | 1. Ver la cola | 2. Encontrar los casos | 3. Abrir un caso | 4. Entender por qué | 5. Leer la recomendación |
 |---|---|---|---|---|
 | Ver la lista de transacciones *(HU-01 · CU-05)* | Filtrar *(HU-02 · CU-05)* | Consultar el detalle de una transacción *(HU-06 · CU-06)* | Ver los factores que explican el riesgo *(HU-11 · CU-03)* | Ver la decisión según los umbrales *(HU-12 · CU-04)* |
-| Ver transacciones nuevas sin recargar *(HU-05 · CU-05)* | Ordenar por fecha y riesgo *(HU-03 · CU-05)* | | | |
+| Ver transacciones nuevas sin recargar *(HU-05 · CU-05)* | Ordenar por fecha y riesgo *(HU-03 · CU-05)* | | | Aprobar por regla los montos bajos, sin ejecutar el modelo *(HU-13 · CU-02)* — **agregada el 2026-10-15** |
 | | Distinguir riesgos altos y bloqueos *(HU-04 · CU-05)* | | | |
 
 ### Dónde va la línea punteada *(FM)*
 
 | Release | Qué entra | ¿Se entrega? |
 |---|---|---|
-| **R1 — el MVP** | **Los 5 pasos completos: las 8 tareas de la tabla** | ✅ **Es lo que se entrega.** *"El MVP llega a la R1 no más"* (FM) |
+| **R1 — el MVP** | **Los 5 pasos completos: las 9 tareas de la tabla** | ✅ **Es lo que se entrega.** *"El MVP llega a la R1 no más"* (FM) |
 | **R2** | Alertas y notificaciones · Explicabilidad avanzada · Configurar umbrales en vivo (panel de administración) · Reentrenamiento automático | ❌ **No entra en la entrega.** Se registra como lo que viene después |
 | **R3 o más adelante** | El resto de lo que hoy está fuera del MVP: multi-tenant, integraciones con procesadores de pago reales, modelos avanzados, investigación completa de casos, gestión de reclamos y contracargos, modificación manual de la decisión, integraciones con listas externas de fraude, grafos de relaciones, bloqueo real de dinero y cobertura AML + fraude | ❌ No entra |
 
@@ -55,7 +56,7 @@ Como el mapa es solo del Analista *(FM)*, **no tienen lugar en él** las histori
 |---|---|---|
 | HU-07, HU-08, HU-09 | Enviar una transacción, rechazar solicitudes con datos faltantes, evitar duplicados *(actor: sistema cliente)* | Son **necesarias para que exista lo que el analista ve**, pero no son del analista |
 | HU-10 | Calcular el riesgo | Ídem |
-| HU-13, HU-14 | Aprobar por regla los montos bajos y cargar la configuración inicial | Ídem; HU-14 además **no tiene actor** |
+| HU-14 | Cargar la configuración inicial | Ídem; además **no tiene actor** |
 
 ⬜ **Cómo se llevan al backlog es [P-32](../00-proyecto/preguntas-abiertas.md#p-32)**, y sigue abierta: ¿historias técnicas de soporte, o historias de otro actor? No se decidió.
 
@@ -69,9 +70,10 @@ Como el mapa es solo del Analista *(FM)*, **no tienen lugar en él** las histori
 ## Qué falta para dar el mapa por cerrado
 
 - [ ] **El equipo valida el mapa** (hoy es propuesta de FM)
+- [ ] **Sombrero rojo de las 4 voces** en el [6 Sombreros del mapa](analisis/6-sombreros-mvp-user-story-map.md) (borrador creado el 2026-10-15)
 - [ ] **MoSCoW** de cada tarea ([tarjeta](https://trello.com/c/5dkWRPUy)), que además da el orden vertical
 - [ ] **Responder P-32** de forma definitiva: qué pasa con las historias que no son del analista
-- [ ] **Una versión visual** del mapa, si el equipo la quiere (hoy es una tabla)
+- [ ] **Una versión visual** del mapa (la tarjeta pide captura o link al tablero; hoy es una tabla)
 - [ ] Ajustar el [borrador del backlog](product-backlog-borrador.md) a este mapa (qué historias quedan dentro y cuáles son soporte)
 
 ## Fuentes
