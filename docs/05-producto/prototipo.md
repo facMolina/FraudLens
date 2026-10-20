@@ -1,13 +1,19 @@
 # Prototipo de FraudLens
 
-> **Estado:** 🟡 existe en un **repositorio propio**, **relevado el 2026-10-07** (solo lectura, sin ejecutar). Falta correrlo para confirmar que anda.
+> **Estado:** 🟡 existe en un **repositorio propio**, **relevado el 2026-10-07** y **actualizado el 2026-10-18** con multi-tenant, autenticación,
+> identidad visual y app móvil ([ver abajo](#actualización-del-2026-10-18--commits-de-fgr)). Todo leído del código, **sin ejecutar**: falta correrlo para confirmar que anda.
 > **Autor:** Francisco Daniel Guerrero Rojas (FGR)
 > **Registrado acá:** 2026-09-02 por FM, a partir de lo que FGR compartió por WhatsApp. **Link y relevamiento:** 2026-10-07 por FM.
+> **Actualización:** 2026-10-20 por FGR.
 
 ## Dónde vive
 
-**Repositorio (privado):** https://github.com/fguerrero2/FraudLens-prototipo — lo puede abrir FM con su cuenta de GitHub. Esta sesión de
-Claude Code **no tiene acceso**: lo leyó otro chat de Claude con Claude in Chrome, usando la sesión de GitHub de FM (ver abajo).
+**Repositorio (público):** https://github.com/fguerrero2/FraudLens-prototipo
+
+- **Desde el 2026-10-20 es público** *(FGR)*: cualquiera puede leerlo, pero **solo los colaboradores pueden hacer cambios**.
+  Antes era privado, y el relevamiento del 2026-10-07 se hizo con la sesión de GitHub de FM (ver abajo).
+- El público ve todo el contenido commiteado. Revisá los puntos de seguridad en
+  [Detalles a revisar con FGR](#detalles-a-revisar-con-fgr-no-se-deduce-nada).
 
 > ✅ **Corrección (2026-10-07).** Acá se había escrito que el prototipo era *"solo interfaz, sin lógica"* y que *"no hay un modelo ni reglas
 > funcionando detrás"* (aclaración del equipo del 17/9). **El relevamiento del repo muestra otra cosa:** hay un backend con un **motor de reglas
@@ -30,7 +36,7 @@ Francisco armó un prototipo funcional de FraudLens:
 ## Qué muestra el repo — relevamiento del 2026-10-07
 
 > **Fuente y cómo leerlo.** Lo relevó **otro chat de Claude con Claude in Chrome**, en **solo lectura**, sobre el commit `5f6528c` de `main`, con la
-> sesión de GitHub de FM (el repo es privado). **No se ejecutó la aplicación ni los tests**: los estados "implementado" se basan en la lectura del
+> sesión de GitHub de FM (en ese momento el repo era privado). **No se ejecutó la aplicación ni los tests**: los estados "implementado" se basan en la lectura del
 > código. Cada dato trae su archivo de evidencia en el informe original. Es información de segunda mano para esta sesión: **no la verificamos nosotros**.
 
 ### Resumen
@@ -90,9 +96,57 @@ reglas**; no son filas escritas a mano en la interfaz.
 - **Sin licencia** (no hay archivo `LICENSE`).
 - El informe **no leyó completos** los `Dockerfile`, `nginx.conf`, `evaluation/metrics.ts` ni el resto de `seed.ts`.
 
+## Actualización del 2026-10-18 — commits de FGR
+
+> **Fuente y cómo leerlo.** Lo relevó **Claude Code** el 2026-10-20 sobre el clon local de FGR, en `main` al commit `af8c320`, que coincide con `origin/main`.
+> Se leyeron el historial, los archivos de cada commit y algunos archivos puntuales. **No se ejecutó la aplicación ni los tests.**
+> El trabajo de interfaz del 18/10 está en la
+> [bitácora de ese día](../../bitacora/2026-10-18-prototipo-identidad-y-usabilidad.md). Lo cierra la tarjeta de Trello
+> [Actualizar Prototipo de FraudLens…](https://trello.com/c/Yryt6P90).
+
+### Commits nuevos
+
+| Commit | Fecha | Qué trae |
+|---|---|---|
+| `e41d3c6` | 2026-10-18 | *"Tenant, idiomas, identidad visual, app movil"*: 125 archivos. Es el grueso del cambio y acumula trabajo que estaba sin commitear |
+| `501121b` | 2026-10-18 | Ajuste menor del README de la raíz |
+| `af8c320` | 2026-10-18 | *"Ajuste de botones y contraste"*: retoques de `styles.css`, de la pantalla de login y de la app móvil |
+
+El historial pasa a **10 commits**, todos de `fguerrero2`, del 31/8 al 18/10.
+
+### Qué cambió respecto del relevamiento del 2026-10-07
+
+| Tema | Antes (2026-10-07) | Ahora (2026-10-18) |
+|---|---|---|
+| **Multi-tenant** | No había | Varias empresas (tenants) en la misma instalación: migración `20261007000000_multitenancy`, contexto e interceptor de tenant (`Backend/src/common/`), módulo `tenants` y tests de aislamiento (`Backend/test/rls.test.ts`) |
+| **Autenticación** | **API key fija por rol** (`client`, `analyst`, `admin`) | Usuarios con contraseña y tokens (`Backend/src/auth/`). Se borró el viejo `api-key.guard.ts`. También hay **login por QR** desde la app móvil, con un desafío que vence a los 2 minutos |
+| **Roles y permisos** | 3 roles fijos | Permisos por tenant con 5 roles predefinidos (`role-presets.ts`): `TENANT_ADMIN`, `FRAUD_ANALYST`, `OPERATOR`, `VIEWER` y `API_MANAGER`, más roles de plataforma (`SUPER_ADMIN`, `PLATFORM_SUPPORT`) |
+| **Pantalla de login** | No había | `Frontend/src/Auth.jsx` |
+| **Administración** | — | `Frontend/src/Administration.jsx`: usuarios, roles y grilla de permisos |
+| **Idiomas** | Interfaz en inglés | i18n con traducción a español latinoamericano (`es-419.json`), compartida entre la web y la app móvil |
+| **Identidad visual** | `VISUAL_IDENTITY.md` basado en este repo | `styles.css` reescrito con los tokens de [`paleta.md`](identidad/paleta.md), logos oficiales en modo claro y oscuro, y cambio de tema. Revisión con las heurísticas de Nielsen en `Frontend/UX_GUIDELINES.md` |
+| **App móvil** | No había | `Frontend/mobile/`: app con Expo (hay `eas.json`), misma paleta y mismos textos que la web. **Solo se verificó que compila; no se probó en un dispositivo** |
+| **Modelo de riesgo** | Motor de reglas; el modelo de anomalías solo corría en `evaluation/` | El motor de reglas sigue siendo el valor por defecto (`heuristic-v1`). Ahora el servidor puede **cargar un modelo estadístico de anomalías desde un archivo** (`Backend/src/risk/anomaly-model.ts`, con medias y escalas por variable), y cada tenant puede elegir el modelo activo (`Backend/src/ml/`). **Sigue sin haber un modelo de ML entrenado commiteado**: `Backend/models/` solo tiene `.gitkeep` |
+| **Datasets** | Ninguno | Se suma `Datasets/` con **dos dominios separados**: tarjetas con [ULB Credit Card Fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) y transferencias con [PaySim](https://www.kaggle.com/datasets/ealaxi/paysim1). Cada uno tiene una partición cronológica 60/20/20. **En el repo solo están el README y los manifiestos**: los `.jsonl` y los CSV crudos están en `.gitignore` |
+| **Tests** | 12 en el backend, ninguno en el frontend | Según el conteo de `test(` en los archivos: 21 en el backend (`fraud`, `auth`, `rls`) y 3 en el frontend (`i18n`). **Sin ejecutar** |
+| **Deploy** | Supabase + Render | Se suman `Frontend/vercel.json` y `_redirects`. Además hay un documento de arquitectura en la raíz (`fraudlens-arquitectura.md`) |
+
+### Lo que esto implica para el proyecto *(para revisar en equipo, no son decisiones)*
+
+1. **Los datasets no son los de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md).** La 0006 eligió tres datasets de Kaggle para
+   entrenamiento, validación y test. El prototipo usa **otros dos**, ULB y PaySim, con un esquema distinto: un modelo por dominio y la partición dentro de cada uno.
+   Hay que decidir cuál vale para el MVP ([P-11](../00-proyecto/preguntas-abiertas.md#p-11)).
+2. **Multi-tenant, usuarios, 5 roles y administración van más allá del recorte de la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md).**
+   Hay que contrastarlos con la lista "NO MVP" de [`problema.md`](problema.md) y con el MoSCoW. Como en el relevamiento anterior, **es un dato, no un error**:
+   el prototipo no es el MVP.
+3. **Con el repo público, los puntos de seguridad de arriba ahora están a la vista de todos.** Sigue sin `LICENSE`, `Frontend/node_modules` sigue commiteado
+   (4.484 archivos) y los `.env.example` siguen en el repo. Hay que revisar que no tengan claves reales.
+4. **La cita del notebook de Kaggle y la declaración de uso de IA siguen faltando en el repo.** Ningún README nombra a Claude, a Codex ni el notebook.
+   El README de la raíz todavía tiene texto con formato de respuesta de una herramienta y rutas absolutas de la máquina de FGR.
+
 ## Qué falta
 
-- [x] **¿Dónde vive el código?** → repo privado de FGR, ver arriba. Falta decidir dónde vive **el del MVP** → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
+- [x] **¿Dónde vive el código?** → repo de FGR, **público desde el 2026-10-20** (solo los colaboradores hacen cambios), ver arriba. Falta decidir dónde vive **el del MVP** → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
 - [x] Link al repositorio del prototipo
 - [x] Qué stack usa realmente → relevado arriba (NestJS + Prisma + PostgreSQL / React + Vite). Qué stack usa **el MVP** sigue abierto → [P-10](../00-proyecto/preguntas-abiertas.md#p-10)
 - [x] Qué dataset usa → **ninguno** en el repo; no usa los 3 de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md) ([P-11](../00-proyecto/preguntas-abiertas.md#p-11))
@@ -102,6 +156,10 @@ reglas**; no son filas escritas a mano en la interfaz.
 - [ ] **Citar bien el notebook de Kaggle** (título y link) y **declarar el uso de IA** en el repo de FGR
 - [ ] Decidir **qué se hace con este código en el MVP** (¿se parte de él o se arranca de cero?) → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
 - [ ] Confirmar con FGR **qué partes generó cada herramienta de IA** (el repo no lo dice)
+- [ ] **Probar la app móvil** en un dispositivo o en un emulador *(FGR)*
+- [ ] Contrastar multi-tenant, autenticación y roles con la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) y el MoSCoW
+- [ ] Decidir si valen los datasets del prototipo (ULB + PaySim) o los de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md)
+- [ ] Ahora que el repo es público: sacar `Frontend/node_modules`, revisar los `.env.example`, limpiar el README de la raíz y sumar una licencia
 
 ## ⚠️ Honestidad académica — hay que dejarlo escrito
 
@@ -146,3 +204,4 @@ dice otra cosa, **gana el research** y el prototipo se corrige.
 - Notebook base: https://www.kaggle.com/code/carmencastrogonzlez/fraud-detection-full-project-in-spanish
 - Especificación: [`requerimientos-funcionales-mvp.md`](requerimientos-funcionales-mvp.md)
 - Relevamiento del repo (2026-10-07): otro chat de Claude con Claude in Chrome, solo lectura, commit `5f6528c`. Informe completo aportado por FM.
+- Actualización (2026-10-20): Claude Code sobre el clon local de FGR, commit `af8c320`, sin ejecutar. El cambio de visibilidad a público lo informó FGR y se verificó con la API de GitHub.

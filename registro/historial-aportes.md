@@ -104,6 +104,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-15 | FM | Producto | Correcciones tras la revisión de MDV: HU-13 incorporada al mapa (R1 pasa a 9 tareas), camino alternativo "historial insuficiente" en el Flujo 4 (dibujo regenerado), borrador del 6 Sombreros del mapa (rojo vacío) y verificación de que el conector de Trello no crea la etiqueta HU | [Bitácora](../bitacora/2026-10-15-correcciones-de-la-revision-de-mdv.md) · [6 Sombreros del mapa](../docs/05-producto/analisis/6-sombreros-mvp-user-story-map.md) |
 | 2026-10-14 | MDV | Gestión | Revisión de las 6 tarjetas de 👀 En revisión contra sus criterios y el repo: 3 cerradas con comentario de resolución (Stakeholders, Encuestas, documentación del prototipo), 3 de FM devueltas a En curso con lo que falta, y tarjeta nueva para FGR con los pendientes del prototipo | [Bitácora](../bitacora/2026-10-14-revision-tickets-en-revision.md) · [Tarjeta nueva](https://trello.com/c/BmqJQ5uC) |
 | 2026-10-18 | FGR | Desarrollo | Prototipo: frontend web y app móvil alineados a la paleta oficial, sistema único de botones responsive, revisión con las heurísticas de Nielsen y corrección de la grilla de permisos de roles | [Bitácora](../bitacora/2026-10-18-prototipo-identidad-y-usabilidad.md) · repo del prototipo, `Frontend/UX_GUIDELINES.md` |
+| 2026-10-20 | FGR | Documentación | `prototipo.md` actualizado: repo público y relevamiento de los commits del 18/10 (multi-tenant, autenticación, roles, login, i18n, app móvil, datasets ULB + PaySim), con lo que implica para las decisiones 0005 y 0006; cierre de la tarjeta del prototipo en Trello | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-18--commits-de-fgr) · [Bitácora](../bitacora/2026-10-20-actualizacion-prototipo-md.md) |
 
 ---
 
@@ -114,7 +115,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 7 | 2026-10-14 |
-| Guerrero Rojas, Francisco Daniel (FGR) | 8 | 2026-10-18 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 9 | 2026-10-20 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
 
