@@ -15,6 +15,9 @@
 - Se ejecutaron los tests del backend (`npm test`): **23 en total, 18 pasan y 5 fallan.** Los 4 tests nuevos de privilegios pasan. Los 5 que fallan son de
   `fraud.test.ts` (`db.$executeRaw is not a function`), en archivos que el PR #3 no tocó.
 - Se documentaron los cambios en la tarjeta de Trello con un comentario.
+- **Arreglo de los 5 tests de `fraud.test.ts`** (FGR, con Claude Code): el código estaba bien. El mock de base de datos del test no implementaba `$executeRaw`,
+  que `TransactionsService.create()` usa para el lock de PostgreSQL contra duplicados. Se agregó en una línea, en la rama `003_fix_fraud_tests` del prototipo.
+  Después del arreglo: backend 23 de 23 y frontend 3 de 3. El test de integración con Docker no se corrió.
 
 ## Qué se definió
 
@@ -25,7 +28,7 @@
 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
-| Arreglar los 5 tests de `fraud.test.ts` que fallan | FGR | ⬜ |
+| ~~Arreglar los 5 tests de `fraud.test.ts` que fallan~~ ✅ rama `003_fix_fraud_tests`: faltaba `$executeRaw` en el mock del test (backend 23 de 23, frontend 3 de 3) | FGR | ✅ 2026-10-21 |
 | ~~Confirmar la regla de que un Organización Admin no modifica a otro Organización Admin~~ ✅ confirmada por FGR | FGR | ✅ 2026-10-21 |
 | ~~Confirmar qué herramienta de IA se usó para el código del PR #3~~ ✅ Claude Code *(FGR)*, cargado en la declaración de uso de IA | FGR | ✅ 2026-10-21 |
 | ~~Mover la tarjeta a ✅ Hecho~~ ✅ movida, con comentario de resolución | FGR | ✅ 2026-10-21 |

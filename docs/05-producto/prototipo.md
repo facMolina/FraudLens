@@ -174,7 +174,11 @@ En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUP
 `npm test` en `Backend/`, con Claude Code sobre el clon local: **23 tests, 18 pasan, 5 fallan.**
 
 - ✅ Los **4 tests nuevos de privilegios** (`test/privileges.test.ts`) **pasan**: acceso general del Administrador, límites del Organización Admin, historial con el Administrador oculto, y reporte con log y exportación a TXT y Excel.
-- ❌ **5 tests de `test/fraud.test.ts` fallan** con `db.$executeRaw is not a function` en `transactions.service.ts:28`. **No los rompió este PR**, porque no tocó ninguno de esos dos archivos: es probable que vengan de `e41d3c6` (multi-tenant), donde el servicio pasó a usar `$executeRaw` y el doble de prueba no lo implementa. *Hipótesis sin verificar.*
+- ❌ **5 tests de `test/fraud.test.ts` fallan** con `db.$executeRaw is not a function` en `transactions.service.ts:28`. **No los rompió este PR**, porque no tocó ninguno de esos dos archivos: es probable que vengan de `e41d3c6` (multi-tenant), donde el servicio pasó a usar `$executeRaw` y el doble de prueba no lo implementa. 
+  - ✅ **Arreglado el 2026-10-21** en la rama `003_fix_fraud_tests`. **El problema estaba en el test, no en el código.** `TransactionsService.create()` toma un
+    lock de PostgreSQL con `$executeRaw` (`pg_advisory_xact_lock`) para que dos pedidos con el mismo ID no se pisen. El mock de base de datos de
+    `fraud.test.ts` solo implementaba `$queryRaw`. Se le agregó `$executeRaw`, de una línea, y no se tocó código de la aplicación.
+    **Resultado: backend 23 de 23 y frontend 3 de 3.** El test de integración con Docker (`docker-integration.cjs`) no se corrió.
 
 ## Qué falta
 
@@ -189,7 +193,7 @@ En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUP
 - [ ] Decidir **qué se hace con este código en el MVP** (¿se parte de él o se arranca de cero?) → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
 - [ ] Confirmar con FGR **qué partes generó cada herramienta de IA** (el repo no lo dice)
 - [ ] **Probar la app móvil** en un dispositivo o en un emulador *(FGR)*
-- [ ] **Arreglar los 5 tests de `fraud.test.ts` que fallan** (ver la actualización del 2026-10-21) *(FGR)*
+- [x] **Arreglar los 5 tests de `fraud.test.ts` que fallan** → arreglado el 2026-10-21 (rama `003_fix_fraud_tests`): faltaba `$executeRaw` en el mock del test
 - [x] Un Organización Admin **no puede** modificar a otro Organización Admin de su misma organización → **confirmado por FGR** (2026-10-21)
 - [ ] Contrastar multi-tenant, autenticación y roles con la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) y el MoSCoW
 - [ ] Decidir si valen los datasets del prototipo (ULB + PaySim) o los de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md)
