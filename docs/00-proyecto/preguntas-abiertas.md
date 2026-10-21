@@ -256,6 +256,8 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 
 > 📌 **Dato nuevo (2026-10-07):** el **prototipo** de FGR usa **TypeScript con NestJS, Prisma y PostgreSQL** en el backend y **React + Vite** en el frontend. Es el stack del prototipo, **no una decisión para el MVP**: esta pregunta sigue abierta. *(Con Jev, un backend en TypeScript usaría la API REST directamente: el SDK oficial es de Python y .NET.)*
 
+> 📌 **Dato nuevo (2026-10-21, FGR):** el **prototipo** se reconvierte a **Next.js (frontend + API routes) en un solo deploy en Vercel, manteniendo PostgreSQL**. Se descartó MongoDB Atlas para esta fase porque el aislamiento entre organizaciones depende de RLS de PostgreSQL. Ver [decisión 0007](../03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) (🟡 Propuesta, falta validar con MDV y ML). **Es el stack del prototipo, no el del MVP: esta pregunta sigue abierta**, y la sugerencia de abajo (FastAPI + Python) sigue sin revisar.
+
 ### 💡 Sugerencia de Claude Code (2026-10-21, a pedido de MDV) — **no es decisión**
 
 > **Qué es esto.** Una propuesta del asistente, cargada para que el equipo la analice con

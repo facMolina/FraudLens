@@ -107,6 +107,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-20 | FGR | Documentación | `prototipo.md` actualizado: repo público y relevamiento de los commits del 18/10 (multi-tenant, autenticación, roles, login, i18n, app móvil, datasets ULB + PaySim), con lo que implica para las decisiones 0005 y 0006; cierre de la tarjeta del prototipo en Trello | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-18--commits-de-fgr) · [Bitácora](../bitacora/2026-10-20-actualizacion-prototipo-md.md) |
 | 2026-10-21 | FGR | Desarrollo | Prototipo: esquema de privilegios (PR #3): Administrador y Organización Admin, selector de organizaciones según el usuario, rol visible en la barra de sesión, reporte de organizaciones exportable a Excel y txt, e historial de usuarios y organizaciones que solo agrega registros; 4 tests nuevos que pasan | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-21--esquema-de-privilegios-pr-3) · [Bitácora](../bitacora/2026-10-21-prototipo-esquema-de-privilegios.md) · [PR #3](https://github.com/fguerrero2/FraudLens-prototipo/pull/3) |
 | 2026-10-21 | MDV | Producto | Sugerencia de stack para el MVP cargada en P-10: 4 alternativas con sus tradeoffs (FastAPI + front del prototipo, NestJS + servicio de predicción, ONNX en Node, Streamlit), **propuesta de Claude Code sin revisar por el equipo** | [P-10](../docs/00-proyecto/preguntas-abiertas.md#p-10) · [Bitácora](../bitacora/2026-10-21-sugerencia-stack-mvp.md) |
+| 2026-10-21 | FGR | Desarrollo | Toma de la tarjeta de reconversión del prototipo a un solo deploy en Vercel y decisión 0007: Next.js + API routes **manteniendo PostgreSQL** (se descarta MongoDB Atlas en esta fase); borrador del 6 Sombreros y plan de la tarjeta actualizado | [0007](../docs/03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) · [6 Sombreros](../docs/05-producto/analisis/6-sombreros-stack-prototipo-vercel.md) · [Bitácora](../bitacora/2026-10-21-stack-prototipo-vercel-postgresql.md) · [Tarjeta](https://trello.com/c/6LaBsgsa) |
 
 ---
 
@@ -117,7 +118,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 8 | 2026-10-21 |
-| Guerrero Rojas, Francisco Daniel (FGR) | 10 | 2026-10-21 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 11 | 2026-10-21 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
 
