@@ -106,6 +106,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-18 | FGR | Desarrollo | Prototipo: frontend web y app móvil alineados a la paleta oficial, sistema único de botones responsive, revisión con las heurísticas de Nielsen y corrección de la grilla de permisos de roles | [Bitácora](../bitacora/2026-10-18-prototipo-identidad-y-usabilidad.md) · repo del prototipo, `Frontend/UX_GUIDELINES.md` |
 | 2026-10-20 | FGR | Documentación | `prototipo.md` actualizado: repo público y relevamiento de los commits del 18/10 (multi-tenant, autenticación, roles, login, i18n, app móvil, datasets ULB + PaySim), con lo que implica para las decisiones 0005 y 0006; cierre de la tarjeta del prototipo en Trello | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-18--commits-de-fgr) · [Bitácora](../bitacora/2026-10-20-actualizacion-prototipo-md.md) |
 | 2026-10-21 | FGR | Desarrollo | Prototipo: esquema de privilegios (PR #3): Administrador y Organización Admin, selector de organizaciones según el usuario, rol visible en la barra de sesión, reporte de organizaciones exportable a Excel y txt, e historial de usuarios y organizaciones que solo agrega registros; 4 tests nuevos que pasan | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-21--esquema-de-privilegios-pr-3) · [Bitácora](../bitacora/2026-10-21-prototipo-esquema-de-privilegios.md) · [PR #3](https://github.com/fguerrero2/FraudLens-prototipo/pull/3) |
+| 2026-10-21 | MDV | Producto | Sugerencia de stack para el MVP cargada en P-10: 4 alternativas con sus tradeoffs (FastAPI + front del prototipo, NestJS + servicio de predicción, ONNX en Node, Streamlit), **propuesta de Claude Code sin revisar por el equipo** | [P-10](../docs/00-proyecto/preguntas-abiertas.md#p-10) · [Bitácora](../bitacora/2026-10-21-sugerencia-stack-mvp.md) |
 
 ---
 
@@ -115,7 +116,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
-| Diaz Valdez, Mateo (MDV) | 7 | 2026-10-14 |
+| Diaz Valdez, Mateo (MDV) | 8 | 2026-10-21 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 10 | 2026-10-21 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |

@@ -30,7 +30,7 @@ de Trello con esa fecha de vencimiento.
 | [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
-| [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta |
+| [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta — hay una sugerencia de Claude Code sin revisar |
 | [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🔲 Abierta |
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
@@ -255,6 +255,55 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 > [`typesafe-jev.md`](../05-producto/typesafe-jev.md). No cierra esta pregunta.
 
 > 📌 **Dato nuevo (2026-10-07):** el **prototipo** de FGR usa **TypeScript con NestJS, Prisma y PostgreSQL** en el backend y **React + Vite** en el frontend. Es el stack del prototipo, **no una decisión para el MVP**: esta pregunta sigue abierta. *(Con Jev, un backend en TypeScript usaría la API REST directamente: el SDK oficial es de Python y .NET.)*
+
+### 💡 Sugerencia de Claude Code (2026-10-21, a pedido de MDV) — **no es decisión**
+
+> **Qué es esto.** Una propuesta del asistente, cargada para que el equipo la analice con
+> [6 Sombreros](../04-metodologia/seis-sombreros.md) (regla 9). **No cierra P-10.** El equipo no la revisó.
+>
+> **Fuentes:** **(R)** repo: [`prototipo.md`](../05-producto/prototipo.md), [`alcance-mvp-moscow.md`](../05-producto/alcance-mvp-moscow.md),
+> decisiones [0005](../03-decisiones/0005-recorte-alcance-mvp.md) y [0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md) ·
+> **(A)** un selector de stack para MVPs que aportó MDV (artifact de Claude, research del 20-oct-2026, externo al proyecto) ·
+> **(E)** conocimiento general del asistente, **sin verificar** en ninguna de las dos fuentes anteriores.
+
+**Por qué no sirve un stack "TypeScript genérico":** el núcleo del MVP es **un modelo entrenado** con los 3 datasets
+de Kaggle de la 0006 **(R)**, y esos notebooks están en Python **(E)**. Además la 0005 sacó el login con roles y el
+panel de administración, y el email está fuera del MVP (ítem 4 del alcance) **(R)**: no hacen falta piezas para eso.
+
+**Propuesta (alternativa A):**
+
+| Capa | Sugerencia | Por qué |
+|---|---|---|
+| Modelo | Python + scikit-learn (o XGBoost), exportado con `joblib` **(E)** | Mismo lenguaje que los notebooks |
+| API | FastAPI con el modelo cargado en memoria **(A)** | Un solo backend; se mantienen los endpoints del prototipo (`POST /transactions`, etc.) **(R)** |
+| Frontend | El React + Vite del prototipo de FGR, apuntado a la API nueva **(R)** | Ya existe y ya usa esos endpoints |
+| Base de datos | SQLite, o Postgres en Neon gratis **(A)** | Para una demo con datos de seed alcanza SQLite |
+| Hosting | Front en Vercel Hobby (uso no comercial) **(A)**; API en Render gratis **(E)** o local en la demo | $0. El prototipo ya trae instrucciones para Render **(R)** |
+| Autenticación | Ninguna, o una API key fija | La 0005 deja un solo tipo de usuario **(R)** |
+
+**Alternativas y tradeoffs:**
+
+| Opción | Qué se gana | Qué se paga |
+|---|---|---|
+| **A. FastAPI + frontend del prototipo** *(la sugerida)* | Un solo backend, en el mismo lenguaje que el modelo | Se descarta el backend NestJS; el motor de reglas (`risk.service.ts`) hay que portarlo a Python |
+| **B. NestJS del prototipo + un servicio FastAPI solo para `/predict`** | Se aprovecha todo el prototipo | Dos backends para desplegar y defender en The Pitch; dos servicios gratis que se apagan |
+| **C. NestJS + modelo exportado a ONNX (`onnxruntime-node`)** **(E)** | Un solo backend, todo en TypeScript | La conversión a ONNX suma trabajo; explicar la predicción (los 3 factores de CU-03) desde Node es más difícil |
+| **D. Streamlit, todo en una app** **(E)** | Lo más rápido: Python puro y hosting gratis | No hay API (CU-01 pide recibir una transacción y devolver un score) y se pierde el frontend del prototipo |
+
+**Riesgos a tener en cuenta:**
+
+- **Supabase Free se pausa tras una semana sin uso** **(A)**: riesgo antes de The Pitch. Por eso la propuesta usa SQLite o Neon.
+- **Render gratis se apaga sin uso** y el primer pedido tarda **(E, sin verificar)**: despertarlo antes de la demo.
+- **No es de stack, pero lo condiciona:** el dataset 1 de la 0006 tiene columnas anonimizadas **(R)**. Un modelo entrenado
+  solo con él no puede puntuar la transacción que carga el formulario (monto, país, dispositivo). Las columnas de entrada
+  de la API tienen que coincidir con las del dataset que entrena el modelo.
+
+**Lo que falta para decidir:**
+
+- [ ] **Qué sabe usar cada integrante** (Python, NestJS, React) — es el criterio de esta pregunta y define A contra B/C. **No se deduce: hay que preguntarlo**
+- [ ] Qué se hace con el código del prototipo → [P-05](#p-05)
+- [ ] Si entra Jev ([P-25](#p-25)): con Python se usaría su SDK oficial **(R)**
+- [ ] 6 Sombreros con el sombrero rojo de las 4 voces
 
 
 ---
