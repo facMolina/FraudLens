@@ -19,16 +19,16 @@
 ## Qué se definió
 
 - Ninguna definición nueva de producto. Los requerimientos a a g los escribió FGR en la tarjeta.
-- **Interpretación del código, sin confirmar:** el Organización Admin no puede dar el rol de Organización Admin ni modificar a otro Organización Admin. Eso queda solo para el Administrador.
+- **Confirmado por FGR:** el Organización Admin no puede dar el rol de Organización Admin ni modificar a otro Organización Admin. Eso queda solo para el Administrador.
 
 ## Qué quedó pendiente
 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
 | Arreglar los 5 tests de `fraud.test.ts` que fallan | FGR | ⬜ |
-| Confirmar la regla de que un Organización Admin no modifica a otro Organización Admin | FGR / Equipo | ⬜ |
+| ~~Confirmar la regla de que un Organización Admin no modifica a otro Organización Admin~~ ✅ confirmada por FGR | FGR | ✅ 2026-10-21 |
 | ~~Confirmar qué herramienta de IA se usó para el código del PR #3~~ ✅ Claude Code *(FGR)*, cargado en la declaración de uso de IA | FGR | ✅ 2026-10-21 |
-| Mover la tarjeta a ✅ Hecho cuando FGR la dé por cerrada | FGR | ⬜ |
+| ~~Mover la tarjeta a ✅ Hecho~~ ✅ movida, con comentario de resolución | FGR | ✅ 2026-10-21 |
 
 ## Archivos tocados
 

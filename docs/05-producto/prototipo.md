@@ -157,7 +157,7 @@ En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUP
 | | Requerimiento (tarjeta) | Cómo quedó en el código |
 |---|---|---|
 | a | El Administrador crea, modifica y desactiva organizaciones, y también a los Organización Admin | El alta y edición de organizaciones ya existía. Ahora la suspensión y la reactivación quedan registradas como acciones propias. Hay endpoints nuevos `POST` y `PUT /platform/tenants/:id/admins` para crear un Organización Admin (o darle el rol a un usuario que ya existe), cambiarle el nombre y activarlo o desactivarlo. Al crear una organización, el Administrador ya no queda como miembro de ella |
-| b | El Organización Admin solo gestiona usuarios de su organización y no ve a los de otras ni al Administrador | El listado de miembros filtra por la organización activa y excluye siempre a los `SUPER_ADMIN`. **Además, el Organización Admin no puede dar el rol de Organización Admin ni modificar a otro Organización Admin**: eso queda reservado al Administrador. *Esto último es una interpretación del código; la tarjeta no lo pedía explícitamente* |
+| b | El Organización Admin solo gestiona usuarios de su organización y no ve a los de otras ni al Administrador | El listado de miembros filtra por la organización activa y excluye siempre a los `SUPER_ADMIN`. **Además, el Organización Admin no puede dar el rol de Organización Admin ni modificar a otro Organización Admin**: eso queda reservado al Administrador. *La tarjeta no lo pedía explícitamente; **FGR lo confirmó el 2026-10-21*** |
 | c | El selector de organizaciones muestra solo aquellas a las que el usuario pertenece, salvo el Administrador, que ve todas | `auth.service` → `profile()`: el Administrador recibe todas las organizaciones activas y el resto solo las suyas |
 | d | El Administrador, dentro de una organización, ve solo los usuarios de esa organización | El Administrador entra a cualquier organización activa con los permisos de `TENANT_ADMIN` sin ser miembro, y el listado se filtra por la organización activa |
 | e | El perfil del usuario logueado aparece arriba a la derecha, debajo del nombre | Barra de sesión (`Auth.jsx` + `styles.css`): nombre y, debajo, el rol. En celular ya no se oculta |
@@ -190,7 +190,7 @@ En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUP
 - [ ] Confirmar con FGR **qué partes generó cada herramienta de IA** (el repo no lo dice)
 - [ ] **Probar la app móvil** en un dispositivo o en un emulador *(FGR)*
 - [ ] **Arreglar los 5 tests de `fraud.test.ts` que fallan** (ver la actualización del 2026-10-21) *(FGR)*
-- [ ] Confirmar si está bien que un Organización Admin **no pueda** modificar a otro Organización Admin de su misma organización (regla del PR #3 que la tarjeta no pedía)
+- [x] Un Organización Admin **no puede** modificar a otro Organización Admin de su misma organización → **confirmado por FGR** (2026-10-21)
 - [ ] Contrastar multi-tenant, autenticación y roles con la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) y el MoSCoW
 - [ ] Decidir si valen los datasets del prototipo (ULB + PaySim) o los de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md)
 - [ ] Ahora que el repo es público: sacar `Frontend/node_modules`, revisar los `.env.example`, limpiar el README de la raíz y sumar una licencia
