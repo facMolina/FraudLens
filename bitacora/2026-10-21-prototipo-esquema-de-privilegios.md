@@ -16,7 +16,7 @@
   `fraud.test.ts` (`db.$executeRaw is not a function`), en archivos que el PR #3 no tocó.
 - Se documentaron los cambios en la tarjeta de Trello con un comentario.
 - **Arreglo de los 5 tests de `fraud.test.ts`** (FGR, con Claude Code): el código estaba bien. El mock de base de datos del test no implementaba `$executeRaw`,
-  que `TransactionsService.create()` usa para el lock de PostgreSQL contra duplicados. Se agregó en una línea, en la rama `003_fix_fraud_tests` del prototipo ([PR #4](https://github.com/fguerrero2/FraudLens-prototipo/pull/4), tarjeta [Arreglar los tests de fraud.test.ts del prototipo](https://trello.com/c/lgvQVdw6)).
+  que `TransactionsService.create()` usa para el lock de PostgreSQL contra duplicados. Se agregó en una línea, en la rama `003_fix_fraud_tests` del prototipo ([PR #4](https://github.com/fguerrero2/FraudLens-prototipo/pull/4) (**mergeado en `main`**, merge `99386f5`), tarjeta [Arreglar los tests de fraud.test.ts del prototipo](https://trello.com/c/lgvQVdw6)).
   Después del arreglo: backend 23 de 23 y frontend 3 de 3. El test de integración con Docker no se corrió.
 
 ## Qué se definió

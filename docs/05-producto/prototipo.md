@@ -175,7 +175,7 @@ En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUP
 
 - ✅ Los **4 tests nuevos de privilegios** (`test/privileges.test.ts`) **pasan**: acceso general del Administrador, límites del Organización Admin, historial con el Administrador oculto, y reporte con log y exportación a TXT y Excel.
 - ❌ **5 tests de `test/fraud.test.ts` fallan** con `db.$executeRaw is not a function` en `transactions.service.ts:28`. **No los rompió este PR**, porque no tocó ninguno de esos dos archivos: es probable que vengan de `e41d3c6` (multi-tenant), donde el servicio pasó a usar `$executeRaw` y el doble de prueba no lo implementa. 
-  - ✅ **Arreglado el 2026-10-21** en la rama `003_fix_fraud_tests`, [PR #4](https://github.com/fguerrero2/FraudLens-prototipo/pull/4), tarjeta [Arreglar los tests de fraud.test.ts del prototipo](https://trello.com/c/lgvQVdw6). **El problema estaba en el test, no en el código.** `TransactionsService.create()` toma un
+  - ✅ **Arreglado el 2026-10-21** en la rama `003_fix_fraud_tests`, [PR #4](https://github.com/fguerrero2/FraudLens-prototipo/pull/4) (**mergeado en `main`**, merge `99386f5`), tarjeta [Arreglar los tests de fraud.test.ts del prototipo](https://trello.com/c/lgvQVdw6). **El problema estaba en el test, no en el código.** `TransactionsService.create()` toma un
     lock de PostgreSQL con `$executeRaw` (`pg_advisory_xact_lock`) para que dos pedidos con el mismo ID no se pisen. El mock de base de datos de
     `fraud.test.ts` solo implementaba `$queryRaw`. Se le agregó `$executeRaw`, de una línea, y no se tocó código de la aplicación.
     **Resultado: backend 23 de 23 y frontend 3 de 3.** El test de integración con Docker (`docker-integration.cjs`) no se corrió.
