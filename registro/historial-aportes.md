@@ -105,6 +105,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-14 | MDV | Gestión | Revisión de las 6 tarjetas de 👀 En revisión contra sus criterios y el repo: 3 cerradas con comentario de resolución (Stakeholders, Encuestas, documentación del prototipo), 3 de FM devueltas a En curso con lo que falta, y tarjeta nueva para FGR con los pendientes del prototipo | [Bitácora](../bitacora/2026-10-14-revision-tickets-en-revision.md) · [Tarjeta nueva](https://trello.com/c/BmqJQ5uC) |
 | 2026-10-18 | FGR | Desarrollo | Prototipo: frontend web y app móvil alineados a la paleta oficial, sistema único de botones responsive, revisión con las heurísticas de Nielsen y corrección de la grilla de permisos de roles | [Bitácora](../bitacora/2026-10-18-prototipo-identidad-y-usabilidad.md) · repo del prototipo, `Frontend/UX_GUIDELINES.md` |
 | 2026-10-20 | FGR | Documentación | `prototipo.md` actualizado: repo público y relevamiento de los commits del 18/10 (multi-tenant, autenticación, roles, login, i18n, app móvil, datasets ULB + PaySim), con lo que implica para las decisiones 0005 y 0006; cierre de la tarjeta del prototipo en Trello | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-18--commits-de-fgr) · [Bitácora](../bitacora/2026-10-20-actualizacion-prototipo-md.md) |
+| 2026-10-21 | FGR | Desarrollo | Prototipo: esquema de privilegios (PR #3): Administrador y Organización Admin, selector de organizaciones según el usuario, rol visible en la barra de sesión, reporte de organizaciones exportable a Excel y txt, e historial de usuarios y organizaciones que solo agrega registros; 4 tests nuevos que pasan | [`prototipo.md`](../docs/05-producto/prototipo.md#actualización-del-2026-10-21--esquema-de-privilegios-pr-3) · [Bitácora](../bitacora/2026-10-21-prototipo-esquema-de-privilegios.md) · [PR #3](https://github.com/fguerrero2/FraudLens-prototipo/pull/3) |
 
 ---
 
@@ -115,7 +116,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 7 | 2026-10-14 |
-| Guerrero Rojas, Francisco Daniel (FGR) | 9 | 2026-10-20 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 10 | 2026-10-21 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
 

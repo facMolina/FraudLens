@@ -4,7 +4,7 @@
 > identidad visual y app móvil ([ver abajo](#actualización-del-2026-10-18--commits-de-fgr)). Todo leído del código, **sin ejecutar**: falta correrlo para confirmar que anda.
 > **Autor:** Francisco Daniel Guerrero Rojas (FGR)
 > **Registrado acá:** 2026-09-02 por FM, a partir de lo que FGR compartió por WhatsApp. **Link y relevamiento:** 2026-10-07 por FM.
-> **Actualización:** 2026-10-20 por FGR.
+> **Actualizaciones:** 2026-10-20 y 2026-10-21 (esquema de privilegios, [ver abajo](#actualización-del-2026-10-21--esquema-de-privilegios-pr-3)) por FGR.
 
 ## Dónde vive
 
@@ -144,6 +144,38 @@ El historial pasa a **10 commits**, todos de `fguerrero2`, del 31/8 al 18/10.
 4. **La cita del notebook de Kaggle y la declaración de uso de IA siguen faltando en el repo.** Ningún README nombra a Claude, a Codex ni el notebook.
    El README de la raíz todavía tiene texto con formato de respuesta de una herramienta y rutas absolutas de la máquina de FGR.
 
+## Actualización del 2026-10-21 — esquema de privilegios (PR #3)
+
+> **Fuente.** Commit `435ce61` de FGR, mergeado en `main` por el [PR #3](https://github.com/fguerrero2/FraudLens-prototipo/pull/3) (`6380c2b`, 2026-10-21 00:25).
+> Lo relevó Claude Code leyendo el diff. Los tests del backend **sí se ejecutaron** (`npm test`, ver abajo); la aplicación no.
+> Tarjeta de Trello: [Adecuar el esquema de privilegios de usuario en el Prototipo de Fraudlens](https://trello.com/c/pXU4b3yU). El código lo generó **Claude Code**, a pedido de FGR.
+
+En el código, el **"Administrador"** de la tarjeta es el rol de plataforma `SUPER_ADMIN`, y el **"Organización Admin"** es el rol `TENANT_ADMIN` de cada organización.
+
+### Requerimiento por requerimiento
+
+| | Requerimiento (tarjeta) | Cómo quedó en el código |
+|---|---|---|
+| a | El Administrador crea, modifica y desactiva organizaciones, y también a los Organización Admin | El alta y edición de organizaciones ya existía. Ahora la suspensión y la reactivación quedan registradas como acciones propias. Hay endpoints nuevos `POST` y `PUT /platform/tenants/:id/admins` para crear un Organización Admin (o darle el rol a un usuario que ya existe), cambiarle el nombre y activarlo o desactivarlo. Al crear una organización, el Administrador ya no queda como miembro de ella |
+| b | El Organización Admin solo gestiona usuarios de su organización y no ve a los de otras ni al Administrador | El listado de miembros filtra por la organización activa y excluye siempre a los `SUPER_ADMIN`. **Además, el Organización Admin no puede dar el rol de Organización Admin ni modificar a otro Organización Admin**: eso queda reservado al Administrador. *Esto último es una interpretación del código; la tarjeta no lo pedía explícitamente* |
+| c | El selector de organizaciones muestra solo aquellas a las que el usuario pertenece, salvo el Administrador, que ve todas | `auth.service` → `profile()`: el Administrador recibe todas las organizaciones activas y el resto solo las suyas |
+| d | El Administrador, dentro de una organización, ve solo los usuarios de esa organización | El Administrador entra a cualquier organización activa con los permisos de `TENANT_ADMIN` sin ser miembro, y el listado se filtra por la organización activa |
+| e | El perfil del usuario logueado aparece arriba a la derecha, debajo del nombre | Barra de sesión (`Auth.jsx` + `styles.css`): nombre y, debajo, el rol. En celular ya no se oculta |
+| f | El Administrador consulta todas las organizaciones con su administrador y exporta a Excel y a txt | `GET /platform/report/tenants?format=json\|xlsx\|txt`, con Excel generado por la librería `exceljs` (dependencia nueva). En Administración hay una sección "Organizations report" con los botones de consulta y descarga |
+| g | Historial de usuarios y organizaciones (alta, modificación, desactivación y quién lo hizo), con log de las consultas del punto f | Tabla nueva `PlatformAuditLog` (migración `20261021000000_platform_audit_log`): **solo se agregan filas**, porque el rol de la app tiene revocados `UPDATE` y `DELETE`. Guarda quién, con qué rol, qué acción, sobre qué recurso, en qué organización y cuándo. Cada consulta o descarga del reporte queda registrada. El Administrador ve el historial global (últimos 300 registros). Cada organización ve el historial de sus miembros (últimos 200), **con la identidad del Administrador oculta** (figura como `SUPER_ADMIN`) |
+
+### Otros cambios del mismo commit
+
+- **Textos:** se sumaron en español las cadenas nuevas (`es-419.json`, `server-messages.json`, `system-labels.json`).
+- **Deploy (`DEPLOYMENT.md`):** se agrega la regla de **mantenerse en planes gratuitos** (Render Free, Supabase Free, Vercel Hobby y Expo/EAS) y que, si aparece un costo, hay que frenar. Según el documento, *"Supabase ya tiene las migraciones aplicadas"*. `render.yaml` pasa de Neon a Supabase.
+
+### Tests — ejecutados el 2026-10-21
+
+`npm test` en `Backend/`, con Claude Code sobre el clon local: **23 tests, 18 pasan, 5 fallan.**
+
+- ✅ Los **4 tests nuevos de privilegios** (`test/privileges.test.ts`) **pasan**: acceso general del Administrador, límites del Organización Admin, historial con el Administrador oculto, y reporte con log y exportación a TXT y Excel.
+- ❌ **5 tests de `test/fraud.test.ts` fallan** con `db.$executeRaw is not a function` en `transactions.service.ts:28`. **No los rompió este PR**, porque no tocó ninguno de esos dos archivos: es probable que vengan de `e41d3c6` (multi-tenant), donde el servicio pasó a usar `$executeRaw` y el doble de prueba no lo implementa. *Hipótesis sin verificar.*
+
 ## Qué falta
 
 - [x] **¿Dónde vive el código?** → repo de FGR, **público desde el 2026-10-20** (solo los colaboradores hacen cambios), ver arriba. Falta decidir dónde vive **el del MVP** → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
@@ -157,6 +189,8 @@ El historial pasa a **10 commits**, todos de `fguerrero2`, del 31/8 al 18/10.
 - [ ] Decidir **qué se hace con este código en el MVP** (¿se parte de él o se arranca de cero?) → [P-05](../00-proyecto/preguntas-abiertas.md#p-05)
 - [ ] Confirmar con FGR **qué partes generó cada herramienta de IA** (el repo no lo dice)
 - [ ] **Probar la app móvil** en un dispositivo o en un emulador *(FGR)*
+- [ ] **Arreglar los 5 tests de `fraud.test.ts` que fallan** (ver la actualización del 2026-10-21) *(FGR)*
+- [ ] Confirmar si está bien que un Organización Admin **no pueda** modificar a otro Organización Admin de su misma organización (regla del PR #3 que la tarjeta no pedía)
 - [ ] Contrastar multi-tenant, autenticación y roles con la [decisión 0005](../03-decisiones/0005-recorte-alcance-mvp.md) y el MoSCoW
 - [ ] Decidir si valen los datasets del prototipo (ULB + PaySim) o los de la [decisión 0006](../03-decisiones/0006-tres-datasets-para-el-modelo.md)
 - [ ] Ahora que el repo es público: sacar `Frontend/node_modules`, revisar los `.env.example`, limpiar el README de la raíz y sumar una licencia
@@ -205,3 +239,4 @@ dice otra cosa, **gana el research** y el prototipo se corrige.
 - Especificación: [`requerimientos-funcionales-mvp.md`](requerimientos-funcionales-mvp.md)
 - Relevamiento del repo (2026-10-07): otro chat de Claude con Claude in Chrome, solo lectura, commit `5f6528c`. Informe completo aportado por FM.
 - Actualización (2026-10-20): Claude Code sobre el clon local de FGR, commit `af8c320`, sin ejecutar. El cambio de visibilidad a público lo informó FGR y se verificó con la API de GitHub.
+- Actualización (2026-10-21): Claude Code sobre el commit `435ce61` (PR #3), con lectura del diff y ejecución de `npm test` en el backend.
