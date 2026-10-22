@@ -10,6 +10,8 @@
 
 **Repositorio (público):** https://github.com/fguerrero2/FraudLens-prototipo
 
+**Wireframes basados en este prototipo (Figma):** [archivo de Figma](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo) · detalle en [`wireframes.md`](wireframes.md) *(borrador de MDV, 2026-10-21)*
+
 - **Desde el 2026-10-20 es público** *(FGR)*: cualquiera puede leerlo, pero **solo los colaboradores pueden hacer cambios**.
   Antes era privado, y el relevamiento del 2026-10-07 se hizo con la sesión de GitHub de FM (ver abajo).
 - El público ve todo el contenido commiteado. Revisá los puntos de seguridad en

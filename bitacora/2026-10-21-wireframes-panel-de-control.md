@@ -13,6 +13,8 @@
 - Se dibujó la primera pantalla, **01 · Panel de control**, con el conector de Figma.
 - La primera versión salió con demasiado detalle (datos de ejemplo, estados con tonos de gris, componentes). MDV pidió bajar la fidelidad: *"es para mostrar el concepto de wireframe, no es para aplicación práctica"*. Se rehizo con cajas, rayas grises y una X para el logo y el mapa.
 - MDV pidió después que parezca hecho a mano: se le sacó el auto layout y cada elemento se corrió entre 2 y 5 px. Era mucho: quedó en ~1 px.
+- Se dibujó la segunda pantalla, **02 · Detalle de una transacción**, con el mismo estilo: el panel a la derecha sobre la lista de transacciones atenuada.
+- El link a Figma se sumó también en [`prototipo.md`](../docs/05-producto/prototipo.md).
 - Quedó documentado en [`wireframes.md`](../docs/05-producto/wireframes.md).
 
 ## Qué se definió

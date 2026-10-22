@@ -1,8 +1,8 @@
 # Wireframes de FraudLens
 
-> **Estado:** 🟡 En curso — 1 de 9 pantallas hecha. **Borrador de MDV, sin revisar por el equipo.**
+> **Estado:** 🟡 En curso — 2 de 9 pantallas hechas. **Borrador de MDV, sin revisar por el equipo.**
 > **Autor:** Mateo Diaz Valdez (MDV), con Claude Code y el conector de Figma. Iniciado el 2026-10-21.
-> **Figma:** [01 · Panel de control](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2)
+> **Figma:** [archivo completo](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo) · [01 · Panel de control](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2) · [02 · Detalle de una transacción](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=11-2)
 > **Tarjeta de Trello relacionada:** [Crear Wireframes y mockups con diseños](https://trello.com/c/wtVScuzd) *(en 📥 Backlog, sin dueño a la fecha)*
 
 ## Para qué son
@@ -36,8 +36,8 @@ aplicación práctica"*. El cronograma pone Wireframes en la clase del 21/10 (Ta
 | # | Pantalla | Qué muestra | Estado |
 |---|---|---|---|
 | 01 | **Panel de control** | Barra de sesión, menú lateral, 4 métricas, tabla de transacciones recientes con filtros y paginación, mapa de riesgo | ✅ [Hecha](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2) |
-| 02 | Detalle de una transacción | Panel a la derecha: decisión, puntaje, factores de riesgo, datos, revisión humana, caso de fraude | 🔲 Siguiente |
-| 03 | Nueva transacción | Modal con el formulario para analizar una transacción | 🔲 |
+| 02 | **Detalle de una transacción** | Panel de 440 px a la derecha, encima de la lista de transacciones (atenuada, con la fila elegida marcada): decisión recomendada, puntaje, factores de riesgo, datos, perfil histórico, revisión humana, caso de fraude y nota de umbrales | ✅ [Hecha](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=11-2) |
+| 03 | Nueva transacción | Modal con el formulario para analizar una transacción | 🔲 Siguiente |
 | 04 | Transacciones | Tabla completa con paginación | 🔲 |
 | 05 | Reglas y umbrales | Modal: regla de monto mínimo y umbrales de revisión y bloqueo | 🔲 |
 | 06 | Inicio de sesión | Correo, contraseña, idioma y tema | 🔲 |

@@ -18,7 +18,7 @@ es lo único que tenemos definido.
 | [`user-flows.md`](user-flows.md) | Guion de los 5 User Flow del MVP + [dibujo en FigJam](https://www.figma.com/board/tKo7wt7bStXRCGCLNzqlRA) generado por Claude Code — **propuesta de FM, sin revisar** | — | 🟡 Borrador (FM) |
 | [`user-story-map.md`](user-story-map.md) | User Story Mapping del MVP: objetivo, recorrido del analista y línea de R1 — **propuesta de FM, sin validar** | — | 🟡 Borrador (FM) |
 | [`alcance-mvp-moscow.md`](alcance-mvp-moscow.md) | Qué queda fuera del MVP (lista unificada) y borrador de MoSCoW — **borrador, sin decidir** | — | 🟡 Borrador (FM) |
-| [`wireframes.md`](wireframes.md) | Wireframes low-fi desktop en Figma, basados en el prototipo — **borrador de MDV, sin revisar** | — | 🟡 En curso (1 de 9) |
+| [`wireframes.md`](wireframes.md) | Wireframes low-fi desktop en Figma, basados en el prototipo — **borrador de MDV, sin revisar** | — | 🟡 En curso (2 de 9) |
 | [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
 | [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
