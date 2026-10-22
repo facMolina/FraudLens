@@ -12,6 +12,7 @@
 - Claude Code leyó el código del frontend web del prototipo (commit `99386f5`) y armó la lista de 9 pantallas.
 - Se dibujó la primera pantalla, **01 · Panel de control**, con el conector de Figma.
 - La primera versión salió con demasiado detalle (datos de ejemplo, estados con tonos de gris, componentes). MDV pidió bajar la fidelidad: *"es para mostrar el concepto de wireframe, no es para aplicación práctica"*. Se rehizo con cajas, rayas grises y una X para el logo y el mapa.
+- MDV pidió después que parezca hecho a mano: se le sacó el auto layout y cada elemento se corrió entre 2 y 5 px. Era mucho: quedó en ~1 px.
 - Quedó documentado en [`wireframes.md`](../docs/05-producto/wireframes.md).
 
 ## Qué se definió

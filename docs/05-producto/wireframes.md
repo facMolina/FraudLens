@@ -2,7 +2,7 @@
 
 > **Estado:** 🟡 En curso — 1 de 9 pantallas hecha. **Borrador de MDV, sin revisar por el equipo.**
 > **Autor:** Mateo Diaz Valdez (MDV), con Claude Code y el conector de Figma. Iniciado el 2026-10-21.
-> **Figma:** [01 · Panel de control](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=7-141)
+> **Figma:** [01 · Panel de control](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2)
 > **Tarjeta de Trello relacionada:** [Crear Wireframes y mockups con diseños](https://trello.com/c/wtVScuzd) *(en 📥 Backlog, sin dueño a la fecha)*
 
 ## Para qué son
@@ -19,6 +19,7 @@ aplicación práctica"*. El cronograma pone Wireframes en la clase del 21/10 (Ta
 | Fidelidad | **Baja (low-fi).** Cajas, rayas grises en lugar de texto y una X donde va una imagen o un mapa. Solo llevan palabras los títulos, el menú, los botones y los nombres de las secciones |
 | Formato | **Desktop first**, ancho 1440 px, **sin versión responsive** |
 | Colores | Blanco, negro y gris. Sin paleta de marca ni sombras |
+| Aspecto | **Hecho a mano:** sin auto layout y con cada elemento corrido ~1 px de su lugar |
 | Idioma | Español, con los textos de la traducción del prototipo (`es-419.json`) |
 | Ritmo | Una pantalla a la vez, empezando por las que mejor explican el sitio |
 
@@ -34,7 +35,7 @@ aplicación práctica"*. El cronograma pone Wireframes en la clase del 21/10 (Ta
 
 | # | Pantalla | Qué muestra | Estado |
 |---|---|---|---|
-| 01 | **Panel de control** | Barra de sesión, menú lateral, 4 métricas, tabla de transacciones recientes con filtros y paginación, mapa de riesgo | ✅ [Hecha](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=7-141) |
+| 01 | **Panel de control** | Barra de sesión, menú lateral, 4 métricas, tabla de transacciones recientes con filtros y paginación, mapa de riesgo | ✅ [Hecha](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2) |
 | 02 | Detalle de una transacción | Panel a la derecha: decisión, puntaje, factores de riesgo, datos, revisión humana, caso de fraude | 🔲 Siguiente |
 | 03 | Nueva transacción | Modal con el formulario para analizar una transacción | 🔲 |
 | 04 | Transacciones | Tabla completa con paginación | 🔲 |
