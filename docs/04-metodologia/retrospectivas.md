@@ -14,12 +14,17 @@ Responde a la tarjeta [Armar la plantilla de Retrospectiva y el registro de faci
 | **Se documenta en el Trello** | Docente (Clase 09) |
 | En Scrum la facilita uno del equipo y cubre aspectos a mejorar, reconocimientos, etc. | Docente (definición, según la tarjeta) |
 
-> ⬜ **Falta cargar el Taller de Retrospectivas del 7/10.** No hay deck de esa clase en
+> ⬜ **El Taller de Retrospectivas se está dando el 14/10 (hoy), no el 7/10** *(MDV, 2026-10-14; el
+> cronograma decía 7/10 y no está confirmado por escrito)*. No hay deck de esa clase en
 > [`docs/01-clases/material/`](../01-clases/material/README.md), así que **esta plantilla no incorpora
-> nada del taller**. Cuando se cargue, revisar si cambia el formato o los bloques de abajo.
+> nada del taller**. **Lo que explique el docente reemplaza lo que dice acá.** Después de la clase,
+> cargar el deck y revisar el formato y los bloques de abajo.
 
-> 📌 **Todo lo que dice "Propuesta" abajo es sugerencia de Claude Code, no definición de la cátedra
-> ni decisión del equipo.** Hasta que el equipo la apruebe, es borrador.
+> 📌 **Origen del contenido.** Solo las 3 reglas de la tabla de arriba vienen de la cátedra. **El resto
+> (bloques de la plantilla, tiempos, escritura en silencio, máximo 3 acciones, la rotación sin
+> repetir) es conocimiento general de retrospectivas ágiles y sugerencias de Claude Code: no lo dijo
+> el docente ni lo decidió el equipo.** Hasta que el equipo lo apruebe, es borrador. Los "hechos para
+> recordar" sí salen del repo y de Trello.
 
 ## Plantilla
 

@@ -109,6 +109,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-10-21 | MDV | Producto | Sugerencia de stack para el MVP cargada en P-10: 4 alternativas con sus tradeoffs (FastAPI + front del prototipo, NestJS + servicio de predicción, ONNX en Node, Streamlit), **propuesta de Claude Code sin revisar por el equipo** | [P-10](../docs/00-proyecto/preguntas-abiertas.md#p-10) · [Bitácora](../bitacora/2026-10-21-sugerencia-stack-mvp.md) |
 | 2026-10-21 | FGR | Desarrollo | Toma de la tarjeta de reconversión del prototipo a un solo deploy en Vercel y decisión 0007: Next.js + API routes **manteniendo PostgreSQL** (se descarta MongoDB Atlas en esta fase); borrador del 6 Sombreros y plan de la tarjeta actualizado | [0007](../docs/03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) · [6 Sombreros](../docs/05-producto/analisis/6-sombreros-stack-prototipo-vercel.md) · [Bitácora](../bitacora/2026-10-21-stack-prototipo-vercel-postgresql.md) · [Tarjeta](https://trello.com/c/6LaBsgsa) |
 | 2026-10-21 | MDV | Diseño | Wireframes low-fi en Figma basados en el prototipo: lista de 9 pantallas y las dos primeras hechas (01 · Panel de control y 02 · Detalle de una transacción), desktop 1440 sin responsive; **borrador sin revisar por el equipo** | [`wireframes.md`](../docs/05-producto/wireframes.md) · [Bitácora](../bitacora/2026-10-21-wireframes-panel-de-control.md) · [Figma](https://www.figma.com/design/5m4zALoaJXwDa2TkXjbEOb/Sin-t%C3%ADtulo?node-id=10-2) |
+| 2026-10-28 | MDV | Gestión | Revisión documental de la tarjeta de retrospectiva con el responsable MDV y comentario de seguimiento verificados en Trello; actualización parcial de P-12 con evidencia ya registrada, manteniendo pendiente la validación del equipo | [Tarjeta de retrospectiva](https://trello.com/c/5VB8UDLb#comment-6ae2310791eff7adea563dba) · [P-12](../docs/00-proyecto/preguntas-abiertas.md#p-12) · [Bitácora](../bitacora/2026-10-28-retrospectivas-y-estado-research.md) |
 
 ---
 
@@ -118,7 +119,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
-| Diaz Valdez, Mateo (MDV) | 9 | 2026-10-21 |
+| Diaz Valdez, Mateo (MDV) | 10 | 2026-10-28 |
 | Guerrero Rojas, Francisco Daniel (FGR) | 11 | 2026-10-21 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |

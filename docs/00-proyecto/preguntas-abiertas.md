@@ -32,7 +32,7 @@ de Trello con esa fecha de vencimiento.
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta — hay una sugerencia de Claude Code sin revisar |
 | [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | ✅ **Resuelta** |
-| [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🔲 Abierta |
+| [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🟡 **Parcial** — evidencia inicial registrada; falta validación del equipo |
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
 | [P-14](#p-14) | ¿Cuándo es la Clase 5 y qué pide? | 🔴 | Equipo | ✅ **Resuelta** |
 | [P-15](#p-15) | ¿Qué se hace con el documento de requerimientos de ML? | 🟡 | Equipo | 🔲 Abierta |
@@ -332,32 +332,21 @@ fraude, *accuracy* no sirve — queda para después del recorte de los 3 dataset
 ## P-12
 ### ¿En qué estado está el User Research?
 
-**🔴 Abierta y ATRASADA** *(revisado el 9/9)* — **el User Research sigue en CERO.**
+**🟡 Parcial** *(actualizado 2026-10-28; evidencia registrada al 2026-10-07)* — hay trabajo de campo y un primer análisis, pero **el equipo todavía no validó los hallazgos ni completó el contraste con los documentos del producto**.
 
-La Clase 5 ya se dio (2/9) y pasó también la clase remota del 5/9. El
-[Plan de research](https://trello.com/c/EkjU3QyB) nunca se escribió: `docs/05-producto/user-research.md`
-no existe. **0 encuestas, 0 entrevistas.**
+### Evidencia registrada
 
-Dos relojes corriendo:
-- **1° Parcial el 16/9.** El docente exige datos reales.
-- **La ventana de ML.** El 2/9 confirmó acceso a analistas de fraude "en las próximas 2 semanas";
-  esa ventana vence alrededor del 16/9.
+- **Entrevistas:** Nicolás (Perfil A, analista de fraude) y Agustín (Perfil B, analista de producto), ambas registradas el **16/9**. Los resultados están presentados como preliminares y requieren contraste con más entrevistas y con la encuesta.
+- **Encuesta de Perfil C:** **28 respuestas**, recopiladas entre el **16/9 y el 22/9**; cargadas el **7/10** junto con un primer análisis. La muestra es de auto-selección y el análisis sigue **sin validar por el equipo**.
+- Fuentes: [plan y registro de research](../05-producto/user-research.md), [respuestas](../05-producto/encuesta-perfil-c-respuestas.md) y [primer análisis](../05-producto/encuesta-perfil-c-analisis.md).
 
-La Clase 4 pidió, para la **Clase 5 (2/9)**:
+### Qué falta para considerar el research revisado
 
-- Armar y realizar la difusión de **encuestas, entrevistas y observaciones — 400 respuestas en total**
-- **Design Thinking de al menos 3 posibles usuarios**: User Persona · Mapa de Empatía · Escenario Actual
+- [ ] El equipo revisa y valida —o corrige— la interpretación inicial de los resultados, en particular los puntos marcados como preguntas para el equipo en el análisis de la encuesta.
+- [ ] Volcar los hallazgos revisados en `usuarios.md` y contrastarlos contra `problema.md` y `requerimientos-funcionales-mvp.md`, como indica el checklist del plan.
+- [ ] Confirmar si se amplía la difusión de la encuesta. El plan proponía **80–100** respuestas, pero **las 400 de la Clase 4 son una guía, no una obligación** ([P-17](#p-17)); el equipo debe justificar el volumen elegido.
 
-Lo que sí sabemos *(FM, 2026-09-02)*: en la Clase 4 el equipo trabajó en el **documento de
-requerimientos funcionales del MVP** y definió el nombre **FraudLens**. Es decir, **las herramientas
-de Design Thinking todavía no se aplicaron a FraudLens**.
-
-Falta confirmar:
-
-- ¿Ya se armó la encuesta? ¿Está difundida? ¿Cuántas respuestas hay hoy?
-- ¿Se hicieron entrevistas? ¿A quiénes?
-
-🔴 **Es el pendiente más pesado del proyecto: 400 respuestas no se juntan en dos días.**
+**Estado:** hay evidencia inicial documentada; no equivale a research validado ni a entregables de Design Thinking completos. Esta actualización describe lo que consta en las fuentes y **no representa una aprobación del equipo**.
 
 ---
 

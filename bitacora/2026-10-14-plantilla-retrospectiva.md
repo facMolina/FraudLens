@@ -24,7 +24,7 @@ Nada. Todo lo que no es regla de la cátedra quedó marcado como **propuesta de 
 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
-| Cargar el material del **Taller de Retrospectivas (7/10)** y ajustar la plantilla (no hay deck en `docs/01-clases/material/`) | ⬜ | ⬜ |
+| Cargar el material del **Taller de Retrospectivas** y ajustar la plantilla. **MDV: el taller se da hoy 14/10, no el 7/10 que decía el cronograma** (no confirmado por escrito). La plantilla es conocimiento general de retros + sugerencias de Claude Code, salvo las 3 reglas de la Clase 09 | MDV · ML | Después de la clase de hoy |
 | ~~Decidir quién facilita la Retro 1~~ → **la facilita MDV** (se ofreció, 14/10). Avisarle al equipo | MDV | 14/10 |
 | Definir quién facilita la Retro 3 (4/11) y la Big Retro: uno distinto cada vez | Equipo | ⬜ |
 | Aprobar dónde se documenta cada retro en Trello | Equipo | ⬜ |
@@ -32,7 +32,7 @@ Nada. Todo lo que no es regla de la cátedra quedó marcado como **propuesta de 
 
 ## Dudas que surgieron
 
-- ¿Qué se vio en el Taller de Retrospectivas del 7/10 y cambia el formato? (sin material cargado)
+- ¿Qué se explica en el Taller de Retrospectivas de hoy y cambia el formato? (sin material cargado). Ojo: el cronograma lo ponía el 7/10.
 - La Retro 2 no figura en el cronograma: sigue sin perseguirse ([P-19](../docs/00-proyecto/preguntas-abiertas.md#p-19)).
 
 ## Archivos tocados
