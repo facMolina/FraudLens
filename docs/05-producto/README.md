@@ -1,9 +1,7 @@
 # Producto
 
-Definición del producto FraudLens: el problema, los usuarios, la solución y el MVP.
-
-Esta carpeta se llena a medida que avanzan las clases. Hoy sólo está iniciado el problema, porque
-es lo único que tenemos definido.
+Definición y evidencia del producto FraudLens: problema, usuarios, solución y MVP. Los documentos
+pueden ser hipótesis o borradores; cada uno indica su estado.
 
 | Documento | Contenido | Cuándo se completa | Estado |
 |---|---|---|---|
@@ -20,6 +18,7 @@ es lo único que tenemos definido.
 | [`alcance-mvp-moscow.md`](alcance-mvp-moscow.md) | Qué queda fuera del MVP (lista unificada) y borrador de MoSCoW — **borrador, sin decidir** | — | 🟡 Borrador (FM) |
 | [`wireframes.md`](wireframes.md) | Wireframes low-fi desktop en Figma, basados en el prototipo — **borrador de MDV, sin revisar** | — | 🟡 En curso (2 de 9) |
 | [`prototipo.md`](prototipo.md) | Prototipo de FGR: qué hay, qué falta y honestidad académica | — | 🟡 Sin documentar del todo |
+| [`mvp.md`](mvp.md) | Repositorio, arquitectura declarada y verificación pública de la base MVP de ML | — | 🟡 Base técnica disponible; alcance funcional aún no verificado |
 | `arquitectura.md` | Stack, componentes, modelo de IA | Sprint 1 | 🔲 Pendiente |
 | [`datos.md`](datos.md) | Dataset: 3 candidatos pre-seleccionados, criterios de elección y métricas | — | 🟡 Candidatos cargados |
 | [`typesafe-jev.md`](typesafe-jev.md) | Investigación de TypeSafe AI (modelo Jev) y arquitectura propuesta con diagramas Mermaid — **borrador de MDV, sin aprobar** | — | 🟡 Borrador |

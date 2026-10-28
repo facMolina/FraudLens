@@ -12,7 +12,7 @@
 Es el **centro de cómputos** del TIF: el lugar donde queda registrado **todo** lo que definimos,
 hacemos y decidimos.
 
-**No es el producto final.** El código del MVP (API + modelo + web) vive en otro lado.
+**No es el producto final.** El código del MVP vive en [su repositorio](https://github.com/mateolewinzon/fraudlens); su estado y alcance están registrados en [`docs/05-producto/mvp.md`](docs/05-producto/mvp.md).
 
 Sirve para tres cosas:
 
@@ -168,7 +168,7 @@ mediante un modelo de IA entrenado con datos históricos, para asistir en la dec
 | Ver los análisis ya hechos | [`docs/05-producto/analisis/`](docs/05-producto/analisis/) |
 | Cómo usamos Trello | [`docs/04-metodologia/trello.md`](docs/04-metodologia/trello.md) |
 | **Cómo se crea y se cierra un ticket** | [`docs/04-metodologia/convencion-de-tickets.md`](docs/04-metodologia/convencion-de-tickets.md) |
-| El problema, usuarios y producto | [`docs/05-producto/`](docs/05-producto/) |
+| El problema, usuarios y producto | [`docs/05-producto/`](docs/05-producto/) · [Base técnica del MVP](docs/05-producto/mvp.md) |
 | Ver qué hizo cada uno | [`registro/historial-aportes.md`](registro/historial-aportes.md) |
 | Ver qué se hizo un día | [`bitacora/`](bitacora/) |
 

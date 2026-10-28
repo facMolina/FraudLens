@@ -121,28 +121,30 @@ El plan de trabajo del deck de la Clase 1 **queda descartado**: era del primer c
 ## P-05
 ### ¿Dónde vive el código del MVP?
 
-**🔲 Abierta** *(actualizada 2026-09-02)*
+**🟡 Parcial** *(actualizada 2026-10-28)*
 
-> **El código del MVP todavía NO está empezado.** *(FM)*
+> **Hay una base técnica separada para el MVP**, registrada en [`mvp.md`](../05-producto/mvp.md): el repositorio de ML y su deploy público responden dónde vive y permiten consultar el punto de partida. Esto no confirma que el producto funcional esté construido ni define su alcance.
 
 Hay que distinguir dos cosas:
 
 | | Qué es | Estado |
 |---|---|---|
 | **Prototipo de FGR** | Prueba: backend con Claude, frontend con Codex, sobre un notebook de Kaggle y el documento de requerimientos de ML | ✅ Existe. Ver [`prototipo.md`](../05-producto/prototipo.md) |
-| **Código del MVP** | El producto que se entrega en la materia | ❌ **No empezado** |
+| **Base técnica del MVP de ML** | Repo separado con scaffold técnico; verificado en GitHub y deploy público, sin flujos de fraude funcionales verificados | 🟡 **Existe como punto de partida**. Ver [`mvp.md`](../05-producto/mvp.md) |
 
-**Asignado a:** Mateo Lewinzon (ML) — tarjeta creada en el Backlog de Trello.
+**Tarjeta:** [Arrancar el repositorio de código del MVP](https://trello.com/c/ec7Xd3xy), en Backlog. ML figuraba como responsable sugerido; la tarjeta no tiene miembros asignados al 28/10. La autoría del commit consultado no implica una asignación actual.
 
-> 📌 **Dato nuevo (2026-10-07):** se relevó el repo del prototipo ([`prototipo.md`](../05-producto/prototipo.md#qué-muestra-el-repo--relevamiento-del-2026-10-07)). Tiene backend (NestJS + Prisma + PostgreSQL), frontend (React + Vite), un motor de reglas determinista y los 7 casos de uso implementados **según el código** (sin ejecutar). **No es el MVP y la pregunta sigue abierta:** falta decidir si el MVP parte de ese código o arranca de cero.
+> 📌 **Dato nuevo (2026-10-07):** se relevó el repo del prototipo de FGR ([`prototipo.md`](../05-producto/prototipo.md#qué-muestra-el-repo--relevamiento-del-2026-10-07)): backend NestJS + Prisma + PostgreSQL, frontend React + Vite y motor determinista, según lectura de código. Es distinto del repo nuevo del MVP de ML. **Sigue sin confirmarse** si el MVP reutiliza algún componente del prototipo o cómo se relacionan ambos.
 
 **A definir:**
-- ¿Repositorio aparte o carpeta dentro de este repo? *(sugerido: repositorio aparte)*
-- Stack → [P-10](#p-10)
-- Acceso para los 4 integrantes
+- Confirmar que los cuatro integrantes pueden acceder y colaborar en el repositorio.
+- Acordar si se reutiliza algo del prototipo de FGR o si ambos repositorios siguen independientes.
+- Alcance funcional y comportamiento esperado; el README del repo describe un scaffold sin lógica de dominio, reglas, autenticación ni flujos de IA.
+- Stack → [P-10](#p-10) sigue abierta: el stack publicado es evidencia de implementación, no una decisión aprobada por el equipo.
 
-⚠️ **El alcance del MVP se define después del User Research y del Problem Statement.** Tener el
-repositorio listo antes no cuesta nada, pero empezar a construir sobre supuestos sí.
+⚠️ **El alcance del MVP se define después del User Research y del Problem Statement.** La existencia
+de este punto de partida técnico no implica que el equipo haya aprobado alcance, stack o reutilización
+del prototipo.
 
 ---
 
