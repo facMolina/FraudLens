@@ -26,7 +26,7 @@ Estados: 🔲 pendiente · 🟡 en curso · ✅ entregada · ⚠️ con observac
 |---|---|---|
 | Lista de ideas por equipo | 12/8 y 19/8 | ✅ |
 | Problema elegido + Justificación | 19/8 | ✅ Aprobado por el docente |
-| Plan de research · Insight + Definición · User Persona · Mapa de Empatía · **Problem Statement validado** | **2/9** | 🔴 **En curso — es la clase de hoy** |
+| Plan de research · Insight + Definición · User Persona · Mapa de Empatía · **Problem Statement validado** | **2/9** | 🟡 User Persona y Mapa de Empatía en [borrador con huecos](../05-producto/usuarios.md#user-persona), sin validar *(2026-11-04)*. Problem Statement pendiente |
 
 ## Fechas fuera del horario habitual
 
@@ -52,7 +52,7 @@ la sumatoria de lo que vamos produciendo clase a clase:
 | Bloque | Contenido | Fuente en este repo | Estado |
 |---|---|---|---|
 | Problema | Definición, Árbol de Problemas, 5 Por Qué, reformulaciones, narrativa | [`docs/05-producto/problema.md`](../05-producto/problema.md) | 🟢 Avanzado — falta validar con research |
-| Usuarios | Segmentación, target, 3 perfiles | [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) | ✅ Escrito |
+| Usuarios | Segmentación, target, 3 perfiles, User Persona y Mapas de Empatía | [`docs/05-producto/usuarios.md`](../05-producto/usuarios.md) | 🟡 Perfiles escritos. User Persona y Mapas en borrador con huecos, sin validar |
 | User Research | Encuestas, entrevistas, observación, hallazgos | [`docs/05-producto/user-research.md`](../05-producto/user-research.md) | 🟡 Entrevistas A y B realizadas; encuesta C con **28 respuestas** y primer análisis sin validar ([análisis](../05-producto/encuesta-perfil-c-analisis.md)) |
 | Ideación y solución | Design Thinking, alternativas, grilla de priorización | [`docs/05-producto/ideacion.md`](../05-producto/ideacion.md) | 🟡 Borrador, pendiente de validar |
 | Benchmarking / Océano Azul | Competencia y diferenciación | [`docs/05-producto/benchmarking.md`](../05-producto/benchmarking.md) | 🟢 Primera vuelta hecha — es continuo |

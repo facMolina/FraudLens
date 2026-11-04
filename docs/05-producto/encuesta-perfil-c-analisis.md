@@ -144,5 +144,5 @@ Algunas citas, textuales: *"Estando de viaje, me rechazaron varias veces una com
 - ⬜ **Confirmar el total de respuestas del Form.** La pestaña de Respuestas solo la ve un editor; el export trae 28 filas y el relevamiento no pudo contrastarlo.
 - ⬜ **¿Se amplía la difusión?** Hay 28 de las 80-100 que propuso el plan ([P-17](../00-proyecto/preguntas-abiertas.md#p-17)). Lo decide el equipo.
 - ⬜ **Revisión del equipo** de este análisis, y en particular del punto 5.1.
-- ⬜ Volcar los hallazgos en los **User Persona y Mapas de Empatía** (tarjetas [4](https://trello.com/c/dlJzvQPi) y [5](https://trello.com/c/8pJ24yzo)):
+- 🟡 Hallazgos volcados como [borrador en `usuarios.md`](usuarios.md#user-persona) el 2026-11-04 (tarjetas [4](https://trello.com/c/dlJzvQPi) y [5](https://trello.com/c/8pJ24yzo)), sin validar:
   esta encuesta **no trae** edad por persona más allá del rango, ni familia, ni ocupación, ni intereses, así que **esos campos siguen sin datos**.

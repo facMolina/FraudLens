@@ -365,8 +365,8 @@ Del material de esas clases surgen entregables concretos. Falta saber cuáles ya
 | Clase 2 / 3 | Selección definitiva de la problemática | ✅ *(el docente aprobó — [P-02](#p-02))* |
 | Clase 3 | Árbol de Problemas | ⬜ |
 | Clase 3 | Análisis de causa raíz (**5 Por Qué**) | ⬜ |
-| Clase 4 | User Persona (× 3 usuarios) | ❌ **No** |
-| Clase 4 | Mapa de Empatía (× 3 usuarios) | ❌ **No** |
+| Clase 4 | User Persona (× 3 usuarios) | 🟡 [Borrador con huecos](../05-producto/usuarios.md#user-persona), sin validar *(2026-11-04)* |
+| Clase 4 | Mapa de Empatía (× 3 usuarios) | 🟡 [Borrador con huecos](../05-producto/usuarios.md#mapa-de-empatía), sin validar *(2026-11-04)* |
 | Clase 4 | Escenario Actual / AS-IS | ❌ **No** |
 | Clase 4 | User Journey Map | ❌ **No** |
 | Clase 4 | Encuestas / entrevistas / observaciones (400 respuestas) | ❌ **No** → [P-12](#p-12) |
