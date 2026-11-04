@@ -309,7 +309,7 @@ panel de administración, y el email está fuera del MVP (ítem 4 del alcance) *
 - [ ] **Qué sabe usar cada integrante** (Python, NestJS, React) — es el criterio de esta pregunta y define A contra B/C. **No se deduce: hay que preguntarlo**
 - [ ] Qué se hace con el código del prototipo → [P-05](#p-05)
 - [ ] Si entra Jev ([P-25](#p-25)): con Python se usaría su SDK oficial **(R)**
-- [ ] 6 Sombreros con el sombrero rojo de las 4 voces
+- [ ] 6 Sombreros con el sombrero rojo de las 4 voces — [borrador del 2026-11-04](../05-producto/analisis/6-sombreros-stack-mvp.md), falta el rojo
 
 
 ---

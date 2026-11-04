@@ -12,6 +12,7 @@ Cada decisión relevante del proyecto se analiza con el
 | [6-sombreros-herramienta-backlog.md](6-sombreros-herramienta-backlog.md) | ¿Con qué herramienta registramos el Product Backlog? | 🟡 **Borrador** — falta el rojo (4 voces) y la decisión del equipo; propuesta de FM: Trello |
 | [6-sombreros-mvp-user-story-map.md](6-sombreros-mvp-user-story-map.md) | ¿Qué entra al MVP y dónde va la línea R1 / R2 / R3? | 🟡 **Borrador** — falta el rojo (4 voces) y la decisión del equipo; propuesta de FM: el mapa con 9 tareas en R1 |
 | [6-sombreros-stack-prototipo-vercel.md](6-sombreros-stack-prototipo-vercel.md) | ¿MongoDB Atlas o PostgreSQL para el prototipo en un solo deploy en Vercel? | 🟡 **Borrador** — falta el rojo (4 voces); FGR decidió PostgreSQL ([0007](../../03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md)) |
+| [6-sombreros-stack-mvp.md](6-sombreros-stack-mvp.md) | ¿Confirmamos el stack implementado para el MVP? | 🟡 **Borrador** — falta el rojo (4 voces) y la decisión del equipo; propuesta de Claude Code sin validar |
 
 ## Cómo se usa
 

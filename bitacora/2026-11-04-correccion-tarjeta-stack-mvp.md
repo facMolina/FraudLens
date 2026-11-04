@@ -14,6 +14,11 @@
 - En "Listo cuando", el relevamiento de qué sabe usar cada integrante se reemplazó por la confirmación del equipo, y se sumó definir cómo se resuelve el modelo de fraude.
 - Se agregó el dato nuevo en [P-10](../docs/00-proyecto/preguntas-abiertas.md#p-10) y se actualizó su fila en el índice. La pregunta sigue abierta.
 
+- Se armó el [borrador del 6 Sombreros del stack](../docs/05-producto/analisis/6-sombreros-stack-mvp.md), con el rojo vacío para las 4 voces y el azul como propuesta sin validar.
+- Se volvió a corregir la tarjeta según la [convención de tickets](../docs/04-metodologia/convencion-de-tickets.md): el stack pasó a Contexto, el criterio de confirmación quedó verificable, y se sumó qué se le pide a cada integrante.
+- El ítem del modelo de fraude salió de "Listo cuando": ya existe la tarjeta [Modelos de IA a utilizar](https://trello.com/c/HgigLF8C), así que no se creó otra.
+- Volvió el relevamiento de qué sabe usar cada integrante, como parte de la confirmación del equipo.
+
 ## Qué se encontró
 
 - El `POST` de evaluaciones devuelve un resultado fijo: no hay reglas ni inferencia.
@@ -25,7 +30,7 @@
 ## Qué sigue pendiente
 
 - Confirmación del equipo sobre el stack.
-- Definir el modelo de fraude: entrenado, LLM o reglas, y con qué proveedor.
-- 6 Sombreros del stack, con el sombrero rojo de las 4 voces.
+- Definir el modelo de fraude en [Modelos de IA a utilizar](https://trello.com/c/HgigLF8C).
+- Sombrero rojo de las 4 voces en el 6 Sombreros del stack.
 - Decisión numerada en `docs/03-decisiones/` y cierre de P-10.
 - La tarjeta sigue en 👀 En revisión.
