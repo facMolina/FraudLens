@@ -30,7 +30,7 @@ de Trello con esa fecha de vencimiento.
 | [P-07](#p-07) | ¿Quién es el usuario objetivo? | 🔴 | Equipo | 🟡 **Parcial** |
 | [P-08](#p-08) | ¿Qué roles toma cada integrante? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-09](#p-09) | ¿Cómo se estructura el tablero de Trello? | 🟡 | Equipo | ✅ **Resuelta** |
-| [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta — hay una sugerencia de Claude Code sin revisar |
+| [P-10](#p-10) | ¿Qué stack tecnológico usamos? | 🟢 | Equipo | 🔲 Abierta — stack implementado en el repo del MVP; falta confirmación del equipo, 6 Sombreros y decisión numerada |
 | [P-11](#p-11) | ¿Cuál es el dataset de casos de prueba del MVP? | 🟡 | Equipo | ✅ **Resuelta** |
 | [P-12](#p-12) | ¿En qué estado está el User Research? | 🔴 | Equipo | 🟡 **Parcial** — evidencia inicial registrada; falta validación del equipo |
 | [P-13](#p-13) | ¿Qué entregables de las Clases 2, 3 y 4 ya están hechos? | 🔴 | Equipo | 🔲 Abierta |
@@ -259,6 +259,8 @@ premia aprender un framework nuevo — premia tener un MVP funcionando.
 > 📌 **Dato nuevo (2026-10-07):** el **prototipo** de FGR usa **TypeScript con NestJS, Prisma y PostgreSQL** en el backend y **React + Vite** en el frontend. Es el stack del prototipo, **no una decisión para el MVP**: esta pregunta sigue abierta. *(Con Jev, un backend en TypeScript usaría la API REST directamente: el SDK oficial es de Python y .NET.)*
 
 > 📌 **Dato nuevo (2026-10-21, FGR):** el **prototipo** se reconvierte a **Next.js (frontend + API routes) en un solo deploy en Vercel, manteniendo PostgreSQL**. Se descartó MongoDB Atlas para esta fase porque el aislamiento entre organizaciones depende de RLS de PostgreSQL. Ver [decisión 0007](../03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) (🟡 Propuesta, falta validar con MDV y ML). **Es el stack del prototipo, no el del MVP: esta pregunta sigue abierta**, y la sugerencia de abajo (FastAPI + Python) sigue sin revisar.
+
+> 📌 **Dato nuevo (2026-11-04, MDV):** MDV indica que el stack del MVP ya está definido en el repo de código [mateolewinzon/fraudlens](https://github.com/mateolewinzon/fraudlens). Según el README y el `package.json` de `main` (commit `da20858`): Next.js App Router + React + TypeScript, Route Handlers en Node.js 24, MongoDB Atlas (MongoDB 8 en Docker para desarrollo) con Mongoose, Vercel AI SDK + TypeSafe (Jev) y un solo deploy en Vercel. La sugerencia de abajo queda como antecedente. **Esta pregunta sigue abierta** hasta que el equipo lo confirme y haya 6 Sombreros y decisión numerada. El modelo de fraude tampoco está definido: el `POST` devuelve un resultado fijo, y el adapter de Groq está en PR abiertos, sin llegar a `main`.
 
 ### 💡 Sugerencia de Claude Code (2026-10-21, a pedido de MDV) — **no es decisión**
 
