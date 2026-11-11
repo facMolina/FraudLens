@@ -24,6 +24,9 @@
 
 - **Actualización de la tarde:** MDV integró los PRs #7, #8 y #9 (14:46, sin revisión de otro integrante). Se verificó que la migración está en `main`. El CI de `main` quedó en rojo porque GitHub bloqueó la cuenta por facturación, no por el código. El deploy público responde. Se actualizaron `mvp.md` y el índice de entregables, y la tarjeta [Migrar frontend](https://trello.com/c/qW9sArxq) pasó a ✅ Hecho con su comentario de resolución.
 
+- **Presentación de avances.** El docente no pidió una consigna particular: hay que mostrar todo lo que tenemos. Se planificó en [`plan-presentacion-avances.md`](../docs/02-entregables/plan-presentacion-avances.md) y se armó un deck de 12 slides con la skill `presentacion-viva` ([artifact](https://claude.ai/artifact/9YuGw3Cw2HDJkb5ncYuWPd), contexto en [`CONTEXTO-PRESENTACION.md`](../docs/02-entregables/presentacion-avances/CONTEXTO-PRESENTACION.md)). Para la captura de la demo se consultó la API del MVP en solo lectura: el historial tiene una evaluación real guardada (REJECTED, con motivos y señales), así que el flujo con IA ya funcionó en producción.
+- Se encontró un detalle visual en el MVP: en el historial, el texto de las señales se sale del borde de la tarjeta.
+
 ## Qué se definió
 
 - MDV decidió dejar las metodologías largas por falta de tiempo y priorizar lo que se evalúa: tablero, documentación final y demo.
