@@ -3,33 +3,50 @@
 > Equipo FraudLens · Seminario de Gestión Tecnológica (UADE) · 2° Parcial, 2026-11-11
 > Fuente de verdad del contenido: los documentos del repo que cita el pie de cada slide. Plan en
 > [`../plan-presentacion-avances.md`](../plan-presentacion-avances.md).
-> Última actualización: 2026-11-11 (versión 6 del artifact). Armada por MDV con Claude Code.
+> Última actualización: 2026-11-11 (versión 12 del artifact). Armada por MDV con Claude Code.
 
 ## 1. Piezas
 
 | Pieza | Dónde | Formato |
 |---|---|---|
-| Deck (12 slides) | https://claude.ai/artifact/9YuGw3Cw2HDJkb5ncYuWPd | Artifact Slides de claude.ai |
+| Deck (16 slides) | https://claude.ai/artifact/9YuGw3Cw2HDJkb5ncYuWPd | Artifact Slides de claude.ai |
+| Guion por slide y reparto | [`guion.md`](guion.md) (mismo texto que las notas del orador) | Markdown |
 | Design system | Ninguno instalado: tokens tomados de [`paleta.md`](../../05-producto/identidad/paleta.md) y del [logo](../../05-producto/identidad/logo/README.md) | — |
 
 Impresión: ⬜ sin probar. Exportar el PDF desde el artifact y revisar las slides animadas.
 
 ## 2. Deck: estructura
 
-Orden actual (versión 6). `*` = animación en loop.
+Orden actual (versión 9). `*` = animación en loop.
 
 | Sección | Slides (id) |
 |---|---|
-| Apertura | 01 `portada`* |
-| Problema y usuarios | 02 `problema`* · 03 `usuarios`* |
-| Evidencia del user research | 04 `research`* · 05 `hallazgos`* |
-| Solución, alcance y mercado | 06 `alcance`* · 07 `mercado`* |
-| El MVP construido | 08 `arquitectura`* · 09 `demo` (captura nativa + demo en vivo) |
-| Cómo trabajamos y próximos pasos | 10 `proceso`* · 11 `pendientes`* · 12 `preguntas`* |
+| Apertura | 01 `portada`* · 02 `avance`* (del 1° Parcial a hoy) |
+| Problema y usuarios | 03 `problema`* · 04 `usuarios`* |
+| Evidencia del user research | 05 `research`* · 06 `hallazgos`* |
+| Solución, alcance y mercado | 07 `alcance`* · 08 `backlog`* · 09 `mercado`* · 10 `oceano`* · 11 `ux`* |
+| El MVP construido | 12 `arquitectura`* · 13 `demo` (captura nativa + demo en vivo) |
+| Cómo trabajamos y próximos pasos | 14 `proceso`* · 15 `pendientes`* · 16 `preguntas`* |
 
-Tiempo total de las notas: ≈ 9 min 50 s (supuesto: exposición de 10 min, ⬜ a confirmar).
+Tiempo total de las notas: ≈ 12 min 50 s (⬜ tiempo oficial sin confirmar).
 
-Reparto de oradores: ⬜ sin definir (la Clase 1 pide rotar).
+Reparto de oradores (según el historial de aportes, acordado por MDV el 11/11): ML → 1–5 (3:30) ·
+FM → 6–8 (2:50) · FGR → 9–12 (3:20) · MDV → 13–15 (3:10) · Todos → 16.
+
+Slide 02 `avance`: compara el estado del 16/9 (según `guia-1er-parcial.md`) con el de hoy. Solo muestra
+lo nuevo; lo que ya estaba el 16/9 (entrevistas, benchmarking, BMC, identidad) va en una línea al pie.
+
+Slide 08 `backlog` (pedido de FM): User Flow, Product Backlog y MoSCoW como **propuesta del equipo**,
+con lo que falta para cerrarlo. Alcance (06) quedó solo con el User Story Mapping, para no repetir.
+
+Etiquetas de concepto: cada slide de contenido lleva arriba a la izquierda los conceptos de la materia
+que aplica (por ejemplo «Árbol de Problemas · 5 Por Qué»). **No llevan número de clase**: la
+numeración de los decks no coincide con la del cronograma (P-14) y varias fechas no están confirmadas.
+
+Cambios del 11/11 por feedback del equipo: el stack pasó a definido (MDV); «P&L del modelo de negocio»
+pasó a «P&L: costos en horas-hombre e ingresos», porque el BMC sí está hecho; se sumaron las slides
+de Océano Azul y UX/UI, las etiquetas de concepto (pedido de FM) y la tarjeta «Registrar
+retrospectivas y Sprint Reviews».
 
 ### Slides retiradas
 
@@ -74,7 +91,7 @@ cambia el orden, correr `scripts/check_embeds.py` y releer el índice antes de p
 
 ## 3. Pendientes
 
-- [ ] Que el equipo revise el deck y acuerde el reparto de oradores
+- [ ] Que el equipo revise el deck y el [guion](guion.md), y confirme el reparto
 - [ ] Ensayo cronometrado
 - [ ] Probar la impresión (PDF del artifact) y revisar cada slide animada
 - [ ] Plan B: PDF del deck descargado en la notebook

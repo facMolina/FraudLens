@@ -1,6 +1,6 @@
 # Plan: presentación de avances e informe con la marca
 
-> **Estado:** 🟡 deck construido el 2026-11-11 (12 slides, [artifact](https://claude.ai/artifact/9YuGw3Cw2HDJkb5ncYuWPd)),
+> **Estado:** 🟡 deck construido el 2026-11-11 (16 slides tras el feedback del equipo, con [guion por slide](presentacion-avances/guion.md); [artifact](https://claude.ai/artifact/9YuGw3Cw2HDJkb5ncYuWPd)),
 > falta la revisión del equipo. Contexto para editarlo en
 > [`presentacion-avances/CONTEXTO-PRESENTACION.md`](presentacion-avances/CONTEXTO-PRESENTACION.md). El informe en LaTeX no se empezó.
 > **Fuente de la consigna:** el docente **no pidió nada en particular** para el 2° Parcial (11/11): mostrar
@@ -29,7 +29,7 @@
 | 6 | **Demo del MVP** | Alta de transacción → decisión de la IA → historial | [`mvp.md`](../05-producto/mvp.md) |
 | 7 | Cómo está hecho | Next.js, MongoDB, Groq detrás del contrato `DecisionModel` | [`mvp.md`](../05-producto/mvp.md) |
 | 8 | Cómo trabajamos | Repo como centro de cómputos, Trello, 7 decisiones numeradas, 7 análisis de 6 Sombreros, declaración de uso de IA | [`03-decisiones/`](../03-decisiones/), [`analisis/`](../05-producto/analisis/) |
-| 9 | Lo que falta y plan al 18/11 | Decisiones abiertas (modelo de IA, stack), Problem Statement, OKR/KPI, P&L | [Bitácora 11/11](../../bitacora/2026-11-11-relevamiento-avance-presentacion.md) |
+| 9 | Lo que falta y plan al 18/11 | Decisión abierta (modelo de IA), Problem Statement, OKR/KPI, P&L. El stack se presenta como definido *(corrección de MDV, 2026-11-11)* | [Bitácora 11/11](../../bitacora/2026-11-11-relevamiento-avance-presentacion.md) |
 
 ### Riesgos a preparar
 
@@ -38,7 +38,9 @@
 - Preguntas incómodas probables, con respuesta honesta:
   - CI de `main` en rojo → bloqueo de facturación de GitHub, no el código.
   - Interfaz integrada sin revisión de otro integrante.
-  - Groq (implementado) vs. modelo entrenado (decisión 0006); MongoDB (implementado) vs. PostgreSQL (decisión 0007).
+  - Groq (implementado) vs. modelo entrenado (decisión 0006).
+  - MongoDB vs. PostgreSQL de la decisión 0007 → la 0007 era para el prototipo; el stack del MVP está definido
+    (Next.js, MongoDB Atlas, Vercel). Ojo: P-10 sigue abierta en el repo hasta registrar la decisión.
 
 ### Pendiente de definir
 
