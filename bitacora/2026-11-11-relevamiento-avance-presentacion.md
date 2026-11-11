@@ -22,6 +22,8 @@
   - Pasadas a ✅ Hecho como borrador aceptado: User Persona ×3 y Mapa de Empatía ×3 (con huecos explícitos) y Plantilla de Retrospectiva.
   - Movida a 🎯 Esta semana: **Problem Statement validado**. Es entregable de la Clase 5 y **no está redactado** en el repo.
 
+- **Actualización de la tarde:** MDV integró los PRs #7, #8 y #9 (14:46, sin revisión de otro integrante). Se verificó que la migración está en `main`. El CI de `main` quedó en rojo porque GitHub bloqueó la cuenta por facturación, no por el código. El deploy público responde. Se actualizaron `mvp.md` y el índice de entregables, y la tarjeta [Migrar frontend](https://trello.com/c/qW9sArxq) pasó a ✅ Hecho con su comentario de resolución.
+
 ## Qué se definió
 
 - MDV decidió dejar las metodologías largas por falta de tiempo y priorizar lo que se evalúa: tablero, documentación final y demo.
@@ -35,7 +37,8 @@
 
 | Tarea | Responsable | Para cuándo |
 |---|---|---|
-| Revisar e integrar los PRs #7 ← #8 ← #9 | ⬜ (sugerido: ML, dueño del repo) | ⬜ |
+| ~~Revisar e integrar los PRs #7 ← #8 ← #9~~ ✅ integrados por MDV el 11/11 | MDV | 11/11 |
+| Resolver el bloqueo de facturación de GitHub que frena el CI | ⬜ (sugerido: ML, dueño del repo) | ⬜ |
 | Decidir el modelo de IA: LLM (Groq), modelo entrenado (decisión 0006) o los dos | Equipo | ⬜ |
 | Resolver la diferencia MongoDB (implementado) vs. PostgreSQL (decisión 0007, tarjeta "Reconvertir stack") y cerrar P-10 | Equipo | ⬜ |
 | Confirmar acceso de escritura de FGR y FM al repo del MVP | ⬜ | ⬜ |
@@ -50,6 +53,7 @@
 ## Archivos tocados
 
 - `docs/05-producto/mvp.md`
+- `docs/02-entregables/README.md`
 - `docs/00-proyecto/declaracion-uso-ia.md`
 - `registro/historial-aportes.md`
 - `bitacora/2026-11-11-relevamiento-avance-presentacion.md`

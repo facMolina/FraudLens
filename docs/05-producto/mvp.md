@@ -1,6 +1,6 @@
 # Base técnica del MVP
 
-> **Estado (2026-11-11):** 🟡 en desarrollo. En `main` ya están integrados el alta y el historial de evaluaciones (CU-01) y la decisión con IA (Groq). La interfaz web está en 3 PRs abiertos sin revisar. Ver [Avance al 2026-11-11](#avance-al-2026-11-11). Las secciones siguientes son el registro original del 2026-10-28 y describen el scaffold inicial.
+> **Estado (2026-11-11):** 🟡 en desarrollo. En `main` ya están integrados el alta y el historial de evaluaciones (CU-01) y la decisión con IA (Groq) y la interfaz web migrada del prototipo (PRs #7 a #9, integrados el 11/11). Ver [Avance al 2026-11-11](#avance-al-2026-11-11). Las secciones siguientes son el registro original del 2026-10-28 y describen el scaffold inicial.
 >
 > **Autor del commit consultado:** Mateo Lewinzon (ML). **Registro documental y chequeos públicos:** MDV, 2026-10-28.
 
@@ -17,22 +17,22 @@
 | [#5](https://github.com/mateolewinzon/fraudlens/pull/5) | MDV | 4/11, por ML | Documentación: `docs/architecture.md` (mapa de la arquitectura actual) y `docs/design/ai-integration.md` (propuesta de integración de IA) |
 | [#6](https://github.com/mateolewinzon/fraudlens/pull/6) | ML | 4/11, por ML | El `POST` reemplaza el resultado fijo por una decisión de Groq: `APPROVED` o `REJECTED`, con motivos, señales y puntaje estimado. Usa como contexto hasta 50 transacciones aprobadas anteriores del mismo usuario y compara el país de la transacción con el de la tarjeta (`card_country`, obligatorio). Sin umbrales de score. Devuelve 503 si falla la IA. Los registros viejos con `BLOCK` se conservan como históricos |
 
-### Abierto, esperando revisión
+### Migración de la interfaz — integrada el 2026-11-11
 
-Migración de la interfaz del [prototipo de FGR](prototipo.md) al MVP, en 3 PRs encadenados. Los 3 tienen los checks en verde (CI y preview de Vercel) y **0 revisiones**:
+Migración de la interfaz del [prototipo de FGR](prototipo.md) al MVP, en 3 PRs encadenados. **MDV los integró el 11/11 (14:46, hora de Argentina) sin revisión de otro integrante** (0 revisiones en GitHub). Se verificó que los commits de la migración (`8025c46`, `62170ee`, `0f3e259`) están en `main` (merge `78a2a6d`).
 
 | PR | Rama → base | Qué agrega |
 |---|---|---|
-| [#7](https://github.com/mateolewinzon/fraudlens/pull/7) (borrador, a propósito) | `feat/frontend-migration` → `main` | Seguimiento de la migración |
+| [#7](https://github.com/mateolewinzon/fraudlens/pull/7) | `feat/frontend-migration` → `main` | Seguimiento de la migración |
 | [#8](https://github.com/mateolewinzon/fraudlens/pull/8) | `feat/frontend-migration-01-client` → #7 | Cliente de evaluaciones compatible con la API actual |
 | [#9](https://github.com/mateolewinzon/fraudlens/pull/9) | `feat/frontend-migration-02-ui` → #8 | Pantalla de evaluación e historial conectada al backend, con la identidad visual del prototipo, modo claro y oscuro, y diseño adaptable |
 
-El orden de integración es #7 ← #8 ← #9. Nadie aprobó el merge todavía.
+> ⚠️ **CI de `main` en rojo después del merge, sin relación con el código.** GitHub no arrancó el job: *"The job was not started because your account is locked due to a billing issue"*. Lo resuelve el dueño del repo (ML) desde la facturación de GitHub. Antes del merge, los 3 PRs tenían los checks en verde.
 
 ### Qué no está probado
 
 - Los 2 tests de integración real (MongoDB e inferencia) quedaron **salteados a propósito**: no hay evidencia de una evaluación real de punta a punta registrada en este repo.
-- No se verificó que el deploy público corresponda al último commit de `main`.
+- El deploy público (`https://fraudlens-two.vercel.app`) responde 200 (verificado el 11/11), pero no se verificó que corresponda al último commit de `main`.
 - El stack implementado (MongoDB) **no coincide** con la [decisión 0007](../03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) (PostgreSQL para el prototipo) ni con la tarjeta [Reconvertir stack](https://trello.com/c/6LaBsgsa). P-10 sigue abierta.
 - La decisión 0006 prevé un modelo entrenado con 3 datasets. El MVP hoy decide con un LLM (Groq) y no tiene ninguna pieza de entrenamiento. Falta decisión del equipo en [Modelos de IA a utilizar](https://trello.com/c/HgigLF8C).
 

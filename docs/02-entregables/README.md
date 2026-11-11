@@ -61,7 +61,7 @@ la sumatoria de lo que vamos produciendo clase a clase:
 | Planificación ágil | Sprints, historias de usuario, estimaciones | [Clase 09](../01-clases/clase-09-agile-scrum-kanban.md) · [Clase 10](../01-clases/clase-10-user-story-mapping-y-backlog.md) *(teoría cargada)* | 🔲 **Backlog no empezado** — es el entregable del 14/10 |
 | Diseño | Identidad visual, logo, paleta de colores | [`docs/05-producto/identidad/`](../05-producto/identidad/) | ✅ Cerrado |
 | Métricas | OKRs · KPIs | ⬜ | 🔲 No empezado |
-| Producto | MVP funcionando + demo | [`docs/05-producto/prototipo.md`](../05-producto/prototipo.md) | 🔴 Sólo existe el prototipo de FGR, sin documentar dónde vive el código |
+| Producto | MVP funcionando + demo | [`docs/05-producto/mvp.md`](../05-producto/mvp.md) · [`prototipo.md`](../05-producto/prototipo.md) | 🟡 MVP en `main` con alta, historial, decisión con IA (Groq) e interfaz migrada del prototipo *(2026-11-11)*. Falta decidir modelo de IA y stack (P-10) |
 | Retrospectivas | Las 4 retros + Big Retro | ⬜ | 🔲 Todavía no llegamos a esa etapa del cronograma |
 | **Declaración de uso de IA** | Herramientas, alcance, validación, responsabilidad | [`docs/00-proyecto/declaracion-uso-ia.md`](../00-proyecto/declaracion-uso-ia.md) | ✅ Escrita |
 
