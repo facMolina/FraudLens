@@ -1,8 +1,40 @@
 # Base técnica del MVP
 
-> **Estado:** 🟡 punto de partida técnico público; los flujos propios de FraudLens todavía no están implementados ni verificados. Este registro distingue lo que afirma el repositorio, lo observado en el deploy y lo que queda pendiente de decisión del equipo.
+> **Estado (2026-11-11):** 🟡 en desarrollo. En `main` ya están integrados el alta y el historial de evaluaciones (CU-01) y la decisión con IA (Groq). La interfaz web está en 3 PRs abiertos sin revisar. Ver [Avance al 2026-11-11](#avance-al-2026-11-11). Las secciones siguientes son el registro original del 2026-10-28 y describen el scaffold inicial.
 >
 > **Autor del commit consultado:** Mateo Lewinzon (ML). **Registro documental y chequeos públicos:** MDV, 2026-10-28.
+
+## Avance al 2026-11-11
+
+**(R) Relevado de GitHub el 2026-11-11 por MDV**, sin ejecutar el código en esta sesión. Lo que dice cada PR es lo que declara su descripción.
+
+### Integrado en `main`
+
+| PR | Autor | Merge | Qué agrega (según la descripción del PR) |
+|---|---|---|---|
+| [#1](https://github.com/mateolewinzon/fraudlens/pull/1) | ML | 30/10, por ML | CU-01: `POST /api/transaction-evaluations` valida y persiste la transacción en MongoDB; `GET` devuelve el historial paginado (`limit`, `offset`, `has_more`). El resultado era fijo (`BLOCK`, 0.6), sin IA ni reglas. Colección de Postman actualizada |
+| [#4](https://github.com/mateolewinzon/fraudlens/pull/4) | MDV | 4/11, por ML | Contrato propio `DecisionModel` para usar cualquier modelo de IA y adapter de **Groq** (AI SDK), con 7 pruebas simuladas. No conecta la IA a los endpoints |
+| [#5](https://github.com/mateolewinzon/fraudlens/pull/5) | MDV | 4/11, por ML | Documentación: `docs/architecture.md` (mapa de la arquitectura actual) y `docs/design/ai-integration.md` (propuesta de integración de IA) |
+| [#6](https://github.com/mateolewinzon/fraudlens/pull/6) | ML | 4/11, por ML | El `POST` reemplaza el resultado fijo por una decisión de Groq: `APPROVED` o `REJECTED`, con motivos, señales y puntaje estimado. Usa como contexto hasta 50 transacciones aprobadas anteriores del mismo usuario y compara el país de la transacción con el de la tarjeta (`card_country`, obligatorio). Sin umbrales de score. Devuelve 503 si falla la IA. Los registros viejos con `BLOCK` se conservan como históricos |
+
+### Abierto, esperando revisión
+
+Migración de la interfaz del [prototipo de FGR](prototipo.md) al MVP, en 3 PRs encadenados. Los 3 tienen los checks en verde (CI y preview de Vercel) y **0 revisiones**:
+
+| PR | Rama → base | Qué agrega |
+|---|---|---|
+| [#7](https://github.com/mateolewinzon/fraudlens/pull/7) (borrador, a propósito) | `feat/frontend-migration` → `main` | Seguimiento de la migración |
+| [#8](https://github.com/mateolewinzon/fraudlens/pull/8) | `feat/frontend-migration-01-client` → #7 | Cliente de evaluaciones compatible con la API actual |
+| [#9](https://github.com/mateolewinzon/fraudlens/pull/9) | `feat/frontend-migration-02-ui` → #8 | Pantalla de evaluación e historial conectada al backend, con la identidad visual del prototipo, modo claro y oscuro, y diseño adaptable |
+
+El orden de integración es #7 ← #8 ← #9. Nadie aprobó el merge todavía.
+
+### Qué no está probado
+
+- Los 2 tests de integración real (MongoDB e inferencia) quedaron **salteados a propósito**: no hay evidencia de una evaluación real de punta a punta registrada en este repo.
+- No se verificó que el deploy público corresponda al último commit de `main`.
+- El stack implementado (MongoDB) **no coincide** con la [decisión 0007](../03-decisiones/0007-prototipo-postgresql-un-deploy-vercel.md) (PostgreSQL para el prototipo) ni con la tarjeta [Reconvertir stack](https://trello.com/c/6LaBsgsa). P-10 sigue abierta.
+- La decisión 0006 prevé un modelo entrenado con 3 datasets. El MVP hoy decide con un LLM (Groq) y no tiene ninguna pieza de entrenamiento. Falta decisión del equipo en [Modelos de IA a utilizar](https://trello.com/c/HgigLF8C).
 
 ## Dónde está
 
