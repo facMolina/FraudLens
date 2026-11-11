@@ -17,9 +17,19 @@
 - Se buscó trabajo a medio hacer. En el repo del MVP no hay nada a medias: la migración de la interfaz tiene sus 4 tareas cerradas y la copia local está limpia. Quedan ramas viejas sin uso.
 - Se corrigió con un comentario la tarjeta de [Retrospectiva](https://trello.com/c/5VB8UDLb): su nota decía que las aclaraciones del 14/10 no estaban publicadas, y ya están en `main` (commit `797dde5`).
 
+- **Limpieza del tablero** (acordada con MDV). Cada movimiento lleva su comentario con el motivo.
+  - Archivadas: Preparar la Sprint Review 1 (la fecha pasó y no hay registro), Armar el Sprint 1 (quedó superada), 6 Sombreros del recorte de alcance (ya decidido en la 0005), Wireframes (2 de 9 pantallas; la interfaz real las reemplaza), Citar Kaggle / declarar IA / probar el prototipo.
+  - Pasadas a ✅ Hecho como borrador aceptado: User Persona ×3 y Mapa de Empatía ×3 (con huecos explícitos) y Plantilla de Retrospectiva.
+  - Movida a 🎯 Esta semana: **Problem Statement validado**. Es entregable de la Clase 5 y **no está redactado** en el repo.
+
 ## Qué se definió
 
-- Ninguna tarjeta pasó a ✅ Hecho: las 3 tienen ítems que dependen del equipo.
+- MDV decidió dejar las metodologías largas por falta de tiempo y priorizar lo que se evalúa: tablero, documentación final y demo.
+- User Persona y Mapa de Empatía se entregan con huecos explícitos, sin más trabajo de campo.
+
+## Error corregido en la sesión
+
+- La tarjeta "Citar Kaggle…" se archivó con un motivo incompleto: pedía la cita y la declaración de IA **en el README del repo del prototipo**, y eso no se verificó. El conector no permite desarchivar, así que se dejó un comentario de corrección. Queda vigente declarar en el repo del MVP que su interfaz viene del prototipo, que generó Codex (FGR). Hace falta una tarjeta nueva para eso.
 
 ## Qué quedó pendiente
 
@@ -29,6 +39,9 @@
 | Decidir el modelo de IA: LLM (Groq), modelo entrenado (decisión 0006) o los dos | Equipo | ⬜ |
 | Resolver la diferencia MongoDB (implementado) vs. PostgreSQL (decisión 0007, tarjeta "Reconvertir stack") y cerrar P-10 | Equipo | ⬜ |
 | Confirmar acceso de escritura de FGR y FM al repo del MVP | ⬜ | ⬜ |
+| Redactar el Problem Statement | ⬜ | 18/11 (documentación final) |
+| Declarar en el repo del MVP el origen de la interfaz migrada (prototipo de FGR, Codex) | ⬜ (sugerido: FGR) | 18/11 |
+| Archivar las tarjetas de Jev y TypeSafe, si el equipo confirma Groq | Equipo | ⬜ |
 
 ## Dudas que surgieron
 
