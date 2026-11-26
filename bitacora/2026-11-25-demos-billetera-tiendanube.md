@@ -15,6 +15,7 @@
   en 🎯 Esta semana, con vencimiento el 9/12. Se linkeó desde las dos specs.
 - Se actualizó el repo local con el remoto (commit `e17182f` de MDV: guion de la presentación de avances).
 - Se registró la [decisión 0008](../docs/03-decisiones/0008-demos-billetera-y-tiendanube.md).
+- FGR sumó al repo un video de demo: [`fraudlens-demo-40s.mp4`](../docs/05-producto/demo/fraudlens-demo-40s.mp4) (40 s, 1920×1080, 4,7 MB). ⬜ Qué demo muestra: a confirmar por FGR.
 
 ## Qué se definió
 
@@ -46,3 +47,4 @@
 - `docs/00-proyecto/declaracion-uso-ia.md`
 - `registro/historial-aportes.md`
 - `bitacora/2026-11-25-demos-billetera-tiendanube.md`
+- `docs/05-producto/demo/fraudlens-demo-40s.mp4` (nuevo)
