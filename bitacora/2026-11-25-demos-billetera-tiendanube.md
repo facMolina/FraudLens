@@ -29,7 +29,9 @@
 | Darle "Unirme" a la tarjeta de la demo | FGR | — |
 | Revisar las dos specs y aprobarlas | Equipo | ⬜ |
 | Validar la decisión 0008 | MDV, ML, FM | ⬜ |
-| Completar el razonamiento de fondo de la decisión 0008 | FGR | ⬜ |
+| ~~Completar el razonamiento de fondo de la decisión 0008~~ ✅ completado el 2026-11-26: se decidió en clase tener un video que muestre FraudLens desde el punto de vista de fintechs y comercios chicos | FGR | — |
+| Confirmar la fecha de la clase en que se decidió el video de la demo | FGR | ⬜ |
+| Definir si los comercios chicos pasan a ser clientes objetivo (hoy la decisión 0004 dice fintechs y bancos) | Equipo | ⬜ |
 | Coordinar con MDV la slide de demo en vivo, si la presentación del 9/12 reusa el guion de avances | FGR | ⬜ |
 | Etiqueta 🟠 Código: no existe en el tablero (depende de P-22) | Equipo | ⬜ |
 

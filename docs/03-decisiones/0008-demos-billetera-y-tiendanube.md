@@ -40,17 +40,28 @@ parte del MVP ni cambian el segmento objetivo de la decisión 0004.
 
 ## Por qué
 
-1. **FGR decidió construir las dos.** Como no hay que elegir entre alternativas, FGR resolvió **no
-   hacer el análisis de 6 Sombreros** ([decisión 0003](0003-metodo-seis-sombreros.md)).
-2. ⬜ **El razonamiento de fondo** (por qué conviene mostrar dos clientes en lugar de uno) **no quedó
-   registrado.** Hay que completarlo antes de usar esta decisión en la documentación final.
+1. **Se decidió en clase que hay que tener un video de la demo que presente a FraudLens desde el
+   punto de vista de sus clientes, que pueden ser fintechs y comercios chicos.** *(Según FGR,
+   2026-11-26. ⬜ Fecha de la clase: a confirmar.)* Por eso hay una demo para cada tipo de cliente:
+   - **Fintech** → la billetera virtual;
+   - **Comercio chico** → la tienda en Tiendanube.
+2. **Como se construyen las dos**, no hay que elegir entre alternativas, y FGR resolvió **no hacer el
+   análisis de 6 Sombreros** ([decisión 0003](0003-metodo-seis-sombreros.md)).
+
+> 📝 *El punto 1 se completó el 2026-11-26, con el dato que aportó FGR. Antes estaba marcado como
+> hueco (⬜).*
 
 ## Consecuencias
 
 - La tarjeta de Trello exige que **cada demo** corra contra la API desplegada y muestre los 3 casos:
   `APPROVED`, `REJECTED` con alerta y motivos, y falla de la API (fail-closed).
+- El video ya existe: [`fraudlens-demo-40s.mp4`](../05-producto/demo/fraudlens-demo-40s.mp4) (40 s),
+  y muestra la billetera y la tienda de Tiendanube.
 - **Sigue abierto:**
   - la validación de MDV, ML y FM (hasta entonces el estado es 🟡 Propuesta);
+  - ⬜ **si los comercios chicos pasan a ser clientes objetivo.** La [decisión 0004](0004-enfoque-cliente-fintech-bancos.md)
+    pone el foco en fintechs y bancos. Si lo que se dijo en clase amplía el segmento, hace falta una
+    decisión nueva que lo diga; esta decisión no lo cambia;
   - la revisión de las dos specs, que siguen en **borrador** (regla 8);
   - contrastar las dos demos con la lista "NO MVP" y el [MoSCoW](../05-producto/alcance-mvp-moscow.md)
     ([decisión 0005](0005-recorte-alcance-mvp.md));
