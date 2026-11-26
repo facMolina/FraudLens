@@ -18,6 +18,7 @@ y eso se defiende mostrando el razonamiento.
 | [0002](0002-graphify-como-capa-de-lectura.md) | Usar Graphify como capa de lectura del repositorio | 2026-09-01 | ✅ Aceptada |
 | [0003](0003-metodo-seis-sombreros.md) | Adoptar el método de los 6 Sombreros para las decisiones | 2026-09-02 | ✅ Aceptada |
 | [0007](0007-prototipo-postgresql-un-deploy-vercel.md) | El prototipo pasa a Next.js en un solo deploy en Vercel y mantiene PostgreSQL | 2026-10-21 | 🟡 Propuesta (FGR; falta validar con MDV y ML) |
+| [0008](0008-demos-billetera-y-tiendanube.md) | Para la presentación del MVP se construyen dos demos cliente: billetera y Tiendanube | 2026-11-25 | 🟡 Propuesta (FGR; falta validar con MDV, ML y FM) |
 
 ## Reglas
 

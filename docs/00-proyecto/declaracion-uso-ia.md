@@ -5,7 +5,7 @@
 | **Proyecto** | FraudLens — Sistema inteligente de detección de fraude en transacciones en tiempo real |
 | **Materia** | Seminario de Gestión Tecnológica — TIF, 2C 2026 |
 | **Equipo** | Diaz Valdez, Mateo (1192969) · Guerrero Rojas, Francisco Daniel (1042529) · Lewinzon, Mateo (1151641) · Molina, Facundo Roman (1115862) |
-| **Fecha** | 2026-11-04 *(documento vivo — se actualiza cada vez que cambia el uso de IA)* |
+| **Fecha** | 2026-11-25 *(documento vivo — se actualiza cada vez que cambia el uso de IA)* |
 | **Marco normativo** | [Lineamientos de Uso de Inteligencia Artificial — UADE](https://dre.uade.edu.ar/PDFs/lineamientosiaalumnos1.pdf), sección *"Uso de IA en Trabajos Integradores Finales, Trabajos Finales de Investigación, Proyectos Finales de Ingeniería"* |
 
 > Esta declaración se presenta porque el lineamiento de la UADE la exige de forma **obligatoria**
@@ -23,6 +23,7 @@
 | **Pi / el Gentleman** | Mateo Diaz Valdez (MDV), desde 2026-10-28 | Sincronización y revisión de documentación del proyecto con Trello mediante el MCP oficial: lectura del estado, mantenimiento documental del estado de una tarjeta de retrospectiva y actualización de P-12 a partir de evidencia ya registrada. El comentario de seguimiento se verificó en Trello. No se cerró la tarjeta, no se aprobaron propuestas y no se hizo nuevo trabajo de campo |
 | **Claude** | Francisco Guerrero Rojas (FGR) | Generación del **backend** del prototipo de FraudLens |
 | **Codex** | Francisco Guerrero Rojas (FGR) | Generación del **frontend** del prototipo, ajustado al backend ya generado |
+| **Claude Code** | Francisco Guerrero Rojas (FGR), desde 2026-10-18 | Código y documentación del prototipo (identidad visual, privilegios de usuario), decisión 0007 y, desde 2026-11-25, specs de las demos cliente, tarjetas de Trello y rastro en el repo (decisión 0008, bitácora, historial) |
 | **Gemini / Nano Banana** (Google AI Studio) | Facundo Molina (FM) | Generación de imágenes exploratorias para la identidad visual: isotipos, paletas de color, mockups de dashboard y lámina de tipografía — ver [`prompts-nano-banana.md`](../05-producto/prompts-nano-banana.md) |
 
 ## Alcance del uso, por etapa
@@ -59,6 +60,7 @@
 | Código del MVP — migración de la interfaz del prototipo (PRs #7, #8 y #9, 2026-11-04) | Claude Code | Cliente de evaluaciones, pantalla de evaluación e historial adaptada de la interfaz del prototipo de FGR, pruebas y documentación | **MDV** pidió la migración y definió el alcance (conservar backend, MongoDB y permisos). MDV los integró el 2026-11-11 **sin revisión de otro integrante** |
 | Relevamiento del avance para la presentación (2026-11-11) | Claude Code (con el conector de Trello y `gh`) | Lectura del tablero y de los PRs del repo del MVP; actualización de `mvp.md`, bitácora e historial | **MDV** pidió el relevamiento. Lo que dicen los PRs se registra como declarado por su autor, sin ejecutar el código |
 | Presentación de avances del 2° Parcial (2026-11-11) | Claude Code (skill `presentacion-viva`, artifact Slides de claude.ai) | Guion de 12 slides, diseño con la paleta y el logo del proyecto, animaciones, notas del orador y captura del MVP desplegado. Las cifras salen de los documentos del repo, con la fuente en el pie de cada slide | **MDV** pidió la presentación, eligió la herramienta y aprobó el guion. Falta que el equipo la revise y ensaye |
+| Specs de las demos cliente y decisión 0008 (2026-11-25) | Claude Code (con el conector de Trello) | Redacción de las specs de la billetera virtual y del e-commerce en Tiendanube a partir del README y `docs/architecture.md` del repo del MVP, marcando qué es comportamiento de la API, qué es sugerencia y qué queda a definir; redacción de la tarjeta de Trello, de la decisión 0008, la bitácora y el historial | **FGR** pidió las specs, decidió construir las dos demos, fijó el 9/12 como fecha límite y resolvió no hacer el 6 Sombreros; el asistente redactó, no decidió. **El equipo todavía no revisó** las specs ni la decisión |
 | Documento de requerimientos funcionales del MVP | — | Escrito por Mateo Lewinzon (ML) | Sin asistencia de IA declarada por el autor a la fecha de este documento |
 
 ## Procesos de validación

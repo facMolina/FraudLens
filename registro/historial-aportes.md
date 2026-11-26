@@ -115,6 +115,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | 2026-11-04 | MDV | Producto | Borrador del 6 Sombreros del stack del MVP, con asistencia de Claude Code: blanco con fuentes, negro, amarillo y verde como propuesta, azul sin validar y **rojo vacío para las 4 voces**; tarjeta ajustada a la convención de tickets | [Análisis](../docs/05-producto/analisis/6-sombreros-stack-mvp.md) · [Tarjeta](https://trello.com/c/QLA7vu9Y) · [Bitácora](../bitacora/2026-11-04-correccion-tarjeta-stack-mvp.md) |
 | 2026-11-04 | MDV | Research | Borrador de 3 User Persona y 3 Mapas de Empatía, con asistencia de Claude Code: solo datos con fuente y **huecos explícitos**; ¿Qué OYE? vacío en los 3 mapas. **Sin validar por el equipo**, tarjetas 4 y 5 abiertas | [`usuarios.md`](../docs/05-producto/usuarios.md#user-persona) · [Tarjeta 4](https://trello.com/c/dlJzvQPi) · [Tarjeta 5](https://trello.com/c/8pJ24yzo) · [Bitácora](../bitacora/2026-11-04-user-persona-y-mapa-empatia.md) |
 | 2026-11-11 | MDV | Gestión | Relevamiento del avance para la presentación, con asistencia de Claude Code: tablero y PRs del repo del MVP; `mvp.md` actualizado con lo integrado (#1, #4, #5, #6) y lo abierto (#7-#9); comentarios de avance en 3 tarjetas. Limpieza del tablero: 5 tarjetas archivadas y 3 cerradas como borrador aceptado (todas con comentario de motivo); el Problem Statement, pendiente real, pasó a Esta semana. A la tarde, integración de los PRs #7-#9 de la interfaz (sin revisión de otro integrante), verificación en `main` y cierre de la tarjeta "Migrar frontend" con comentario de resolución. Plan y deck de 12 slides para la presentación de avances (artifact de claude.ai, con Claude Code) | [`mvp.md`](../docs/05-producto/mvp.md#avance-al-2026-11-11) · [Bitácora](../bitacora/2026-11-11-relevamiento-avance-presentacion.md) |
+| 2026-11-25 | FGR | Producto | Specs en borrador de dos demos cliente de FraudLens (billetera virtual y e-commerce en Tiendanube), con asistencia de Claude Code; tarjeta de Trello con vencimiento 9/12 y decisión 0008 (construir las dos, sin 6 Sombreros). **Specs y decisión sin validar por el equipo** | [Decisión 0008](../docs/03-decisiones/0008-demos-billetera-y-tiendanube.md) · [Tarjeta](https://trello.com/c/LqVQdkQu) · [Bitácora](../bitacora/2026-11-25-demos-billetera-tiendanube.md) |
 
 ---
 
@@ -125,7 +126,7 @@ Tipos de aporte: `Documentación` · `Clase` · `Research` · `Producto` · `Dis
 | Integrante | Aportes registrados | Última participación |
 |---|---|---|
 | Diaz Valdez, Mateo (MDV) | 11 | 2026-10-28 |
-| Guerrero Rojas, Francisco Daniel (FGR) | 11 | 2026-10-21 |
+| Guerrero Rojas, Francisco Daniel (FGR) | 12 | 2026-11-25 |
 | Lewinzon, Mateo (ML) | 4 | 2026-09-16 |
 | Molina, Facundo Roman (FM) | 52 | 2026-10-14 |
 
