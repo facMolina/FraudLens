@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Fecha** | 2026-11-25 |
-| **Estado** | 🟡 Propuesta — decidida por FGR, **falta la validación de MDV, ML y FM** |
-| **Decidido por** | Guerrero Rojas, Francisco Daniel (FGR) |
+| **Estado** | ✅ Aceptada — 2026-11-26 (lo confirmó FGR: el equipo lo decidió en clase) |
+| **Decidido por** | El equipo, en clase (⬜ fecha a confirmar). Lo registró Guerrero Rojas, Francisco Daniel (FGR) |
 | **Pregunta relacionada** | — |
 | **Tarjeta de Trello** | [Armar la demo de integración de FraudLens para la presentación del MVP](https://trello.com/c/LqVQdkQu) |
 | **Análisis** | **No se hizo 6 Sombreros** — ver "Por qué" |
@@ -58,7 +58,6 @@ parte del MVP ni cambian el segmento objetivo de la decisión 0004.
 - El video ya existe: [`fraudlens-demo-40s.mp4`](../05-producto/demo/fraudlens-demo-40s.mp4) (40 s),
   y muestra la billetera y la tienda de Tiendanube.
 - **Sigue abierto:**
-  - la validación de MDV, ML y FM (hasta entonces el estado es 🟡 Propuesta);
   - ⬜ **si los comercios chicos pasan a ser clientes objetivo.** La [decisión 0004](0004-enfoque-cliente-fintech-bancos.md)
     pone el foco en fintechs y bancos. Si lo que se dijo en clase amplía el segmento, hace falta una
     decisión nueva que lo diga; esta decisión no lo cambia;
