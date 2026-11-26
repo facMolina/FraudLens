@@ -9,6 +9,7 @@
 | **Ticket** | [Armar la demo de integración de FraudLens para la presentación del MVP](https://trello.com/c/LqVQdkQu) |
 | **Decisión asociada** | [Decisión 0008](../03-decisiones/0008-demos-billetera-y-tiendanube.md) — **FGR, 2026-11-25:** se construyen **las dos demos** (billetera y Tiendanube) para la presentación del MVP, con fecha límite **9/12**. No se hace análisis de 6 Sombreros porque no hay alternativas entre las que elegir. La spec sigue en borrador hasta que la revise el equipo |
 | **Fecha límite** | **9/12/2026** (Final regular) |
+| **Video de demo** | [`demo/fraudlens-demo-40s.mp4`](demo/fraudlens-demo-40s.mp4) — 40 s, muestra la billetera y la tienda de Tiendanube (FGR, 2026-11-25) |
 
 > **Qué es esto.** La especificación de una tienda online mínima alojada en **Tiendanube** cuyo
 > propósito es **demostrar en vivo la integración con la API de FraudLens-MVP** (`fraudlens-two.vercel.app`):
